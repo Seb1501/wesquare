@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+
+<div class="box-{{ page.title }}">
+</div>
+
+<div class="profil-spacer"></div>
+
+<div class="profil">
+  <div class="container">
+    <div class="row text-center feature">
+      
+      <img src="{{ site.baseurl }}/images/{{ page.title }}.png" alt="" class="image">
+
+        
+      <h4> {{ page.title }} </h4> 
+      <hr><p> {{ content }} </p><br></hr>
+      <div class="fb-share-button" data-href="http://seb1501.github.io/Piirog/{{ page.title }}.html" data-layout="button" data-width="600"></div>
+        
+      
+    </div>
+     <div class="row">
+  	    <ul class="pager">
+  	  		<li class="previous"><a href="{{page.previous}}.html">&larr; {{ page.previous }}</a></li>
+  	  		<li class="next"><a href="{{page.next}}.html"> {{ page.next }} &rarr;</a></li>
+  		</ul>
+  	</div>
+  </div>
+</div>

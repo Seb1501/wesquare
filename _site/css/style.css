@@ -1,0 +1,391 @@
+/* You can put your own style here */
+
+/*********************BODY***************************************************************************************************/
+
+
+body{
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+}
+
+
+.format{
+	letter-spacing: 1px;
+}
+
+/*********************HEADER************************************************************************************************/
+
+
+#company-name{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	letter-spacing: 2px;
+}
+
+#title-nav{
+	font-size: 13px;
+}
+
+.navbar-transparent {
+	background-color: white;
+}
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  	color: rgba(3, 30, 192, 1);
+  	line-height: 20px;
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active, 
+.navbar-transparent .navbar-brand:focus, 
+.navbar-transparent .navbar-nav > li > a:hover, 
+.navbar-transparent .navbar-nav > li > a:active, 
+.navbar-transparent .navbar-nav > li > a:focus, 
+.navbar-transparent .navbar-nav > .open > a, 
+.navbar-transparent .navbar-nav > .open > a:hover, 
+.navbar-transparent .navbar-nav > .open > a:focus {
+	color: white;
+	background-color: rgba(3, 30, 192, 1);
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: rgba(3, 30, 192, 1);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+   background-color: rgba(243, 147, 28, 1);
+}
+
+/************************WRAPPER*DE*LA*LANDING*****************************************************************************/
+
+
+.wrapper {
+	background-image: url("../images/Cover.png");
+	background-size: cover;
+	text-align: center;
+	height: 700px;
+	padding-top: 100px;
+	color: white;
+}
+
+.wrapper img{
+	margin: auto;
+}
+
+.wrapper button{
+	margin-bottom: 30px;
+}
+
+.lead h3 {
+	/*background: rgba(0, 0, 0, .2);*/
+	display: inline-block;
+	padding: 0.1em;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	margin-bottom: 0.3em;
+	color: black;
+}
+
+.lead h1{
+	/*text-shadow: 2px 2px 10px rgba(0, 0, 0, .9);*/
+	padding-top: 0.5em;
+	font-size: 35px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	color: black;
+}
+
+.btn-primary{
+	background-color: rgba(3, 30, 192, 1);
+	border-color: rgba(3, 30, 192, 1);
+}
+
+.btn-primary:hover{
+	background-color: rgba(3, 30, 192, 1);
+	border-color: rgba(3, 30, 192, 1);
+
+}
+
+
+/**************************MON**INVENTAIRE****************************************************************************************/
+
+.inventory{
+	background-image: url("../images/subtle_pattern/cream_pixels.png");
+}
+
+.inventory img{
+	margin: auto;
+	padding-top: 1em;
+}
+
+
+/**************************PLUSIEURS*USAGES************************************************************************************/
+
+#title_section{
+	color: rgba(70, 70, 70, 1);
+	font-weight: 700;
+	font-size: 24px;
+	margin-bottom: 2em;
+	margin-top: 1.2em;
+}
+
+.profil-spacer{
+	height: 3em
+}
+
+.container-spacer{
+	height: 3em;
+	background-image: url("../images/subtle_pattern/cream_pixels.png");
+}
+
+.spacer{
+	height: 7em;
+}
+
+.feature img {
+	margin-bottom: 1em;
+}
+
+.feature hr {
+	width: 10%;
+	border: 2px solid blue;
+}
+
+.feature p{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.container h5{
+	padding-top: 1em;
+}
+
+.container h3{
+	margin-bottom: 50px;
+}
+
+
+.circle{
+	border-radius: 50%;
+	border: 3px solid rgba(3, 30, 192, 1);
+	padding: 4px;
+	/*box-shadow: 1px 1px 1px rgba(113,28,243,1);*/
+}
+
+.feature h4{
+	color: rgba(3,30,192,1);
+}
+
+#name a:hover{
+	color: #ddd;
+}
+
+.min-height{
+	min-height: 600px;
+}
+
+/**************************NOTRE*OFFRE*********************************************************************************/
+
+.offer{
+	background-image: url("../images/subtle_pattern/cream_pixels.png");
+}
+
+
+.fade_away {
+    opacity: 0.95;/* l'opacite que vous voulez au depart */
+    border: none;/* enlever les border d'une image en lien */
+    -ms-filter: "prodig:DXImageTransform.Microsoft.Alpha(Opacity=25)"; /* Hack IE8 */
+    filter: alpha(opacity = 25); /* Hack IE 5-7 */
+    -webkit-transition: opacity 0.5s ease-in-out;/* transition pour Chrome et Safari */
+    -moz-transition: opacity 0.5s ease-in-out;/* transition pour Firefox */
+    -o-transition: opacity 0.5s ease-in-out;/* transition pour Opéra */
+    transition: opacity 0.5s ease-in-out; /* on écrit cette ligne à la fin de façon à ce que ce soit elle qui soit prise en compte lorsque l'attribut transition sera pris en compte par tous les navigateurs */
+    width : 300px;
+    height : 430px;
+    display : block; /*Très important, sinon les dimensions ne sont pas prises en compte*/
+    background: url("../images/bin_empty_no_shadow_with_text.png") no-repeat;
+}
+
+.fade_away:hover, 
+.fade_away:active {
+  	opacity: 1; /* opacite au survol */
+    -ms-filter:"prodig:DXImageTransform.Microsoft.Alpha(Opacity=90)"; /* Hack IE 8 */
+    filter: alpha(opacity = 90); /* Hack IE 5-7 */
+   	background-image: url("../images/BOX_Rodolphe_no_shadow.png");
+  
+}
+
+
+.engagment > li{
+	border-bottom:  1px dotted rgba(3, 30, 192, 1);
+	list-style: none;
+	padding: 12px;
+}
+
+.engagment > li > p{
+	color: rgba(3, 30, 192, 1); 
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+
+.offer button{
+	margin-top: 20px;
+}
+
+
+/*****************CAROUSEL****************************************************************************************************/
+
+.header_carousel{
+	padding-bottom: 2em;
+}
+
+.carousel-inner a {
+	color: rgba(3,30,192,1);
+}
+
+
+.carousel-inner img{
+	/*margin:auto;*/
+	padding-bottom: 20px;
+	height: 300px;
+	width: 200px;
+	/*max-height: 500px;*/
+}
+
+.carousel-indicators {
+  bottom:-30px;
+}
+
+.carousel-control .glyphicon-chevron-right {
+  	right: 50px;
+  	color: rgba(3,30,192,1);
+  	top: 150px;
+}
+
+.carousel-control .glyphicon-chevron-left {
+  	left: 50px;
+  	color: rgba(3,30,192,1);
+  	top: 150px;
+}
+
+
+
+.carousel-caption{
+	color: black;
+	
+}
+
+
+.carousel-indicators li {
+  
+  background-color: rgba(3, 30, 192, 1);
+}
+.carousel-indicators .active {
+
+  background-color: rgba(3, 30, 192, 1);
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+/****************PROFIL********************************************************************************************/
+
+.profil a{
+	color: rgba(3, 30, 192, 1);
+}
+
+.box-Rodolphe{
+	background-image: url("../images/Affaires_Rodolphe.png");
+	background-size: cover;
+	text-align: center;
+	height: 500px;
+	padding-top: 100px;
+	color: white;	
+}
+
+
+.box-Alice{
+	background-image: url("../images/Affaires_Alice.png");
+	background-size: cover;
+	text-align: center;
+	height: 500px;
+	padding-top: 100px;
+	color: white;	
+}
+
+.box-Fred{
+	background-image: url("../images/Affaires_Fred.png");
+	background-size: cover;
+	text-align: center;
+	height: 500px;
+	padding-top: 100px;
+	color: white;
+}
+
+.box-Victoria{
+	background-image: url("../images/Affaires_Victoria.png");
+	background-size: cover;
+	text-align: center;
+	height: 500px;
+	padding-top: 100px;
+	color: white;
+}
+
+.box-Beaubien{
+	background-image: url("../images/Affaires_Beaubien.png");
+	background-size: cover;
+	text-align: center;
+	height: 500px;
+	padding-top: 100px;
+	color: white;
+}
+
+.box-See-Concept{
+	background-image: url("../images/Affaires_See-Concept.png");
+	background-size: cover;
+	text-align: center;
+	height: 500px;
+	padding-top: 100px;
+	color: white;
+}
+
+.image{
+	border-radius: 50%;
+	height: 200px;
+}
+
+/*blockquote{
+	background: #f9f9f9;
+	border-left: 4px solid blue;
+}	*/
+
+
+
+/*****************************FOOTER*****************************************************************************************/
+
+
+#footer{
+	background-color: rgba(0,0,0,0.8);
+	color: #506474;
+	padding: 1em;
+	margin-top: 2em;
+}
+
+#footer a {
+	color: #506474;
+}
+
+#footer h4 {
+	color: rgba(3, 30, 192, 1);
+}
+
+#footer a:hover {
+	color: #ddd;

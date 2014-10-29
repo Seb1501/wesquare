@@ -1,0 +1,27 @@
+---
+layout: default
+title: Piirog - Box
+---
+
+<div class="spacer"></div>
+<div class="container">
+	<div class="row">
+		{% for box in site.data.boxes %}
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<img src="images/{{box.filename}}">
+					<div class="caption">
+					<h2>{{ box.content=}}</h2>
+
+					</div>
+				</div>
+			</div>
+
+		{% endfor %}
+			
+
+     
+    
+		
+	</div>
+</div>
