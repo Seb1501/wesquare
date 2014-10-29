@@ -116,7 +116,7 @@ description: Le stockage physique 2.0. A partir de 6€/mois. Plus besoin de vou
 
 
  
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="9000">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -300,3 +300,9 @@ description: Le stockage physique 2.0. A partir de 6€/mois. Plus besoin de vou
     </div>
   </div>
 </div>
+
+<script>
+    $('.carousel').carousel({
+        interval: 9000
+    })
+</script>
