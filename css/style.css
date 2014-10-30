@@ -262,12 +262,18 @@ color: red;
 
 /*****************CAROUSEL****************************************************************************************************/
 
-.header_carousel{
+.header-carousel{
 	padding-bottom: 2em;
 }
 
 .carousel-inner a {
 	color: rgba(3,30,192,1);
+}
+
+.carousel-inner p {
+	color: rgba(3,30,192,1);
+	font-size: 14px;
+	margin-top: -5px;
 }
 
 
