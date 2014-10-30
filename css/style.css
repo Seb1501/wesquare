@@ -125,6 +125,22 @@ body{
 }
 
 
+/**************************MODAL************************************************************************************/
+.modal-body {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+}
+
+input.text, input.search, textarea.textarea {
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.wufoo .info div {
+	color: red;
+}
+
 /**************************PLUSIEURS*USAGES************************************************************************************/
 
 #title_section{
