@@ -141,13 +141,13 @@ body{
 
 /**************************MODAL************************************************************************************/
 .modal-header p {
-	font-family: 'PT Sans', sans-serif;
+	font-family: inherit;
 	font-size: 12px;
 	color: white;
 }
 
 .modal-header h4{
-	font-family: 'PT Sans', sans-serif;
+	font-family: inherit;
 	font-size: 18px;
 	color: white;
 }
