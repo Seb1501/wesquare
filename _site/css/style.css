@@ -162,12 +162,17 @@ body{
 }
 
 
-.wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused div, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label, .safari .wufoo li.focused input.file {
-color: red;
+.modal-footer{
+	background-color: rgba(3, 30, 192, 0.8);
 }
 
-
-
+.wufoo label.desc, .wufoo legend.desc {
+font-size: 95%;
+font-family: inherit;
+font-style: normal;
+font-weight: bold;
+color: red;
+}
 
 
 /**************************PLUSIEURS*USAGES************************************************************************************/
