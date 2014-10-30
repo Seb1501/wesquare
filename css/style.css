@@ -168,12 +168,25 @@ body{
 
 .wufoo label.desc, .wufoo legend.desc {
 font-family: 'PT Sans', sans-serif;
-font-size: 12px;
+font-size: 14px;
 font-style: normal;
 font-weight: bold;
 color: black;
 }
 
+.wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label {
+font-family: 'PT Sans', sans-serif;
+font-size: 14px;
+}
+
+.wufoo label.choice {
+font-size: 100%;
+font-family: 'PT Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+color: #444444;
+font-size: 14px;
+}
 
 /**************************PLUSIEURS*USAGES************************************************************************************/
 
