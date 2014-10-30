@@ -140,6 +140,32 @@ body{
 
 
 /**************************MODAL************************************************************************************/
+.modal-header p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+	color: white;
+}
+
+.modal-header h4{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	color: white;
+}
+
+.modal-header {
+	background-color: rgba(3, 30, 192, 0.8);
+}
+
+
+.modal-header .close{
+	/*color: red;*/
+}
+
+
+.wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused div, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label, .safari .wufoo li.focused input.file {
+color: red;
+}
+
 
 
 
@@ -232,6 +258,7 @@ body{
 }
 
 .fade_away:hover, 
+.fade_away:focus,
 .fade_away:active {
   	opacity: 1; /* opacite au survol */
     -ms-filter:"prodig:DXImageTransform.Microsoft.Alpha(Opacity=90)"; /* Hack IE 8 */
