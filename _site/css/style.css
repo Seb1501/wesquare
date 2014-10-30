@@ -24,8 +24,22 @@ body{
 	letter-spacing: 2px;
 }
 
+#beta{
+	font-size: 11px;
+	margin-left: 125px;
+}
+
+.navbar-brand > ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
 #title-nav{
 	font-size: 13px;
+}
+
+.label-default{
+	background-color: rgba(243,147,28,1);
 }
 
 .navbar-transparent {
@@ -35,7 +49,7 @@ body{
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-nav > li > a {
   	color: rgba(3, 30, 192, 1);
-  	line-height: 20px;
+  	line-height: 21px;
 }
 
 .navbar-transparent .navbar-brand:hover,
@@ -126,7 +140,7 @@ body{
 
 
 /**************************MODAL************************************************************************************/
-.modal-body {
+.modal-header p {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 12px;
 }
