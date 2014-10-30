@@ -167,11 +167,11 @@ body{
 }
 
 .wufoo label.desc, .wufoo legend.desc {
-font-size: 95%;
-font-family: inherit;
+font-size: 90%;
+font-family: 'PT Sans', sans-serif;
 font-style: normal;
 font-weight: bold;
-color: red;
+color: black;
 }
 
 
