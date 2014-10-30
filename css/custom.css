@@ -16,3 +16,11 @@ border-radius: 10px;
 .wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused div, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label, .safari .wufoo li.focused input.file {
 color: red;
 }
+
+.wufoo label.desc, .wufoo legend.desc {
+font-size: 95%;
+font-family: inherit;
+font-style: normal;
+font-weight: bold;
+color: red;
+}
