@@ -138,7 +138,7 @@ body {
 /**************************MON**INVENTAIRE****************************************************************************************/
 /* line 145, ../compass/sass/style.scss */
 .inventory {
-  background-image: url('../images/cream_pixels.png');
+  background-image: url('../images/subtle_pattern/cream_pixels.png?1410873407');
 }
 
 /* line 149, ../compass/sass/style.scss */
@@ -210,7 +210,7 @@ font-size: 14px;
 /* line 215, ../compass/sass/style.scss */
 .container-spacer {
   height: 3em;
-  background-image: url('../images/cream_pixels.png');
+  background-image: url('../images/subtle_pattern/cream_pixels.png?1410873407');
 }
 
 /* line 220, ../compass/sass/style.scss */
@@ -268,7 +268,7 @@ font-size: 14px;
 /**************************NOTRE*OFFRE*********************************************************************************/
 /* line 272, ../compass/sass/style.scss */
 .offer {
-  background-image: url('../images/cream_pixels.png');
+  background-image: url('../images/subtle_pattern/cream_pixels.png?1410873407');
 }
 
 /* line 277, ../compass/sass/style.scss */
