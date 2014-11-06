@@ -288,6 +288,7 @@ font-size: 14px;
     height : 430px;
     display : block; /*Très important, sinon les dimensions ne sont pas prises en compte*/
     background: url("../images/bin_empty_no_shadow_with_text.png") no-repeat;
+    background-position: center;
 }
 
 .fade_away:hover, 
@@ -296,6 +297,7 @@ font-size: 14px;
     -ms-filter:"prodig:DXImageTransform.Microsoft.Alpha(Opacity=90)"; /* Hack IE 8 */
     filter: alpha(opacity = 90); /* Hack IE 5-7 */
    	background-image: image-url("BOX_Rodolphe_no_shadow_2.png");
+   	background-position: center;
   
 }
 
