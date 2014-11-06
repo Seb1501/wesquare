@@ -291,8 +291,7 @@ font-size: 14px;
 }
 
 .fade_away:hover, 
-.fade_away:focus,
-.fade_away:active {
+.fade_away:focus {
   	opacity: 1; /* opacite au survol */
     -ms-filter:"prodig:DXImageTransform.Microsoft.Alpha(Opacity=90)"; /* Hack IE 8 */
     filter: alpha(opacity = 90); /* Hack IE 5-7 */
@@ -399,11 +398,19 @@ font-size: 14px;
 
 .box-custom{
 	background-size: cover;
+	 background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+  /*background-size: 100%;*/
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
 	text-align: center;
 	height: 500px;
 	padding-top: 100px;
 	color: white;	
 }
+
 
 .box-Rodolphe{
 	background-image: image-url("Affaires_Rodolphe.png");
