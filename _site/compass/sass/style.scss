@@ -87,7 +87,13 @@ body{
 
 .wrapper {
 	background-image: image-url("Cover.png");
-	background-size: cover;
+	background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+  /*background-size: 100%;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 	text-align: center;
 	height: 700px;
 	padding-top: 100px;
