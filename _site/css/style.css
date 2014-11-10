@@ -96,7 +96,7 @@ body {
   -o-background-size: cover;
   text-align: center;
   height: 700px;
-  padding-top: 70px;
+  padding-top: 77px;
   color: white;
 }
 
@@ -123,7 +123,7 @@ body {
 /* line 128, ../compass/sass/style.scss */
 .lead h1 {
   /*text-shadow: 2px 2px 10px rgba(0, 0, 0, .9);*/
-  padding-top: 0.2em;
+  padding-top: 0.3em;
   font-size: 35px;
   font-weight: 400;
   letter-spacing: 1px;
