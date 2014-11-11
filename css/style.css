@@ -88,7 +88,7 @@ body {
   background-image: url('../images/Cover.png?1415634071');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   /*background-size: 100%;*/
   -webkit-background-size: cover;
@@ -96,7 +96,7 @@ body {
   -o-background-size: cover;
   text-align: center;
   height: 700px;
-  padding-top: 77px;
+  padding-top: 100px;
   color: white;
 }
 
