@@ -95,6 +95,9 @@ body{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+   /* Preserve aspet ratio */
+  	min-width: 100%;
+ 	min-height: 100%;
 	text-align: center;
 	height: 700px;
 	padding-top: 100px;
