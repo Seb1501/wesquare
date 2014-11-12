@@ -88,7 +88,7 @@ body {
   background-image: url('../images/Cover.png?1415634071');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   /*background-size: 100%;*/
   -webkit-background-size: cover;
@@ -380,7 +380,7 @@ font-size: 14px;
 
 /* line 382, ../compass/sass/style.scss */
 .carousel-control .glyphicon-chevron-left {
-  left: 50px;
+  left: 30px;
 }
 
 /* line 389, ../compass/sass/style.scss */
