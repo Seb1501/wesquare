@@ -86,7 +86,7 @@ body {
 /************************WRAPPER*DE*LA*LANDING*****************************************************************************/
 /* line 89, ../compass/sass/style.scss */
 .wrapper {
-  background-image: url('../images/Cover.png?1415787752');
+  background-image: url('../images/Cover_compressed.png?1415785856');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -97,7 +97,7 @@ body {
   -o-background-size: cover;
   text-align: center;
   height: 700px;
-  padding-top: 100px;
+  padding-top: 120px;
   color: white;
 }
 
@@ -428,27 +428,27 @@ font-size: 14px;
 
 /* line 431, ../compass/sass/style.scss */
 .box-Rodolphe {
-  background-image: url('../images/Affaires_Rodolphe.png?1414586339');
+  background-image: url('../images/Affaires_Rodolphe_compressed.png');
 }
 
 /* line 437, ../compass/sass/style.scss */
 .box-Alice {
-  background-image: url('../images/Affaires_Alice.png?1414584189');
+  background-image: url('../images/Affaires_Alice_compressed.png?1415789653');
 }
 
 /* line 442, ../compass/sass/style.scss */
 .box-Fred {
-  background-image: url('../images/Affaires_Fred.png?1414583905');
+  background-image: url('../images/Affaires_Fred_compressed.png?1415789682');
 }
 
 /* line 447, ../compass/sass/style.scss */
 .box-Victoria {
-  background-image: url('../images/Affaires_Victoria.png?1414584021');
+  background-image: url('../images/Affaires_Victoria_compressed.png');
 }
 
 /* line 452, ../compass/sass/style.scss */
 .box-Beaubien {
-  background-image: url('../images/Affaires_Beaubien.png?1415312646');
+  background-image: url('../images/Affaires_Beaubien_compressed.png');
 }
 
 /* line 457, ../compass/sass/style.scss */

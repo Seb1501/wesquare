@@ -87,7 +87,7 @@ body{
 
 
 .wrapper {
-	background-image: image-url("Cover.png");
+	background-image: image-url("Cover_compressed.png");
 	background-repeat:no-repeat;
 	background-attachment: scroll;
     background-position: center center;
@@ -98,7 +98,7 @@ body{
     -o-background-size: cover;
 	text-align: center;
 	height: 700px;
-	padding-top: 100px;
+	padding-top: 120px;
 	color: white;
 }
 
@@ -429,28 +429,28 @@ font-size: 14px;
 
 
 .box-Rodolphe{
-	background-image: image-url("Affaires_Rodolphe.png");
+	background-image: image-url("Affaires_Rodolphe_compressed.png");
 	@extend .box-custom;
 }
 
 
 .box-Alice{
-	background-image: image-url("Affaires_Alice.png");
+	background-image: image-url("Affaires_Alice_compressed.png");
 	@extend .box-custom;
 }
 
 .box-Fred{
-	background-image: image-url("Affaires_Fred.png");
+	background-image: image-url("Affaires_Fred_compressed.png");
 	@extend .box-custom;
 }
 
 .box-Victoria{
-	background-image: image-url("Affaires_Victoria.png");
+	background-image: image-url("Affaires_Victoria_compressed.png");
 	@extend .box-custom;
 }
 
 .box-Beaubien{
-	background-image: image-url("Affaires_Beaubien.png");
+	background-image: image-url("Affaires_Beaubien_compressed.png");
 	@extend .box-custom;
 }
 
