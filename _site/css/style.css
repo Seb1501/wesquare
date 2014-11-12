@@ -88,7 +88,7 @@ body {
   background-image: url('../images/Cover.png?1415634071');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   /*background-size: 100%;*/
   -webkit-background-size: cover;
@@ -369,38 +369,47 @@ font-size: 14px;
 
 /* line 371, ../compass/sass/style.scss */
 .glyphicon-custom, .carousel-control .glyphicon-chevron-right, .carousel-control .glyphicon-chevron-left {
-  right: 50px;
   color: #031ec0;
   top: 150px;
 }
 
-/* line 387, ../compass/sass/style.scss */
+/* line 377, ../compass/sass/style.scss */
+.carousel-control .glyphicon-chevron-right {
+  right: 50px;
+}
+
+/* line 382, ../compass/sass/style.scss */
+.carousel-control .glyphicon-chevron-left {
+  left: 50px;
+}
+
+/* line 389, ../compass/sass/style.scss */
 .carousel-caption {
   color: black;
 }
 
-/* line 393, ../compass/sass/style.scss */
+/* line 395, ../compass/sass/style.scss */
 .carousel-indicators li {
   background-color: #031ec0;
 }
 
-/* line 397, ../compass/sass/style.scss */
+/* line 399, ../compass/sass/style.scss */
 .carousel-indicators .active {
   background-color: #031ec0;
 }
 
-/* line 402, ../compass/sass/style.scss */
+/* line 404, ../compass/sass/style.scss */
 .carousel-control.left, .carousel-control.right {
   background-image: none;
 }
 
 /****************PROFIL********************************************************************************************/
-/* line 408, ../compass/sass/style.scss */
+/* line 410, ../compass/sass/style.scss */
 .profil a {
   color: #031ec0;
 }
 
-/* line 412, ../compass/sass/style.scss */
+/* line 414, ../compass/sass/style.scss */
 .box-custom, .box-Rodolphe, .box-Alice, .box-Fred, .box-Victoria, .box-Beaubien, .box-See-Concept {
   background-size: cover;
   background-repeat: no-repeat;
@@ -416,37 +425,37 @@ font-size: 14px;
   color: white;
 }
 
-/* line 428, ../compass/sass/style.scss */
+/* line 430, ../compass/sass/style.scss */
 .box-Rodolphe {
   background-image: url('../images/Affaires_Rodolphe.png?1414586339');
 }
 
-/* line 434, ../compass/sass/style.scss */
+/* line 436, ../compass/sass/style.scss */
 .box-Alice {
   background-image: url('../images/Affaires_Alice.png?1414584189');
 }
 
-/* line 439, ../compass/sass/style.scss */
+/* line 441, ../compass/sass/style.scss */
 .box-Fred {
   background-image: url('../images/Affaires_Fred.png?1414583905');
 }
 
-/* line 444, ../compass/sass/style.scss */
+/* line 446, ../compass/sass/style.scss */
 .box-Victoria {
   background-image: url('../images/Affaires_Victoria.png?1414584021');
 }
 
-/* line 449, ../compass/sass/style.scss */
+/* line 451, ../compass/sass/style.scss */
 .box-Beaubien {
   background-image: url('../images/Affaires_Beaubien.png?1415312646');
 }
 
-/* line 454, ../compass/sass/style.scss */
+/* line 456, ../compass/sass/style.scss */
 .box-See-Concept {
   background-image: url('../images/Affaires_See-Concept.png?1415312556');
 }
 
-/* line 459, ../compass/sass/style.scss */
+/* line 461, ../compass/sass/style.scss */
 .image {
   border-radius: 50%;
   height: 200px;
@@ -457,13 +466,13 @@ font-size: 14px;
 	border-left: 4px solid blue;
 }	*/
 /*****************************SECURITE*****************************************************************************************/
-/* line 471, ../compass/sass/style.scss */
+/* line 473, ../compass/sass/style.scss */
 .security {
   background-image: url('../images/subtle_pattern/cream_pixels.png?1410873407');
 }
 
 /*****************************FOOTER*****************************************************************************************/
-/* line 479, ../compass/sass/style.scss */
+/* line 481, ../compass/sass/style.scss */
 #footer {
   background-color: rgba(0, 0, 0, 0.8);
   color: #506474;
@@ -471,15 +480,15 @@ font-size: 14px;
   margin-top: 2em;
 }
 
-/* line 487, ../compass/sass/style.scss */
+/* line 489, ../compass/sass/style.scss */
 #footer a {
   color: #506474;
 }
-/* line 491, ../compass/sass/style.scss */
+/* line 493, ../compass/sass/style.scss */
 #footer h4 {
   color: white;
 }
-/* line 495, ../compass/sass/style.scss */
+/* line 497, ../compass/sass/style.scss */
 #footer a:hover {
   color: #ddd;
 }

@@ -369,16 +369,18 @@ font-size: 14px;
 }
 
 .glyphicon-custom{
-	right: 50px;
+	
   	color: $primary-color;
   	top: 150px;
 }
 
 .carousel-control .glyphicon-chevron-right {
+  	right: 50px;
   	@extend .glyphicon-custom;
 }
 
 .carousel-control .glyphicon-chevron-left {
+  	left: 30px;
   	@extend .glyphicon-custom;
 }
 
