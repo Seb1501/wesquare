@@ -43,7 +43,7 @@ body{
 }
 
 #title-nav{
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .label-default{
@@ -158,6 +158,15 @@ body{
 .inventory img{
 	margin: auto;
 	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+
+.my-space {
+	margin: auto;
+	height: auto;
+	min-height: 700px;
+	padding-top: 120px;
 }
 
 
@@ -276,9 +285,6 @@ font-size: 14px;
 .min-height{
 	min-height: 600px;
 }
-
-/**************************CAPCITE*********************************************************************************/
-
 
 /**************************NOTRE*OFFRE*********************************************************************************/
 
