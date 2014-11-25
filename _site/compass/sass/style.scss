@@ -4,7 +4,8 @@
 $font-stack: 'PT Sans', sans-serif;
 $primary-color: rgba(3, 30, 192, 1);
 $primary-color-with-opacity80:rgba(3, 30, 192, 0.8);;
-$secondary-color: rgba(243, 147, 28, 1);
+$secondary-color: rgba(65, 154, 250, 1);
+$tertiary-color: rgba(243, 147, 28, 1);
 
 
 /*********************BODY***************************************************************************************************/
@@ -25,16 +26,18 @@ body{
 /*********************HEADER************************************************************************************************/
 
 
-#company-name{
-	font-family: $font-stack;
-	font-weight: 400;
-	font-size: 24px;
-	letter-spacing: 2px;
-}
+// #company-name{
+// 	font-family: $font-stack;
+// 	font-weight: 400;
+// 	font-size: 24px;
+// 	letter-spacing: 2px;
+// }
 
 #beta{
 	font-size: 11px;
-	margin-left: 125px;
+	margin-left: 140px;
+	margin-top: -20px;
+	color: $primary-color;
 }
 
 .navbar-brand > ul {
@@ -43,7 +46,11 @@ body{
 }
 
 #title-nav{
-	font-size: 12px;
+	font-size: 13px;
+}
+
+#company-name{
+	margin-top: -10px;
 }
 
 .label-default{
@@ -57,12 +64,12 @@ body{
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-nav > li > a {
   	color: $primary-color;
-  	line-height: 21px;
+  	line-height: 25px;
 }
 
-.navbar-transparent .navbar-brand:hover,
-.navbar-transparent .navbar-brand:active, 
-.navbar-transparent .navbar-brand:focus, 
+// .navbar-transparent .navbar-brand:hover,
+// .navbar-transparent .navbar-brand:active, 
+// .navbar-transparent .navbar-brand:focus, 
 .navbar-transparent .navbar-nav > li > a:hover, 
 .navbar-transparent .navbar-nav > li > a:active, 
 .navbar-transparent .navbar-nav > li > a:focus, 
