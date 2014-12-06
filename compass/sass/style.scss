@@ -45,6 +45,16 @@ body{
 	padding-left: 0px;
 }
 
+.dropdown-menu>li {
+	>a {
+	color: $primary-color;
+	}
+	>a:hover {
+	background-color: $primary-color;
+	color: white;
+	}
+}
+
 #title-nav{
 	font-size: 13px;
 }
@@ -293,6 +303,12 @@ font-size: 14px;
 	min-height: 600px;
 }
 
+.min-height{
+	h1 {
+		margin-bottom: 1em;
+	}
+}
+
 /**************************NOTRE*OFFRE*********************************************************************************/
 
 .offer{
@@ -477,10 +493,9 @@ font-size: 14px;
 	height: 200px;
 }
 
-/*blockquote{
-	background: #f9f9f9;
-	border-left: 4px solid blue;
-}	*/
+blockquote{
+	border-left: 4px solid $primary-color;
+}	
 
 /*****************************SECURITE*****************************************************************************************/
 
@@ -494,14 +509,13 @@ font-size: 14px;
 
 #footer{
 	background-color: rgba(0,0,0,0.8);
-	color: #506474;
 	padding: 1em;
 	margin-top: 2em;
 }
 
 #footer{
  	a {
-	color: #506474;
+	color: $secondary-color;
 	}
 
 	h4 {
@@ -509,6 +523,6 @@ font-size: 14px;
 	}
 
 	a:hover {
-	color: #ddd;
+	color: white;
 	}
 }

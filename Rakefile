@@ -18,6 +18,9 @@ task :post do
     layout: post
     category: blog
     title: #{title}
+    description:
+    image:
+    adress:
     ---
 
     EOS
