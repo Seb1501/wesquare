@@ -7,15 +7,20 @@ layout: default
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
 			
+			
 			<blockquote>
 			<h1>{{ page.title }}</h1>
 			{{ page.date | date_to_string }}
 			</blockquote>
 
 			{{ content }}
-			<div class="fb-share-button" data-href="{{ site.baseurl }}/{{ page.title }}.html" data-layout="button" data-width="600"></div>
+
+		
+			<!-- <div class="fb-share-button" data-href="{{ site.baseurl }}/{{ page.title }}.html" data-layout="button" data-width="600"></div> -->
 			<div class="spacer"></div>
 			<h2>Commentaires</h2>
+
+
 
 			<div id="disqus_thread"></div>
     		<script type="text/javascript">

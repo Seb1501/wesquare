@@ -487,28 +487,28 @@ blockquote {
 }
 
 /*****************************SECURITE*****************************************************************************************/
-/* line 502, ../compass/sass/style.scss */
+/* line 506, ../compass/sass/style.scss */
 .security {
   background-image: url('../images/subtle_pattern/cream_pixels.png?1410873407');
 }
 
 /*****************************FOOTER*****************************************************************************************/
-/* line 510, ../compass/sass/style.scss */
+/* line 514, ../compass/sass/style.scss */
 #footer {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 1em;
   margin-top: 2em;
 }
 
-/* line 517, ../compass/sass/style.scss */
+/* line 521, ../compass/sass/style.scss */
 #footer a {
   color: #419afa;
 }
-/* line 521, ../compass/sass/style.scss */
+/* line 525, ../compass/sass/style.scss */
 #footer h4 {
   color: white;
 }
-/* line 525, ../compass/sass/style.scss */
+/* line 529, ../compass/sass/style.scss */
 #footer a:hover {
   color: white;
 }
