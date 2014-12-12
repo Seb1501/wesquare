@@ -2,7 +2,7 @@
 layout: post
 category: blog
 title: WeSquare lance la BlueBox revolution
-description: WeSquare a été d'abord lancée à Paris pour venir au secours de tous les citadins (particuliers et professionels) qui manquent d'espace...
+description: WeSquare a été d'abord lancé à Paris pour venir au secours de tous les citadins (particuliers et professionels) qui manquent d'espace...
 image:
 adress:
 ---
