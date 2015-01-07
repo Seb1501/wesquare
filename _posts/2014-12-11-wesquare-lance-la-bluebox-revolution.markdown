@@ -32,7 +32,7 @@ L’équipe WeSquare.
 
     
 <div class="thumbnail">
-  <img src="../../../../images/bb/{{ b.filename }}" alt="">
+  <img src="../../../../images/bb/{{ b.filename }}" alt="photos de la BlueBox dans Paris">
 </div>
     
 {% endfor %}
