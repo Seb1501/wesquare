@@ -51,7 +51,7 @@
 
     <!-- Scroll depth initialisation-->
 
-    <script src="jquery.scrolldepth.min.js"></script>
+    <script src="js/jquery.scrolldepth.min.js"></script>
     <script>
     jQuery(function() {
     jQuery.scrollDepth();
@@ -69,7 +69,7 @@
 <!--End of Zopim Live Chat Script-->
 
   </head>
-  <body class="format">
+  <body class="format" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     
 
@@ -83,11 +83,53 @@
     fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
+    
     <!--Navbar -->
-    <nav class="navbar navbar-default navbar-transparent navbar-fixed-top"  role="navigation">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <!-- <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Démarrer</span> 
+                </a> -->
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <!-- <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li> -->
+                    <li>
+                        <a class="page-scroll" href="{{ site.baseurl }}/mon_espace.html">
+                        <i class="fa fa-user"></i> Se connecter
+                        </a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">
+                        <i class="fa fa-phone"></i> 01 82 09 71 79
+                        </a>
+                      </li>
+                    <li>
+                        <a class="page-scroll" href="#">Démarrer</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+
+
+    <!-- <nav class="navbar navbar-default navbar-transparent navbar-fixed-top"  role="navigation">
       <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
+        Brand and toggle get grouped for better mobile display -->
+        <!-- <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Menu</span>
             <span class="icon-bar"></span>
@@ -96,19 +138,19 @@
           </button>
           
           <a class="navbar-brand" href="{{ site.baseurl }}/index.html">
-            <ul>
-              <li id="company-name"> <img src="{{ site.baseurl }}/images/logo.png" width="150" alt="logo WeSquare"></li>
+            <ul> -->
+              <!-- <li id="company-name"> <img src="{{ site.baseurl }}/images/logo.png" width="150" alt="logo WeSquare"></li> -->
               <!-- <li id="beta"><i><b>Bêta</b></i></li> -->
-            </ul> 
+            <!-- </ul> 
 
           </a>
 
         </div>
-
+ -->
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            
+         -->    
              <!-- <li>
                <a href="index.html#securite" id="title-nav">
                 La Sécurité - Notre Priorité
@@ -122,15 +164,15 @@
                </a> 
             </li> -->
 
-            <li>
+            <!-- <li>
                <a href="{{ site.baseurl }}/index.html#notre_offre" id="title-nav">
                 Notre offre
                </a> 
-            </li>
+            </li> -->
 
-            <li>
+            <!-- <li>
               <a href="{{ site.baseurl }}/mon_espace.html" id="title-nav">
-                <i class="fa fa-user"></i> Mon espace
+                <i class="fa fa-user"></i> Se connecter
               </a>
             </li>
            
@@ -138,23 +180,23 @@
                <a href="#" id="title-nav">
                 <i class="fa fa-phone"></i> 01 82 09 71 79
                </a> 
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <a href="mailto:contact@we-square.com" id="title-nav">
                 <i class="fa fa-envelope-o"></i> contact@we-square.com
               </a>
-            </li>
+            </li> -->
           
-            <li>
+            <!-- <li>
                <a href="{{ site.baseurl }}/blog" id="title-nav">Blog</a> 
-            </li>
+            </li> -->
 
            <!--   <li>
                <a href="{{ site.baseurl }}/playlist.html">Playlist</a> 
             </li> -->
             
                        
-            <li class="dropdown">
+            <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle format" id="title-nav" data-toggle="dropdown">Suivez-nous !<span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="https://www.facebook.com/Welcome2WeSquare" target="_BLANK"> <i class="fa fa-facebook-square"></i> Facebook</a></li>
@@ -163,12 +205,12 @@
 
                 <li><a href="http://www.pinterest.com/we_square" target="_BLANK"> <i class="fa fa-pinterest-square"></i> Pinterest</a></li>
               </ul>
-            </li>
-          </ul>
+            </li> -->
+        <!--   </ul>
         </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-    
+      <!-- </div>/.container-fluid
+    </nav>  --> 
+
     {{ content }}
 
     <div id="footer">
@@ -176,11 +218,11 @@
         <div class="row">
           <div class="col-xs-6 col-sm-3">
             <ul class="list-inline social">
-              <!-- <li>
+              <li>
                 <a href="https://twitter.com/projectX">
                   <i class="fa fa-twitter fa-2x"></i>
                 </a>
-              </li> -->
+              </li>
               <li>
                 <a href="https://www.facebook.com/Welcome2WeSquare" target="_BLANK">
                   <i class="fa fa-facebook fa-2x"></i>
@@ -213,6 +255,14 @@
     </div>
 
  
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+       <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
     
 
 

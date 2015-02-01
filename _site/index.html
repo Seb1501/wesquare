@@ -51,7 +51,7 @@
 
     <!-- Scroll depth initialisation-->
 
-    <script src="jquery.scrolldepth.min.js"></script>
+    <script src="js/jquery.scrolldepth.min.js"></script>
     <script>
     jQuery(function() {
     jQuery.scrollDepth();
@@ -69,7 +69,7 @@
 <!--End of Zopim Live Chat Script-->
 
   </head>
-  <body class="format">
+  <body class="format" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     
 
@@ -83,11 +83,53 @@
     fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
+    
     <!--Navbar -->
-    <nav class="navbar navbar-default navbar-transparent navbar-fixed-top"  role="navigation">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <!-- <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Démarrer</span> 
+                </a> -->
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <!-- <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li> -->
+                    <li>
+                        <a class="page-scroll" href="/mon_espace.html">
+                        <i class="fa fa-user"></i> Se connecter
+                        </a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">
+                        <i class="fa fa-phone"></i> 01 82 09 71 79
+                        </a>
+                      </li>
+                    <li>
+                        <a class="page-scroll" href="#">Démarrer</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+
+
+    <!-- <nav class="navbar navbar-default navbar-transparent navbar-fixed-top"  role="navigation">
       <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
+        Brand and toggle get grouped for better mobile display -->
+        <!-- <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Menu</span>
             <span class="icon-bar"></span>
@@ -96,19 +138,19 @@
           </button>
           
           <a class="navbar-brand" href="/index.html">
-            <ul>
-              <li id="company-name"> <img src="/images/logo.png" width="150" alt="logo WeSquare"></li>
+            <ul> -->
+              <!-- <li id="company-name"> <img src="/images/logo.png" width="150" alt="logo WeSquare"></li> -->
               <!-- <li id="beta"><i><b>Bêta</b></i></li> -->
-            </ul> 
+            <!-- </ul> 
 
           </a>
 
         </div>
-
+ -->
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            
+         -->    
              <!-- <li>
                <a href="index.html#securite" id="title-nav">
                 La Sécurité - Notre Priorité
@@ -122,15 +164,15 @@
                </a> 
             </li> -->
 
-            <li>
+            <!-- <li>
                <a href="/index.html#notre_offre" id="title-nav">
                 Notre offre
                </a> 
-            </li>
+            </li> -->
 
-            <li>
+            <!-- <li>
               <a href="/mon_espace.html" id="title-nav">
-                <i class="fa fa-user"></i> Mon espace
+                <i class="fa fa-user"></i> Se connecter
               </a>
             </li>
            
@@ -138,23 +180,23 @@
                <a href="#" id="title-nav">
                 <i class="fa fa-phone"></i> 01 82 09 71 79
                </a> 
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <a href="mailto:contact@we-square.com" id="title-nav">
                 <i class="fa fa-envelope-o"></i> contact@we-square.com
               </a>
-            </li>
+            </li> -->
           
-            <li>
+            <!-- <li>
                <a href="/blog" id="title-nav">Blog</a> 
-            </li>
+            </li> -->
 
            <!--   <li>
                <a href="/playlist.html">Playlist</a> 
             </li> -->
             
                        
-            <li class="dropdown">
+            <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle format" id="title-nav" data-toggle="dropdown">Suivez-nous !<span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="https://www.facebook.com/Welcome2WeSquare" target="_BLANK"> <i class="fa fa-facebook-square"></i> Facebook</a></li>
@@ -163,28 +205,31 @@
 
                 <li><a href="http://www.pinterest.com/we_square" target="_BLANK"> <i class="fa fa-pinterest-square"></i> Pinterest</a></li>
               </ul>
-            </li>
-          </ul>
+            </li> -->
+        <!--   </ul>
         </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-    
+      <!-- </div>/.container-fluid
+    </nav>  --> 
+
     <div class="wrapper">
   <div class="lead">
+    <img src="images/wesquare.png" alt="loge Wesquare" class="img-reponsive" width="250">
     <h1><b>Faites de la place chez vous.</b></h1>
-    <h3><b>Commandez. Remplissez. Nous transportons. Nous stockons.</b><br>Il n'a jamais été aussi simple de gagner de l'espace. </h3>
+    <h3>Commandez. Remplissez.
+    <br>Nous transportons. Nous stockons.
+    <br>Il n'a jamais été aussi simple de gagner de l'espace. </h3>
   </div>
-    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#OrderForm">
+    <!-- <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#OrderForm">
        <i class="fa fa-caret-right"></i> <strong>TESTEZ !</strong>
     </button>
-
-  <div class="container">
+ -->
+  <!-- <div class="container">
     <div class="row">
       
       <img src="images/bin_wrapper.png" class="img-responsive" width="370">
      
     </div>
-  </div>
+  </div> -->
     
  
 </div>
@@ -218,36 +263,46 @@
 
 <div class="spacer"></div>
 
-<div class="le_service">
+
+<div class="le_service" id="about">
+
     <div class="container">
-    <div class="row text-center">
-      <div class="col-sm-6 col-md-3 feature">
-        <img src="images/icon_62565/icon_62565_blue.png" width="120" class="circle">
-        <p>
-        <h4><b>1. COMMANDEZ</b></h4> 
-        <hr>Commandez vos BlueBox <strong>online</strong>. Nous prenons rendez-vous avec vous par téléphone. </hr>
+    <div class="row" class="text-left">
+    <h1><b>Simple</b></h1>
+    <h2>Comme 1,2,3...4!</h2>
+    </div>  
+    <div class="row">
+      <div class="col-sm-6 col-md-3">
+        <h4><b>Commandez.</b></h4>
+        <img src="images/1.png" width="120" alt="commandez" class="img-responsive center-block">
+        <img src="images/G1.png" width="50" alt="1" class="img-responsive">
+        <p id="step">
+        Commandez vos BlueBox <strong>online</strong>. Nous prenons rendez-vous avec vous par téléphone.
         </p>
       </div>
-      <div class="col-sm-6 col-md-3 feature">
-        <img src="images/icon_63393/icon_63393_blue.png" width="120" class="circle">
-        <p>
-        <h4><b>2. REMPLISSEZ</b></h4> 
-        <hr>Nous apportons <strong> gratuitement </strong> des BlueBox chez vous que vous remplissez.</hr>
+      <div class="col-sm-6 col-md-3">
+        <h4><b>Remplissez.</b></h4>
+        <img src="images/2.png" width="120" alt="remplissez" class="img-responsive center-block">
+        <img src="images/G2.png" width="50" alt="2" class="img-responsive">
+        <p id="step">
+        Nous apportons <strong> gratuitement </strong> des BlueBox chez vous que vous remplissez.
         </p>
-      </div>
+      </div>  
       <div class="clearfix visible-sm-block"></div>
-      <div class="col-sm-6 col-md-3 feature">
-        <img src="images/icon_11198/icon_11198_blue.png" width="120" class="circle">
-        <p>
-        <h4><b>3. NOUS TRANSPORTONS</b></h4> 
-        <hr>Nous revenons <strong>gratuitement</strong> dans un délai maximum de 2 semaines chercher vos BlueBox remplies et vos éventuels objets volumineux.</hr>
+      <div class="col-sm-6 col-md-3">
+        <h4><b>Nous transportons.</b></h4>
+        <img src="images/3.png" width="120" alt"nous transportons" class="img-responsive center-block">
+        <img src="images/G3.png" width="50" alt="3" class="img-responsive">
+        <p id="step">
+        Nous revenons <strong>gratuitement</strong> dans un délai maximum de 2 semaines chercher vos BlueBox remplies et vos éventuels objets volumineux.
         </p>
       </div>
-      <div class="col-sm-6 col-md-3 feature">
-        <img src="images/icon_37887/icon_37887_blue.png" width="120" class="circle">
-        <p> 
-        <h4><b>4. NOUS STOCKONS</b></h4> 
-        <hr>Nous stockons vos BlueBox que nous scellons ainsi que vos éventuels objets volumineux dans notre <strong>entrepôt sécurisé</strong>. 
+      <div class="col-sm-6 col-md-3">
+        <h4><b>Nous stockons.</b></h4>
+        <img src="images/4.png" width="120" alt="nous stockons" class="img-responsive center-block">
+        <img src="images/G4.png" width="50" alt="4" class="img-responsive">
+        <p id="step"> 
+        Nous stockons vos BlueBox que nous scellons ainsi que vos éventuels objets volumineux dans notre <strong>entrepôt sécurisé</strong>. 
         </p>
       </div>
     </div>
@@ -257,6 +312,7 @@
 <div class="spacer"></div>
 
 <div class="inventory">
+
   <div class="container text-center">
     <div class="row text-center">
       
@@ -588,11 +644,11 @@
         <div class="row">
           <div class="col-xs-6 col-sm-3">
             <ul class="list-inline social">
-              <!-- <li>
+              <li>
                 <a href="https://twitter.com/projectX">
                   <i class="fa fa-twitter fa-2x"></i>
                 </a>
-              </li> -->
+              </li>
               <li>
                 <a href="https://www.facebook.com/Welcome2WeSquare" target="_BLANK">
                   <i class="fa fa-facebook fa-2x"></i>
@@ -625,6 +681,14 @@
     </div>
 
  
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+       <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
     
 
 
