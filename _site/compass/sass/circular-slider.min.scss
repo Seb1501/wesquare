@@ -31,32 +31,21 @@ SOFTWARE.
 	padding-top: 20px;
 }
 
-#displayValue{
-	@extend .value;
+.monthlyprice{
+	color: white;
+	font-size: 14px;
 }
 
-#displayValue2{
-	@extend .value;
-}
-
-#displayValue3{
-	@extend .value;
-}
-
-#displayValue4{
-	@extend .value;
-}
-
-#displayValue5{
-	@extend .value;
-}
-
-#displayValue6{
+#displayValue, #displayValue2, #displayValue3, #displayValue4, #displayValue5, #displayValue6{
 	@extend .value;
 }
 
 .sous-total{
 	@extend .value;
+}
+
+#price, #price2, #price3, #price4, #price5, #price6{
+	@extend .monthlyprice;
 }
 
 
