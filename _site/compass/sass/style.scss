@@ -249,36 +249,7 @@ body{
 }
 
 
-/**************************MON**INVENTAIRE****************************************************************************************/
 
-.inventory {
-	background-color: $section-background-color;
-	height: 500px;
-}
-
-.inventory {
-	h1{
-		padding-top: 100px;
-	}
-	img{
-		margin-right: -100px;
-	}
-}
-
-
-// .inventory img{
-// 	margin: auto;
-// 	padding-top: 1em;
-// 	padding-bottom: 1em;
-// }
-
-
-// .my-space {
-// 	margin: auto;
-// 	height: auto;
-// 	min-height: 700px;
-// 	padding-top: 120px;
-// }
 
 
 /**************************MODAL************************************************************************************/
@@ -342,10 +313,10 @@ font-size: 14px;
 	height: 3em
 }
 
-.container-spacer{
-	height: 3em;
-	background-image: image-url("subtle_pattern/cream_pixels.png");
-}
+// .container-spacer{
+// 	height: 3em;
+// 	background-image: image-url("subtle_pattern/cream_pixels.png");
+// }
 
 .spacer{
 	height: 7em;
@@ -355,6 +326,13 @@ font-size: 14px;
 	background-color: $section-background-color;
 	@extend .spacer;
 }
+
+
+.spacer-3{
+	background-color: $primary-color;
+	@extend .spacer;
+}
+
 
 .feature {
 	img {
@@ -440,63 +418,119 @@ h4{
 }
 
 
+/**************************MON**INVENTAIRE****************************************************************************************/
+
+.inventory {
+	background-color: $section-background-color;
+	min-height: 500px;
+}
+
+.inventory {
+	// h1{
+	// 	padding-top: 100px;
+	// }
+	img{
+		margin-right: -100px;
+	}
+}
+
+
+/**************************SUR*MESURE*********************************************************************************/
+
+.capacity {
+	p {
+		padding-bottom: 50px;
+	}
+}
+
+
+/*****************************SECURITE*****************************************************************************************/
+
+.security{
+	background-color: $section-background-color;
+	min-height: 500px
+}
+
+.security {
+	// h1{
+	// 	padding-top: 100px;
+	// }
+	img{
+		margin-right: -100px;
+	}
+}
+
 
 /**************************NOTRE*OFFRE*********************************************************************************/
 
 .offer{
-	background-image: image-url("subtle_pattern/cream_pixels.png");
+	background-color: $primary-color;
+
+	// background-image: image-url("subtle_pattern/cream_pixels.png");
 }
 
-
-.fade_away {
-    opacity: 0.95;/* l'opacite que vous voulez au depart */
-    border: none;/* enlever les border d'une image en lien */
-    -ms-filter: "prodig:DXImageTransform.Microsoft.Alpha(Opacity=25)"; /* Hack IE8 */
-    filter: alpha(opacity = 25); /* Hack IE 5-7 */
-    -webkit-transition: opacity 0.5s ease-in-out;/* transition pour Chrome et Safari */
-    -moz-transition: opacity 0.5s ease-in-out;/* transition pour Firefox */
-    -o-transition: opacity 0.5s ease-in-out;/* transition pour Opéra */
-    transition: opacity 0.5s ease-in-out; /* on écrit cette ligne à la fin de façon à ce que ce soit elle qui soit prise en compte lorsque l'attribut transition sera pris en compte par tous les navigateurs */
-    width : 300px;
-    height : 430px;
-    display : block; /*Très important, sinon les dimensions ne sont pas prises en compte*/
-    background: url("../images/bin_empty_no_shadow_with_text.png") no-repeat;
-    background-position: center;
-}
-
-.fade_away:hover, 
-.fade_away:focus {
-  	opacity: 1; /* opacite au survol */
-    -ms-filter:"prodig:DXImageTransform.Microsoft.Alpha(Opacity=90)"; /* Hack IE 8 */
-    filter: alpha(opacity = 90); /* Hack IE 5-7 */
-   	background-image: image-url("BOX_Rodolphe_no_shadow_2.png");
-   	background-position: center;
-  
-}
-
-
-.engagment {
+.offer{
 	
-	li{
-	border-bottom:  1px dotted $primary-color;
-	list-style: none;
-	padding: 12px;
+	h1{
+		color: white;
 	}
 
-	li{
-
-		p{
-		color: $primary-color; 
-		font-size: 18px;
-		font-weight: bold;
-		margin-bottom: 2px;
-		}
+	p{
+		margin:0;
+		color: white;
 	}
 }
 
-.offer button{
-	margin-top: 20px;
-}
+
+// .fade_away {
+//     opacity: 0.95;/* l'opacite que vous voulez au depart */
+//     border: none;/* enlever les border d'une image en lien */
+//     -ms-filter: "prodig:DXImageTransform.Microsoft.Alpha(Opacity=25)"; /* Hack IE8 */
+//     filter: alpha(opacity = 25); /* Hack IE 5-7 */
+//     -webkit-transition: opacity 0.5s ease-in-out;/* transition pour Chrome et Safari */
+//     -moz-transition: opacity 0.5s ease-in-out;/* transition pour Firefox */
+//     -o-transition: opacity 0.5s ease-in-out;/* transition pour Opéra */
+//     transition: opacity 0.5s ease-in-out; /* on écrit cette ligne à la fin de façon à ce que ce soit elle qui soit prise en compte lorsque l'attribut transition sera pris en compte par tous les navigateurs */
+//     width : 300px;
+//     height : 430px;
+//     display : block; /*Très important, sinon les dimensions ne sont pas prises en compte*/
+//     background: url("../images/bin_empty_no_shadow_with_text.png") no-repeat;
+//     background-position: center;
+// }
+
+// .fade_away:hover, 
+// .fade_away:focus {
+//   	opacity: 1; /* opacite au survol */
+//     -ms-filter:"prodig:DXImageTransform.Microsoft.Alpha(Opacity=90)"; /* Hack IE 8 */
+//     filter: alpha(opacity = 90); /* Hack IE 5-7 */
+//    	background-image: image-url("BOX_Rodolphe_no_shadow_2.png");
+//    	background-position: center;
+  
+// }
+
+
+// .engagment {
+	
+// 	li{
+// 	border-bottom:  1px dotted $primary-color;
+// 	list-style: none;
+// 	padding: 12px;
+// 	}
+
+// 	li{
+
+// 		p{
+// 		color: $primary-color; 
+// 		font-size: 18px;
+// 		font-weight: bold;
+// 		margin-bottom: 2px;
+// 		}
+// 	}
+// }
+
+// .offer button{
+// 	margin-top: 20px;
+// }
 
 
 /*****************CAROUSEL****************************************************************************************************/
@@ -633,25 +667,22 @@ blockquote{
 // 	border-color: $primary-color;
 // }	
 
-/*****************************SECURITE*****************************************************************************************/
-
-.security{
-	background-image: image-url("subtle_pattern/cream_pixels.png");
-}
 
 
 /*****************************FOOTER*****************************************************************************************/
 
 
+
+
 #footer{
-	background-color: rgba(0,0,0,0.8);
+	background-color: white;
 	padding: 1em;
 	margin-top: 2em;
 }
 
 #footer{
  	a {
-	color: $secondary-color;
+	color: $primary-color;
 	}
 
 	h4 {
@@ -659,6 +690,6 @@ blockquote{
 	}
 
 	a:hover {
-	color: white;
+	color: $secondary-color;
 	}
 }
