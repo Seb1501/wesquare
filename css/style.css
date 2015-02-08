@@ -94,7 +94,7 @@ body {
 /************************WRAPPER*DE*LA*LANDING*****************************************************************************/
 /* line 181, ../compass/sass/style.scss */
 .wrapper {
-  background-image: url('../images/cover_new2.png?1423425985');
+  background-image: url('../images/cover_new2.png?1423426586');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -246,94 +246,93 @@ font-size: 14px;
 }
 
 /* line 375, ../compass/sass/style.scss */
-.le_service h1, .inventory h1, .capacity h1 {
+.le_service h1, .inventory h1, .capacity h1, .security h1 {
   color: #031ec0;
   font-family: "Montserrat", sans-serif;
 }
 /* line 380, ../compass/sass/style.scss */
-.le_service h3, .inventory h3, .capacity h3 {
+.le_service h3, .inventory h3, .capacity h3, .security h3 {
   color: #959595;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 50px;
 }
 /* line 385, ../compass/sass/style.scss */
-.le_service h4, .inventory h4, .capacity h4 {
+.le_service h4, .inventory h4, .capacity h4, .security h4 {
   color: #031ec0;
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
 
-/* line 393, ../compass/sass/style.scss */
+/* line 394, ../compass/sass/style.scss */
 .next {
   padding-top: 25px;
 }
-/* line 397, ../compass/sass/style.scss */
+/* line 398, ../compass/sass/style.scss */
 .next a {
   color: #031ec0;
   font-size: 12px;
 }
 
-/* line 405, ../compass/sass/style.scss */
+/* line 406, ../compass/sass/style.scss */
 #name a:hover {
   color: #ddd;
 }
 
-/* line 409, ../compass/sass/style.scss */
+/* line 410, ../compass/sass/style.scss */
 .min-height {
   min-height: 600px;
 }
 
-/* line 414, ../compass/sass/style.scss */
+/* line 415, ../compass/sass/style.scss */
 .min-height h1 {
   margin-bottom: 1em;
 }
 
 /**************************LE*SERVICE*********************************************************************************/
-/* line 422, ../compass/sass/style.scss */
+/* line 423, ../compass/sass/style.scss */
 .service {
   height: 500px;
 }
 
-/* line 426, ../compass/sass/style.scss */
+/* line 427, ../compass/sass/style.scss */
 #step {
   position: relative;
   top: -45px;
   left: 35px;
 }
 
-/* line 432, ../compass/sass/style.scss */
+/* line 433, ../compass/sass/style.scss */
 .img-center {
   margin: 0 auto;
 }
 
 /**************************MON**INVENTAIRE****************************************************************************************/
-/* line 439, ../compass/sass/style.scss */
+/* line 440, ../compass/sass/style.scss */
 .inventory {
   background-color: #f4f1ec;
-  min-height: 500px;
 }
 
 /* line 448, ../compass/sass/style.scss */
 .inventory img {
   margin-right: -100px;
+  margin-bottom: 20px;
 }
 
 /**************************SUR*MESURE*********************************************************************************/
-/* line 457, ../compass/sass/style.scss */
+/* line 458, ../compass/sass/style.scss */
 .title p {
   padding-bottom: 20px;
 }
 
 /*****************************SECURITE*****************************************************************************************/
-/* line 465, ../compass/sass/style.scss */
+/* line 466, ../compass/sass/style.scss */
 .security {
   background-color: #f4f1ec;
-  min-height: 500px;
 }
 
 /* line 474, ../compass/sass/style.scss */
 .security img {
-  margin-right: -100px;
+  margin-bottom: 23.2px;
 }
 
 /**************************NOTRE*OFFRE*********************************************************************************/
