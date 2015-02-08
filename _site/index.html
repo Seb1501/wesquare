@@ -80,6 +80,9 @@
 
     <!-- circular-slider -->
     <script src="/js/circular-slider.min.js"></script>
+
+    <!-- Including script simulating / permitting to use HashTable -->
+    <script type-"text/javascript" src="/js/jshashtable-3.0.js"></script>
   
   </head>
   
@@ -611,51 +614,136 @@
     <div class="row text-center">  
       <div class="col-xs-12 col-sm-4 col-md-2">
         <div id="displayValue"></div>
-        <div id="price">XX/unité/mois</div>
+        <div id="price"></div>
         <div id="slider"></div>
       </div>
       <div class="col-xs-12 col-sm-4 col-md-2">
         <div id="displayValue2"></div>
-        <div id="price2">XX/unité/mois</div>
+        <div id="price2"></div>
         <div id="slider2">
         </div>
       </div>
       <div class="col-xs-12 col-sm-4 col-md-2">
         <div id="displayValue3"></div>
-        <div id="price3">XX/unité/mois</div>
+        <div id="price3"></div>
         <div id="slider3"></div>
       </div>
       <div class="col-xs-12 col-sm-4 col-md-2">
         <div id="displayValue4"></div>
-        <div id="price4">XX/unité/mois</div>
+        <div id="price4"></div>
         <div id="slider4"></div>
       </div>
       <div class="col-xs-12 col-sm-4 col-md-2">
         <div id="displayValue5"></div>
-        <div id="price5">XX/unité/mois</div>
+        <div id="price5"></div>
         <div id="slider5"></div>
       </div>
       <div class="col-xs-12 col-sm-4 col-md-2">
         <div id="displayValue6"></div>
-        <div id="price6">XX/unité/mois</div>
+        <div id="price6"></div>
         <div id="slider6"></div>
       </div>
     </div>
     <div class="row text-center sous-total">
-      <div class="col-md-12">
-      Sous-Total
+      <div class="col-md-12" id="IDsousTotal1">
+      </div>
+    </div>
+    <div class="row text-center sous-total">
+      <div class="col-md-12" id="IDsousTotal2">
+      </div>
+    </div>
+    <div class="row text-center sous-total">
+      <div class="col-md-12" id="IDsousTotal3">
       </div>
     </div>
    <div class="row text-center sous-total">
-      <div class="col-md-12">
-      Total :
+      <div class="col-md-12" id="IDtotal">
       </div>
     </div>
 
-
     <script type="text/javascript">
-    
-  
+
+      // HastTable correspondant au pricing : prix / unité / mois en fonction du nombre de BlueBox
+      var prixParUniteBlueBox = new Hashtable();
+      prixParUniteBlueBox.put(0, 0);
+      prixParUniteBlueBox.put(1, 5.95);
+      prixParUniteBlueBox.put(2, 5.55);
+      prixParUniteBlueBox.put(3, 5.40);
+      prixParUniteBlueBox.put(4, 5.25);
+      prixParUniteBlueBox.put(5, 5.15);
+      prixParUniteBlueBox.put(6, 5.05);
+      prixParUniteBlueBox.put(7, 4.95);
+      prixParUniteBlueBox.put(8, 4.85);
+      prixParUniteBlueBox.put(9, 4.75);
+      prixParUniteBlueBox.put(10, 4.65);
+      prixParUniteBlueBox.put(11, 4.55);
+      prixParUniteBlueBox.put(12, 4.45);
+      prixParUniteBlueBox.put(13, 4.35);
+      prixParUniteBlueBox.put(14, 4.25);
+      prixParUniteBlueBox.put(15, 4.20);
+      prixParUniteBlueBox.put(16, 4.15);
+      prixParUniteBlueBox.put(17, 4.10);
+      prixParUniteBlueBox.put(18, 4.05);
+      prixParUniteBlueBox.put(19, 4.00);
+      prixParUniteBlueBox.put(20, 3.95);
+
+      // HastTable correspondant au pricing : prix / unité / mois en fonction du nombre de Penderie
+      var prixParUnitePenderie = new Hashtable();
+      prixParUnitePenderie.put(0, 0);
+      prixParUnitePenderie.put(1, 8.95);
+      prixParUnitePenderie.put(2, 8.55);
+      prixParUnitePenderie.put(3, 8.40);
+      prixParUnitePenderie.put(4, 8.25);
+      prixParUnitePenderie.put(5, 8.15);
+      prixParUnitePenderie.put(6, 8.05);
+      prixParUnitePenderie.put(7, 7.95);
+      prixParUnitePenderie.put(8, 7.85);
+      prixParUnitePenderie.put(9, 7.75);
+      prixParUnitePenderie.put(10, 7.65);
+      prixParUnitePenderie.put(11, 7.55);
+      prixParUnitePenderie.put(12, 7.45);
+      prixParUnitePenderie.put(13, 7.35);
+      prixParUnitePenderie.put(14, 7.25);
+      prixParUnitePenderie.put(15, 7.20);
+      prixParUnitePenderie.put(16, 7.15);
+      prixParUnitePenderie.put(17, 7.10);
+      prixParUnitePenderie.put(18, 7.05);
+      prixParUnitePenderie.put(19, 7.00);
+      prixParUnitePenderie.put(20, 6.95);
+
+      // HastTable correspondant au pricing : prix / unité / mois en fonction du nombre de BoxArchive
+      var prixParUniteBoxArchive = new Hashtable();
+      prixParUniteBoxArchive.put(0, 0);
+      prixParUniteBoxArchive.put(1, 4.95);
+      prixParUniteBoxArchive.put(2, 4.55);
+      prixParUniteBoxArchive.put(3, 4.40);
+      prixParUniteBoxArchive.put(4, 4.25);
+      prixParUniteBoxArchive.put(5, 4.15);
+      prixParUniteBoxArchive.put(6, 4.05);
+      prixParUniteBoxArchive.put(7, 3.95);
+      prixParUniteBoxArchive.put(8, 3.85);
+      prixParUniteBoxArchive.put(9, 3.75);
+      prixParUniteBoxArchive.put(10, 3.65);
+      prixParUniteBoxArchive.put(11, 3.55);
+      prixParUniteBoxArchive.put(12, 3.45);
+      prixParUniteBoxArchive.put(13, 3.35);
+      prixParUniteBoxArchive.put(14, 3.25);
+      prixParUniteBoxArchive.put(15, 3.20);
+      prixParUniteBoxArchive.put(16, 3.15);
+      prixParUniteBoxArchive.put(17, 3.10);
+      prixParUniteBoxArchive.put(18, 3.05);
+      prixParUniteBoxArchive.put(19, 3.00);
+      prixParUniteBoxArchive.put(20, 2.95);
+      prixParUniteBoxArchive.put(21, 2.91);
+      prixParUniteBoxArchive.put(22, 2.85);
+      prixParUniteBoxArchive.put(23, 2.80);
+      prixParUniteBoxArchive.put(24, 2.75);
+      prixParUniteBoxArchive.put(25, 2.70);
+      prixParUniteBoxArchive.put(26, 2.65);
+      prixParUniteBoxArchive.put(27, 2.60);
+      prixParUniteBoxArchive.put(28, 2.55);
+      prixParUniteBoxArchive.put(29, 2.50);
+      prixParUniteBoxArchive.put(30, 6.45);
 
       $('#slider').CircularSlider({
         min: 0,
@@ -666,6 +754,8 @@
         slide: function(ui,value) {
           
           $("#displayValue").text(value);
+          $("#price").text(prixParUniteBlueBox.get(value) + " € / BlueBox / mois");
+          updateSubTotalAndTotal();
           return ;
         },
         formLabel : function(value, prefix, suffix) {
@@ -682,6 +772,8 @@
         slide: function(ui,value) {
           
           $("#displayValue2").text(value);
+          $("#price2").text(prixParUnitePenderie.get(value) + " € / penderie / mois");
+          updateSubTotalAndTotal();
           return ;
         },
         formLabel : function(value, prefix, suffix) {
@@ -698,6 +790,8 @@
         slide: function(ui,value) {
           
           $("#displayValue3").text(value);
+          $("#price3").text(prixParUniteBoxArchive.get(value) + " € / BoxArchive / mois");
+          updateSubTotalAndTotal();
           return ;
         },
         formLabel : function(value, prefix, suffix) {
@@ -715,6 +809,8 @@
         slide: function(ui,value) {
           
           $("#displayValue4").text(value);
+          $("#price4").text(prixParUniteBoxArchive.get(value) + " € / BoxArchive / mois");
+          updateSubTotalAndTotal();
           return ;
         },
         formLabel : function(value, prefix, suffix) {
@@ -731,6 +827,8 @@
         slide: function(ui,value) {
           
           $("#displayValue5").text(value);
+          $("#price5").text(prixParUniteBoxArchive.get(value) + " € / BoxArchive / mois");
+          updateSubTotalAndTotal();
           return ;
         },
         formLabel : function(value, prefix, suffix) {
@@ -747,12 +845,47 @@
         slide: function(ui,value) {
           
           $("#displayValue6").text(value);
+          $("#price6").text(prixParUniteBoxArchive.get(value) + " € / BoxArchive / mois");
+          updateSubTotalAndTotal();
           return ;
         },
         formLabel : function(value, prefix, suffix) {
         return '<img src="/images/Arch.png">';
     },
       });
+
+      // Fonction de mise à jour des sous-totaux et total
+      function updateSubTotalAndTotal(){
+
+        // Calcul du sous total 1
+        var sousTotal1 = parseFloat(document.getElementById('displayValue').textContent) * parseFloat(document.getElementById('price').textContent) + parseFloat(document.getElementById('displayValue2').textContent) * parseFloat(document.getElementById('price2').textContent) + parseFloat(document.getElementById('displayValue3').textContent) * parseFloat(document.getElementById('price3').textContent);
+        // Mise à jour de l'affichage pour sous-total 1
+        document.getElementById('IDsousTotal1').textContent = "Sous-total 1 : " + sousTotal1.toFixed(2) + " € / mois";
+
+        // Calcul du sous-total 2  
+        var sousTotal2 = parseFloat(document.getElementById('displayValue4').textContent) * parseFloat(document.getElementById('price4').textContent) + parseFloat(document.getElementById('displayValue5').textContent) * parseFloat(document.getElementById('price5').textContent);
+        // Mise à jour de l'affichage pour sous-total 2
+        document.getElementById('IDsousTotal2').textContent = "Sous-total 2 : " + sousTotal2.toFixed(2) + " € / mois";
+        
+        // Calcul du sous-total 3
+        var sousTotal3 = parseFloat(document.getElementById('displayValue6').textContent) * parseFloat(document.getElementById('price6').textContent);
+        // Mise à jour de l'affichage pour sous-total 3
+        document.getElementById('IDsousTotal3').textContent = "Sous-total 3 : " + sousTotal3.toFixed(2) + " € / mois";
+
+        // Calcul du total
+        var total = sousTotal1 + sousTotal2 + sousTotal3;
+        // Mise à jour de l'affichage pour total
+        document.getElementById('IDtotal').textContent = "Total : " + total.toFixed(2) + " € / mois";
+
+        /**
+        * Ecriture equivalente de :
+        * 
+        * document.getElementById('IDsousTotal2').textContent = "Sous-total 2 : " + sousTotal2.toFixed(2);
+        * <=>
+        * $('#IDsousTotal2').text("Sous-total 2 : " + sousTotal2.toFixed(2));
+        */
+      }
+
     </script>
 
   
