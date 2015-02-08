@@ -22,11 +22,9 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-    
    
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
     
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/circular-slider.min.css">
@@ -85,7 +83,7 @@
   
   </head>
   
-  <body class="format" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <body class="" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     
 
@@ -130,7 +128,7 @@
                         </a>
                       </li>
                     <li>
-                        <a class="page-scroll" href="#">Démarrer</a>
+                        <a class="page-scroll" href="#"><i class="fa fa-play-circle"></i> Démarrer</a>
                     </li>
                 </ul>
             </div>
@@ -231,11 +229,20 @@
 
     <div class="wrapper">
   <div class="lead">
-    <img src="images/wesquare.png" alt="loge Wesquare" class="img-reponsive" width="250">
-    <h1><b>Faites de la place chez vous.</b></h1>
-    <h3>Commandez. Remplissez.
-    <br>Nous transportons. Nous stockons.
-    <br>Il n'a jamais été aussi simple de gagner de l'espace. </h3>
+    <div class="row">
+      <div class="col-md-offset-1 col-sm-12">
+        <img src="images/wesquare.png" alt="loge Wesquare" class="img-reponsive" width="250">
+        <h1><b>Faites de la place chez vous.</b></h1>
+        <h3>Commandez. Remplissez.
+        <br>Nous transportons. Nous stockons.
+        <br>Il n'a jamais été aussi simple de gagner de l'espace. </h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center next">
+        <a href="#section2" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
+      </div>
+    </div>
   </div>
     <!-- <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#OrderForm">
        <i class="fa fa-caret-right"></i> <strong>TESTEZ !</strong>
@@ -253,7 +260,7 @@
 </div>
 
 <!-- Modal -->
-<div class="modal fade" id="OrderForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="OrderForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -268,26 +275,28 @@
 
                
       </div>
-      <div class="modal-footer">
+      <div class="modal-footer"> -->
         <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
         <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-      </div>
+      <!-- </div>
     </div>
   </div>
-</div> 
+</div>  -->
 
 
 
 
-<div class="spacer"></div>
+<div class="spacer" id="section2"></div>
 
 
 <div class="le_service">
 
-    <div class="container">
+  <div class="container">
     <div class="row text-left">
-    <h1><b>Simple</b></h1>
-    <h2>Comme 1,2,3...4!</h2>
+      <div class="col-md-offset-1">
+        <h1>Simple</h1>
+        <h3>Comme 1,2,3...4!</h3>
+      </div>
     </div>  
     <div class="row">
       <div class="col-sm-6 col-md-3">
@@ -295,7 +304,7 @@
         <img src="images/1.png" width="120" alt="commandez" class="img-responsive center-block">
         <img src="images/G1.png" width="50" alt="1" class="img-responsive">
         <p id="step">
-        Commandez vos BlueBox <strong>online</strong>. Nous prenons rendez-vous avec vous par téléphone.
+        Vous commandez des Box de rangement par <strong>téléphone</strong> et nous fixons ensemble un rendez-vous pour les livrer.
         </p>
       </div>
       <div class="col-sm-6 col-md-3">
@@ -303,7 +312,7 @@
         <img src="images/2.png" width="120" alt="remplissez" class="img-responsive center-block">
         <img src="images/G2.png" width="50" alt="2" class="img-responsive">
         <p id="step">
-        Nous apportons <strong> gratuitement </strong> des BlueBox chez vous que vous remplissez.
+        Nous livrons <strong>gratuitement</strong> les Box (BlueBox, PenderiBox, ArchivBox) que vous remplissez.
         </p>
       </div>  
       <div class="clearfix visible-sm-block"></div>
@@ -312,7 +321,7 @@
         <img src="images/3.png" width="120" alt"nous transportons" class="img-responsive center-block">
         <img src="images/G3.png" width="50" alt="3" class="img-responsive">
         <p id="step">
-        Nous revenons <strong>gratuitement</strong> dans un délai maximum de 2 semaines chercher vos BlueBox remplies et vos éventuels objets volumineux.
+        Nous revenons <strong>gratuitement</strong> dans un délai de 2 semaines ramasser vos Box remplies ainsi que vos éventuels objets Volumineux.
         </p>
       </div>
       <div class="col-sm-6 col-md-3">
@@ -320,14 +329,20 @@
         <img src="images/4.png" width="120" alt="nous stockons" class="img-responsive center-block">
         <img src="images/G4.png" width="50" alt="4" class="img-responsive">
         <p id="step"> 
-        Nous stockons vos BlueBox que nous scellons ainsi que vos éventuels objets volumineux dans notre <strong>entrepôt sécurisé</strong>. 
+        Nous stockons vos Box , scellées et numérotées ainsi que vos éventuels objet Volumineux dans notre <strong>entrepôt sécurisé</strong>. 
         </p>
       </div>
     </div>
+    <div class="row">
+      <div class="col-md-12 text-center next">
+        <a href="#section3" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
+      </div>
+    </div>
+  
   </div>
 </div>
 
-<div class="spacer-2"></div>
+<div class="spacer-2" id="section3"></div>
 
 <div class="inventory">
 
@@ -335,10 +350,9 @@
     <div class="row">
       <div class="col-sm-6 col-md-6 text-right">
       
-        <h1><b>Connecté</b></h1>
+        <h1>Connecté</h1>
         <p>Nous créons <strong>un catalogue visuel</strong> de vos affaires. 
-        <br>Quand vous le souhaitez, vous planifiez online
-        <br> un retour de vos BlueBox.<br>
+        <br>Quand vous le souhaitez, vous planifiez <strong>online</strong> un retour de vos BlueBox.
         </p>
       </div>
       <div class="col-sm-6 col-md-6">
@@ -352,45 +366,61 @@
     </div>
 
   </div>
+  <div class="row">
+      <div class="col-md-12 text-center next">
+        <a href="#section4" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
+      </div>
+    </div>
 </div>
 
-<div class="spacer" id=""></div>
+<div class="spacer" id="section4"></div>
 
 <div class="capacity">
   <div class="container">
     <div class="row text-right">
-      <div class="col-sm-12">
+      <div class="col-sm-12 title">
       
-        <h1><b>Sur-mesure</b></h1>
-        <p>Nous vous donnons le choix</p>
+        <h1>Sur-mesure</h1>
+        <p>Choisissez selon vos besoin de stockage</p>
 
       </div>
     </div>
     <div class="row text-center">  
       <div class="col-md-4" id="MissBB">
         <img src="/images/MissBB.png" alt="Miss BlueBox" width="250" class="img-responsive center-block">
+        <h4>Ma BlueBox</h4>
         <p>130 DVD, 70 livres
         <br>ou 14 paires de chaussures...
         </p>
       </div>
       <div class="col-md-4">
         <img src="/images/Misspenderie.png" alt="My close" width="250" class="img-responsive center-block">
+        <h4>Ma PenderiBox</h4>
         <p>1O manteaux
         <br>ou 20 chemises...
         </p>
       </div>
       <div class="col-md-4">
         <img src="/images/Objvol.png" alt="Objets volumineux: ski, bagage, sac de golf" width="250" class="img-responsive center-block">
+        <h4>Mes objets volumineux</h4>
         <p>Vélo, ski,
         <br>bagages...
         </p>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-md-12 text-center next">
+        <a href="#section5" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
+      </div>
+    </div>
+
+</div>
     
   </div>
 </div>
 
-<div class="spacer-2" id="securite"></div>
+<div class="spacer-2" id="section5"></div>
 
 <div class="security">
   
