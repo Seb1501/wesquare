@@ -6,10 +6,12 @@ $secondary-font: 'Open Sans', sans-serif;
 $primary-color: rgba(3, 30, 192, 1);
 $primary-color-with-opacity80:rgba(3, 30, 192, 0.8);
 $secondary-color: rgba(149, 149, 149, 1);
-$nav-background-color: rgba(255, 255, 255, 0.4);
+$nav-background-color: rgba(255, 255, 255, 0.9);
 $section-background-color: rgba(244,241,236,1);
 $body-color: rgba(70,70,70,1);
 $body-size: 12px;
+$font-size-medium: 14px;
+$font-size-small: 8px;
 
 
 /*********************BODY***************************************************************************************************/
@@ -31,11 +33,11 @@ body{
 
 
 .table {
-	font-size: 8px;
+	font-size: $font-size-small;
 }
 
 .faq {
-	font-size: 14px;
+	font-size: $font-size-medium;
 
 	h1{
 		font-family: $primary-font;
@@ -130,6 +132,7 @@ body{
     border-bottom: 1px solid $nav-background-color;
     // text-transform: uppercase;
     font-family: $secondary-font;
+    font-weight: 600;
     background-color: $nav-background-color;
 }
 
@@ -174,7 +177,7 @@ body{
     .navbar {
         padding: 20px 0;
         border-bottom: 0;
-        font-size: 14px;
+        font-size: $font-size-medium;
         letter-spacing: 1px;
         background: 0 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -240,7 +243,7 @@ body{
 	/*background: rgba(0, 0, 0, .2);*/
 	display: inline-block;
 	padding: 0.1em;
-	font-size: 14px;
+	font-size: $font-size-medium;
 	font-weight: 400;
 	// letter-spacing: 1px;
 	margin-bottom: 0.3em;
@@ -388,7 +391,7 @@ font-size: 14px;
 // 	/*box-shadow: 1px 1px 1px rgba(113,28,243,1);*/
 // }
 
-.le_service, .inventory, .capacity, .security, {
+.le_service, .inventory, .capacity, .security, .header-carousel, .offer {
 
 
 	h1{
@@ -410,14 +413,47 @@ font-size: 14px;
 
 }
 
-.next {
+.call{
+
+	h1{
+	color: $primary-color;
+	font-family: $primary-font;
+	}
+
+	h3{
+	color: $primary-color;
+	font-family: $primary-font;
+	}
+
+	h4{
+	color: $primary-color;
+	font-family: $primary-font;
+	text-align: center;
+	margin-top: 6em;
+	}
+
+
+
+}
+
+.next-section {
 	
 	padding-top: 25px;
+	padding-bottom: 10px;
 
 	a {
 	
 	color: $primary-color;
 	font-size: $body-size;
+	}
+}
+
+.next-section-2 {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	a{
+		color: white;
+		font-size: $body-size;
 	}
 }
 
@@ -517,6 +553,7 @@ font-size: 14px;
 }
 
 
+
 // .fade_away {
 //     opacity: 0.95;/* l'opacite que vous voulez au depart */
 //     border: none;/* enlever les border d'une image en lien */
@@ -571,7 +608,10 @@ font-size: 14px;
 /*****************CAROUSEL****************************************************************************************************/
 
 .header-carousel{
-	padding-bottom: 2em;
+	p{
+	padding-bottom: 3em;	
+	}
+	
 }
 
 .carousel-inner {
@@ -588,16 +628,16 @@ font-size: 14px;
 	img{
 	/*margin:auto;*/
 	padding-bottom: 20px;
-	height: 300px;
-	width: 200px;
+	height:250px;
+	width: 170px;
 	/*max-height: 500px;*/
 	}	
 }
 
 
-.carousel-indicators {
-  bottom:-30px;
-}
+// .carousel-indicators {
+//   bottom:-30px;
+// }
 
 .glyphicon-custom{
 	
@@ -617,10 +657,10 @@ font-size: 14px;
 
 
 
-.carousel-caption{
-	color: black;
+// .carousel-caption{
+// 	color: black;
 	
-}
+// }
 
 
 .carousel-indicators li {
@@ -632,9 +672,16 @@ font-size: 14px;
   background-color: $primary-color;
 }
 
-.carousel-control.left, .carousel-control.right {
-    background-image: none
-}
+
+.carousel-control.left,.carousel-control.right {background-image:none;}
+
+
+// .header-carousel {
+// 	p{
+// 		margin-bottom: 50px;
+// 	}
+// }
+
 
 /****************PROFIL********************************************************************************************/
 
@@ -704,6 +751,10 @@ blockquote{
 
 
 
+/*****************************CALL*****************************************************************************************/
+
+
+
 /*****************************FOOTER*****************************************************************************************/
 
 
@@ -713,6 +764,7 @@ blockquote{
 	background-color: white;
 	padding: 1em;
 	margin-top: 2em;
+	margin-bottom: 2em;
 }
 
 #footer{
@@ -726,5 +778,9 @@ blockquote{
 
 	a:hover {
 	color: $secondary-color;
+	}
+	p{
+	margin-top: 10px;
+	color: $primary-color;
 	}
 }

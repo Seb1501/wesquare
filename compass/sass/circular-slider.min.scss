@@ -23,28 +23,64 @@ SOFTWARE.
 **/
 
 @import 'compass/css3';
+$primary-font: 'Montserrat', sans-serif;
+$secondary-font: 'Open Sans', sans-serif;
+$primary-color: rgba(3, 30, 192, 1);
+$primary-color-with-opacity80:rgba(3, 30, 192, 0.8);
+$secondary-color: rgba(149, 149, 149, 1);
+$nav-background-color: rgba(255, 255, 255, 0.4);
+$section-background-color: rgba(244,241,236,1);
+$body-color: rgba(70,70,70,1);
+$body-size: 12px;
+$font-size-medium: 14px;
+$font-size-small: 8px;
+
 
 .value{
 	color: white;
-	font-size: 30px;
-	font-weight: bold;
+	font-size: 25px;
 	padding-top: 20px;
+	font-family: $primary-font;
+	margin-bottom: 10px;
 }
 
 .monthlyprice{
 	color: white;
-	font-size: 14px;
+	font-size: $body-size;
+	font-family: $secondary-font;
+	margin-bottom: 10px;
 }
 
-#displayValue, #displayValue2, #displayValue3, #displayValue4, #displayValue5, #displayValue6{
+#displayValue, #displayValue2, #displayValue3, #displayValue4, #displayValue5 {
 	@extend .value;
 }
+
+#displayValue6{
+	@extend .value;
+	color: transparent;
+}
+
 
 .sous-total{
 	@extend .value;
+
+}
+
+#split{
+	border-right: 1px solid white;
+
 }
 
 #price, #price2, #price3, #price4, #price5, #price6{
+	@extend .monthlyprice;
+}
+
+#price6{
+	@extend .monthlyprice;
+	color: transparent;
+}
+
+#text{
 	@extend .monthlyprice;
 }
 
@@ -78,11 +114,20 @@ SOFTWARE.
 	outline:0;
 }
 
+.circle{
+	border-radius: 50%;
+	border: 5px solid white;
+	padding: 19px;
+	margin: 5px;
+	/*box-shadow: 1px 1px 1px rgba(113,28,243,1);*/
+}
+
+
 .jcs-indicator{
 	position:absolute;
 	border-radius:100%;
 	background-color:white;
-	border:1px solid white;
+	border:8px solid white;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	pointer-events:none;
