@@ -6,11 +6,13 @@ $secondary-font: 'Open Sans', sans-serif;
 $primary-color: rgba(3, 30, 192, 1);
 $primary-color-with-opacity80:rgba(3, 30, 192, 0.8);
 $secondary-color: rgba(149, 149, 149, 1);
+$tertiary-color: rgba(243, 147, 28, 1);
 $nav-background-color: rgba(255, 255, 255, 0.9);
 $section-background-color: rgba(244,241,236,1);
 $body-color: rgba(70,70,70,1);
 $body-size: 12px;
 $font-size-medium: 14px;
+$font-size-big: 18px;
 $font-size-small: 8px;
 
 
@@ -195,6 +197,31 @@ body{
     }
 }
 
+.btn {
+    font-family: $secondary-font;
+    font-size: $font-size-medium;
+    font-weight: 600;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    @include border-radius(0px);
+}
+
+.btn-default {
+    border: 1px solid $tertiary-color;
+    color: $tertiary-color !important;
+    background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid $tertiary-color;
+    outline: 0;
+    color: white !important;
+    background-color: $tertiary-color !important;
+}
+
+
 
 
 /************************WRAPPER*DE*LA*LANDING*****************************************************************************/
@@ -277,7 +304,6 @@ body{
 	font-size: 14px;
 	color: white;
 	}
-
 	h4{
 	font-family: inherit;
 	font-size: 18px;
@@ -293,6 +319,26 @@ body{
 .modal-footer{
 	background-color: $primary-color-with-opacity80;
 }
+
+.offer-modal-body {
+	margin-left: 10px;
+	p {
+	font-family: inherit;
+	font-size: $secondary-font;
+	color: black;
+	}
+	b {
+	color: $primary-color;
+	}
+
+	
+}
+
+.offer-modal-footer{
+	background-color: white;
+}
+
+
 
 /*.wufoo label.desc, .wufoo legend.desc {
 font-family: 'PT Sans', sans-serif;
@@ -342,6 +388,11 @@ font-size: 14px;
 
 .spacer-2{
 	background-color: $section-background-color;
+	@extend .spacer;
+}
+
+.space-4{
+	background-color: $tertiary-color;
 	@extend .spacer;
 }
 
@@ -415,6 +466,8 @@ font-size: 14px;
 
 .call{
 
+	background-color: $tertiary-color;
+
 	h1{
 	color: $primary-color;
 	font-family: $primary-font;
@@ -429,7 +482,13 @@ font-size: 14px;
 	color: $primary-color;
 	font-family: $primary-font;
 	text-align: center;
-	margin-top: 6em;
+	margin-top: 7em;
+	}
+
+	button{
+		font-family: $primary-font;
+		font-size: $font-size-big;
+		margin-top: 1em;
 	}
 
 
@@ -546,9 +605,19 @@ font-size: 14px;
 		color: white;
 	}
 
+	h3{
+		color: white;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
 	p{
 		margin:0;
 		color: white;
+	}
+
+	a{
+		color: $tertiary-color;
 	}
 }
 
@@ -764,7 +833,7 @@ blockquote{
 	background-color: white;
 	padding: 1em;
 	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 
 #footer{
