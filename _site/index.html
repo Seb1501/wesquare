@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="/css/circular-slider.min.css">
 
     <!-- <link rel="shortcut icon" href="/images/icon_40790/favicon.ico"> -->
-     <link rel="shortcut icon" href="/images/favicon.ico">
+     <link rel="shortcut icon" href="/images/favicon_new.ico">
 
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -440,7 +440,7 @@
         
           <h1>Sécurité</h1>
           <p> Vos affaires soient transportées et stockées dans les meilleurs conditions possibles. 
-          <br> Wesquare&reg; ne badine vraiment pas avec la sécurité. 
+          <br> wesquare&reg; ne badine vraiment pas avec la sécurité. 
           </p>
         </div>
         <div class="col-sm-6 col-md-6">
@@ -473,7 +473,7 @@
               <img src="images/Assurance.png" width="69" class="img-responsive center-block">
             </div>
             <div class="col-sm-6 col-md-8 text-center">          
-              <p>Vos Box et Objets volumineux sont <strong>assurées par AXA</strong>- <i>l'assurance a été spécifiquement conçue pour weSquare&reg;.</i></p>
+              <p>Vos Box et Objets volumineux sont <strong>assurées par AXA</strong>- <i>l'assurance a été spécifiquement conçue pour wesquare&reg;.</i></p>
             </div>
           </div>
           <div class="row">
@@ -964,7 +964,7 @@
       <div class="col-md-6 text-left">
       <h1>On s'occupe de tout.</h1>
       <h3>Commandez au 01 82 09 71 79.</h3>
-       <button class="btn btn-default btn-lg" data-toggle="modal" data-target="#OrderForm">
+       <button class="btn btn-default btn-lg" data-toggle="modal" data-target="#CallBack">
        <i class="fa fa-phone"> </i> On vous rappelle  
       </button>
 
@@ -1001,6 +1001,49 @@
   </div>
 </div>
 
+<!-- Modal -->
+<div class="modal fade" id="CallBack" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h2 class="modal-title" id="myModalLabel">Vous souhaitez être rappellé ? </h2>
+        <p><i>Merci de nous donner vous coordonnées.</i></p>
+        
+      </div>
+      <div class="modal-body">
+        
+        <div id="wufoo-z191c0ch0kbdo1a">
+        </div>
+        <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"></div>
+        <script type="text/javascript">var z191c0ch0kbdo1a;(function(d, t) {
+        var s = d.createElement(t), options = {
+        'userName':'wesquare',
+        'formHash':'z191c0ch0kbdo1a',
+        'autoResize':true,
+        'height':'200',
+        'async':true,
+        'host':'wufoo.com',
+        'header':'hide',
+        'ssl':true};
+        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+        s.onload = s.onreadystatechange = function() {
+        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+        try { z191c0ch0kbdo1a = new WufooForm();z191c0ch0kbdo1a.initialize(options);z191c0ch0kbdo1a.display(); } catch (e) {}};
+        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+        })(document, 'script');</script>
+
+
+               
+      </div>
+      <!-- <div class="modal-footer"> -->
+        <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      <!-- </div> -->
+    </div>
+  </div>
+</div> 
+
 
 <script>
     $('#myCarousel').carousel({
@@ -1017,8 +1060,10 @@
         <div class="row">
           <div class="col-md-offet-1 col-md-5 text-right">
             <ul class="list-inline">
-            <li>           
+            <li>
+              <a href="/index.html">          
               <img src="/images/wesquare2.png" width="100">
+              </a> 
             </li>
             <li>
               <p>&copy;wesquare 2015. Tous droits réservés</p>
@@ -1033,10 +1078,10 @@
                 <a href="#">CGV</a>
               </li>
               <li>
-                <a href="/FAQ.html">FAQ</a>
+                <a href="/FAQ.html" target="_BLANK">FAQ</a>
               </li>
               <li>
-                <a href="/Blog.html">Blog</a>
+                <a href="/Blog/index.html" target="_BLANK">Blog</a>
               </li>
               <li>
                 <a href="#">Team</a>

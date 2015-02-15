@@ -304,11 +304,11 @@ body{
 	font-size: 14px;
 	color: white;
 	}
-	h4{
-	font-family: inherit;
-	font-size: 18px;
-	color: white;
-	}
+	// h4{
+	// font-family: inherit;
+	// font-size: 18px;
+	// color: white;
+	// }
 }
 
 .modal-header {
@@ -464,36 +464,6 @@ font-size: 14px;
 
 }
 
-.call{
-
-	background-color: $tertiary-color;
-
-	h1{
-	color: $primary-color;
-	font-family: $primary-font;
-	}
-
-	h3{
-	color: $primary-color;
-	font-family: $primary-font;
-	}
-
-	h4{
-	color: $primary-color;
-	font-family: $primary-font;
-	text-align: center;
-	margin-top: 7em;
-	}
-
-	button{
-		font-family: $primary-font;
-		font-size: $font-size-big;
-		margin-top: 1em;
-	}
-
-
-
-}
 
 .next-section {
 	
@@ -750,6 +720,70 @@ font-size: 14px;
 // 		margin-bottom: 50px;
 // 	}
 // }
+
+/******************CALL********************************************************************************************/
+
+.call{
+
+	background-color: $tertiary-color;
+
+	h1{
+	color: $primary-color;
+	font-family: $primary-font;
+	}
+
+	h2{
+	color: white;
+	font-family: $secondary-font;
+	font-weight: 400;
+	font-size: $font-size-big;
+
+	}
+
+	h3{
+	color: $primary-color;
+	font-family: $primary-font;
+	}
+
+	h4{
+	color: $primary-color;
+	font-family: $primary-font;
+	text-align: center;
+	margin-top: 7em;
+	}
+
+	p{
+	color: white;
+	font-family: $secondary-font;
+	}
+
+
+
+	button{
+		font-family: $primary-font;
+		font-size: $font-size-big;
+		margin-top: 1em;
+	}
+
+
+}
+
+
+
+.call .btn-default {
+    border: 1px solid $primary-color;
+    color: $primary-color !important;
+    background-color: transparent;
+}
+
+.call .btn-default:hover,
+.call .btn-default:focus {
+    border: 1px solid $primary-color;
+    outline: 0;
+    color: white !important;
+    background-color: $primary-color !important;
+}
+
 
 
 /****************PROFIL********************************************************************************************/
