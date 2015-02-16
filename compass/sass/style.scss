@@ -16,6 +16,7 @@ $font-size-big: 18px;
 $font-size-small: 8px;
 
 
+
 /*********************BODY***************************************************************************************************/
 
 
@@ -196,6 +197,22 @@ body{
         border-bottom: 1px solid $nav-background-color;
     }
 }
+
+
+
+.nav .btn {
+	font-family: $secondary-font;
+    font-size: $font-size-medium;
+    font-weight: 600;
+    @include border-radius(0px);
+}
+
+.nav .btn-default {
+	border: 1px solid $tertiary-color;
+    color: white !important;
+    background-color: $tertiary-color;
+}
+
 
 .btn {
     font-family: $secondary-font;
@@ -383,7 +400,7 @@ font-size: 14px;
 // }
 
 .spacer{
-	height: 7em;
+	height: 5em;
 }
 
 .spacer-2{
@@ -391,7 +408,7 @@ font-size: 14px;
 	@extend .spacer;
 }
 
-.space-4{
+.spacer-4{
 	background-color: $tertiary-color;
 	@extend .spacer;
 }
@@ -442,18 +459,24 @@ font-size: 14px;
 // 	/*box-shadow: 1px 1px 1px rgba(113,28,243,1);*/
 // }
 
+
+
 .le_service, .inventory, .capacity, .security, .header-carousel, .offer {
 
 
 	h1{
 	color: $primary-color;
 	font-family: $primary-font;
+	font-size: 50px;
+	margin-bottom: 0px;
 	}
 
 	h3{
 	color: $secondary-color;
 	font-family: $secondary-font;
-	margin-bottom: 50px;
+	font-size: 30px;
+	margin-top: 0px;
+	margin-bottom: 20px;
 	}
 	h4{
 	color: $primary-color;
@@ -464,6 +487,27 @@ font-size: 14px;
 
 }
 
+.inventory{
+	
+
+	h1{
+		
+		margin-top: 140px;
+	}
+}
+
+
+.next-section-wrapper {
+
+	padding-top: 140px;
+	padding-bottom: 10px;
+
+	a {
+	
+	color: $primary-color;
+	font-size: $body-size;
+	}
+}
 
 .next-section {
 	
@@ -504,8 +548,9 @@ font-size: 14px;
 
 /**************************LE*SERVICE*********************************************************************************/
 
-.service{
-	height: 500px;
+.le_service{
+	
+
 }
 
 #step {
@@ -544,6 +589,13 @@ font-size: 14px;
 	}
 }
 
+#MissBB{
+	padding-top: 80px;
+	padding-bottom: -50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
 
 /*****************************SECURITE*****************************************************************************************/
 
@@ -728,7 +780,7 @@ font-size: 14px;
 	background-color: $tertiary-color;
 
 	h1{
-	color: $primary-color;
+	
 	font-family: $primary-font;
 	}
 
@@ -741,15 +793,15 @@ font-size: 14px;
 	}
 
 	h3{
-	color: $primary-color;
+	color: white;
 	font-family: $primary-font;
 	}
 
 	h4{
-	color: $primary-color;
+	color: white;
 	font-family: $primary-font;
 	text-align: center;
-	margin-top: 7em;
+	margin-top: 2em;
 	}
 
 	p{
@@ -865,9 +917,9 @@ blockquote{
 
 #footer{
 	background-color: white;
-	padding: 1em;
-	margin-top: 2em;
-	margin-bottom: 1em;
+	padding-top: 4em;
+	margin-top: 3em;
+	margin-bottom: 3em;
 }
 
 #footer{

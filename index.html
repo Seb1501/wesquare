@@ -18,7 +18,7 @@ adress: http://www.we-square.com
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12 text-center next-section">
+      <div class="col-md-12 text-center next-section-wrapper">
         <a href="#section2" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
       </div>
     </div>
@@ -73,10 +73,16 @@ adress: http://www.we-square.com
   <div class="container">
     <div class="row text-left">
       <div class="col-xs-12 col-md-offset-1">
-        <h1>Simple</h1>
-        <h3>Comme 1,2,3...4!</h3>
+        <h1>Simple.</h1>
+        <h3>Comme 1, 2, 3...4 !</h3>
+        <a class="page-scroll btn btn-default btn-lg" href="{{ site.baseurl }}/index.html#section7"><i class="fa fa-play-circle"></i> A VOUS DE JOUER</a>
       </div>
-    </div>  
+    </div> 
+
+
+
+
+
     <div class="row">
       <div class="col-sm-6 col-md-3">
         <h4><b>Commandez.</b></h4>
@@ -131,8 +137,10 @@ adress: http://www.we-square.com
       
         <h1>Connecté</h1>
         <p>Nous créons <strong>un catalogue visuel</strong> de vos affaires. 
-        <br>Quand vous le souhaitez, vous planifiez <strong>online</strong> un retour de vos BlueBox.
+        <br>Quand vous le souhaitez, vous planifiez <strong>online</strong>
+        <br> un retour de vos BlueBox.
         </p>
+        
       </div>
       <div class="col-sm-6 col-md-6">
            
@@ -161,25 +169,26 @@ adress: http://www.we-square.com
       
         <h1>Sur-mesure</h1>
         <p>Une solution pour chacun vos besoins de stockage</p>
+        <a class="page-scroll btn btn-default btn-lg" href="{{ site.baseurl }}/index.html#section7"><i class="fa fa-play-circle"></i> A VOUS DE JOUER</a>
 
       </div>
     </div>
     <div class="row text-center">  
-      <div class="col-md-4" id="MissBB">
+      <div class="col-md-offset-1 col-md-3" id="">
         <img src="{{ site.baseurl }}/images/MissBB.png" alt="Miss BlueBox" width="250" class="img-responsive center-block">
         <h4>BlueBox</h4>
         <p>130 DVD, 70 livres
         <br>ou 14 paires de chaussures...
         </p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <img src="{{ site.baseurl }}/images/Misspenderie.png" alt="My close" width="250" class="img-responsive center-block">
         <h4>PenderiBox</h4>
         <p>1O manteaux
         <br>ou 20 chemises...
         </p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <img src="{{ site.baseurl }}/images/Objvol.png" alt="Objets volumineux: ski, bagage, sac de golf" width="250" class="img-responsive center-block">
         <h4>KingSize</h4>
         <p>Vélo, ski, sac de golf
@@ -187,9 +196,15 @@ adress: http://www.we-square.com
         </p>
       </div>
     </div>
+    <div class="row">
+      <div class="col-md-12 text-right">
+        <a class="page-scroll btn btn-default btn-lg" href="{{ site.baseurl }}/index.html#section7"><i class="fa fa-play-circle"></i> A VOUS DE JOUER</a>
+      </div>
+    </div>
 
     <div class="row">
       <div class="col-md-12 text-center next-section">
+        <!-- <a class="page-scroll btn btn-default btn-lg" href="{{ site.baseurl }}/index.html#section7"><i class="fa fa-play-circle"></i> A VOUS DE JOUER</a> -->
         <a href="#section5" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
       </div>
     </div>
@@ -219,7 +234,7 @@ adress: http://www.we-square.com
             <div class="col-sm-6 col-md-4">
               <img src="{{ site.baseurl }}/images/Cam.png" width="69" class="img-responsive center-block">
             </div>
-            <div class="col-sm-6 col-md-8 text-center">
+            <div class="col-sm-6 col-md-8 text-left">
               <p>Nos entrepôts sont sécurisés <strong>7j/7, 24h/24</strong>.</p>
             </div>
           </div>
@@ -227,7 +242,7 @@ adress: http://www.we-square.com
             <div class="col-md-12 col-md-4">
               <img src="{{ site.baseurl }}/images/Termo.png" width="69" class="img-responsive center-block">
             </div>
-            <div class="col-sm-6 col-md-8 text-center">
+            <div class="col-sm-6 col-md-8 text-left">
               <p>Nous contrôlons la <strong>température</strong> et l'<strong>humidité</strong> dans nos entrepôts. </p>
             </div>
           </div>
@@ -235,7 +250,7 @@ adress: http://www.we-square.com
             <div class="col-md-12 col-md-4">
               <img src="{{ site.baseurl }}/images/Choc.png" width="68" class="img-responsive center-block">
             </div>
-            <div class="col-sm-6 col-md-8 text-center">
+            <div class="col-sm-6 col-md-8 text-left">
               <p>Vos BlueBox sont <strong>resistantes à tout choc</strong>. </p>
             </div>
           </div>
@@ -243,7 +258,7 @@ adress: http://www.we-square.com
             <div class="col-md-12 col-md-4">
               <img src="{{ site.baseurl }}images/Assurance.png" width="69" class="img-responsive center-block">
             </div>
-            <div class="col-sm-6 col-md-8 text-center">          
+            <div class="col-sm-6 col-md-8 text-left">          
               <p>Vos Box et Objets volumineux sont <strong>assurées par AXA</strong>- <i>l'assurance a été spécifiquement conçue pour wesquare&reg;.</i></p>
             </div>
           </div>
@@ -251,7 +266,7 @@ adress: http://www.we-square.com
             <div class="col-md-12 col-md-4">
               <img src="{{ site.baseurl }}images/Chauffeur.png" width="69" class="img-responsive center-block">
             </div>
-            <div class="col-sm-6 col-md-8 text-center">   
+            <div class="col-sm-6 col-md-8 text-left">   
               <p>Nos chauffeurs sont minutieusement<strong>sélectionnés</strong></p>. 
             </div>
           </div>
@@ -312,19 +327,19 @@ adress: http://www.we-square.com
           <div class="item active">
             <div class="col-sm-6 col-md-4 text-center">
               <a href="Rodolphe.html" id="">
-              <img src="images/BOX_Rodolphe_pic.png" alt="BOX de Rodolphe" width="100" class="img-responsive center-block">
-              <h5>Rodolphe, 29 ans, Paris 10<sup>e</sup></h5>
+              <img src="images/BOX_Rodolphe_pic.png" alt="BOX de Rodolphe" width="150" class="img-responsive center-block">
+              <h5><b>Rodolphe, 29 ans, Paris 10<sup>e</sup></b></h5>
               </a>
             </div>
             <div class="col-sm-6 col-md-4 text-center">     
               <a href="Alice.html" id="">
-              <img src="images/BOX_Alice_pic.png" alt="BOX d'Alice" width="100" class="img-responsive center-block">
+              <img src="images/BOX_Alice_pic.png" alt="BOX d'Alice" width="150" class="img-responsive center-block">
               <h5>Alice, 23 ans, Paris 9<sup>e</sup></h5>
               </a>
             </div>
             <div class="col-sm-6 col-md-4 text-center">
               <a href="Fred.html" id="">
-              <img src="images/BOX_Fred_pic.png" alt="BOX de Fred" width="100" class="img-responsive center-block">
+              <img src="images/BOX_Fred_pic.png" alt="BOX de Fred" width="150" class="img-responsive center-block">
               <h5>Fred, 33 ans, Paris 4<sup>e</sup></h5>  
               </a>
             </div>
@@ -332,19 +347,19 @@ adress: http://www.we-square.com
           <div class="item">
             <div class="col-sm-6 col-md-4 text-center">
               <a href="See-Concept.html" id="">
-              <img src="images/BOX_See-Concept_pic.png" alt="BOX de See-Concept" width="100" class="img-responsive center-block">
+              <img src="images/BOX_See-Concept_pic.png" alt="BOX de See-Concept" width="150" class="img-responsive center-block">
               <h5>See-Concept, Paris 3<sup>e</sup></h5>
               </a>
             </div>
             <div class="col-sm-6 col-md-4 text-center">     
               <a href="Victoria.html" id="">
-              <img src="images/BOX_Victoria_pic.png" alt="BOX de Vic" width="100" class="img-responsive center-block">
+              <img src="images/BOX_Victoria_pic.png" alt="BOX de Vic" width="150" class="img-responsive center-block">
               <h5>Victoria, 24 ans, Paris 15<sup>e</sup></h5>
               </a>
             </div>
             <div class="col-sm-6 col-md-4 text-center">
               <a href="Beaubien.html" id="">
-              <img src="images/BOX_Beaubien_pic.png" alt="BOX de Beaubien" width="100" class="img-responsive center-block">
+              <img src="images/BOX_Beaubien_pic.png" alt="BOX de Beaubien" width="150" class="img-responsive center-block">
               <h5>Beaubien, Paris 3<sup>e</sup></h5>  
               </a>
             </div>
@@ -380,9 +395,8 @@ adress: http://www.we-square.com
       <div class="col-sm-12">
       
         <h1>Offre</h1>
-        <p>Livraison <b>gratuite</b> des Box vides</p>
-        <p>Ramassage <b>gratuit</b> des Box pleines</p> 
-        <p>Besoin de récupérer vos affaires? Retour dans les 48h pour <b>seulement 7,90 €</b> pour la 1 <sup>ère</sup> Box + 2,90 € par Box/Objet volumineux supplémentaire.</p>
+        <p>Jouez avec les curseurs pour simuler votre abonnement mensuel</p>
+        
         <!-- <p>Box/Objet volumineux <b>assurée</b> et <b>sécurisée</b>.</p> -->
         <!-- <br> -->
       </div>
@@ -391,10 +405,10 @@ adress: http://www.we-square.com
 
     <div class="row text-center">
       <div class="col-md-6">
-        <h3># de Box ?</h3>
+        <h3>Box</h3>
       </div>
       <div class="col-md-6">
-        <h3># de KingSize ?</h3>
+        <h3>KingSize</h3>
         <p><a data-toggle="modal" data-target="#List">Cliquez</a> pour consulter la liste des objets KingSize </p>
       </div>
     </div>
@@ -450,9 +464,9 @@ adress: http://www.we-square.com
       // HastTable correspondant au pricing : prix / unité / mois en fonction du nombre de BlueBox
       var prixParUniteBlueBox = new Hashtable();
       prixParUniteBlueBox.put(0, 0);
-      prixParUniteBlueBox.put(1, 5.95);
-      prixParUniteBlueBox.put(2, 5.55);
-      prixParUniteBlueBox.put(3, 5.40);
+      prixParUniteBlueBox.put(1, 6.95);
+      prixParUniteBlueBox.put(2, 6.55);
+      prixParUniteBlueBox.put(3, 6.25);
       prixParUniteBlueBox.put(4, 5.25);
       prixParUniteBlueBox.put(5, 5.15);
       prixParUniteBlueBox.put(6, 5.05);
@@ -729,13 +743,16 @@ adress: http://www.we-square.com
   <div class="container text-center">
     <div class="row text-left">
       <div class="col-md-6">
-        <img src="{{ site.baseurl }}/images/plateau.png" class="img-responsive center-block" width="200">
+        <img src="{{ site.baseurl }}/images/plateau.png" class="img-responsive center-block" width="300">
 
       </div>
       <div class="col-md-6 text-left">
       <h1>On s'occupe de tout.</h1>
+      <p>Livraison <b>gratuite</b> des Box vides</p>
+        <p>Ramassage <b>gratuit</b> des Box pleines</p> 
+        <p>Récupérer vos affaires dans les 24h pour <b>seulement 8,90 €</b> pour la 1 <sup>ère</sup> Box + 2,50 € par Box/Objet KingSize en plus.</p>
       <h3>Commandez au 01 82 09 71 79.</h3>
-       <button class="btn btn-default btn-lg" data-toggle="modal" data-target="#CallBack">
+       <button class="btn btn-default btn-lg" data-toggle="modal" data-target="#CallBack" onclick="ga('send','event','contact','callback', 'section call');">
        <i class="fa fa-phone"> </i> On vous rappelle  
       </button>
 
@@ -817,10 +834,10 @@ adress: http://www.we-square.com
 
 
 <script>
-    $('#myCarousel').carousel({
+    $("#myCarousel").carousel({
         interval: 9000,
         pause: "hover",
-    })
+    });
 
 
 </script>

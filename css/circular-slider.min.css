@@ -21,7 +21,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 **/
-/* line 39, ../compass/sass/circular-slider.min.scss */
+/* line 40, ../compass/sass/circular-slider.min.scss */
 .value, #displayValue, #displayValue2, #displayValue3, #displayValue4, #displayValue5, #displayValue6, .sous-total {
   color: white;
   font-size: 25px;
@@ -30,7 +30,7 @@ SOFTWARE.
   margin-bottom: 10px;
 }
 
-/* line 47, ../compass/sass/circular-slider.min.scss */
+/* line 48, ../compass/sass/circular-slider.min.scss */
 .monthlyprice, #price, #price2, #price3, #price4, #price5, #price6, #text {
   color: white;
   font-size: 12px;
@@ -38,22 +38,22 @@ SOFTWARE.
   margin-bottom: 10px;
 }
 
-/* line 58, ../compass/sass/circular-slider.min.scss */
+/* line 59, ../compass/sass/circular-slider.min.scss */
 #displayValue6 {
   color: transparent;
 }
 
-/* line 69, ../compass/sass/circular-slider.min.scss */
+/* line 70, ../compass/sass/circular-slider.min.scss */
 #split {
   border-right: 1px solid white;
 }
 
-/* line 78, ../compass/sass/circular-slider.min.scss */
+/* line 79, ../compass/sass/circular-slider.min.scss */
 #price6 {
   color: transparent;
 }
 
-/* line 88, ../compass/sass/circular-slider.min.scss */
+/* line 89, ../compass/sass/circular-slider.min.scss */
 .jcs {
   position: relative;
   border-style: solid;
@@ -65,7 +65,7 @@ SOFTWARE.
   cursor: pointer;
 }
 
-/* line 105, ../compass/sass/circular-slider.min.scss */
+/* line 106, ../compass/sass/circular-slider.min.scss */
 .jcs-value {
   position: absolute;
   border-radius: 100%;
@@ -78,7 +78,7 @@ SOFTWARE.
   outline: 0;
 }
 
-/* line 117, ../compass/sass/circular-slider.min.scss */
+/* line 118, ../compass/sass/circular-slider.min.scss */
 .circle {
   border-radius: 50%;
   border: 5px solid white;
@@ -87,18 +87,18 @@ SOFTWARE.
   /*box-shadow: 1px 1px 1px rgba(113,28,243,1);*/
 }
 
-/* line 126, ../compass/sass/circular-slider.min.scss */
+/* line 127, ../compass/sass/circular-slider.min.scss */
 .jcs-indicator {
   position: absolute;
   border-radius: 100%;
   background-color: white;
-  border: 8px solid white;
+  border: 8px solid #f3931c;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   pointer-events: none;
 }
 
-/* line 136, ../compass/sass/circular-slider.min.scss */
+/* line 137, ../compass/sass/circular-slider.min.scss */
 .jcs-panel {
   position: relative;
   display: inline-block;
@@ -107,7 +107,7 @@ SOFTWARE.
   cursor: pointer;
 }
 
-/* line 144, ../compass/sass/circular-slider.min.scss */
+/* line 145, ../compass/sass/circular-slider.min.scss */
 .jcs-value img {
   border-radius: 100%;
   background: 0 0;
@@ -115,7 +115,7 @@ SOFTWARE.
   height: inherit;
 }
 
-/* line 151, ../compass/sass/circular-slider.min.scss */
+/* line 152, ../compass/sass/circular-slider.min.scss */
 .noselect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
