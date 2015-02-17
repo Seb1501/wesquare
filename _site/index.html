@@ -323,10 +323,6 @@
       </div>
     </div> 
 
-
-
-
-
     <div class="row">
       <div class="col-sm-6 col-md-3">
         <h4><b>Commandez.</b></h4>
@@ -378,18 +374,20 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-6 col-md-6 text-right">
-      
+
+        <div class="hidden-xs alignement">
+        </div>
         <h1>Connecté</h1>
         <p>Nous créons <strong>un catalogue visuel</strong> de vos affaires. 
         <br>Quand vous le souhaitez, vous planifiez <strong>online</strong>
         <br> un retour de vos BlueBox.
         </p>
-        
+
       </div>
       <div class="col-sm-6 col-md-6">
            
      
-        <img src="images/Ecran.png" class="img-responsive pull-right">
+        <img src="images/Ecran2.png" class="img-responsive pull-right">
         <!-- <a class="btn btn-primary btn-lg" href="mon_espace.html"> -->
         <!-- <i class="fa fa-square"></i> <strong>VOIR MON INVENTAIRE</strong>
         </a> -->
@@ -398,7 +396,7 @@
 
   </div>
   <div class="row">
-      <div class="col-md-12 text-center next-section">
+      <div class="col-md-12 text-center next-section-inventory">
         <a href="#section4" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
       </div>
     </div>
@@ -409,30 +407,34 @@
 <div class="capacity">
   <div class="container">
     <div class="row text-right">
-      <div class="col-sm-12 title">
+      <div class="col-md-12 title">
       
         <h1>Sur-mesure</h1>
         <p>Une solution pour chacun vos besoins de stockage</p>
+
+      <div class="col-md-12 text-center">
         <a class="page-scroll btn btn-default btn-lg" href="/index.html#section7"><i class="fa fa-play-circle"></i> A VOUS DE JOUER</a>
+      </div>
 
       </div>
     </div>
-    <div class="row text-center">  
-      <div class="col-md-offset-1 col-md-3" id="">
-        <img src="/images/MissBB.png" alt="Miss BlueBox" width="250" class="img-responsive center-block">
+    <div class="row text-center">
+
+      <div class="col-sm-6 col-md-4" id="">
+        <img src="/images/MissBB2.png" alt="Miss BlueBox" width="250" class="img-responsive center-block">
         <h4>BlueBox</h4>
         <p>130 DVD, 70 livres
         <br>ou 14 paires de chaussures...
         </p>
       </div>
-      <div class="col-md-3">
+      <div class="col-sm-6 col-md-4">
         <img src="/images/Misspenderie.png" alt="My close" width="250" class="img-responsive center-block">
         <h4>PenderiBox</h4>
         <p>1O manteaux
         <br>ou 20 chemises...
         </p>
       </div>
-      <div class="col-md-3">
+      <div class="col-sm-12 col-md-4">
         <img src="/images/Objvol.png" alt="Objets volumineux: ski, bagage, sac de golf" width="250" class="img-responsive center-block">
         <h4>KingSize</h4>
         <p>Vélo, ski, sac de golf
@@ -440,14 +442,9 @@
         </p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-12 text-right">
-        <a class="page-scroll btn btn-default btn-lg" href="/index.html#section7"><i class="fa fa-play-circle"></i> A VOUS DE JOUER</a>
-      </div>
-    </div>
 
     <div class="row">
-      <div class="col-md-12 text-center next-section">
+      <div class="col-md-12 text-center next-section-inventory">
         <!-- <a class="page-scroll btn btn-default btn-lg" href="/index.html#section7"><i class="fa fa-play-circle"></i> A VOUS DE JOUER</a> -->
         <a href="#section5" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
       </div>
@@ -467,10 +464,12 @@
   <div class="container">
       <div class="row">
         <div class="col-sm-6 col-md-6 text-right">
-        
+
+          <div class="hidden-xs alignement">
+          </div>
           <h1>Sécurité</h1>
-          <p> Vos affaires soient transportées et stockées dans les meilleurs conditions possibles. 
-          <br> wesquare&reg; ne badine vraiment pas avec la sécurité. 
+          <p> Vos affaires soient transportées et stockées
+          <br> dans les meilleurs conditions possibles.  
           </p>
         </div>
         <div class="col-sm-6 col-md-6">
@@ -483,7 +482,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12 col-md-4">
+            <div class="col-sm-12 col-md-4">
               <img src="/images/Termo.png" width="69" class="img-responsive center-block">
             </div>
             <div class="col-sm-6 col-md-8 text-left">
@@ -521,7 +520,7 @@
       </div>
 
       <div class="row">
-        <div class="col-md-12 text-center next-section">
+        <div class="col-md-12 text-center next-section-security">
           <a href="#section6" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
         </div>
       </div>
@@ -790,7 +789,7 @@
       $('#slider').CircularSlider({
         min: 0,
         max: 20,
-        value: 0,
+        value: 4,
         radius: 45,
         innerCircleRatio : .5,
         slide: function(ui,value) {
