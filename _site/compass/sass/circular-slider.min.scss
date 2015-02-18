@@ -25,10 +25,10 @@ SOFTWARE.
 @import 'compass/css3';
 $primary-font: 'Montserrat', sans-serif;
 $secondary-font: 'Open Sans', sans-serif;
-$primary-color: rgba(3, 30, 192, 1);
-$primary-color-with-opacity80:rgba(3, 30, 192, 0.8);
+$primary-color: rgba(16, 49, 186, 1);
+$primary-color-with-opacity80:rgba(16, 49, 186, 0.8);
 $secondary-color: rgba(149, 149, 149, 1);
-$tertiary-color: rgba(243, 147, 28, 1);
+$tertiary-color: rgba(255, 114, 0, 1);
 $nav-background-color: rgba(255, 255, 255, 0.4);
 $section-background-color: rgba(244,241,236,1);
 $body-color: rgba(70,70,70,1);
@@ -67,9 +67,11 @@ $font-size-small: 8px;
 
 }
 
-#split{
+@media(min-width:900px){
+	#split{
 	border-right: 1px solid white;
 
+	}
 }
 
 #price, #price2, #price3, #price4, #price5, #price6{
@@ -111,7 +113,7 @@ $font-size-small: 8px;
 	pointer-events:none;
 	line-height:4em;
 	color:#fff;
-	background-color:rgba(3, 30, 192, 1);
+	background-color:$primary-color;
 	outline:0;
 }
 

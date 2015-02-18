@@ -43,17 +43,18 @@ SOFTWARE.
   color: transparent;
 }
 
-/* line 70, ../compass/sass/circular-slider.min.scss */
-#split {
-  border-right: 1px solid white;
+@media (min-width: 900px) {
+  /* line 71, ../compass/sass/circular-slider.min.scss */
+  #split {
+    border-right: 1px solid white;
+  }
 }
-
-/* line 79, ../compass/sass/circular-slider.min.scss */
+/* line 81, ../compass/sass/circular-slider.min.scss */
 #price6 {
   color: transparent;
 }
 
-/* line 89, ../compass/sass/circular-slider.min.scss */
+/* line 91, ../compass/sass/circular-slider.min.scss */
 .jcs {
   position: relative;
   border-style: solid;
@@ -65,7 +66,7 @@ SOFTWARE.
   cursor: pointer;
 }
 
-/* line 106, ../compass/sass/circular-slider.min.scss */
+/* line 108, ../compass/sass/circular-slider.min.scss */
 .jcs-value {
   position: absolute;
   border-radius: 100%;
@@ -74,11 +75,11 @@ SOFTWARE.
   pointer-events: none;
   line-height: 4em;
   color: #fff;
-  background-color: #031ec0;
+  background-color: #1031ba;
   outline: 0;
 }
 
-/* line 118, ../compass/sass/circular-slider.min.scss */
+/* line 120, ../compass/sass/circular-slider.min.scss */
 .circle {
   border-radius: 50%;
   border: 5px solid white;
@@ -87,18 +88,18 @@ SOFTWARE.
   /*box-shadow: 1px 1px 1px rgba(113,28,243,1);*/
 }
 
-/* line 127, ../compass/sass/circular-slider.min.scss */
+/* line 129, ../compass/sass/circular-slider.min.scss */
 .jcs-indicator {
   position: absolute;
   border-radius: 100%;
   background-color: white;
-  border: 8px solid #f3931c;
+  border: 8px solid #ff7200;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   pointer-events: none;
 }
 
-/* line 137, ../compass/sass/circular-slider.min.scss */
+/* line 139, ../compass/sass/circular-slider.min.scss */
 .jcs-panel {
   position: relative;
   display: inline-block;
@@ -107,7 +108,7 @@ SOFTWARE.
   cursor: pointer;
 }
 
-/* line 145, ../compass/sass/circular-slider.min.scss */
+/* line 147, ../compass/sass/circular-slider.min.scss */
 .jcs-value img {
   border-radius: 100%;
   background: 0 0;
@@ -115,7 +116,7 @@ SOFTWARE.
   height: inherit;
 }
 
-/* line 152, ../compass/sass/circular-slider.min.scss */
+/* line 154, ../compass/sass/circular-slider.min.scss */
 .noselect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
