@@ -33,6 +33,11 @@ body{
 
 }
 
+.container {
+
+	height: 100%;
+}
+
 .format{
 	letter-spacing: 1px;
 }
@@ -275,6 +280,10 @@ body{
 	margin-bottom: 30px;
 	}
 }
+
+
+
+
 
 .lead {
 
@@ -603,8 +612,15 @@ font-size: 14px;
 	}
 }
 
-#MissBB{
+@media(min-width:320px) {
+
+	#MissBB{
 	padding-top: 80px;
+}
+
+}
+
+#MissBB{
 	padding-bottom: -50px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -859,6 +875,7 @@ font-size: 14px;
 		font-family: $primary-font;
 		font-size: $font-size-big;
 		margin-top: 1em;
+		margin-bottom: 1em;
 	}
 
 

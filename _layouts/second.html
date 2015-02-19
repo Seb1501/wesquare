@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>{{ page.title }}</title>
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
+    <!-- Meta facebook -->
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ page.adress }}/" />
+    <meta property="og:image" content="{{ page.image }}" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:description" content="{{ page.description }}" />
+    <meta property="og:site_name" content="WeSquare" />
+    <!-- <meta property="fb:admins" content="Facebook numeric ID"/> -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+   
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+    
+    <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/circular-slider.min.css">
+
+    <!-- <link rel="shortcut icon" href="{{site.baseurl}}/images/icon_40790/favicon.ico"> -->
+     <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon_new.ico">
+
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Script google analytics code de suivi -->
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-56291783-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+
+    <script>
+    /**
+    * Function that tracks a click on an outbound link in Google Analytics.
+    * This function takes a valid URL string as an argument, and uses that URL string
+    * as the event label.
+    */
+    var trackOutboundLink = function(url) {
+       ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+         function () {
+         document.location = url;
+         }
+       });
+    }
+    </script>    
+
+    <!-- Scroll depth initialisation-->
+
+    <script src="{{ site.baseurl }}/js/jquery.scrolldepth.min.js"></script>
+    <script>
+    jQuery(function() {
+    jQuery.scrollDepth();
+    });
+    </script> 
+
+    <!--Start of Zopim Live Chat Script-->
+    <script type="text/javascript">
+    window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+    d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+    _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+    $.src='//v2.zopim.com/?2eNGlEpK9MSapIv08jT7NlY4K5qHFmo5';z.t=+new Date;$.
+    type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+    </script>
+    
+    <!--End of Zopim Live Chat Script-->
+
+      <!-- jQuery -->
+    <script src="{{ site.baseurl }}/js/jquery.js"></script>
+
+       <!-- Plugin JavaScript -->
+    <script src="{{ site.baseurl }}/js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="{{ site.baseurl }}/js/grayscale.js"></script>
+
+    <!-- circular-slider -->
+    <script src="{{ site.baseurl }}/js/circular-slider.min.js"></script>
+
+    <!-- Including script simulating / permitting to use HashTable -->
+    <script type-"text/javascript" src="{{ site.baseurl }}/js/jshashtable-3.0.js"></script>
+  
+  </head>
+  
+  <body class="" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    
+
+    <!-- Script bouton share de Facebook -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    
+    <!--Navbar -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="{{ site.baseurl }}/index.html">
+                    <img src="{{ site.baseurl }}/images/Wesquare2.png" width="120">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <!-- <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li> -->
+                    <li>
+                        <a class="page-scroll" href="{{ site.baseurl }}/mon_espace.html">
+                        <i class="fa fa-user"></i> Se connecter
+                        </a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="{{ site.baseurl }}/index.html#section8" onclick="ga('send','event','Lien','Call','nav bar');">
+                        <i class="fa fa-phone"></i> 01 82 09 71 79
+                        </a>
+                    </li>
+                   <!--  <li>
+                        <a class="page-scroll" href="{{ site.baseurl }}/index.html#section8">
+                        Commandez
+                        </a>
+                    </li> -->
+                    <li>
+                        <a class="page-scroll btn btn-default btn-lg" href="{{ site.baseurl }}/index.html#section7" onclick="ga('send','event','Lien','Play','nav bar');"><i class="fa fa-play-circle"></i> À VOUS DE JOUER</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+  
+
+    {{ content }}
+
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-6 text-left">
+            <ul class="list-inline">
+              <li>
+              <a href="{{site.baseurl}}/index.html">          
+              <img src="{{site.baseurl}}/images/Wesquare2.png" width="100">
+              </a> 
+            </li>
+
+
+              <li>
+                <a href="#">Mentions légales</a>
+              </li>
+              <li>
+                <a href="#">CGV</a>
+              </li>
+              <li>
+                <a href="{{site.baseurl}}/FAQ.html" target="_BLANK">FAQ</a>
+              </li>
+              <li>
+                <a href="{{site.baseurl}}/blog/index.html" target="_BLANK">Blog</a>
+              </li>
+              <li>
+                <a href="{{site.baseurl}}/Team.html">Team</a>
+              </li>
+          </div>
+          <div class="col-sm-6 col-md-6 text-right">
+            <ul class="list-inline">
+              
+              <!-- <li>
+                <a href="https://twitter.com/projectX">
+                  <i class="fa fa-twitter fa-2x"></i>
+                </a>
+              </li> -->
+              <li>
+                <a href="https://www.facebook.com/Welcome2WeSquare" target="_BLANK">
+                  <i class="fa fa-facebook fa-2x"></i>
+                </a>
+              </li>
+              <li>
+                <a href="http://www.instagram.com/we_square" target="_BLANK">
+                  <i class="fa fa-instagram fa-2x"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UC_jHjuQRpD0hpQt2NAceStw" target="_BLANK">
+                  <i class="fa fa-youtube-square fa-2x"></i>
+                </a>
+              </li>
+              <li>
+                <a href="http://www.pinterest.com/we_square" target="_BLANK">
+                 <i class="fa fa-pinterest-square fa-2x"></i> 
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div> 
+        <div class="row">
+          <div class="col-sm-6 col-md-offet-2 col-md-5 text-left">
+            <ul class="list-inline">
+            
+
+            <li>
+              <p>&copy;wesquare&reg; 2015. Tous droits réservés.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+ 
+    
+
+    
+    
+  </body>
+</html>
