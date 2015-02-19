@@ -43,7 +43,7 @@ SOFTWARE.
   color: transparent;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
   /* line 71, ../compass/sass/circular-slider.min.scss */
   #split {
     border-right: 1px solid white;

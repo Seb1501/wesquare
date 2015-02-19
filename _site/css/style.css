@@ -518,25 +518,26 @@ font-size: 14px;
 /* line 695, ../compass/sass/style.scss */
 .orange {
   color: #ff7200;
+  font-weight: bold;
 }
 
 /*****************CAROUSEL****************************************************************************************************/
-/* line 753, ../compass/sass/style.scss */
+/* line 754, ../compass/sass/style.scss */
 .header-carousel p {
   padding-bottom: 3em;
 }
 
-/* line 760, ../compass/sass/style.scss */
+/* line 761, ../compass/sass/style.scss */
 .carousel-inner a {
   color: #1031ba;
 }
-/* line 764, ../compass/sass/style.scss */
+/* line 765, ../compass/sass/style.scss */
 .carousel-inner p {
   color: #031ec0;
   font-size: 14px;
   margin-top: -5px;
 }
-/* line 770, ../compass/sass/style.scss */
+/* line 771, ../compass/sass/style.scss */
 .carousel-inner img {
   /*margin:auto;*/
   padding-bottom: 20px;
@@ -545,79 +546,79 @@ font-size: 14px;
   /*max-height: 500px;*/
 }
 
-/* line 784, ../compass/sass/style.scss */
+/* line 785, ../compass/sass/style.scss */
 .glyphicon-custom, .carousel-control .glyphicon-chevron-right, .carousel-control .glyphicon-chevron-left {
   color: #1031ba;
   top: 150px;
 }
 
-/* line 790, ../compass/sass/style.scss */
+/* line 791, ../compass/sass/style.scss */
 .carousel-control .glyphicon-chevron-right {
   right: 50px;
 }
 
-/* line 795, ../compass/sass/style.scss */
+/* line 796, ../compass/sass/style.scss */
 .carousel-control .glyphicon-chevron-left {
   left: 50px;
 }
 
-/* line 807, ../compass/sass/style.scss */
+/* line 808, ../compass/sass/style.scss */
 .next-section-carousel {
   margin-top: 80px;
 }
 
-/* line 812, ../compass/sass/style.scss */
+/* line 813, ../compass/sass/style.scss */
 .carousel-indicators li {
   background-color: #1031ba;
 }
 
-/* line 818, ../compass/sass/style.scss */
+/* line 819, ../compass/sass/style.scss */
 .carousel-indicators .active {
   background-color: #1031ba;
 }
 
-/* line 824, ../compass/sass/style.scss */
+/* line 825, ../compass/sass/style.scss */
 .carousel-control.left, .carousel-control.right {
   background-image: none;
 }
 
 /******************CALL********************************************************************************************/
-/* line 835, ../compass/sass/style.scss */
+/* line 836, ../compass/sass/style.scss */
 .call {
   background-color: #ff7200;
 }
-/* line 839, ../compass/sass/style.scss */
+/* line 840, ../compass/sass/style.scss */
 .call h1 {
   font-family: "Montserrat", sans-serif;
   color: white;
 }
-/* line 845, ../compass/sass/style.scss */
+/* line 846, ../compass/sass/style.scss */
 .call h2 {
   color: white;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
 }
-/* line 853, ../compass/sass/style.scss */
+/* line 854, ../compass/sass/style.scss */
 .call h3 {
   color: white !important;
   font-family: "Montserrat", sans-serif;
 }
-/* line 858, ../compass/sass/style.scss */
+/* line 859, ../compass/sass/style.scss */
 .call h4 {
   color: white;
   font-family: "Montserrat", sans-serif;
   text-align: center;
   margin-top: 2em;
 }
-/* line 865, ../compass/sass/style.scss */
+/* line 866, ../compass/sass/style.scss */
 .call p {
   color: white;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 0px;
   font-size: 14px;
 }
-/* line 874, ../compass/sass/style.scss */
+/* line 875, ../compass/sass/style.scss */
 .call button {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
@@ -625,7 +626,7 @@ font-size: 14px;
   margin-bottom: 1em;
 }
 
-/* line 887, ../compass/sass/style.scss */
+/* line 888, ../compass/sass/style.scss */
 .call .btn {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -637,14 +638,14 @@ font-size: 14px;
   border-radius: 0px;
 }
 
-/* line 897, ../compass/sass/style.scss */
+/* line 898, ../compass/sass/style.scss */
 .call .btn-default {
   border: 1px solid #1031ba;
   color: white !important;
   background-color: #1031ba;
 }
 
-/* line 904, ../compass/sass/style.scss */
+/* line 905, ../compass/sass/style.scss */
 .call .btn-default:hover,
 .call .btn-default:focus {
   border: 1px solid #1031ba;
@@ -654,12 +655,12 @@ font-size: 14px;
 }
 
 /****************PROFIL********************************************************************************************/
-/* line 917, ../compass/sass/style.scss */
+/* line 918, ../compass/sass/style.scss */
 .profil a {
   color: #1031ba;
 }
 
-/* line 921, ../compass/sass/style.scss */
+/* line 922, ../compass/sass/style.scss */
 .box-custom, .box-Rodolphe, .box-Alice, .box-Fred, .box-Victoria, .box-Beaubien, .box-See-Concept {
   background-size: cover;
   background-repeat: no-repeat;
@@ -675,105 +676,105 @@ font-size: 14px;
   color: white;
 }
 
-/* line 937, ../compass/sass/style.scss */
+/* line 938, ../compass/sass/style.scss */
 .box-Rodolphe {
   background-image: url('../images/Affaires_Rodolphe_compressed.png?1424280752');
 }
 
-/* line 943, ../compass/sass/style.scss */
+/* line 944, ../compass/sass/style.scss */
 .box-Alice {
   background-image: url('../images/Affaires_Alice_compressed.png?1423766456');
 }
 
-/* line 948, ../compass/sass/style.scss */
+/* line 949, ../compass/sass/style.scss */
 .box-Fred {
   background-image: url('../images/Affaires_Fred_compressed.png?1423766456');
 }
 
-/* line 953, ../compass/sass/style.scss */
+/* line 954, ../compass/sass/style.scss */
 .box-Victoria {
   background-image: url('../images/Affaires_Victoria_compressed.png?1424280752');
 }
 
-/* line 958, ../compass/sass/style.scss */
+/* line 959, ../compass/sass/style.scss */
 .box-Beaubien {
   background-image: url('../images/Affaires_Beaubien_compressed.png?1423766456');
 }
 
-/* line 963, ../compass/sass/style.scss */
+/* line 964, ../compass/sass/style.scss */
 .box-See-Concept {
   background-image: url('../images/Affaires_See-Concept.png?1423766456');
 }
 
-/* line 968, ../compass/sass/style.scss */
+/* line 969, ../compass/sass/style.scss */
 .image {
   border-radius: 50%;
   height: 200px;
 }
 
-/* line 973, ../compass/sass/style.scss */
+/* line 974, ../compass/sass/style.scss */
 blockquote {
   border-left: 4px solid #1031ba;
 }
 
 /*****************************TEAM*****************************************************************************************/
-/* line 985, ../compass/sass/style.scss */
+/* line 986, ../compass/sass/style.scss */
 .pic-team {
   border-radius: 100%;
   height: 110px;
 }
 
-/* line 994, ../compass/sass/style.scss */
+/* line 995, ../compass/sass/style.scss */
 .team h1 {
   font-family: "Montserrat", sans-serif;
   color: #1031ba;
   margin-top: 120px;
   margin-bottom: 20px;
 }
-/* line 1001, ../compass/sass/style.scss */
+/* line 1002, ../compass/sass/style.scss */
 .team img {
   margin-top: 40px;
 }
-/* line 1005, ../compass/sass/style.scss */
+/* line 1006, ../compass/sass/style.scss */
 .team a {
   color: #959595;
 }
-/* line 1013, ../compass/sass/style.scss */
+/* line 1014, ../compass/sass/style.scss */
 .team h4 {
   font-family: "Montserrat", sans-serif;
   color: #1031ba;
 }
-/* line 1018, ../compass/sass/style.scss */
+/* line 1019, ../compass/sass/style.scss */
 .team h5 {
   color: #959595;
 }
-/* line 1022, ../compass/sass/style.scss */
+/* line 1023, ../compass/sass/style.scss */
 .team p {
   margin-left: 20px;
   margin-right: 20px;
 }
 
 /*****************************FOOTER*****************************************************************************************/
-/* line 1034, ../compass/sass/style.scss */
+/* line 1035, ../compass/sass/style.scss */
 #footer {
   background-color: white;
   margin-top: 3em;
   margin-bottom: 3em;
 }
 
-/* line 1041, ../compass/sass/style.scss */
+/* line 1042, ../compass/sass/style.scss */
 #footer a {
   color: #1031ba;
 }
-/* line 1045, ../compass/sass/style.scss */
+/* line 1046, ../compass/sass/style.scss */
 #footer h4 {
   color: white;
 }
-/* line 1049, ../compass/sass/style.scss */
+/* line 1050, ../compass/sass/style.scss */
 #footer a:hover {
   color: #959595;
 }
-/* line 1053, ../compass/sass/style.scss */
+/* line 1054, ../compass/sass/style.scss */
 #footer p {
   font-size: 8px;
   margin-top: 8px;
