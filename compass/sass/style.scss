@@ -319,7 +319,7 @@ body{
 
 .next-section-wrapper {
 
-	padding-top: 300px;
+	padding-top: 330px;
 	@extend .next-section;
 }
 
@@ -484,7 +484,7 @@ font-size: 14px;
 	font-family: $secondary-font;
 	font-size: 30px;
 	margin-top: 0px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	}
 	h4{
 	color: $primary-color;
@@ -549,7 +549,7 @@ font-size: 14px;
 #step {
 	position: relative;
 	top: -45px;
-	left: 35px;
+	left: 30px;
 }
 
 .img-center{
@@ -571,7 +571,13 @@ font-size: 14px;
 		margin-bottom: 20px;		
 	}
 
+	a{
+		color: $primary-color;
+	}
+
 }
+
+
 
 .ecran {
 
@@ -670,6 +676,9 @@ font-size: 14px;
 }
 
 
+.orange {
+	color: $tertiary-color;
+}
 
 // .fade_away {
 //     opacity: 0.95;/* l'opacite que vous voulez au depart */
@@ -826,7 +835,7 @@ font-size: 14px;
 	}
 
 	h3{
-	color: white;
+	color: white !important;
 	font-family: $primary-font;
 	}
 
@@ -1007,7 +1016,6 @@ blockquote{
 
 #footer{
 	background-color: white;
-	padding-top: 4em;
 	margin-top: 3em;
 	margin-bottom: 3em;
 }
@@ -1024,8 +1032,10 @@ blockquote{
 	a:hover {
 	color: $secondary-color;
 	}
+
 	p{
-	margin-top: 10px;
+	font-size: 8px;
+	margin-top: 8px;
 	color: $primary-color;
 	}
 }
