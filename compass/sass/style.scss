@@ -255,6 +255,20 @@ body{
 /************************WRAPPER*DE*LA*LANDING*****************************************************************************/
 
 
+@media(min-width:767px) {
+
+	.lead {
+		h1{
+			padding-left: 60px;
+		}
+
+		h3{
+			padding-left: 60px;	
+		}
+	}
+}
+
+
 .wrapper {
 	background-image: image-url("WS_compressed.png");
 	background-repeat:no-repeat;
@@ -292,8 +306,7 @@ body{
 	font-family: $primary-font;
 	padding-top: 0.3em;
 	font-size: 18px;
-	// letter-spacing: 1px;
-	padding-left: 60px;
+	// letter-spacing: 1px;	
 	color: black;
 	}
 
@@ -306,7 +319,6 @@ body{
 	font-weight: 400;
 	// letter-spacing: 1px;
 	margin-bottom: 0.3em;
-	padding-left: 60px;
 	color: black;
 	}
 
@@ -506,7 +518,8 @@ font-size: 14px;
 .le_service, .inventory, .capacity, .security, .header-carousel, .offer {
 
 
-	@extend .title-section
+	@extend .title-section;
+	min-height: 600px;
 
 
 	}
@@ -517,7 +530,6 @@ font-size: 14px;
 
 .next-section {
 	
-	padding-bottom: 10px;
 
 	a {
 	
@@ -567,17 +579,25 @@ font-size: 14px;
 
 
 /**************************MON**INVENTAIRE****************************************************************************************/
+@media(min-width:767px) {
+	.inventory{
+		img {
+			margin-right: -60px;
 
+		}
+	}
+}
 
 
 .inventory {
 
 	background-color: $section-background-color;
+	margin-right: 0px;
 
 	
 	img{
-		margin-right:  -60px;
-		margin-bottom: 20px;		
+		margin-bottom: 20px;
+
 	}
 
 	a{
@@ -648,6 +668,18 @@ font-size: 14px;
 	margin-top: 45px;
 	@extend .next-section;
 }
+
+
+@media(max-width:767px) {
+
+	.milieu {
+
+	text-align: center;
+
+	}
+
+}
+
 
 .milieu {
 	padding-top: 20px;
@@ -1029,7 +1061,11 @@ blockquote{
 
 /*****************************FOOTER*****************************************************************************************/
 
-
+@media(max-width:767px) {
+	.social {
+		text-align: center;
+	}
+}
 
 
 #footer{
