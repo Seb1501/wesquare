@@ -319,7 +319,7 @@ body{
 
 .next-section-wrapper {
 
-	padding-top: 255px;
+	padding-top: 300px;
 	@extend .next-section;
 }
 
@@ -564,12 +564,19 @@ font-size: 14px;
 .inventory {
 
 	background-color: $section-background-color;
+
 	
 	img{
-		margin-right: -40px;
+		margin-right:  -60px;
 		margin-bottom: 20px;		
 	}
 
+}
+
+.ecran {
+
+	padding-right: 0px;
+	margin-right: 0px;
 }
 
 .alignement{
