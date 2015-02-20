@@ -169,7 +169,7 @@ body {
   }
   /* line 265, ../compass/sass/style.scss */
   .lead h3 {
-    padding-left: 60px;
+    padding-left: 60px !important;
   }
 }
 /* line 272, ../compass/sass/style.scss */
