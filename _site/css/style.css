@@ -174,7 +174,7 @@ body {
 }
 /* line 272, ../compass/sass/style.scss */
 .wrapper {
-  background-image: url('../images/WS_noopacity_cpd.png');
+  background-image: url('../images/WS_noopacity_cpd.png?1424429649');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -184,7 +184,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   text-align: left;
-  height: 700px;
+  min-height: 600px;
   padding-top: 100px;
 }
 

@@ -7,7 +7,7 @@ image:
 adress:
 ---
 
-WeSquare a d'abord été lancé à Paris pour venir au secours de tous les citadins (particuliers et professionels) qui manquent d'espace et a pour vocation à s'étendre à d'autres grandes métropoles.
+Wesquare a d'abord été lancé à Paris pour venir au secours de tous les citadins (particuliers et professionels) qui manquent d'espace et a pour vocation à s'étendre à d'autres grandes métropoles.
 <br><br>
 Notre vision de départ est basée sur deux constats simples :
 <ol> 
@@ -21,7 +21,7 @@ WeSquare était né.
 <br><br>
 Notre ADN est inscrit dans notre nom : NOUS sommes à VOTRE service; au service de votre bien être et au service de vos m<sup>2</sup>.
 <br><br>
-<i>Nous vous proposons un service de proximité sur-mesure qui permet de libérer de l’espace chez vous ou au bureau. Nos équipes viennent chez vous livrer des BlueBox que vous remplissez et que nous stockons ensuite en toute sécurité. Vous avez accès à tout moment à l’ensemble de vos affaires grâce à un inventaire en ligne. Vous pouvez quand vous le souhaitez récupérer tout ou partie de vos affaires en 48H.</i>
+<i>Nous vous proposons un service de proximité sur-mesure qui permet de libérer de l’espace chez vous ou au bureau. Nos équipes viennent chez vous livrer des BlueBox que vous remplissez et que nous stockons ensuite en toute sécurité. Vous avez accès à tout moment à l’ensemble de vos affaires grâce à un inventaire en ligne. Vous pouvez quand vous le souhaitez récupérer tout ou partie de vos affaires en 24h.</i>
 
 A très bientôt. 
 
