@@ -174,7 +174,7 @@ body {
 }
 /* line 272, ../compass/sass/style.scss */
 .wrapper {
-  background-image: url('../images/WS_compressed.png?1424280755');
+  background-image: url('../images/WS_noopacity_cpd.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
