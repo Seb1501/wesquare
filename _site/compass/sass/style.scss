@@ -209,8 +209,6 @@ body{
 }
 
 
-
-
 .nav .btn {
 	font-family: $secondary-font;
     font-size: $font-size-medium;
@@ -268,6 +266,19 @@ body{
 	}
 }
 
+@media(max-width:767px) {
+
+	.wrapper {
+
+
+    background-image: image-url("WS_withopacity_cpd.png") !important;
+	
+	}
+
+
+
+}
+
 
 .wrapper {
 	background-image: image-url("WS_noopacity_cpd.png");
@@ -282,17 +293,11 @@ body{
 	text-align: left;
 	min-height: 600px;
 	padding-top: 100px;
-}
-
-.wrapper {
-
-	// img{
-	// margin-left: 113px;
-	// }
 
 	button{
 	margin-bottom: 30px;
 	}
+
 }
 
 
@@ -647,6 +652,18 @@ font-size: 14px;
 	padding-right: 20px;
 	
 }
+
+
+.click {
+
+	a {
+		color: $tertiary-color;
+	}
+
+
+}
+
+
 
 
 
