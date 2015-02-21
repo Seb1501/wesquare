@@ -357,6 +357,11 @@ body{
 	font-size: 14px;
 	color: white;
 	}
+
+	h2{
+	color: white;
+	font-size: 18px;
+	}
 	// h4{
 	// font-family: inherit;
 	// font-size: 18px;
@@ -638,20 +643,6 @@ font-size: 14px;
 	}
 }
 
-@media(min-width:320px) {
-
-	#MissBB{
-	padding-top: 80px;
-}
-
-}
-
-#MissBB{
-	padding-bottom: -50px;
-	padding-left: 20px;
-	padding-right: 20px;
-	
-}
 
 
 .click {
@@ -1111,3 +1102,5 @@ blockquote{
 	color: $primary-color;
 	}
 }
+
+/*************************************blog******************************************/
