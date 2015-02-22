@@ -617,7 +617,7 @@ font-size: 14px;
 
 	
 	img{
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 
 	}
 
@@ -1135,13 +1135,29 @@ blockquote{
 
 #portfolio {
 
-	margin-top: 200px;
+	margin-top: 20px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: $section-background-color;
 }
 
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
 }
+
+#portfolio {
+	h5 {
+	margin-left: 15px;
+	margin-bottom: 25px;
+	}
+	a {
+	text-decoration:none;
+	color: black;
+	}
+}
+
+
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
@@ -1173,7 +1189,7 @@ blockquote{
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: white;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
@@ -1190,7 +1206,7 @@ blockquote{
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #fff;
+    background-color: white;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {

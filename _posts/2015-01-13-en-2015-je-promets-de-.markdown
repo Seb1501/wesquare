@@ -18,7 +18,7 @@ Bien entendu, à chaque fois, nous retrouvons les grands classiques:
 <li>- "Cette année, je sors moins…"</li>
 </ul>
 
-Cette année WESQUARE et son service de proximité sur-mesure rentre dans la HIT LIST des bonnes résolutions indispensables que vous ne regretterez pas d'adopter:
+Cette année wesquare<sup>&reg;</sup> et son service de proximité sur-mesure rentre dans la HIT LIST des bonnes résolutions indispensables que vous ne regretterez pas d'adopter:
 
 <ul style="list-style-type: none;">
 <li>- indispensable pour vous simplifier la vie;</li>
@@ -26,8 +26,8 @@ Cette année WESQUARE et son service de proximité sur-mesure rentre dans la HIT
 <li>- indispensable pour vous éviter les crises conjugales;)</li>
 </ul>
 
-Avec le service WESQUARE, vous ne bougez pas de chez vous. On s’occupe de tout, on s’occupe de VOUS.
+Avec le service wesquare<sup>&reg;</sup>, vous ne bougez pas de chez vous. On s’occupe de tout, on s’occupe de VOUS.
 
-Toute l’équipe de WeSquare vous souhaite une très belle et heureuse année 2015. Nous sommes plus que jamais à votre écoute et à votre service.
+Toute l’équipe de wesquare<sup>&reg;</sup> vous souhaite une très belle et heureuse année 2015. Nous sommes plus que jamais à votre écoute et à votre service.
 	
 <img src="../../../../images/Team.jpg" alt="photos de l'équipe WESQUARE" class="img-responsive">
