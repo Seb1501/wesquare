@@ -1229,3 +1229,26 @@ blockquote{
         margin: 0 0 30px;
     }
 }
+
+
+/*******************MENTIONS*************************************************************************/
+
+#mentions{
+
+	background-color: $section-background-color;
+
+
+	h3{
+		margin-top: 30px;
+		font-family: $primary-font;
+		color: $primary-color;	
+	}
+
+	a{
+
+	text-decoration:none;
+	color: black;
+		
+	}
+
+}

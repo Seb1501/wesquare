@@ -942,3 +942,19 @@ blockquote {
     margin: 0 0 30px;
   }
 }
+/*******************MENTIONS*************************************************************************/
+/* line 1236, ../compass/sass/style.scss */
+#mentions {
+  background-color: #f4f1ec;
+}
+/* line 1241, ../compass/sass/style.scss */
+#mentions h3 {
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: #1031ba;
+}
+/* line 1247, ../compass/sass/style.scss */
+#mentions a {
+  text-decoration: none;
+  color: black;
+}
