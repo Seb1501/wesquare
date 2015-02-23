@@ -27,7 +27,7 @@ title: wesquare® - revue de presse
   <div class="row">
     {% for article in site.data.presse %}
     <div class="col-md-4 col-sm-6 portfolio-item">
-        <a href="{{article.adress}}" class="portfolio-link">
+        <a href="{{article.adress}}" onclick="trackOutboundLink({{article.adress}}); return false;" target="_BLANK" class="portfolio-link">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
               <!-- <i class="fa fa-plus fa-3x"></i> -->
