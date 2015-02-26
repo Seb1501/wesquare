@@ -4,6 +4,7 @@ category: blog
 title: En 2015, je promets de...
 description: Chaque année c’est la même rengaine, après les fêtes de Noël, nous faisons tous la liste des BONNES RESOLUTIONS pour l’année à venir…
 image: images/Team.jpg
+image2: images/Team.jpg
 adress: blog/2015/01/13/en-2015-je-promets-de.html
 ---
 
