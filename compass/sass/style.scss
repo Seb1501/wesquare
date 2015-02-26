@@ -1120,6 +1120,24 @@ blockquote{
 
 /*************************************blog******************************************/
 
+.blog {
+
+	h1 {
+		font-family: $primary-font;
+		color: $primary-color;
+	}
+
+	h2 {
+		font-family: $primary-font;
+		color: $primary-color;
+	}
+
+	h4{
+		font-family: $secondary-font;
+		color: $secondary-color;
+	}
+
+}
 
 .bg-light-gray {
     background-color: $primary-color;

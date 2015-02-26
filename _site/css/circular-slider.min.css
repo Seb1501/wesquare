@@ -33,7 +33,7 @@ SOFTWARE.
 /* line 48, ../compass/sass/circular-slider.min.scss */
 .monthlyprice, #price, #price2, #price3, #price4, #price5, #price6, #text {
   color: white;
-  font-size: 13px;
+  font-size: 12px;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 10px;
 }

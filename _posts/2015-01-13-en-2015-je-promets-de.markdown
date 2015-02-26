@@ -3,8 +3,8 @@ layout: post
 category: blog
 title: En 2015, je promets de...
 description: Chaque année c’est la même rengaine, après les fêtes de Noël, nous faisons tous la liste des BONNES RESOLUTIONS pour l’année à venir…
-image: http://www.we-square.com/images/Team.jpg
-adress: http://www.we-square.com/blog/2015/01/13/en-2015-je-promets-de-.html
+image: images/Team.jpg
+adress: blog/2015/01/13/en-2015-je-promets-de.html
 ---
 
 Chaque année c’est la même rengaine, après les fêtes de Noël, nous faisons tous la liste des BONNES RESOLUTIONS pour l’année à venir…

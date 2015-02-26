@@ -822,23 +822,39 @@ blockquote {
 }
 
 /*************************************blog******************************************/
-/* line 1124, ../compass/sass/style.scss */
+/* line 1125, ../compass/sass/style.scss */
+.blog h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #1031ba;
+}
+/* line 1130, ../compass/sass/style.scss */
+.blog h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #1031ba;
+}
+/* line 1135, ../compass/sass/style.scss */
+.blog h4 {
+  font-family: "Open Sans", sans-serif;
+  color: #959595;
+}
+
+/* line 1142, ../compass/sass/style.scss */
 .bg-light-gray {
   background-color: #1031ba;
 }
 
-/* line 1128, ../compass/sass/style.scss */
+/* line 1146, ../compass/sass/style.scss */
 #portfolio h4 {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 
-/* line 1133, ../compass/sass/style.scss */
+/* line 1151, ../compass/sass/style.scss */
 .text-muted {
   color: #777;
 }
 
-/* line 1138, ../compass/sass/style.scss */
+/* line 1156, ../compass/sass/style.scss */
 #portfolio {
   margin-top: 20px;
   padding-top: 100px;
@@ -846,24 +862,24 @@ blockquote {
   background-color: #f4f1ec;
 }
 
-/* line 1146, ../compass/sass/style.scss */
+/* line 1164, ../compass/sass/style.scss */
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
 }
 
-/* line 1152, ../compass/sass/style.scss */
+/* line 1170, ../compass/sass/style.scss */
 #portfolio h5 {
   margin-left: 15px;
   margin-bottom: 25px;
 }
-/* line 1156, ../compass/sass/style.scss */
+/* line 1174, ../compass/sass/style.scss */
 #portfolio a {
   text-decoration: none;
   color: black;
 }
 
-/* line 1164, ../compass/sass/style.scss */
+/* line 1182, ../compass/sass/style.scss */
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
@@ -871,7 +887,7 @@ blockquote {
   max-width: 400px;
 }
 
-/* line 1171, ../compass/sass/style.scss */
+/* line 1189, ../compass/sass/style.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   position: absolute;
   width: 100%;
@@ -883,12 +899,12 @@ blockquote {
   transition: all ease .5s;
 }
 
-/* line 1182, ../compass/sass/style.scss */
+/* line 1200, ../compass/sass/style.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
 }
 
-/* line 1186, ../compass/sass/style.scss */
+/* line 1204, ../compass/sass/style.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   position: absolute;
   top: 50%;
@@ -900,18 +916,18 @@ blockquote {
   color: white;
 }
 
-/* line 1197, ../compass/sass/style.scss */
+/* line 1215, ../compass/sass/style.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px;
 }
 
-/* line 1201, ../compass/sass/style.scss */
+/* line 1219, ../compass/sass/style.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
   margin: 0;
 }
 
-/* line 1206, ../compass/sass/style.scss */
+/* line 1224, ../compass/sass/style.scss */
 #portfolio .portfolio-item .portfolio-caption {
   margin: 0 auto;
   padding: 25px;
@@ -920,42 +936,42 @@ blockquote {
   background-color: white;
 }
 
-/* line 1214, ../compass/sass/style.scss */
+/* line 1232, ../compass/sass/style.scss */
 #portfolio .portfolio-item .portfolio-caption h4 {
   margin: 0;
   text-transform: none;
 }
 
-/* line 1219, ../compass/sass/style.scss */
+/* line 1237, ../compass/sass/style.scss */
 #portfolio .portfolio-item .portfolio-caption p {
   margin: 0;
   font-size: 16px;
   font-style: italic;
 }
 
-/* line 1225, ../compass/sass/style.scss */
+/* line 1243, ../compass/sass/style.scss */
 #portfolio * {
   z-index: 2;
 }
 
 @media (min-width: 767px) {
-  /* line 1230, ../compass/sass/style.scss */
+  /* line 1248, ../compass/sass/style.scss */
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
 }
 /*******************MENTIONS*************************************************************************/
-/* line 1238, ../compass/sass/style.scss */
+/* line 1256, ../compass/sass/style.scss */
 #mentions {
   background-color: #f4f1ec;
 }
-/* line 1243, ../compass/sass/style.scss */
+/* line 1261, ../compass/sass/style.scss */
 #mentions h3 {
   margin-top: 30px;
   font-family: "Montserrat", sans-serif;
   color: #1031ba;
 }
-/* line 1249, ../compass/sass/style.scss */
+/* line 1267, ../compass/sass/style.scss */
 #mentions a {
   text-decoration: none;
   color: black;

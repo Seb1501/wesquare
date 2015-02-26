@@ -28,7 +28,7 @@ title: wesquare® - le blog
     {% for post in site.posts %}
         {% if post.category contains 'blog' %}
     <div class="col-md-4 col-sm-6 portfolio-item">
-        <a href="{{post.adress}}" class="portfolio-link">
+        <a href="{{site.baseurl}}/{{post.adress}}" class="portfolio-link">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
               <!-- <i class="fa fa-plus fa-3x"></i> -->
@@ -36,7 +36,7 @@ title: wesquare® - le blog
                   <h4>{{ post.date | date_to_string }} </h4>
             </div>
           </div>
-          <img src="{{ post.image }}" class="img-responsive" width="400" alt="illustration du post">
+          <img src="{{site.baseurl}}/{{ post.image }}" class="img-responsive" width="400" alt="illustration du post">
         </a>
         <div class="portfolio-caption visible-xs-block visible-sm-block">
         <h4>{{ post.title }}</h4>
