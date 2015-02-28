@@ -9,7 +9,7 @@ adress: blog/2015/02/26/le-service-wesquare-yummy-j-en-ai-une-enorme-envie.html
 ---
 
 <p>Wesquare est le seul acteur français du stockage à vous proposer une solution sur-mesure: nous vous aidons à optimiser votre espace en stockant vos affaires, mais ça c’est seulement notre contrat de base !
-<br>Hors de question pour nous de vous laisser vous morfondre dans les embouteillages pour rejoindre un entrepôt de stockage en dehors de Paris, Wesquare vient chez vous livrer ses BlueBox, PenderiBox et ArchivBox et les ramasser une fois que vous les avez remplis.</p>
+<br>Hors de question pour nous de vous laisser vous morfondre dans les embouteillages pour rejoindre un entrepôt de stockage en dehors de Paris, Wesquare vient chez vous livrer ses BlueBox, PenderiBox et ArchivBox et les ramasser une fois que vous les avez remplies.</p>
 <p>Wesquare dispose d'une solution adaptée à chacun de vos besoins :</p>
 
 <h2>La BlueBox</h2>

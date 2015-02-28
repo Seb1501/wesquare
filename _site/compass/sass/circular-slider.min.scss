@@ -74,17 +74,20 @@ $font-size-small: 8px;
 	}
 }
 
-#price, #price2, #price3, #price4, #price5, #price6{
+#price, #price2, #price3, #price4, #price5 {
 	@extend .monthlyprice;
+	min-height: 30px;
 }
 
 #price6{
 	@extend .monthlyprice;
 	color: transparent;
+	min-height: 30px;
 }
 
 #text{
 	@extend .monthlyprice;
+	min-height: 30px;
 }
 
 
@@ -121,7 +124,7 @@ $font-size-small: 8px;
 	border-radius: 50%;
 	border: 5px solid white;
 	padding: 19px;
-	margin: 5px;
+	margin: 0px;
 	/*box-shadow: 1px 1px 1px rgba(113,28,243,1);*/
 }
 

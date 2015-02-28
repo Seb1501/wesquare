@@ -49,12 +49,23 @@ SOFTWARE.
     border-right: 1px solid white;
   }
 }
-/* line 81, ../compass/sass/circular-slider.min.scss */
-#price6 {
-  color: transparent;
+/* line 77, ../compass/sass/circular-slider.min.scss */
+#price, #price2, #price3, #price4, #price5 {
+  min-height: 30px;
 }
 
-/* line 91, ../compass/sass/circular-slider.min.scss */
+/* line 82, ../compass/sass/circular-slider.min.scss */
+#price6 {
+  color: transparent;
+  min-height: 30px;
+}
+
+/* line 88, ../compass/sass/circular-slider.min.scss */
+#text {
+  min-height: 30px;
+}
+
+/* line 94, ../compass/sass/circular-slider.min.scss */
 .jcs {
   position: relative;
   border-style: solid;
@@ -66,7 +77,7 @@ SOFTWARE.
   cursor: pointer;
 }
 
-/* line 108, ../compass/sass/circular-slider.min.scss */
+/* line 111, ../compass/sass/circular-slider.min.scss */
 .jcs-value {
   position: absolute;
   border-radius: 100%;
@@ -79,16 +90,16 @@ SOFTWARE.
   outline: 0;
 }
 
-/* line 120, ../compass/sass/circular-slider.min.scss */
+/* line 123, ../compass/sass/circular-slider.min.scss */
 .circle {
   border-radius: 50%;
   border: 5px solid white;
   padding: 19px;
-  margin: 5px;
+  margin: 0px;
   /*box-shadow: 1px 1px 1px rgba(113,28,243,1);*/
 }
 
-/* line 129, ../compass/sass/circular-slider.min.scss */
+/* line 132, ../compass/sass/circular-slider.min.scss */
 .jcs-indicator {
   position: absolute;
   border-radius: 100%;
@@ -99,7 +110,7 @@ SOFTWARE.
   pointer-events: none;
 }
 
-/* line 139, ../compass/sass/circular-slider.min.scss */
+/* line 142, ../compass/sass/circular-slider.min.scss */
 .jcs-panel {
   position: relative;
   display: inline-block;
@@ -108,7 +119,7 @@ SOFTWARE.
   cursor: pointer;
 }
 
-/* line 147, ../compass/sass/circular-slider.min.scss */
+/* line 150, ../compass/sass/circular-slider.min.scss */
 .jcs-value img {
   border-radius: 100%;
   background: 0 0;
@@ -116,7 +127,7 @@ SOFTWARE.
   height: inherit;
 }
 
-/* line 154, ../compass/sass/circular-slider.min.scss */
+/* line 157, ../compass/sass/circular-slider.min.scss */
 .noselect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
