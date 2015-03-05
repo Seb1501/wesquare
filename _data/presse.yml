@@ -1,8 +1,11 @@
+- logo: logocamille.png
+  action: LIRE L'ARTICLE
+  adress: http://www.camilleetlesgarcons.com/2015/03/wesquare.html
+- logo: logoladenicheuse.png
+  action: LIRE L'ARTICLE
+  adress: http://www.ladenicheuse.com/2015/02/wesquare-le-stockage-20.html
 - logo: logoLPF.png
   action: LIRE L'ARTICLE
   adress: https://fr.petitsfrenchies.com/wesquare-rangement-service-bluebox
   action2: L'INTERVIEW
   adress2: https://fr.petitsfrenchies.com/interview-camille-thomas-et-sebastien-wesquare-service-rangement
-- logo: logoladenicheuse.png
-  action: LIRE L'ARTICLE
-  adress: http://www.ladenicheuse.com/2015/02/wesquare-le-stockage-20.html
