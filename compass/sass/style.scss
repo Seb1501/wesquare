@@ -186,6 +186,7 @@ body{
     background-color: $nav-background-color;
 }
 
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
@@ -452,6 +453,8 @@ font-size: 14px;
 	background-color: $section-background-color;
 	@extend .spacer;
 }
+
+
 
 .spacer-4{
 	background-color: $tertiary-color;
@@ -1255,7 +1258,8 @@ blockquote{
 
 #mentions{
 
-	background-color: $section-background-color;
+	background-color: white;
+	margin-top: 3em;
 
 
 	h3{
