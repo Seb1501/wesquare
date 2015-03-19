@@ -45,7 +45,7 @@ body{
 /*********************FAQ***************************************************************************************************/
 
 
-.table {
+.tableau {
 	font-size: $font-size-small;
 }
 
@@ -1273,5 +1273,57 @@ blockquote{
 		text-decoration:none;
 		color: black;
 	}
+
+}
+
+/*******************COMMANDER*************************************************************************/
+
+.kn-input-section_break {
+
+
+	h3 {
+
+	color: $secondary-color;
+	font-family: $primary-font;
+	font-size: $font-size-big;
+
+	
+	}
+
+
+
+}
+
+.view-header {
+
+	h2 {
+
+	color: $secondary-color;
+	font-family: $primary-font;
+	font-size: $font-size-big;
+
+	}
+}
+
+.billing {
+	
+	h3 {
+
+	color: $secondary-color;
+	font-family: $primary-font;
+	font-size: $font-size-big;
+
+	}
+
+	h5 {
+
+	margin-bottom: 70px;
+	}
+
+	a {
+
+	color: $secondary-color;
+	}
+
 
 }

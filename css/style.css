@@ -23,7 +23,7 @@ body {
 
 /*********************FAQ***************************************************************************************************/
 /* line 48, ../compass/sass/style.scss */
-.table {
+.tableau {
   font-size: 8px;
 }
 
@@ -977,4 +977,34 @@ blockquote {
 #mentions a {
   text-decoration: none;
   color: black;
+}
+
+/*******************COMMANDER*************************************************************************/
+/* line 1284, ../compass/sass/style.scss */
+.kn-input-section_break h3 {
+  color: #959595;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+/* line 1299, ../compass/sass/style.scss */
+.view-header h2 {
+  color: #959595;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+/* line 1310, ../compass/sass/style.scss */
+.billing h3 {
+  color: #959595;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+/* line 1318, ../compass/sass/style.scss */
+.billing h5 {
+  margin-bottom: 70px;
+}
+/* line 1323, ../compass/sass/style.scss */
+.billing a {
+  color: #959595;
 }
