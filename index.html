@@ -178,7 +178,7 @@ adress:
       <div class="col-sm-12 col-md-4">
         <img src="{{ site.baseurl }}/images/Objvol.png" alt="Objets volumineux: ski, bagage, sac de golf" width="250" class="img-responsive center-block">
         <h4>Objets Volumineux</h4>
-        <p class="visible-xs-block visible-sm-block click"><button class="btn-xs btn btn-default" data-toggle="modal" data-target="#List">Cliquez</button> pour consulter la liste des Objets Volumineux (Petits & Grands) </p>
+        <p class="visible-xs-block visible-sm-block click"><button class="btn-xs btn btn-default" data-toggle="modal" data-target="#List">Cliquez</button> pour consulter la liste des Objets Volumineux (OV1, OV2 et autres) </p>
         <p class="hidden-xs hidden-sm">Vélo, ski, sac de golf
         <br>bagage...
         </p>
@@ -395,7 +395,7 @@ adress:
       </div>
       <div class="hidden-xs hidden-sm col-md-6">
         <h3>Objets Volumineux</h3>
-        <p><a data-toggle="modal" data-target="#List">Cliquez</a> pour consulter la liste des Objets Volumineux </p>
+        <p><a data-toggle="modal" data-target="#List">Cliquez</a> pour consulter la liste des Objets Volumineux (OV1, OV2 et autres) </p>
       </div>
     </div>
     <div class="row text-center">  
@@ -415,22 +415,22 @@ adress:
         <div id="price3"></div>
         <div id="slider3" onclick="ga('send','event','Slider','Play','ArchivBox');"></div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="col-xs-12 col-sm-4 col-md-2">
         <div id="displayValue4"></div>
         <div id="price4"></div>
         <div id="slider4" onclick="ga('send','event','Slider','Play','KS1');"></div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="col-xs-12 col-sm-4 col-md-2">
         <div id="displayValue5"></div>
         <div id="price5"></div>
         <div id="slider5" onclick="ga('send','event','Slider','Play','KS2');"></div>
       </div>
-      <!-- <div class="col-xs-12 col-sm-4 col-md-2">
+      <div class="col-xs-12 col-sm-4 col-md-2">
         <div id="displayValue6"></div>
-        <div id="text"><a href="#section8" onclick="ga('send','event','Lien','Nous demander','Call');">Autres Objets Volumineux sur demande</a></div>
+        <div id="text">Autres Objets Volumineux <br> <a href="#section8" onclick="ga('send','event','Lien','Nous demander','Call');"><i class="fa fa-arrow-right"></i> sur demande</a></div>
         <div>
-          <img src="{{ site.baseurl }}/images/Autre.png" class="circle" width="93">
-        </div> -->
+          <!-- <img src="{{ site.baseurl }}/images/Autre.png" class="circle" width="93"> -->
+        </div>
       </div>
     </div>
     <div class="hidden-xs hidden-sm row text-center sous-total">
@@ -642,12 +642,12 @@ adress:
         slide: function(ui,value) {
           
           $("#displayValue4").text(value);
-          $("#price4").text(prixParUniteKS1.get(value) + " € / Objet / mois");
+          $("#price4").text(prixParUniteKS1.get(value) + " € / OV1 / mois");
           updateSubTotalAndTotal();
           return ;
         },
         formLabel : function(value, prefix, suffix) {
-        return '<h2>Petit</h2>';
+        return '<h2>OV1</h2>';
     },
       });
 
@@ -660,12 +660,12 @@ adress:
         slide: function(ui,value) {
           
           $("#displayValue5").text(value);
-          $("#price5").text(prixParUniteKS2.get(value) + " € / Objet / mois");
+          $("#price5").text(prixParUniteKS2.get(value) + " € / OV2 / mois");
           updateSubTotalAndTotal();
           return ;
         },
         formLabel : function(value, prefix, suffix) {
-        return '<h2>Grand</h2>';
+        return '<h2>OV2</h2>';
     },
       });
 
@@ -754,11 +754,11 @@ adress:
       </div> -->
       <div class="offer-modal-body">
       <h5>La catégorie des Objets Volumineux se décompose en 3 sous-catégories:</h5>
-      <p><b>1) Petits:</b></p>
+      <p><b>1) OV1:</b></p>
       <p>Vélo, vélo d'appartement, ventilateur, micro-onde, chaise, ski/snow/surf/kite, petit bagage, petite lampe, poussette, clim/chauffage, raquette de tennis, petite TV.</p>
-      <p><b>2) Grands:</b></p>
+      <p><b>2) OV2:</b></p>
       <p>Sac de golf, petit frigo, petite armoire, table de nuit, grand bagage, grande TV, pneu, table basse, selle de cheval.</p>
-      <p><b>3) Autres sur demande:</b></p>
+      <p><b>3) Autres, sur demande:</b></p>
       <p>Grand réfrigérateur, grande armoire, instruments, four/lave-vaisselle/lave-linge, table, lit, tableaux, porte, matelas, etc.</p>
 
                
@@ -785,7 +785,7 @@ adress:
       <h1>On s'occupe de tout.</h1>
       <p>Livraison gratuite des Box vides.</p>
       <p>Ramassage gratuit des Box pleines.</p> 
-      <p>Récupérez vos affaires dans les 24h pour seulement 8,90 € pour la 1 <sup>ère</sup> Box + 2,50 € par Box/Objet KingSize en plus.</p>
+      <p>Récupérez vos affaires dans les 24h pour seulement 8,90 € pour la 1 <sup>ère</sup> Box + 2,50 € par Box/Objet Volumineux en plus.</p>
       <h3>Commandez au +33 1 82 09 71 79.</h3>
     
        <button class="btn btn-default btn-lg" data-toggle="modal" data-target="#CallBack" onclick="ga('send','event','Button','Callback', 'Call');">
