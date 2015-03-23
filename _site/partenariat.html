@@ -3,10 +3,10 @@
   
   <head>
     
-    <title></title>
+    <title>wesquare® - partenariats</title>
     
     <!-- Meta facebook -->
-    <meta property="og:title" content="" />
+    <meta property="og:title" content="wesquare® - partenariats" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="//" />
     <meta property="og:image" content="/" />
@@ -182,76 +182,265 @@
 
   
 
-    <div class="team">
+    <div class="spacer"></div>
+<div class="spacer"></div>
 
-<div class="row text-center">
+<div class="partnership" id="portfolio">
 
-<h1>Team</h1>
+<div class="container">
+  <div class="row">
+      <h1>Home Organisers / Home Stagers </h1>
+      
+      <div class="col-md-3 col-sm-4 portfolio-item">
+        <a href="http://www.misoclaire.com/" onclick="trackOutboundLink(http://www.misoclaire.com/); return false;" target="_BLANK" class="portfolio-link">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <!-- <i class="fa fa-plus fa-3x"></i> -->
+              
+                  <h3>Mis ô Claire</h3>
+              
+            </div>
+          </div>
+          <img src="../../images/Misoclaire.png" class="img-responsive" width="350" alt="logo Home Organizer">
+        </a>
+        <div class="portfolio-caption visible-xs-block visible-sm-block">
+        <a href="http://www.misoclaire.com/">
+        <h4>Mis ô Claire</h4>
+        </a>
+        
+        
+        </div>
+      </div>
+
+          
+       
+      
+      <div class="col-md-3 col-sm-4 portfolio-item">
+        <a href="http://www.agenceserenity.fr/" onclick="trackOutboundLink(http://www.agenceserenity.fr/); return false;" target="_BLANK" class="portfolio-link">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <!-- <i class="fa fa-plus fa-3x"></i> -->
+              
+                  <h3>Agence Serenity</h3>
+              
+            </div>
+          </div>
+          <img src="../../images/serenity.png" class="img-responsive" width="350" alt="logo Home Organizer">
+        </a>
+        <div class="portfolio-caption visible-xs-block visible-sm-block">
+        <a href="http://www.agenceserenity.fr/">
+        <h4>Agence Serenity</h4>
+        </a>
+        
+        
+        </div>
+      </div>
+
+          
+       
+      
+      <div class="col-md-3 col-sm-4 portfolio-item">
+        <a href="http://www.samson-interiors.com/" onclick="trackOutboundLink(http://www.samson-interiors.com/); return false;" target="_BLANK" class="portfolio-link">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <!-- <i class="fa fa-plus fa-3x"></i> -->
+              
+                  <h3>Samson Interiors</h3>
+              
+            </div>
+          </div>
+          <img src="../../images/samson.png" class="img-responsive" width="350" alt="logo Home Organizer">
+        </a>
+        <div class="portfolio-caption visible-xs-block visible-sm-block">
+        <a href="http://www.samson-interiors.com/">
+        <h4>Samson Interiors</h4>
+        </a>
+        
+        
+        </div>
+      </div>
+
+          
+       
+      
+  </div>
+  <div class="row">
+
+
+    <div class="col-sm-9">
+    
+
+      <h1>Boutiques partenaires</h1>
+
+      <div id="map" style="width: 100%; height: 400px;"></div>
+
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+        <script type="text/javascript">
+
+        function initialize(){
+
+         var myOptions = {
+          zoom: 12,
+          center: new google.maps.LatLng(48.8588728, 2.3415790),
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          styles: [{"featureType":"administrative.locality","elementType":"all","stylers":[{"hue":"#2c2e33"},{"saturation":7},{"lightness":19},{"visibility":"on"}]},{"featureType":"landscape","elementType":"all","stylers":[{"hue":"#ffffff"},{"saturation":-100},{"lightness":100},{"visibility":"simplified"}]},{"featureType":"poi","elementType":"all","stylers":[{"hue":"#ffffff"},{"saturation":-100},{"lightness":100},{"visibility":"off"}]},{"featureType":"road","elementType":"geometry","stylers":[{"hue":"#bbc0c4"},{"saturation":-93},{"lightness":31},{"visibility":"simplified"}]},{"featureType":"road","elementType":"labels","stylers":[{"hue":"#bbc0c4"},{"saturation":-93},{"lightness":31},{"visibility":"on"}]},{"featureType":"road.arterial","elementType":"labels","stylers":[{"hue":"#bbc0c4"},{"saturation":-93},{"lightness":-2},{"visibility":"simplified"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"hue":"#e9ebed"},{"saturation":-90},{"lightness":-8},{"visibility":"simplified"}]},{"featureType":"transit","elementType":"all","stylers":[{"hue":"#e9ebed"},{"saturation":10},{"lightness":69},{"visibility":"on"}]},{"featureType":"water","elementType":"all","stylers":[{"hue":"#e9ebed"},{"saturation":-78},{"lightness":67},{"visibility":"simplified"}]}]
+        };
+
+          
+          var map = new google.maps.Map(document.getElementById('map'), myOptions);
+
+          
+
+          var markerLatLng1 = new google.maps.LatLng(48.888427, 2.323467);
+
+          // To add the marker to the map, use the 'map' property
+          var marker1 = new google.maps.Marker({
+              position: markerLatLng1,
+              map: map
+
+          });
+
+          
+
+
+          var infowindow1 = new google.maps.InfoWindow({
+          content:'<a href="http://www.frenchtouche.com/"> French Touche </a>'
+          });
+
+          google.maps.event.addListener(marker1, 'click', function() {
+          infowindow1.open(map,marker1);
+          });
+
+          
+
+          var markerLatLng2 = new google.maps.LatLng(48.886523, 2.323467);
+
+          // To add the marker to the map, use the 'map' property
+          var marker2 = new google.maps.Marker({
+              position: markerLatLng2,
+              map: map
+
+          });
+
+          
+
+
+          var infowindow2 = new google.maps.InfoWindow({
+          content:'<a href="www.sapsandco.fr/"> Saps And Co </a>'
+          });
+
+          google.maps.event.addListener(marker2, 'click', function() {
+          infowindow2.open(map,marker2);
+          });
+
+          
+
+          var markerLatLng3 = new google.maps.LatLng(48.852617, 2.322616);
+
+          // To add the marker to the map, use the 'map' property
+          var marker3 = new google.maps.Marker({
+              position: markerLatLng3,
+              map: map
+
+          });
+
+          
+
+
+          var infowindow3 = new google.maps.InfoWindow({
+          content:'<a href=""> Coup 2 Coeur </a>'
+          });
+
+          google.maps.event.addListener(marker3, 'click', function() {
+          infowindow3.open(map,marker3);
+          });
+
+          
+
+          var markerLatLng4 = new google.maps.LatLng(48.885623, 2.321673);
+
+          // To add the marker to the map, use the 'map' property
+          var marker4 = new google.maps.Marker({
+              position: markerLatLng4,
+              map: map
+
+          });
+
+          
+
+
+          var infowindow4 = new google.maps.InfoWindow({
+          content:'<a href=""> Pignon Sur Rue </a>'
+          });
+
+          google.maps.event.addListener(marker4, 'click', function() {
+          infowindow4.open(map,marker4);
+          });
+
+          
+
+          var markerLatLng5 = new google.maps.LatLng(48.86584, 2.344983);
+
+          // To add the marker to the map, use the 'map' property
+          var marker5 = new google.maps.Marker({
+              position: markerLatLng5,
+              map: map
+
+          });
+
+          
+
+
+          var infowindow5 = new google.maps.InfoWindow({
+          content:'<a href="https://pressingparis2montorgueil.wordpress.com/"> Pressing Montorgueil </a>'
+          });
+
+          google.maps.event.addListener(marker5, 'click', function() {
+          infowindow5.open(map,marker5);
+          });
+
+          
+
+          var markerLatLng6 = new google.maps.LatLng(48.868627, 2.343658);
+
+          // To add the marker to the map, use the 'map' property
+          var marker6 = new google.maps.Marker({
+              position: markerLatLng6,
+              map: map
+
+          });
+
+          
+
+
+          var infowindow6 = new google.maps.InfoWindow({
+          content:'<a href=""> Pressing de la Bourse </a>'
+          });
+
+          google.maps.event.addListener(marker6, 'click', function() {
+          infowindow6.open(map,marker6);
+          });
+
+          
+
+
+          }
+
+          google.maps.event.addDomListener(window, 'load', initialize);
+
+
+
+        </script>
+
+      
+    </div>
+
+
+  </div>
+
 
 </div>
-
-<div class="row text-center">
-
-
-	
-	<div class="col-md-6 feature">
-
-		<img src="/images/Thomas_cpd.png" alt="Profil pic - Thom" class="pic-team">
-
-        
-      	<h4> Thomas, Co-founder & CEO </h4>
-      	<h5> Marketing & communication</h5>
-      	<a href="mailto:thomas@we-square.com"><i class="fa fa-envelope-o"></i></a>
-      	<hr>
-      	<p> Thomas a déjà eu 1000 vies. Installé aux émirats dans le secteur du bien-être avant de se lancer dans le commerce agro-alimentaire sur le continent africain. Thomas est à l'entreprenariat ce qu'Obélix est à la potion magique : il est tombé dedans étant enfant.</p>
-      	<p>CEO de wesquare<sup>&reg;</sup>, il met sa vision et son énergie au service des parisiens qui en ont assez de vivre entassés ! 
-		<p>Il aime : voyager, entreprendre, le street-art et les dragibus couleur verte.</p>
-		</hr>
-
-
-	</div>
-
-	<div class="col-md-6 feature">
-		
-		<img src="/images/Sebastien_cpd.png" alt="Profil pic - Seb" class="pic-team">
-
-        
-      	<h4> Sébastien, Co-founder </h4> 
-      	<h5> Technique & Opérations</h5>
-      	<a href="mailto:sebastien@we-square.com"><i class="fa fa-envelope-o"></i></a>
-      	<hr>
-      	<p>  Sébastien est à wesquare<sup>&reg;</sup> ce que le Dalaï Lama est à la quiétude et la spiritualité : indispensable. Ancien consultant passé par le Luxembourg, il fait partie de cette génération de jeunes entrepreneurs qui ont décidé de redonner à leur pays une image dynamique et attractive.</p>
-      	<p>Chez wesquare<sup>&reg;</sup>, il s'occupe de la technique et des opérations grâce à un savant mélange de réactivité et d'efficacité.</p>
-      	<p>Il aime : compter, faire de la montagne, agir et l'odeur de la pâte à modeler.</p> 
-		</hr>
-
-	</div>
-
-	</div>
-
-	<div class="row text-center">
-	<div class="col-md-6">
-
-
-	<div class="feature">
-
-		<img src="/images/Camille_cpd.png" alt="Profil pic - Camille" class="pic-team">
-
-        
-      	<h4> Camille, Co-founder </h4>
-      	<h5> Commercial, Partenariats & Relation Utilisateurs</h5>
-      	<a href="mailto:camille@we-square.com"><i class="fa fa-envelope-o"></i></a>
-      	<hr>
-      	<p> Camille est à wesquare<sup>&reg;</sup> ce qu'Arnold Schwartzenegger fut jadis au culturisme : un directeur commercial sacrément costaud. Exilé très jeune aux émirats pour travailler avec Thomas, il décide de rentrer à Paris pour évangéliser le service wesquare<sup>&reg;</sup>. 
-      	<p>Camille c'est 1m91 de rigueur et de persévérance mais surtout 100 kg de sérieux au service de votre bonheur.</p>
-		<p>Il aime : téléphoner, voyager , lire ses mails et écrire des poèmes "à la Rimbaud".</p>
-		</hr>
-	</div>
-
-	</div>
-
-</div>
-
 </div>
 
         <div id="footer">

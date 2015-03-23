@@ -1327,3 +1327,23 @@ blockquote{
 
 
 }
+
+/*******************COMMANDER*************************************************************************/
+
+#map {
+	margin-top: 50px;
+	a {
+		color: $primary-color;
+	}
+}
+
+.partnership {
+	background-color: white !important;
+
+	h1{
+		color: $primary-color;
+		font-size: font-size-big;
+		font-family: $primary-font;
+	}
+
+}

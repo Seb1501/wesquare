@@ -1008,3 +1008,24 @@ blockquote {
 .billing a {
   color: #959595;
 }
+
+/*******************COMMANDER*************************************************************************/
+/* line 1333, ../compass/sass/style.scss */
+#map {
+  margin-top: 50px;
+}
+/* line 1335, ../compass/sass/style.scss */
+#map a {
+  color: #1031ba;
+}
+
+/* line 1340, ../compass/sass/style.scss */
+.partnership {
+  background-color: white !important;
+}
+/* line 1343, ../compass/sass/style.scss */
+.partnership h1 {
+  color: #1031ba;
+  font-size: font-size-big;
+  font-family: "Montserrat", sans-serif;
+}

@@ -1,0 +1,31 @@
+- number: 1
+  lat: 48.8884270 
+  lng: 2.3234670  
+  site: http://www.frenchtouche.com/
+  name: French Touche
+- number: 2
+  lat: 48.8865230 
+  lng: 2.3234670  
+  site: www.sapsandco.fr/
+  name: Saps And Co
+- number: 3
+  lat: 48.8526170 
+  lng: 2.3226160  
+  site: #
+  name: Coup 2 Coeur
+- number: 4
+  lat: 48.8856230 
+  lng: 2.3216730  
+  site: #
+  name: Pignon Sur Rue
+- number: 5
+  lat: 48.8658400 
+  lng: 2.3449830  
+  site: https://pressingparis2montorgueil.wordpress.com/
+  name: Pressing Montorgueil
+- number: 6
+  lat: 48.8686270
+  lng: 2.3436580  
+  site: #
+  name: Pressing de la Bourse
+
