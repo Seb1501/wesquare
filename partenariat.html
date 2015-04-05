@@ -8,9 +8,10 @@ title: wesquare® - partenariats
 
 <div class="partnership" id="portfolio">
 
-<div class="container">
-  <div class="row">
+  <div class="container">
+    <div class="row">
       <h1>Home Organisers / Home Stagers </h1>
+      <p>Ils sont convaincus par le service Wesquare et le propose à leurs clients.</p>
       {% for hms in site.data.hm %}
       <div class="col-md-3 col-sm-4 portfolio-item">
         <a href="{{hms.adress}}" onclick="trackOutboundLink({{hms.adress}}); return false;" target="_BLANK" class="portfolio-link">
@@ -18,34 +19,35 @@ title: wesquare® - partenariats
             <div class="portfolio-hover-content">
               <!-- <i class="fa fa-plus fa-3x"></i> -->
               
-                  <h3>{{ hms.action }}</h3>
+              <h3>{{ hms.action }}</h3>
               
             </div>
           </div>
           <img src="../../images/{{ hms.logo }}" class="img-responsive" width="350" alt="logo Home Organizer">
         </a>
         <div class="portfolio-caption visible-xs-block visible-sm-block">
-        <a href="{{hms.adress}}">
-        <h4>{{ hms.action }}</h4>
-        </a>
-        
-        
+          <a href="{{hms.adress}}">
+            <h4>{{ hms.action }}</h4>
+          </a>
+          
+          
         </div>
       </div>
 
-          
-       
+      
+      
       {% endfor %}
-  </div>
-  <div class="row">
+    </div>
+    <div class="row">
 
 
-    <div class="col-sm-9">
-    
+      <div class="col-sm-9">
+        
 
-      <h1>Boutiques partenaires</h1>
+        <h1>Boutiques partenaires</h1>
+        <p>Allez faire un tour dans nos boutiques partenaires pour récupérer un code promo qui vous donnera droit à des réductions sur le service Wesquare.</p>
 
-      <div id="map" style="width: 100%; height: 400px;"></div>
+        <div id="map" style="width: 100%; height: 400px;"></div>
 
         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 
@@ -60,17 +62,17 @@ title: wesquare® - partenariats
           styles: [{"featureType":"administrative.locality","elementType":"all","stylers":[{"hue":"#2c2e33"},{"saturation":7},{"lightness":19},{"visibility":"on"}]},{"featureType":"landscape","elementType":"all","stylers":[{"hue":"#ffffff"},{"saturation":-100},{"lightness":100},{"visibility":"simplified"}]},{"featureType":"poi","elementType":"all","stylers":[{"hue":"#ffffff"},{"saturation":-100},{"lightness":100},{"visibility":"off"}]},{"featureType":"road","elementType":"geometry","stylers":[{"hue":"#bbc0c4"},{"saturation":-93},{"lightness":31},{"visibility":"simplified"}]},{"featureType":"road","elementType":"labels","stylers":[{"hue":"#bbc0c4"},{"saturation":-93},{"lightness":31},{"visibility":"on"}]},{"featureType":"road.arterial","elementType":"labels","stylers":[{"hue":"#bbc0c4"},{"saturation":-93},{"lightness":-2},{"visibility":"simplified"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"hue":"#e9ebed"},{"saturation":-90},{"lightness":-8},{"visibility":"simplified"}]},{"featureType":"transit","elementType":"all","stylers":[{"hue":"#e9ebed"},{"saturation":10},{"lightness":69},{"visibility":"on"}]},{"featureType":"water","elementType":"all","stylers":[{"hue":"#e9ebed"},{"saturation":-78},{"lightness":67},{"visibility":"simplified"}]}]
         };
 
-          
-          var map = new google.maps.Map(document.getElementById('map'), myOptions);
+        
+        var map = new google.maps.Map(document.getElementById('map'), myOptions);
 
-          {% for shops in site.data.shop %}
+        {% for shops in site.data.shop %}
 
-          var markerLatLng{{shops.number}} = new google.maps.LatLng({{shops.lat}}, {{shops.lng}});
+        var markerLatLng{{shops.number}} = new google.maps.LatLng({{shops.lat}}, {{shops.lng}});
 
           // To add the marker to the map, use the 'map' property
           var marker{{shops.number}} = new google.maps.Marker({
-              position: markerLatLng{{shops.number}},
-              map: map
+            position: markerLatLng{{shops.number}},
+            map: map
 
           });
 
@@ -78,30 +80,30 @@ title: wesquare® - partenariats
 
 
           var infowindow{{shops.number}} = new google.maps.InfoWindow({
-          content:'<a href="{{shops.site}}"> {{shops.name}} </a>'
+            content:'<a href="{{shops.site}}"> {{shops.name}} </a>'
           });
 
           google.maps.event.addListener(marker{{shops.number}}, 'click', function() {
-          infowindow{{shops.number}}.open(map,marker{{shops.number}});
+            infowindow{{shops.number}}.open(map,marker{{shops.number}});
           });
 
           {% endfor %}
 
 
-          }
+        }
 
-          google.maps.event.addDomListener(window, 'load', initialize);
+        google.maps.event.addDomListener(window, 'load', initialize);
 
 
 
         </script>
 
-      
+        
+      </div>
+
+
     </div>
 
 
   </div>
-
-
-</div>
 </div>
