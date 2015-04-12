@@ -1,1243 +1,915 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    
-    <title>wesquare® - N'allez plus jamais dans un garde-meubles</title>
-    
-    <meta name="description" content="Stockage à la demande. Plus besoin de vous déplacer. Commandez des Box en ligne. Nous transportons et stockons pour vous.">
-    
-    <!-- Meta facebook -->
-    <meta property="og:title" content="wesquare® - N'allez plus jamais dans un garde-meubles" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="//" />
-    <meta property="og:image" content="/images/WS_fb.png" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:description" content="Stockage à la demande. Plus besoin de vous déplacer. Commandez des Box en ligne. Nous transportons et stockons pour vous." />
-    <meta property="og:site_name" content="WeSquare" />
-    <!-- <meta property="fb:admins" content="Facebook numeric ID"/> -->
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-   
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,400' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
-    
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/circular-slider.min.css">
-
-    <!-- <link rel="shortcut icon" href="/images/icon_40790/favicon.ico"> -->
-     <link rel="shortcut icon" href="/images/favicon_new.ico">
-
-    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
-    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-    <!-- Script google analytics code de suivi -->
-
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-56291783-1', 'auto');
-    ga('send', 'pageview');
-
-    </script>
-
-    <!-- Scroll depth initialisation-->
-
-    
-
-
-
-
-    <script>
-    /**
-    * Function that tracks a click on an outbound link in Google Analytics.
-    * This function takes a valid URL string as an argument, and uses that URL string
-    * as the event label.
-    */
-    var trackOutboundLink = function(url) {
-       ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
-         function () {
-         document.location = url;
-         }
-       });
-    }
-    </script>    
-
-    
-
-    <!--Start of Zopim Live Chat Script-->
-    <script type="text/javascript">
-    window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
-    d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
-    _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
-    $.src='//v2.zopim.com/?2eNGlEpK9MSapIv08jT7NlY4K5qHFmo5';z.t=+new Date;$.
-    type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
-    </script>
-    
-    <!--End of Zopim Live Chat Script-->
-
-      <!-- jQuery -->
-    <script async type="text/javascript" src="/js/jquery.js"></script>
-
-       <!-- Plugin JavaScript -->
-    <script async type="text/javascript" src="/js/jquery.easing.min.js"> </script>
-
-    <!-- Custom Theme JavaScript -->
-    <script type="text/javascript"> 
-
-     /*!
-     * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
-     * Code licensed under the Apache License v2.0.
-     * For details, see http://www.apache.org/licenses/LICENSE-2.0.
-     */
-
-    // jQuery to collapse the navbar on scroll
-    $(window).scroll(function() {
-        if ($(".navbar").offset().top > 50) {
-            $(".navbar-fixed-top").addClass("top-nav-collapse");
-        } else {
-            $(".navbar-fixed-top").removeClass("top-nav-collapse");
-        }
-    });
-
-    // jQuery for page scrolling feature - requires jQuery Easing plugin
-    $(function() {
-        $('a.page-scroll').bind('click', function(event) {
-            var $anchor = $(this);
-            $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top
-            }, 1500, 'easeInOutExpo');
-            event.preventDefault();
-        });
-    });
-
-    // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function() {
-        $('.navbar-toggle:visible').click();
-    });
-
-
-    </script>
-
-    <!-- circular-slider -->
-    <script async type="text/javascript" src="/js/circular-slider.min.js"></script>
-
-    <!-- Including script simulating / permitting to use HashTable -->
-    <script async type="text/javascript" src="/js/jshashtable-3.0.js"></script>
-
-    <!-- Scroll depth -->
-    <script async type="text/javascript" src="/js/jquery.scrolldepth.min.js"></script>
-    <script>
-    jQuery(function() {
-      jQuery.scrollDepth();
-    });
-    </script> 
-
-
-
-      
-  </head>
-
-<body class="" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-  
-
-  <!-- Script bouton share de Facebook -->
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
-    fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
-  
-  
-
-
-<!--Navbar -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <!-- <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Démarrer</span> 
-                </a> -->
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <!-- <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li> -->
-                    
-                      <li>
-                        <a class="page-scroll" href="mailto:contact@we-square.com" onclick="ga('send','event','Lien','Email','nav bar');">
-                        <i class="fa fa-envelope"></i> contact@we-square.com
-                        </a>
-                    </li>
-
-                    <li>
-                        <a class="page-scroll" href="/index.html#section8" onclick="ga('send','event','Lien','Call','nav bar');">
-                        <i class="fa fa-phone"></i> + 33 (0)1 82 09 71 79
-                        </a>
-                    </li>
-                   <!--  <li>
-                        <a class="page-scroll" href="/index.html#section8">
-                        Commandez
-                        </a>
-                    </li> -->
-                    <li>
-                        <a class="page-scroll" href="/mon_espace.html">
-                        <i class="fa fa-user"></i> Mon compte
-                        </a>
-                    </li>
-                    <li>
-                        <a class="page-scroll btn btn-default btn-lg" href="/index.html#section7" onclick="ga('send','event','Lien','Play','nav bar');"><i class="fa fa-play-circle"></i> À VOUS DE JOUER</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-  
+  ---
+  layout: default
+  title: wesquare® - N'allez plus jamais dans un garde-meubles
+  description: Stockage à la demande. Plus besoin de vous déplacer. Commandez des Box en ligne. Nous transportons et stockons pour vous.
+  image: images/WS_fb.png
+  adress: 
+  ---
 
   <div class="wrapper">
-  <div class="lead">
-    <div class="row">
-      <div class="col-xs-offset-1 col-sm-offset-1 col-md-offset-1">
-        <img src="/images/Wesquare.png" alt="logo Wesquare" class="img-reponsive" width="250">
-        
-        <h1><b>N'allez plus jamais 
-          <br>dans un garde-meubles.</b></h1>
-          <ul>
-              <li><a href="#section2"><h3>Ne vous déplacez plus.</h3></a></li>
-              <li><a href="#section3"><h3>Restez connecté à vos affaires.</h3></a></li>
-              <li><a href="#section7"><h3>Stockez à partir de 4,95 €/mois, sans engagement.</h3></a></li>
-          </ul>
+    <div class="lead">
+      <div class="row">
+        <div class="col-xs-offset-1 col-sm-offset-1 col-md-offset-1">
+          <img src="{{site.baseurl}}/images/Wesquare.png" alt="logo Wesquare" class="img-reponsive" width="250">
+          
+          <h1><b>N'allez plus jamais 
+            <br>dans un garde-meubles.</b></h1>
+            <ul>
+                <li><a href="#section2"><h3>Ne vous déplacez plus.</h3></a></li>
+                <li><a href="#section3"><h3>Restez connecté à vos affaires.</h3></a></li>
+                <li><a href="#section7"><h3>Stockez à partir de 4,95 €/mois, sans engagement.</h3></a></li>
+            </ul>
 
 
 
-        <!-- <h1><b>Faites de la place chez vous.</b></h1>
-        <h3>Commandez. Remplissez.
-        <br>Nous transportons. Nous stockons.
-        <br>Il n'a jamais été aussi simple de gagner de l'espace. </h3> -->
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12 text-center next-section-wrapper">
-        <a href="#section2" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
-      </div>
-    </div>
-  </div>
-
-
-</div>
-
-<!-- Modal -->
-<div class="modal fade" id="OrderForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">Vous souhaitez commander des BlueBox ? </h4>
-        <p><i>Merci de remplir ce formulaire pour que nous puissions vous contacter.</i></p>
-        
-      </div>
-      <div class="modal-body">
-
-        <iframe height="870" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://wesquare.wufoo.com/embed/z191c0ch0kbdo1a/def/&header=hide"><a href="https://wesquare.wufoo.com/forms/z191c0ch0kbdo1a/">Fill out my Wufoo form!</a></iframe>
-
-
-      </div>
-      <!-- <div class="modal-footer"> -->
-      <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
-      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-      <!-- </div> -->
-    </div>
-  </div>
-</div> 
-
-
-
-
-<div class="spacer" id="section2"></div>
-
-
-<div class="le_service">
-
-  <div class="container">
-    <div class="row text-left">
-      <div class="col-xs-12 col-md-offset-1">
-        <h1>Simple.</h1>
-        <h3>Comme 1, 2, 3...4 !</h3>
-        <a class="page-scroll btn btn-default btn-lg" href="/index.html#section7" onclick="ga('send','event','Lien','Play','Le service');"><i class="fa fa-play-circle"></i> À VOUS DE JOUER</a>
-      </div>
-    </div> 
-
-    <div class="row">
-      <div class="col-sm-6 col-md-3">
-        <h4><b>Commandez.</b></h4>
-        <img src="images/1.png" width="120" alt="commandez" class="img-responsive center-block">
-        <img src="images/G1.png" width="50" alt="1" class="img-responsive">
-        <p id="step">
-          Vous commandez des Box <strong>en ligne</strong> ou par <strong>téléphone</strong>.
-        </p>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <h4><b>Remplissez.</b></h4>
-        <img src="images/2.png" width="120" alt="remplissez" class="img-responsive center-block">
-        <img src="images/G2.png" width="50" alt="2" class="img-responsive">
-        <p id="step">
-          Nous les livrons <strong>gratuitement</strong> à l'adresse de votre choix pour que vous les remplissiez.
-        </p>
-      </div>  
-      <div class="clearfix visible-sm-block"></div>
-      <div class="col-sm-6 col-md-3">
-        <h4><b>Nous transportons.</b></h4>
-        <img src="images/3.png" width="120" alt"nous transportons" class="img-responsive center-block">
-        <img src="images/G3.png" width="50" alt="3" class="img-responsive">
-        <p id="step">
-          Nous revenons <strong>gratuitement</strong>, ramasser vos Box pleines et le cas échéant vos Objets Volumineux.
-        </p>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <h4><b>Nous stockons.</b></h4>
-        <img src="images/4.png" width="120" alt="nous stockons" class="img-responsive center-block">
-        <img src="images/G4.png" width="50" alt="4" class="img-responsive">
-        <p id="step"> 
-          Nous stockons vos Box, scellées et numérotées ainsi que vos Objets Volumineux dans nos <strong>entrepôts sécurisés</strong>. 
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12 text-center next-section-le_service">
-        <a href="#section3" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<div class="spacer-2" id="section3"></div>
-
-<div class="inventory">
-
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 col-md-6 text-right">
-
-        <div class="hidden-xs hidden-sm alignement">
+          <!-- <h1><b>Faites de la place chez vous.</b></h1>
+          <h3>Commandez. Remplissez.
+          <br>Nous transportons. Nous stockons.
+          <br>Il n'a jamais été aussi simple de gagner de l'espace. </h3> -->
         </div>
-        <h1>Connecté</h1>
-        <p>Visualisez l'<strong>inventaire</strong> de vos affaires sur votre<a href="/mon_espace.html" target="BLANK"> espace utilisateur</a>
-          <br>Besoin d'un retour de vos affaires? Planifiez-le en ligne et récupérez-les,
-          <br>dans un délai de 24h.
-        </p>
-
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-6 ecran">
-
-
-        <img src="images/Ecran2.png" class="img-responsive pull-right">
-        <!-- <a class="btn btn-primary btn-lg" href="mon_espace.html"> -->
-        <!-- <i class="fa fa-square"></i> <strong>VOIR MON INVENTAIRE</strong>
-      </a> -->
+      <div class="row">
+        <div class="col-md-12 text-center next-section-wrapper">
+          <a href="#section2" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
+        </div>
+      </div>
     </div>
+
+
   </div>
 
-</div>
-<div class="row">
-  <div class="col-md-12 text-center next-section-inventory">
-    <a href="#section4" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
-  </div>
-</div>
-</div>
 
-<div class="spacer" id="section4"></div>
-
-<div class="capacity">
-  <div class="container">
-    <div class="row text-right">
-      <div class="col-md-12 title">
-
-        <h1>Sur-mesure</h1>
-        <p>Une solution adaptée à chacun de vos besoins.</p>
+  <div class="spacer" id="section2"></div>
 
 
-      </div>
-    </div>
-    <div class="row text-center">
+  <div class="le_service">
 
-      <div class="col-sm-6 col-md-4" id="">
-        <img src="/images/MissBB2.png" alt="Miss BlueBox" width="250" class="img-responsive center-block">
-        <h4>BlueBox</h4>
-        <p>130 DVD, 70 livres
-          <br>ou 14 paires de chaussures...
-        </p>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <img src="/images/Misspenderie.png" alt="My close" width="250" class="img-responsive center-block">
-        <h4>PenderiBox</h4>
-        <p>10 manteaux
-          <br>ou 20 chemises...
-        </p>
-      </div>
-      <div class="col-sm-12 col-md-4">
-        <img src="/images/Objvol.png" alt="Objets volumineux: ski, bagage, sac de golf" width="250" class="img-responsive center-block">
-        <h4>Objets Volumineux</h4>
-        <p class="visible-xs-block visible-sm-block click"><button class="btn-xs btn btn-default" data-toggle="modal" data-target="#List">Cliquez</button> pour consulter la liste des Objets Volumineux (OV1, OV2 et autres) </p>
-        <p class="hidden-xs hidden-sm">Vélo, ski, sac de golf
-          <br>bagage...
-        </p>
-      </div>
-    </div>
-
-   <!--  <div class="col-md-12 text-center">
-        <a class="page-scroll btn btn-default btn-lg" href="/index.html#section7" onclick="ga('send','event','Lien','Play','Sur-mesure');"><i class="fa fa-play-circle"></i> À VOUS DE JOUER</a>
-      </div> -->
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-xs-12 col-md-offset-1">
+          <h1>Simple.</h1>
+          <h3>Comme 1, 2, 3...4 !</h3>
+          <a class="page-scroll btn btn-default btn-lg" href="{{ site.baseurl }}/index.html#section7" onclick="ga('send','event','Lien','Play','Le service');"><i class="fa fa-play-circle"></i> À VOUS DE JOUER</a>
+        </div>
+      </div> 
 
       <div class="row">
-        <div class="col-md-12 text-center next-section-capacity">
-          <!-- <a class="page-scroll btn btn-default btn-lg" href="/index.html#section7"><i class="fa fa-play-circle"></i> A VOUS DE JOUER</a> -->
-          <a href="#section5" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
+        <div class="col-sm-6 col-md-3">
+          <h4><b>Commandez.</b></h4>
+          <img src="images/1.png" width="120" alt="commandez" class="img-responsive center-block">
+          <img src="images/G1.png" width="50" alt="1" class="img-responsive">
+          <p class="step">
+            Vous commandez des Box <strong>en ligne</strong> ou par <strong>téléphone</strong>.
+          </p>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <h4><b>Remplissez.</b></h4>
+          <img src="images/2.png" width="120" alt="remplissez" class="img-responsive center-block">
+          <img src="images/G2.png" width="50" alt="2" class="img-responsive">
+          <p class="step">
+            Nous les livrons <strong>gratuitement</strong> à l'adresse de votre choix pour que vous les remplissiez.
+          </p>
+        </div>  
+        <div class="clearfix visible-sm-block"></div>
+        <div class="col-sm-6 col-md-3">
+          <h4><b>Nous transportons.</b></h4>
+          <img src="images/3.png" width="120" alt="nous transportons" class="img-responsive center-block">
+          <img src="images/G3.png" width="50" alt="3" class="img-responsive">
+          <p class="step">
+            Nous revenons <strong>gratuitement</strong>, ramasser vos Box pleines et le cas échéant vos Objets Volumineux.
+          </p>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <h4><b>Nous stockons.</b></h4>
+          <img src="images/4.png" width="120" alt="nous stockons" class="img-responsive center-block">
+          <img src="images/G4.png" width="50" alt="4" class="img-responsive">
+          <p class="step"> 
+            Nous stockons vos Box, scellées et numérotées ainsi que vos Objets Volumineux dans nos <strong>entrepôts sécurisés</strong>. 
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center next-section-le_service">
+          <a href="#section3" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
         </div>
       </div>
 
     </div>
   </div>
 
-  <div class="spacer-2" id="section5">
+  <div class="spacer-2" id="section3"></div>
 
-
-
-  </div>
-
-  <div class="security">
+  <div class="inventory">
 
     <div class="container">
       <div class="row">
-        <div class="col-sm-6 col-md-6 text-right">
+        <div class="col-sm-12 col-md-6 text-right">
 
-          <div class="hidden-xs alignement">
+          <div class="hidden-xs hidden-sm alignement">
           </div>
-          <h1>Sécurité</h1>
-          <p> Nous prenons soin de vos affaires, 
-            <br> comme si c'était les nôtres.  
+          <h1>Connecté</h1>
+          <p>Visualisez l'<strong>inventaire</strong> de vos affaires sur votre<a href="{{ site.baseurl }}/mon_espace.html" target="BLANK"> espace utilisateur</a>
+            <br>Besoin d'un retour de vos affaires? Planifiez-le en ligne et récupérez-les,
+            <br>dans un délai de 24h.
+          </p>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 ecran">
+
+
+          <img src="images/Ecran2.png" alt="ecran de mac" class="img-responsive pull-right">
+          <!-- <a class="btn btn-primary btn-lg" href="mon_espace.html"> -->
+          <!-- <i class="fa fa-square"></i> <strong>VOIR MON INVENTAIRE</strong>
+        </a> -->
+      </div>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-md-12 text-center next-section-inventory">
+      <a href="#section4" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
+    </div>
+  </div>
+  </div>
+
+  <div class="spacer" id="section4"></div>
+
+  <div class="capacity">
+    <div class="container">
+      <div class="row text-right">
+        <div class="col-md-12 title">
+
+          <h1>Sur-mesure</h1>
+          <p>Une solution adaptée à chacun de vos besoins.</p>
+
+
+        </div>
+      </div>
+      <div class="row text-center">
+
+        <div class="col-sm-6 col-md-4">
+          <img src="{{ site.baseurl }}/images/MissBB2.png" alt="Miss BlueBox" width="250" class="img-responsive center-block">
+          <h4>BlueBox</h4>
+          <p>130 DVD, 70 livres
+            <br>ou 14 paires de chaussures...
           </p>
         </div>
-        <div class="col-sm-6 col-md-6">
-          <div class="row">
-            <div class="col-sm-6 col-md-3">
-              <img src="/images/Cam.png" width="69" class="img-responsive center-block">
-            </div>
-            <div class="col-sm-6 col-md-9 text-left milieu">
-              <p>Nos entrepôts sont sécurisés <strong>7j/7, 24h/24</strong>.</p>
-            </div>
+        <div class="col-sm-6 col-md-4">
+          <img src="{{ site.baseurl }}/images/Misspenderie.png" alt="My close" width="250" class="img-responsive center-block">
+          <h4>PenderiBox</h4>
+          <p>10 manteaux
+            <br>ou 20 chemises...
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <img src="{{ site.baseurl }}/images/Objvol.png" alt="Objets volumineux: ski, bagage, sac de golf" width="250" class="img-responsive center-block">
+          <h4>Objets Volumineux</h4>
+          <p class="visible-xs-block visible-sm-block click"><button class="btn-xs btn btn-default" data-toggle="modal" data-target="#List">Cliquez</button> pour consulter la liste des Objets Volumineux (OV1, OV2 et autres) </p>
+          <p class="hidden-xs hidden-sm">Vélo, ski, sac de golf
+            <br>bagage...
+          </p>
+        </div>
+      </div>
+
+     <!--  <div class="col-md-12 text-center">
+          <a class="page-scroll btn btn-default btn-lg" href="{{ site.baseurl }}/index.html#section7" onclick="ga('send','event','Lien','Play','Sur-mesure');"><i class="fa fa-play-circle"></i> À VOUS DE JOUER</a>
+        </div> -->
+
+        <div class="row">
+          <div class="col-md-12 text-center next-section-capacity">
+            <!-- <a class="page-scroll btn btn-default btn-lg" href="{{ site.baseurl }}/index.html#section7"><i class="fa fa-play-circle"></i> A VOUS DE JOUER</a> -->
+            <a href="#section5" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
           </div>
-          <div class="row">
-            <div class="col-sm-6 col-md-3">
-              <img src="/images/Termo.png" width="69" class="img-responsive center-block">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="spacer-2" id="section5">
+
+
+
+    </div>
+
+    <div class="security">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-6 text-right">
+
+            <div class="hidden-xs alignement">
             </div>
-            <div class="col-sm-6 col-md-9 text-left milieu">
-              <p>Nous contrôlons la <strong>température</strong> et l'<strong>humidité</strong> dans nos entrepôts. </p>
-            </div>
+            <h1>Sécurité</h1>
+            <p> Nous prenons soin de vos affaires, 
+              <br> comme si c'était les nôtres.  
+            </p>
           </div>
-          <div class="row">
-            <div class="col-sm-6 col-md-3">
-              <img src="/images/Choc.png" width="68" class="img-responsive center-block">
-            </div>
-            <div class="col-sm-6 col-md-9 text-left milieu">
-              <p>Vos BlueBox sont <strong>résistantes à tout choc</strong>. </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-6 col-md-3">
-              <img src="images/Assurance.png" width="69" class="img-responsive center-block">
-            </div>
-            <div class="col-sm-6 col-md-9 text-left milieu">          
-              <p>Vos Box et Objets Volumineux sont <strong>assurés par AXA</strong>
+          <div class="col-sm-6 col-md-6">
+            <div class="row">
+              <div class="col-sm-6 col-md-3">
+                <img src="{{ site.baseurl }}/images/Cam.png" width="69" alt="caméra de surveillance" class="img-responsive center-block">
+              </div>
+              <div class="col-sm-6 col-md-9 text-left milieu">
+                <p>Nos entrepôts sont sécurisés <strong>7j/7, 24h/24</strong>.</p>
               </div>
             </div>
             <div class="row">
               <div class="col-sm-6 col-md-3">
-                <img src="images/Chauffeur.png" width="69" class="img-responsive center-block">
+                <img src="{{ site.baseurl }}/images/Termo.png" width="69" alt="thermomètre" class="img-responsive center-block">
               </div>
-              <div class="col-sm-6 col-md-9 text-left milieu">   
-                <p>Nos chauffeurs sont des <strong>professionnels</strong>.</p> 
+              <div class="col-sm-6 col-md-9 text-left milieu">
+                <p>Nous contrôlons la <strong>température</strong> et l'<strong>humidité</strong> dans nos entrepôts. </p>
               </div>
             </div>
-          </div>
-
-
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12 text-center next-section-security">
-          <a href="#section6" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-  <div class="spacer" id="section6"></div>
-
-  <div class="header-carousel">
-    <div class="container">
-      <div class="row text-right">
-        <div class="col-md-12">
-
-          <h1>Confiance</h1>
-          <p>Découvrez le profil de nos utilisateurs et ce qu'il pense du service wesquare<sup>&reg;</sup></p>
-
-        </div>
-      </div>
-
-
-
-
-
-
-      <div class="row">
-
-
-        <div id="firstCarousel" class="carousel slide">
-
-        <!-- <ol class="carousel-indicators">
-          <li data-target="#firstCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#firstCarousel" data-slide-to="1"></li>
-
-        </ol> -->
-        
-
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <div class="col-sm-6 col-md-4 text-center">
-              <a href="Rodolphe.html" id="">
-                <img src="images/BOX_Rodolphe_pic_cpd.png" alt="BOX de Rodolphe" width="150" class="img-responsive center-block">
-                <h5>Rodolphe, expatrié</h5>
-              </a>
+            <div class="row">
+              <div class="col-sm-6 col-md-3">
+                <img src="{{ site.baseurl }}/images/Choc.png" width="68" alt="marteau" class="img-responsive center-block">
+              </div>
+              <div class="col-sm-6 col-md-9 text-left milieu">
+                <p>Vos BlueBox sont <strong>résistantes à tout choc</strong>. </p>
+              </div>
             </div>
-            <div class="col-sm-6 col-md-4 text-center">     
-              <a href="Victoria.html" id="">
-                <img src="images/Penderie_Vic_pic_cpd.png" alt="BOX de Vic" width="150" class="img-responsive center-block">
-                <h5>Victoria, chargée de communication</h5>
-              </a>
+            <div class="row">
+              <div class="col-sm-6 col-md-3">
+                <img src="{{ site.baseurl }}images/Assurance.png" width="69" alt="assurance" class="img-responsive center-block">
+              </div>
+              <div class="col-sm-6 col-md-9 text-left milieu">          
+                <p>Vos Box et Objets Volumineux sont <strong>assurés par AXA</strong>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 col-md-3">
+                  <img src="{{ site.baseurl }}images/Chauffeur.png" width="69" alt="volant" class="img-responsive center-block">
+                </div>
+                <div class="col-sm-6 col-md-9 text-left milieu">   
+                  <p>Nos chauffeurs sont des <strong>professionnels</strong>.</p> 
+                </div>
+              </div>
             </div>
-            <div class="col-sm-6 col-md-4 text-center">
-              <a href="Fred.html" id="">
-                <img src="images/BOX_Fred_pic_cpd.png" alt="BOX de Fred" width="150" class="img-responsive center-block">
-                <h5>Fred, entrepreneur</h5>  
-              </a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="col-sm-6 col-md-4 text-center">
-              <a href="See-Concept.html" id="">
-                <img src="images/BOX_See-Concept_pic_cpd.png" alt="BOX de See-Concept" width="150" class="img-responsive center-block">
-                <h5>See-Concept, créateur de lunettes design</h5>
-              </a>
-            </div>
-            <div class="col-sm-6 col-md-4 text-center">     
-              <a href="Alice.html" id="">
-                <img src="images/BOX_Alice_pic_cpd.png" alt="BOX d'Alice" width="150" class="img-responsive center-block">
-                <h5>Alice, directrice artistique</h5>
-              </a>
-            </div>
-            <div class="col-sm-6 col-md-4 text-center">
-              <a href="Beaubien.html" id="">
-                <img src="images/BOX_Beaubien_pic_cpd.png" alt="BOX de Beaubien" width="150" class="img-responsive center-block">
-                <h5>Beaubien, concept store</h5>  
-              </a>
-            </div>
+
+
           </div>
         </div>
-        
 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#firstCarousel" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="right carousel-control" href="#firstCarousel" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
-
-      </div>
-    </div>
-
-    <div class="spacer"></div>
-    <div class="review">
-      <div class="container">
         <div class="row">
-          <!-- <h2 class="text-center">Ils nous recommandent</h2> -->
-          <div class="col-sm-6 col-md-3">
-            <a href="https://www.facebook.com/baudouin.stre/activity/10152818911986263" target="BLANK" onclick="ga('send','event','Review','Baudoin');">
-              <img src="/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
-              <br>
-              <p class="text-center">"Super service! Equipe réactive et de confiance. A recommander +++"</p>
-              <p class="text-center"> &mdash; Baudoin</p>
-            </a>
+          <div class="col-md-12 text-center next-section-security">
+            <a href="#section6" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
           </div>
-          <div class="col-sm-6 col-md-3">
-            <a href="https://www.facebook.com/ade.drt.35/activity/10153023584266425" target="BLANK" onclick="ga('send','event','Review','Adeline');">
-              <img src="/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
-              <br>
-              <p class="text-center">"Efficacité prouvée, service rapide et chaleureux. Les boites d'archives du bureau sont entre de bonnes mains! Merci à l'équipe WeSquare !"</p>
-              <p class="text-center"> &mdash; Adeline</p>
-            </a>
+        </div>
+      </div>
+
+
+
+
+    <div class="spacer" id="section6"></div>
+
+    <div class="header-carousel">
+      <div class="container">
+        <div class="row text-right">
+          <div class="col-md-12">
+
+            <h1>Confiance</h1>
+            <p>Découvrez le profil de nos utilisateurs et ce qu'il pense du service wesquare<sup>&reg;</sup></p>
+
           </div>
-          <div class="col-sm-6 col-md-3">
-           <a href="https://www.facebook.com/annelise.borgenrizzo/activity/10152813851656288" target="BLANK" onclick="ga('send','event','Review','Anne-Lise');">
-            <img src="/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
-            <br>
-            <p class="text-center">"Thank you for super-fast service, great organization and providing something so perfect for a life in Paris"</p>
-            <p class="text-center"> &mdash; Anne-Lise</p>
+        </div>
+
+
+
+
+
+
+        <div class="row">
+
+
+          <div id="firstCarousel" class="carousel slide">
+
+          <!-- <ol class="carousel-indicators">
+            <li data-target="#firstCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#firstCarousel" data-slide-to="1"></li>
+
+          </ol> -->
+          
+
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <div class="col-sm-6 col-md-4 text-center">
+                <a href="Rodolphe.html">
+                  <img src="images/BOX_Rodolphe_pic_cpd.png" alt="BOX de Rodolphe" width="150" class="img-responsive center-block">
+                  <h5>Rodolphe, expatrié</h5>
+                </a>
+              </div>
+              <div class="col-sm-6 col-md-4 text-center">     
+                <a href="Victoria.html">
+                  <img src="images/Penderie_Vic_pic_cpd.png" alt="BOX de Vic" width="150" class="img-responsive center-block">
+                  <h5>Victoria, chargée de communication</h5>
+                </a>
+              </div>
+              <div class="col-sm-6 col-md-4 text-center">
+                <a href="Fred.html">
+                  <img src="images/BOX_Fred_pic_cpd.png" alt="BOX de Fred" width="150" class="img-responsive center-block">
+                  <h5>Fred, entrepreneur</h5>  
+                </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-sm-6 col-md-4 text-center">
+                <a href="See-Concept.html">
+                  <img src="images/BOX_See-Concept_pic_cpd.png" alt="BOX de See-Concept" width="150" class="img-responsive center-block">
+                  <h5>See-Concept, créateur de lunettes design</h5>
+                </a>
+              </div>
+              <div class="col-sm-6 col-md-4 text-center">     
+                <a href="Alice.html">
+                  <img src="images/BOX_Alice_pic_cpd.png" alt="BOX d'Alice" width="150" class="img-responsive center-block">
+                  <h5>Alice, directrice artistique</h5>
+                </a>
+              </div>
+              <div class="col-sm-6 col-md-4 text-center">
+                <a href="Beaubien.html">
+                  <img src="images/BOX_Beaubien_pic_cpd.png" alt="BOX de Beaubien" width="150" class="img-responsive center-block">
+                  <h5>Beaubien, concept store</h5>  
+                </a>
+              </div>
+            </div>
+          </div>
+          
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#firstCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
           </a>
+          <a class="right carousel-control" href="#firstCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+
         </div>
-        <div class="col-sm-6 col-md-3">
-            <a href="https://www.facebook.com/victoire.n.charavay/activity/10152950367821329" target="BLANK" onclick="ga('send','event','Review','Victore');">
-              <img src="/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
+      </div>
+
+      <div class="spacer"></div>
+      <div class="review">
+        <div class="container">
+          <div class="row">
+            <!-- <h2 class="text-center">Ils nous recommandent</h2> -->
+            <div class="col-sm-6 col-md-3">
+              <a href="https://www.facebook.com/baudouin.stre/activity/10152818911986263" target="BLANK" onclick="ga('send','event','Review','Baudoin');">
+                <img src="{{site.baseurl}}/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
+                <br>
+                <p class="text-center">"Super service! Equipe réactive et de confiance. A recommander +++"</p>
+                <p class="text-center"> &mdash; Baudoin</p>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <a href="https://www.facebook.com/ade.drt.35/activity/10153023584266425" target="BLANK" onclick="ga('send','event','Review','Adeline');">
+                <img src="{{site.baseurl}}/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
+                <br>
+                <p class="text-center">"Efficacité prouvée, service rapide et chaleureux. Les boites d'archives du bureau sont entre de bonnes mains! Merci à l'équipe WeSquare !"</p>
+                <p class="text-center"> &mdash; Adeline</p>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-3">
+             <a href="https://www.facebook.com/annelise.borgenrizzo/activity/10152813851656288" target="BLANK" onclick="ga('send','event','Review','Anne-Lise');">
+              <img src="{{site.baseurl}}/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
               <br>
-              <p class="text-center">"Super service ! Equipe jeune et très sympa ! Je ne sais plus comment je faisais avant !"</p>
-              <p class="text-center"> &mdash; Victoire</p>
+              <p class="text-center">"Thank you for super-fast service, great organization and providing something so perfect for a life in Paris"</p>
+              <p class="text-center"> &mdash; Anne-Lise</p>
             </a>
           </div>
-      </div>
+          <div class="col-sm-6 col-md-3">
+              <a href="https://www.facebook.com/victoire.n.charavay/activity/10152950367821329" target="BLANK" onclick="ga('send','event','Review','Victore');">
+                <img src="{{site.baseurl}}/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
+                <br>
+                <p class="text-center">"Super service ! Equipe jeune et très sympa ! Je ne sais plus comment je faisais avant !"</p>
+                <p class="text-center"> &mdash; Victoire</p>
+              </a>
+            </div>
+        </div>
 
+      </div>
     </div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-12 text-center next-section-carousel">
-      <a href="#section7" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
-    </div>
-  </div>
-</div>
-</div>
-
-<div class="spacer-3" id="section7"></div>
-
-<div class="offer">
-  <div class="container">
-    <div class="row text-left">
-      <div class="col-sm-12">
-
-        <h1>Simulation</h1>
-        <p>Jouez avec les <span class="orange"> curseurs orange</span> pour simuler le prix de votre stockage !</p>
-        <p>Profitez-en les prix sont <b>dégréssifs</b> !<p>
-
-          <!-- <p>Box/Objet volumineux <b>assurée</b> et <b>sécurisée</b>.</p> -->
-          <!-- <br> -->
-        </div>
-
-      </div>
-
-      <div class="row text-center">
-        <div class="hidden-xs hidden-sm col-md-6">
-          <h3>Box</h3>
-        </div>
-        <div class="hidden-xs hidden-sm col-md-6">
-          <h3>Objets Volumineux</h3>
-          <p><a data-toggle="modal" data-target="#List">Cliquez</a> pour consulter la liste des Objets Volumineux (OV1, OV2 et autres) </p>
-        </div>
-      </div>
-      <div class="row text-center">  
-        <div class="col-xs-12 col-sm-4 col-md-2">
-          <div id="displayValue"></div>
-          <div id="price"></div>
-          <div id="slider" onclick="ga('send','event','Slider','Play','BlueBox');"></div>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-md-2">
-          <div id="displayValue2"></div>
-          <div id="price2"></div>
-          <div id="slider2" onclick="ga('send','event','Slider','Play','PenderiBox');">
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-md-2" id="split">
-          <div id="displayValue3"></div>
-          <div id="price3"></div>
-          <div id="slider3" onclick="ga('send','event','Slider','Play','ArchivBox');"></div>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-md-2">
-          <div id="displayValue4"></div>
-          <div id="price4"></div>
-          <div id="slider4" onclick="ga('send','event','Slider','Play','KS1');"></div>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-md-2">
-          <div id="displayValue5"></div>
-          <div id="price5"></div>
-          <div id="slider5" onclick="ga('send','event','Slider','Play','KS2');"></div>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-md-2">
-          <div id="displayValue6"></div>
-          <div id="text">Autres Objets Volumineux <br> <a href="#section8" onclick="ga('send','event','Lien','Nous demander','Call');"><i class="fa fa-arrow-right"></i> sur demande</a></div>
-          <div>
-            <!-- <img src="/images/Autre.png" class="circle" width="93"> -->
-          </div>
-        </div>
-      </div>
-      <div class="hidden-xs hidden-sm row text-center sous-total">
-        <div class="col-md-offset-2 col-md-3" id="IDsousTotal1">
-        </div>
-        <div class="hidden-xs hidden-sm col-md-2">+</div>
-        <div class="col-md-3" id="IDsousTotal2">
-        </div>
-      </div>
-      <div class="row text-center sous-total">
-        <div class="col-md-12" id="IDtotal">
-        </div>
-      </div>
-
-      <script type="text/javascript">
-
-      // HastTable correspondant au pricing : prix / unité / mois en fonction du nombre de BlueBox
-      var prixParUniteBlueBox = new Hashtable();
-      prixParUniteBlueBox.put(0, 6.95);
-      prixParUniteBlueBox.put(1, 6.95);
-      prixParUniteBlueBox.put(2, 6.55);
-      prixParUniteBlueBox.put(3, 6.25);
-      prixParUniteBlueBox.put(4, 5.25);
-      prixParUniteBlueBox.put(5, 5.15);
-      prixParUniteBlueBox.put(6, 5.05);
-      prixParUniteBlueBox.put(7, 4.95);
-      prixParUniteBlueBox.put(8, 4.85);
-      prixParUniteBlueBox.put(9, 4.75);
-      prixParUniteBlueBox.put(10, 4.65);
-      prixParUniteBlueBox.put(11, 4.55);
-      prixParUniteBlueBox.put(12, 4.45);
-      prixParUniteBlueBox.put(13, 4.35);
-      prixParUniteBlueBox.put(14, 4.25);
-      prixParUniteBlueBox.put(15, 4.20);
-      prixParUniteBlueBox.put(16, 4.15);
-      prixParUniteBlueBox.put(17, 4.10);
-      prixParUniteBlueBox.put(18, 4.05);
-      prixParUniteBlueBox.put(19, 4.00);
-      prixParUniteBlueBox.put(20, 3.95);
-
-      // HastTable correspondant au pricing : prix / unité / mois en fonction du nombre de Penderie
-      var prixParUnitePenderie = new Hashtable();
-      prixParUnitePenderie.put(0, 8.95);
-      prixParUnitePenderie.put(1, 8.95);
-      prixParUnitePenderie.put(2, 8.55);
-      prixParUnitePenderie.put(3, 8.40);
-      prixParUnitePenderie.put(4, 8.25);
-      prixParUnitePenderie.put(5, 8.15);
-      prixParUnitePenderie.put(6, 8.05);
-      prixParUnitePenderie.put(7, 7.95);
-      prixParUnitePenderie.put(8, 7.85);
-      prixParUnitePenderie.put(9, 7.75);
-      prixParUnitePenderie.put(10, 7.65);
-      prixParUnitePenderie.put(11, 7.55);
-      prixParUnitePenderie.put(12, 7.45);
-      prixParUnitePenderie.put(13, 7.35);
-      prixParUnitePenderie.put(14, 7.25);
-      prixParUnitePenderie.put(15, 7.20);
-      prixParUnitePenderie.put(16, 7.15);
-      prixParUnitePenderie.put(17, 7.10);
-      prixParUnitePenderie.put(18, 7.05);
-      prixParUnitePenderie.put(19, 7.00);
-      prixParUnitePenderie.put(20, 6.95);
-
-      // HastTable correspondant au pricing : prix / unité / mois en fonction du nombre de BoxArchive
-      var prixParUniteBoxArchive = new Hashtable();
-      prixParUniteBoxArchive.put(0, 4.95);
-      prixParUniteBoxArchive.put(1, 4.95);
-      prixParUniteBoxArchive.put(2, 4.55);
-      prixParUniteBoxArchive.put(3, 4.40);
-      prixParUniteBoxArchive.put(4, 4.25);
-      prixParUniteBoxArchive.put(5, 4.15);
-      prixParUniteBoxArchive.put(6, 4.05);
-      prixParUniteBoxArchive.put(7, 3.95);
-      prixParUniteBoxArchive.put(8, 3.85);
-      prixParUniteBoxArchive.put(9, 3.75);
-      prixParUniteBoxArchive.put(10, 3.65);
-      prixParUniteBoxArchive.put(11, 3.55);
-      prixParUniteBoxArchive.put(12, 3.45);
-      prixParUniteBoxArchive.put(13, 3.35);
-      prixParUniteBoxArchive.put(14, 3.25);
-      prixParUniteBoxArchive.put(15, 3.20);
-      prixParUniteBoxArchive.put(16, 3.15);
-      prixParUniteBoxArchive.put(17, 3.10);
-      prixParUniteBoxArchive.put(18, 3.05);
-      prixParUniteBoxArchive.put(19, 3.00);
-      prixParUniteBoxArchive.put(20, 2.95);
-      prixParUniteBoxArchive.put(21, 2.91);
-      prixParUniteBoxArchive.put(22, 2.85);
-      prixParUniteBoxArchive.put(23, 2.80);
-      prixParUniteBoxArchive.put(24, 2.75);
-      prixParUniteBoxArchive.put(25, 2.70);
-      prixParUniteBoxArchive.put(26, 2.65);
-      prixParUniteBoxArchive.put(27, 2.60);
-      prixParUniteBoxArchive.put(28, 2.55);
-      prixParUniteBoxArchive.put(29, 2.50);
-      prixParUniteBoxArchive.put(30, 2.45);
-
-      // HastTable correspondant au pricing : prix / unité / mois en fonction du nombre de KS1
-      var prixParUniteKS1 = new Hashtable();
-      prixParUniteKS1.put(0, 4.95);
-      prixParUniteKS1.put(1, 4.95);
-      prixParUniteKS1.put(2, 4.95);
-      prixParUniteKS1.put(3, 4.95);
-      prixParUniteKS1.put(4, 4.95);
-      prixParUniteKS1.put(5, 4.95);
-      prixParUniteKS1.put(6, 4.95);
-      prixParUniteKS1.put(7, 4.95);
-      prixParUniteKS1.put(8, 4.95);
-      prixParUniteKS1.put(9, 4.95);
-      prixParUniteKS1.put(10, 4.95);
-      prixParUniteKS1.put(11, 4.95);
-      prixParUniteKS1.put(12, 4.95);
-      prixParUniteKS1.put(13, 4.95);
-      prixParUniteKS1.put(14, 4.95);
-      prixParUniteKS1.put(15, 4.95);
-      prixParUniteKS1.put(16, 4.95);
-      prixParUniteKS1.put(17, 4.95);
-      prixParUniteKS1.put(18, 4.95);
-      prixParUniteKS1.put(19, 4.95);
-      prixParUniteKS1.put(20, 4.95);
-
-      // HastTable correspondant au pricing : prix / unité / mois en fonction du nombre de KS2
-      var prixParUniteKS2 = new Hashtable();
-      prixParUniteKS2.put(0, 8.95);
-      prixParUniteKS2.put(1, 8.95);
-      prixParUniteKS2.put(2, 8.95);
-      prixParUniteKS2.put(3, 8.95);
-      prixParUniteKS2.put(4, 8.95);
-      prixParUniteKS2.put(5, 8.95);
-      prixParUniteKS2.put(6, 8.95);
-      prixParUniteKS2.put(7, 8.95);
-      prixParUniteKS2.put(8, 8.95);
-      prixParUniteKS2.put(9, 8.95);
-      prixParUniteKS2.put(10, 8.95);
-      prixParUniteKS2.put(11, 8.95);
-      prixParUniteKS2.put(12, 8.95);
-      prixParUniteKS2.put(13, 8.95);
-      prixParUniteKS2.put(14, 8.95);
-      prixParUniteKS2.put(15, 8.95);
-      prixParUniteKS2.put(16, 8.95);
-      prixParUniteKS2.put(17, 8.95);
-      prixParUniteKS2.put(18, 8.95);
-      prixParUniteKS2.put(19, 8.95);
-      prixParUniteKS2.put(20, 8.95);
-
-
-      $('#slider').CircularSlider({
-        min: 0,
-        max: 20,
-        value: 4,
-        radius: 45,
-        innerCircleRatio : .5,
-        slide: function(ui,value) {
-
-          $("#displayValue").text(value);
-          $("#price").text(prixParUniteBlueBox.get(value) + " € / BlueBox / mois");
-          updateSubTotalAndTotal();
-          return ;
-        },
-        formLabel : function(value, prefix, suffix) {
-          return '<img src="/images/Bluebox.png">';
-        },
-      });
-
-      $('#slider2').CircularSlider({
-        min: 0,
-        max: 20,
-        value: 0,
-        radius: 45,
-        innerCircleRatio : .5,
-        slide: function(ui,value) {
-
-          $("#displayValue2").text(value);
-          $("#price2").text(prixParUnitePenderie.get(value) + " € / PenderiBox / mois");
-          updateSubTotalAndTotal();
-          return ;
-        },
-        formLabel : function(value, prefix, suffix) {
-          return '<img src="/images/Penderie.png">';
-        },
-      });
-
-      $('#slider3').CircularSlider({
-        min: 0,
-        max: 30,
-        value: 0,
-        radius: 45,
-        innerCircleRatio : .5,
-        slide: function(ui,value) {
-
-          $("#displayValue3").text(value);
-          $("#price3").text(prixParUniteBoxArchive.get(value) + " € / ArchivBox / mois");
-          updateSubTotalAndTotal();
-          return ;
-        },
-        formLabel : function(value, prefix, suffix) {
-          return '<img src="/images/Arch.png">';
-        },
-      });
-
-
-      $('#slider4').CircularSlider({
-        min: 0,
-        max: 20,
-        value: 0,
-        radius: 45,
-        innerCircleRatio : .5,
-        slide: function(ui,value) {
-
-          $("#displayValue4").text(value);
-          $("#price4").text(prixParUniteKS1.get(value) + " € / OV1 / mois");
-          updateSubTotalAndTotal();
-          return ;
-        },
-        formLabel : function(value, prefix, suffix) {
-          return '<h2>OV1</h2>';
-        },
-      });
-
-      $('#slider5').CircularSlider({
-        min: 0,
-        max: 20,
-        value: 0,
-        radius: 45,
-        innerCircleRatio : .5,
-        slide: function(ui,value) {
-
-          $("#displayValue5").text(value);
-          $("#price5").text(prixParUniteKS2.get(value) + " € / OV2 / mois");
-          updateSubTotalAndTotal();
-          return ;
-        },
-        formLabel : function(value, prefix, suffix) {
-          return '<h2>OV2</h2>';
-        },
-      });
-
-      $('#slider6').CircularSlider({
-        min: 0,
-        max: 20,
-        value: 0,
-        radius: 45,
-        innerCircleRatio : .5,
-        slide: function(ui,value) {
-
-          $("#displayValue6").text(value);
-          $("#price6").text(prixParUniteBoxArchive.get(value) + " € / BoxArchive / mois");
-          updateSubTotalAndTotal();
-          return ;
-        },
-        formLabel : function(value, prefix, suffix) {
-          return '<img src="/images/Arch.png">';
-        },
-      });
-
-      // Fonction de mise à jour des sous-totaux et total
-      function updateSubTotalAndTotal(){
-
-        // Calcul du sous total 1
-        var sousTotal1 = parseFloat(document.getElementById('displayValue').textContent) * parseFloat(document.getElementById('price').textContent) + parseFloat(document.getElementById('displayValue2').textContent) * parseFloat(document.getElementById('price2').textContent) + parseFloat(document.getElementById('displayValue3').textContent) * parseFloat(document.getElementById('price3').textContent);
-        // Mise à jour de l'affichage pour sous-total 1
-        document.getElementById('IDsousTotal1').textContent = sousTotal1.toFixed(2) + " € / mois";
-
-        // Calcul du sous-total 2  
-        var sousTotal2 = parseFloat(document.getElementById('displayValue4').textContent) * parseFloat(document.getElementById('price4').textContent) + parseFloat(document.getElementById('displayValue5').textContent) * parseFloat(document.getElementById('price5').textContent);
-        // Mise à jour de l'affichage pour sous-total 2
-        document.getElementById('IDsousTotal2').textContent = sousTotal2.toFixed(2) + " € / mois";
-        
-        // // Calcul du sous-total 3
-        // var sousTotal3 = parseFloat(document.getElementById('displayValue6').textContent) * parseFloat(document.getElementById('price6').textContent);
-        // // Mise à jour de l'affichage pour sous-total 3
-        // document.getElementById('IDsousTotal3').textContent = "Sous-total 3 : " + sousTotal3.toFixed(2) + " € / mois";
-
-        // Calcul du total
-        var total = sousTotal1 + sousTotal2;
-        // Mise à jour de l'affichage pour total
-        document.getElementById('IDtotal').textContent = "Total : " + total.toFixed(2) + " € / mois";
-
-        /**
-        * Ecriture equivalente de :
-        * 
-        * document.getElementById('IDsousTotal2').textContent = "Sous-total 2 : " + sousTotal2.toFixed(2);
-        * <=>
-        * $('#IDsousTotal2').text("Sous-total 2 : " + sousTotal2.toFixed(2));
-        */
-      }
-
-      </script>
-
-
-      
-    <!-- <div class="row text-center">
-      <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#OrderForm">
-         <i class="fa fa-caret-right"></i> <strong>COMMANDER DES BLUEBOX</strong>
-      </button>
-    </div> -->
-
 
     <div class="row">
-      <div class="col-md-12 text-center next-section-offer">
-        <a href="#section8" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
-      </div>
-    </div> 
-
-    
-  </div>
-</div>
-
-<!-- Modal -->
-
-
-<div class="modal fade" id="List" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <!-- <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">Vous souhaitez commander des BlueBox ? </h4>
-        <p><i>Merci de remplir ce formulaire pour que nous puissions vous contacter.</i></p>
-        
-      </div> -->
-      <div class="offer-modal-body">
-        <h5>La catégorie des Objets Volumineux se décompose en 3 sous-catégories:</h5>
-        <p><b>1) OV1:</b></p>
-        <p>ventilateur, micro-onde, chaise, ski/snow/surf/kite, petit bagage, petite lampe, poussette, clim/chauffage, raquette de tennis, petite TV.</p>
-        <p><b>2) OV2:</b></p>
-        <p>Vélo, vélo d'appartement, Sac de golf, petit frigo, petite armoire, table de nuit, grand bagage, grande TV, pneu, table basse, selle de cheval.</p>
-        <p><b>3) Autres, sur demande:</b></p>
-        <p>Grand réfrigérateur, grande armoire, instruments, four/lave-vaisselle/lave-linge, table, lit, tableaux, porte, matelas, etc.</p>
-
-
-      </div>
-      <div class="modal-footer offer-modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      <div class="col-md-12 text-center next-section-carousel">
+        <a href="#section7" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
       </div>
     </div>
   </div>
-</div> 
-
-
-<div class="spacer-4" id="section8"></div>
-
-<div class="call">
-  <div class="container text-center">
-    <div class="row text-left">
-      <div class="col-md-6">
-        <img src="/images/plateau.png" class="img-responsive center-block" width="300">
-
-      </div>
-      <div class="col-md-6 text-left">
-        <h1>On s'occupe de tout.</h1>
-        <p>Livraison gratuite des Box vides.</p>
-        <p>Ramassage gratuit des Box pleines et de vos Objets Volumineux, dans un délai maximum de 2 semaines.</p> 
-        <p>Récupérez vos affaires dans les 24h pour seulement 8,90 € pour la 1 <sup>ère</sup> Box + 2,50 € par Box/Objet Volumineux supplémentaire.</p>
-        <h3> Pour commander : 
-          <br>
-          <button class="btn btn-default btn-lg" onclick="ga('send','event','Button','Callback', 'Call');">
-            <i class="fa fa-phone"> </i></i> +33 1 82 09 71 79 </button> ou 
-            <a class="btn btn-default btn-lg" href="/commande.html" target="BLANK" onclick="ga('send','event','Button','Order', 'Call');"> <i class="fa fa-caret-right"></i> Créer un compte 
-            </a>
-          </h3>
-
-       <!-- <button class="btn btn-default btn-lg" data-toggle="modal" data-target="#CallBack" onclick="ga('send','event','Button','Callback', 'Call');">
-       <i class="fa fa-phone"> </i> On vous rappelle  
-     </button> -->
-
-   </div> 
-    <!-- <div class="row text-center">
-      <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#OrderForm">
-        <i class="fa fa-caret-right"></i> <strong>COMMANDER DES BLUEBOX</strong>
-      </button>
-    </div> -->
-
-
-
-
-    <!-- <div class="row">
-    <div class="col-xs-12 text-center"> -->
-      <!-- Begin MailChimp Signup Form -->
-        <!-- <h4>Inscrivez-vous à la newsletter</h4>    
-        <div id="mc_embed_signup">
-        <form action="//we-square.us9.list-manage.com/subscribe/post?u=21eb534deb398c9409aacd9bc&amp;id=dffffbb6ba" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate>
-            
-    
-          <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="email address" required> -->
-          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-
-
-        <!-- <input type="submit" value="Suivez-nous" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
-           
-        </form>
-            
-        </div>
-      </div> -->
-
-    </div>
   </div>
-</div>
 
+  <div class="spacer-3" id="section7"></div>
 
-<!-- Modal -->
-<div class="modal fade" id="CallBack" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h2 class="modal-title" id="myModalLabel">Vous souhaitez être rappelé ? </h2>
-        <p><i>Merci de nous donner vos coordonnées.</i></p>
-        
-      </div>
-      <div class="modal-body">
+  <div class="offer">
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-sm-12">
 
+          <h1>Simulation</h1>
+          <p>Jouez avec les <span class="orange"> curseurs orange</span> pour simuler le prix de votre stockage !</p>
+          <p>Profitez-en les prix sont <b>dégréssifs</b> !<p>
 
-        <iframe height="340" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://wesquare.wufoo.com/embed/z191c0ch0kbdo1a/def/&header=hide"><a href="https://wesquare.wufoo.com/forms/z191c0ch0kbdo1a/">Fill out my Wufoo form!</a></iframe><div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"></div>
-        
-        <!-- <div id="wufoo-z191c0ch0kbdo1a">
-        </div>
-        <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"></div>
-        <script type="text/javascript">var z191c0ch0kbdo1a;(function(d, t) {
-        var s = d.createElement(t), options = {
-        'userName':'wesquare',
-        'formHash':'z191c0ch0kbdo1a',
-        'autoResize':true,
-        'height':'200',
-        'async':true,
-        'host':'wufoo.com',
-        'header':'hide',
-        'ssl':true};
-        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-        s.onload = s.onreadystatechange = function() {
-        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-        try { z191c0ch0kbdo1a = new WufooForm();z191c0ch0kbdo1a.initialize(options);z191c0ch0kbdo1a.display(); } catch (e) {}};
-        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-        })(document, 'script');</script>
-      -->
-
-
-    </div>
-    <!-- <div class="modal-footer"> -->
-    <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
-    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-    <!-- </div> -->
-  </div>
-</div>
-</div> 
-
-
-<script>
-$('.firstCarousel').carousel({
-  interval: 9000,
-  pause: 'hover'
-});
-
-
-</script>
-
-
-  
-  
-      <div id="footer">
-      <div class="container">
-        <div class="row">
-          <div class=" hidden-xs hidden-sm col-md-3 text-center">
-           
-              <a href="/index.html">          
-              <img src="/images/Wesquare2.png" width="100">
-              </a> 
+            <!-- <p>Box/Objet volumineux <b>assurée</b> et <b>sécurisée</b>.</p> -->
+            <!-- <br> -->
           </div>
-          <div class="col-md-6 text-center">
-             <ul class="list-inline">
-             
 
-              <li>
-                <a href="/mentions.html">Mentions légales</a>
-              </li>
-              <li>
-                <a href="/CGV.html">CGV</a>
-              </li>
-              <li>
-                <a href="/FAQ.html" target="_BLANK">FAQ</a>
-              </li>
-              <li>
-                <a href="/blog/index.html" target="_BLANK">Blog</a>
-              </li>
-              <li>
-                <a href="/Team.html">Team</a>
-              </li>
-              <li>
-                <a href="/Presse.html">Presse</a>
-              </li>
-              <li>
-                <a href="/partenariat.html">Partenaires</a>
-              </li>
+        </div>
+
+        <div class="row text-center">
+          <div class="hidden-xs hidden-sm col-md-6">
+            <h3>Box</h3>
           </div>
-          <div class="col-sm-12 col-md-3 text-center">
-            <ul class="list-inline">
+          <div class="hidden-xs hidden-sm col-md-6">
+            <h3>Objets Volumineux</h3>
+            <p><a data-toggle="modal" data-target="#List">Cliquez</a> pour consulter la liste des Objets Volumineux (OV1, OV2 et autres) </p>
+          </div>
+        </div>
+        <div class="row text-center">  
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <div id="displayValue"></div>
+            <div id="price"></div>
+            <div id="slider" onclick="ga('send','event','Slider','Play','BlueBox');"></div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <div id="displayValue2"></div>
+            <div id="price2"></div>
+            <div id="slider2" onclick="ga('send','event','Slider','Play','PenderiBox');">
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-2" id="split">
+            <div id="displayValue3"></div>
+            <div id="price3"></div>
+            <div id="slider3" onclick="ga('send','event','Slider','Play','ArchivBox');"></div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <div id="displayValue4"></div>
+            <div id="price4"></div>
+            <div id="slider4" onclick="ga('send','event','Slider','Play','KS1');"></div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <div id="displayValue5"></div>
+            <div id="price5"></div>
+            <div id="slider5" onclick="ga('send','event','Slider','Play','KS2');"></div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <div id="displayValue6"></div>
+            <div id="text">Autres Objets Volumineux <br> <a href="#section8" onclick="ga('send','event','Lien','Nous demander','Call');"><i class="fa fa-arrow-right"></i> sur demande</a></div>
+            <div>
+              <!-- <img src="{{ site.baseurl }}/images/Autre.png" class="circle" width="93"> -->
+            </div>
+          </div>
+        </div>
+        <div class="hidden-xs hidden-sm row text-center sous-total">
+          <div class="col-md-offset-2 col-md-3" id="IDsousTotal1">
+          </div>
+          <div class="hidden-xs hidden-sm col-md-2">+</div>
+          <div class="col-md-3" id="IDsousTotal2">
+          </div>
+        </div>
+        <div class="row text-center sous-total">
+          <div class="col-md-12" id="IDtotal">
+          </div>
+        </div>
+
+        <script type="text/javascript">
+
+        // HastTable correspondant au pricing : prix / unité / mois en fonction du nombre de BlueBox
+        var prixParUniteBlueBox = new Hashtable();
+        prixParUniteBlueBox.put(0, 6.95);
+        prixParUniteBlueBox.put(1, 6.95);
+        prixParUniteBlueBox.put(2, 6.55);
+        prixParUniteBlueBox.put(3, 6.25);
+        prixParUniteBlueBox.put(4, 5.25);
+        prixParUniteBlueBox.put(5, 5.15);
+        prixParUniteBlueBox.put(6, 5.05);
+        prixParUniteBlueBox.put(7, 4.95);
+        prixParUniteBlueBox.put(8, 4.85);
+        prixParUniteBlueBox.put(9, 4.75);
+        prixParUniteBlueBox.put(10, 4.65);
+        prixParUniteBlueBox.put(11, 4.55);
+        prixParUniteBlueBox.put(12, 4.45);
+        prixParUniteBlueBox.put(13, 4.35);
+        prixParUniteBlueBox.put(14, 4.25);
+        prixParUniteBlueBox.put(15, 4.20);
+        prixParUniteBlueBox.put(16, 4.15);
+        prixParUniteBlueBox.put(17, 4.10);
+        prixParUniteBlueBox.put(18, 4.05);
+        prixParUniteBlueBox.put(19, 4.00);
+        prixParUniteBlueBox.put(20, 3.95);
+
+        // HastTable correspondant au pricing : prix / unité / mois en fonction du nombre de Penderie
+        var prixParUnitePenderie = new Hashtable();
+        prixParUnitePenderie.put(0, 8.95);
+        prixParUnitePenderie.put(1, 8.95);
+        prixParUnitePenderie.put(2, 8.55);
+        prixParUnitePenderie.put(3, 8.40);
+        prixParUnitePenderie.put(4, 8.25);
+        prixParUnitePenderie.put(5, 8.15);
+        prixParUnitePenderie.put(6, 8.05);
+        prixParUnitePenderie.put(7, 7.95);
+        prixParUnitePenderie.put(8, 7.85);
+        prixParUnitePenderie.put(9, 7.75);
+        prixParUnitePenderie.put(10, 7.65);
+        prixParUnitePenderie.put(11, 7.55);
+        prixParUnitePenderie.put(12, 7.45);
+        prixParUnitePenderie.put(13, 7.35);
+        prixParUnitePenderie.put(14, 7.25);
+        prixParUnitePenderie.put(15, 7.20);
+        prixParUnitePenderie.put(16, 7.15);
+        prixParUnitePenderie.put(17, 7.10);
+        prixParUnitePenderie.put(18, 7.05);
+        prixParUnitePenderie.put(19, 7.00);
+        prixParUnitePenderie.put(20, 6.95);
+
+        // HastTable correspondant au pricing : prix / unité / mois en fonction du nombre de BoxArchive
+        var prixParUniteBoxArchive = new Hashtable();
+        prixParUniteBoxArchive.put(0, 4.95);
+        prixParUniteBoxArchive.put(1, 4.95);
+        prixParUniteBoxArchive.put(2, 4.55);
+        prixParUniteBoxArchive.put(3, 4.40);
+        prixParUniteBoxArchive.put(4, 4.25);
+        prixParUniteBoxArchive.put(5, 4.15);
+        prixParUniteBoxArchive.put(6, 4.05);
+        prixParUniteBoxArchive.put(7, 3.95);
+        prixParUniteBoxArchive.put(8, 3.85);
+        prixParUniteBoxArchive.put(9, 3.75);
+        prixParUniteBoxArchive.put(10, 3.65);
+        prixParUniteBoxArchive.put(11, 3.55);
+        prixParUniteBoxArchive.put(12, 3.45);
+        prixParUniteBoxArchive.put(13, 3.35);
+        prixParUniteBoxArchive.put(14, 3.25);
+        prixParUniteBoxArchive.put(15, 3.20);
+        prixParUniteBoxArchive.put(16, 3.15);
+        prixParUniteBoxArchive.put(17, 3.10);
+        prixParUniteBoxArchive.put(18, 3.05);
+        prixParUniteBoxArchive.put(19, 3.00);
+        prixParUniteBoxArchive.put(20, 2.95);
+        prixParUniteBoxArchive.put(21, 2.91);
+        prixParUniteBoxArchive.put(22, 2.85);
+        prixParUniteBoxArchive.put(23, 2.80);
+        prixParUniteBoxArchive.put(24, 2.75);
+        prixParUniteBoxArchive.put(25, 2.70);
+        prixParUniteBoxArchive.put(26, 2.65);
+        prixParUniteBoxArchive.put(27, 2.60);
+        prixParUniteBoxArchive.put(28, 2.55);
+        prixParUniteBoxArchive.put(29, 2.50);
+        prixParUniteBoxArchive.put(30, 2.45);
+
+        // HastTable correspondant au pricing : prix / unité / mois en fonction du nombre de KS1
+        var prixParUniteKS1 = new Hashtable();
+        prixParUniteKS1.put(0, 4.95);
+        prixParUniteKS1.put(1, 4.95);
+        prixParUniteKS1.put(2, 4.95);
+        prixParUniteKS1.put(3, 4.95);
+        prixParUniteKS1.put(4, 4.95);
+        prixParUniteKS1.put(5, 4.95);
+        prixParUniteKS1.put(6, 4.95);
+        prixParUniteKS1.put(7, 4.95);
+        prixParUniteKS1.put(8, 4.95);
+        prixParUniteKS1.put(9, 4.95);
+        prixParUniteKS1.put(10, 4.95);
+        prixParUniteKS1.put(11, 4.95);
+        prixParUniteKS1.put(12, 4.95);
+        prixParUniteKS1.put(13, 4.95);
+        prixParUniteKS1.put(14, 4.95);
+        prixParUniteKS1.put(15, 4.95);
+        prixParUniteKS1.put(16, 4.95);
+        prixParUniteKS1.put(17, 4.95);
+        prixParUniteKS1.put(18, 4.95);
+        prixParUniteKS1.put(19, 4.95);
+        prixParUniteKS1.put(20, 4.95);
+
+        // HastTable correspondant au pricing : prix / unité / mois en fonction du nombre de KS2
+        var prixParUniteKS2 = new Hashtable();
+        prixParUniteKS2.put(0, 8.95);
+        prixParUniteKS2.put(1, 8.95);
+        prixParUniteKS2.put(2, 8.95);
+        prixParUniteKS2.put(3, 8.95);
+        prixParUniteKS2.put(4, 8.95);
+        prixParUniteKS2.put(5, 8.95);
+        prixParUniteKS2.put(6, 8.95);
+        prixParUniteKS2.put(7, 8.95);
+        prixParUniteKS2.put(8, 8.95);
+        prixParUniteKS2.put(9, 8.95);
+        prixParUniteKS2.put(10, 8.95);
+        prixParUniteKS2.put(11, 8.95);
+        prixParUniteKS2.put(12, 8.95);
+        prixParUniteKS2.put(13, 8.95);
+        prixParUniteKS2.put(14, 8.95);
+        prixParUniteKS2.put(15, 8.95);
+        prixParUniteKS2.put(16, 8.95);
+        prixParUniteKS2.put(17, 8.95);
+        prixParUniteKS2.put(18, 8.95);
+        prixParUniteKS2.put(19, 8.95);
+        prixParUniteKS2.put(20, 8.95);
+
+
+        $('#slider').CircularSlider({
+          min: 0,
+          max: 20,
+          value: 4,
+          radius: 45,
+          innerCircleRatio : .5,
+          slide: function(ui,value) {
+
+            $("#displayValue").text(value);
+            $("#price").text(prixParUniteBlueBox.get(value) + " € / BlueBox / mois");
+            updateSubTotalAndTotal();
+            return ;
+          },
+          formLabel : function(value, prefix, suffix) {
+            return '<img src="{{ site.baseurl }}/images/Bluebox.png">';
+          },
+        });
+
+        $('#slider2').CircularSlider({
+          min: 0,
+          max: 20,
+          value: 0,
+          radius: 45,
+          innerCircleRatio : .5,
+          slide: function(ui,value) {
+
+            $("#displayValue2").text(value);
+            $("#price2").text(prixParUnitePenderie.get(value) + " € / PenderiBox / mois");
+            updateSubTotalAndTotal();
+            return ;
+          },
+          formLabel : function(value, prefix, suffix) {
+            return '<img src="{{ site.baseurl }}/images/Penderie.png">';
+          },
+        });
+
+        $('#slider3').CircularSlider({
+          min: 0,
+          max: 30,
+          value: 0,
+          radius: 45,
+          innerCircleRatio : .5,
+          slide: function(ui,value) {
+
+            $("#displayValue3").text(value);
+            $("#price3").text(prixParUniteBoxArchive.get(value) + " € / ArchivBox / mois");
+            updateSubTotalAndTotal();
+            return ;
+          },
+          formLabel : function(value, prefix, suffix) {
+            return '<img src="{{ site.baseurl }}/images/Arch.png">';
+          },
+        });
+
+
+        $('#slider4').CircularSlider({
+          min: 0,
+          max: 20,
+          value: 0,
+          radius: 45,
+          innerCircleRatio : .5,
+          slide: function(ui,value) {
+
+            $("#displayValue4").text(value);
+            $("#price4").text(prixParUniteKS1.get(value) + " € / OV1 / mois");
+            updateSubTotalAndTotal();
+            return ;
+          },
+          formLabel : function(value, prefix, suffix) {
+            return '<h2>OV1</h2>';
+          },
+        });
+
+        $('#slider5').CircularSlider({
+          min: 0,
+          max: 20,
+          value: 0,
+          radius: 45,
+          innerCircleRatio : .5,
+          slide: function(ui,value) {
+
+            $("#displayValue5").text(value);
+            $("#price5").text(prixParUniteKS2.get(value) + " € / OV2 / mois");
+            updateSubTotalAndTotal();
+            return ;
+          },
+          formLabel : function(value, prefix, suffix) {
+            return '<h2>OV2</h2>';
+          },
+        });
+
+        $('#slider6').CircularSlider({
+          min: 0,
+          max: 20,
+          value: 0,
+          radius: 45,
+          innerCircleRatio : .5,
+          slide: function(ui,value) {
+
+            $("#displayValue6").text(value);
+            $("#price6").text(prixParUniteBoxArchive.get(value) + " € / BoxArchive / mois");
+            updateSubTotalAndTotal();
+            return ;
+          },
+          formLabel : function(value, prefix, suffix) {
+            return '<img src="{{ site.baseurl }}/images/Arch.png">';
+          },
+        });
+
+        // Fonction de mise à jour des sous-totaux et total
+        function updateSubTotalAndTotal(){
+
+          // Calcul du sous total 1
+          var sousTotal1 = parseFloat(document.getElementById('displayValue').textContent) * parseFloat(document.getElementById('price').textContent) + parseFloat(document.getElementById('displayValue2').textContent) * parseFloat(document.getElementById('price2').textContent) + parseFloat(document.getElementById('displayValue3').textContent) * parseFloat(document.getElementById('price3').textContent);
+          // Mise à jour de l'affichage pour sous-total 1
+          document.getElementById('IDsousTotal1').textContent = sousTotal1.toFixed(2) + " € / mois";
+
+          // Calcul du sous-total 2  
+          var sousTotal2 = parseFloat(document.getElementById('displayValue4').textContent) * parseFloat(document.getElementById('price4').textContent) + parseFloat(document.getElementById('displayValue5').textContent) * parseFloat(document.getElementById('price5').textContent);
+          // Mise à jour de l'affichage pour sous-total 2
+          document.getElementById('IDsousTotal2').textContent = sousTotal2.toFixed(2) + " € / mois";
+          
+          // // Calcul du sous-total 3
+          // var sousTotal3 = parseFloat(document.getElementById('displayValue6').textContent) * parseFloat(document.getElementById('price6').textContent);
+          // // Mise à jour de l'affichage pour sous-total 3
+          // document.getElementById('IDsousTotal3').textContent = "Sous-total 3 : " + sousTotal3.toFixed(2) + " € / mois";
+
+          // Calcul du total
+          var total = sousTotal1 + sousTotal2;
+          // Mise à jour de l'affichage pour total
+          document.getElementById('IDtotal').textContent = "Total : " + total.toFixed(2) + " € / mois";
+
+          /**
+          * Ecriture equivalente de :
+          * 
+          * document.getElementById('IDsousTotal2').textContent = "Sous-total 2 : " + sousTotal2.toFixed(2);
+          * <=>
+          * $('#IDsousTotal2').text("Sous-total 2 : " + sousTotal2.toFixed(2));
+          */
+        }
+
+        </script>
+
+
+        
+      <!-- <div class="row text-center">
+        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#OrderForm">
+           <i class="fa fa-caret-right"></i> <strong>COMMANDER DES BLUEBOX</strong>
+        </button>
+      </div> -->
+
+
+      <div class="row">
+        <div class="col-md-12 text-center next-section-offer">
+          <a href="#section8" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
+        </div>
+      </div> 
+
+      
+    </div>
+  </div>
+
+  <!-- Modal -->
+
+
+  <div class="modal fade" id="List" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title" id="myModalLabel">Vous souhaitez commander des BlueBox ? </h4>
+          <p><i>Merci de remplir ce formulaire pour que nous puissions vous contacter.</i></p>
+          
+        </div> -->
+        <div class="offer-modal-body">
+          <h5>La catégorie des Objets Volumineux se décompose en 3 sous-catégories:</h5>
+          <p><b>1) OV1:</b></p>
+          <p>ventilateur, micro-onde, chaise, ski/snow/surf/kite, petit bagage, petite lampe, poussette, clim/chauffage, raquette de tennis, petite TV.</p>
+          <p><b>2) OV2:</b></p>
+          <p>Vélo, vélo d'appartement, Sac de golf, petit frigo, petite armoire, table de nuit, grand bagage, grande TV, pneu, table basse, selle de cheval.</p>
+          <p><b>3) Autres, sur demande:</b></p>
+          <p>Grand réfrigérateur, grande armoire, instruments, four/lave-vaisselle/lave-linge, table, lit, tableaux, porte, matelas, etc.</p>
+
+
+        </div>
+        <div class="modal-footer offer-modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div> 
+
+
+  <div class="spacer-4" id="section8"></div>
+
+  <div class="call">
+    <div class="container text-center">
+      <div class="row text-left">
+        <div class="col-md-6">
+          <img src="{{ site.baseurl }}/images/plateau.png" alt"à votre service" class="img-responsive center-block" width="300">
+
+        </div>
+        <div class="col-md-6 text-left">
+          <h1>On s'occupe de tout.</h1>
+          <p>Livraison gratuite des Box vides.</p>
+          <p>Ramassage gratuit des Box pleines et de vos Objets Volumineux, dans un délai maximum de 2 semaines.</p> 
+          <p>Récupérez vos affaires dans les 24h pour seulement 8,90 € pour la 1 <sup>ère</sup> Box + 2,50 € par Box/Objet Volumineux supplémentaire.</p>
+          <h3> Pour commander : 
+            <br>
+            <button class="btn btn-default btn-lg" onclick="ga('send','event','Button','Callback', 'Call');">
+              <i class="fa fa-phone"> </i> +33 1 82 09 71 79 </button> ou 
+              <a class="btn btn-default btn-lg" href="{{ site.baseurl }}/commande.html" target="BLANK" onclick="ga('send','event','Button','Order', 'Call');"> <i class="fa fa-caret-right"></i> Créer un compte 
+              </a>
+            </h3>
+
+         <!-- <button class="btn btn-default btn-lg" data-toggle="modal" data-target="#CallBack" onclick="ga('send','event','Button','Callback', 'Call');">
+         <i class="fa fa-phone"> </i> On vous rappelle  
+       </button> -->
+
+     </div> 
+      <!-- <div class="row text-center">
+        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#OrderForm">
+          <i class="fa fa-caret-right"></i> <strong>COMMANDER DES BLUEBOX</strong>
+        </button>
+      </div> -->
+
+
+
+
+      <!-- <div class="row">
+      <div class="col-xs-12 text-center"> -->
+        <!-- Begin MailChimp Signup Form -->
+          <!-- <h4>Inscrivez-vous à la newsletter</h4>    
+          <div id="mc_embed_signup">
+          <form action="//we-square.us9.list-manage.com/subscribe/post?u=21eb534deb398c9409aacd9bc&amp;id=dffffbb6ba" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate>
               
-              <!-- <li>
-                <a href="https://twitter.com/projectX">
-                  <i class="fa fa-twitter fa-2x"></i>
-                </a>
-              </li> -->
-              <li>
-                <a href="https://www.facebook.com/Welcome2WeSquare" target="_BLANK">
-                  <i class="fa fa-facebook fa-2x"></i>
-                </a>
-              </li>
-              <li>
-                <a href="http://www.instagram.com/we_square" target="_BLANK">
-                  <i class="fa fa-instagram fa-2x"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/channel/UC_jHjuQRpD0hpQt2NAceStw" target="_BLANK">
-                  <i class="fa fa-youtube-square fa-2x"></i>
-                </a>
-              </li>
-              <li>
-                <a href="http://www.pinterest.com/we_square" target="_BLANK">
-                 <i class="fa fa-pinterest-square fa-2x"></i> 
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div> 
-        <div class="row">
-          <div class="col-md-12 text-center social">
-            <ul class="list-inline">
-            
+      
+            <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="email address" required> -->
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 
-            <li>
-              <p>&copy; wesquare&reg; 2015. Tous droits réservés.</p>
-            </li>
-          </ul>
-        </div>
+
+          <!-- <input type="submit" value="Suivez-nous" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+             
+          </form>
+              
+          </div>
+        </div> -->
+
       </div>
     </div>
   </div>
 
 
-  
-  
-</body>
-</html>
+  <!-- Modal -->
+  <!-- <div class="modal fade" id="CallBack" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <h2 class="modal-title" id="myModalLabel">Vous souhaitez être rappelé ? </h2>
+          <p><i>Merci de nous donner vos coordonnées.</i></p>
+          
+        </div>
+        <div class="modal-body">
+
+
+          <iframe height="340" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://wesquare.wufoo.com/embed/z191c0ch0kbdo1a/def/&header=hide"><a href="https://wesquare.wufoo.com/forms/z191c0ch0kbdo1a/">Fill out my Wufoo form!</a></iframe><div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"></div> -->
+          
+          <!-- <div id="wufoo-z191c0ch0kbdo1a">
+          </div>
+          <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"></div>
+          <script type="text/javascript">var z191c0ch0kbdo1a;(function(d, t) {
+          var s = d.createElement(t), options = {
+          'userName':'wesquare',
+          'formHash':'z191c0ch0kbdo1a',
+          'autoResize':true,
+          'height':'200',
+          'async':true,
+          'host':'wufoo.com',
+          'header':'hide',
+          'ssl':true};
+          s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+          s.onload = s.onreadystatechange = function() {
+          var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+          try { z191c0ch0kbdo1a = new WufooForm();z191c0ch0kbdo1a.initialize(options);z191c0ch0kbdo1a.display(); } catch (e) {}};
+          var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+          })(document, 'script');</script>
+        -->
+
+
+      <!-- </div> -->
+      <!-- <div class="modal-footer"> -->
+      <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      <!-- </div> -->
+  <!--   </div>
+  </div>
+  </div>  -->
+
+
+  <script>
+  $('.firstCarousel').carousel({
+    interval: 9000,
+    pause: 'hover'
+  });
+
+
+  </script>

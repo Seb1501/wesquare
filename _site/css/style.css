@@ -447,7 +447,7 @@ font-size: 14px;
 }
 
 /* line 609, ../compass/sass/style.scss */
-#step {
+.step {
   position: relative;
   top: -45px;
   left: 30px;
