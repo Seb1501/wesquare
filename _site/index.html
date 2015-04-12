@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-  ---
-  layout: default
-  title: wesquare® - N'allez plus jamais dans un garde-meubles
-  description: Stockage à la demande. Plus besoin de vous déplacer. Commandez des Box en ligne. Nous transportons et stockons pour vous.
-  image: images/WS_fb.png
-  adress: 
-  ---
-=======
 <!DOCTYPE html>
 <html>
 
@@ -95,22 +86,56 @@
     <!--End of Zopim Live Chat Script-->
 
       <!-- jQuery -->
-    <script src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery.js"></script>
 
        <!-- Plugin JavaScript -->
-    <script src="/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.easing.min.js"> </script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="/js/grayscale.js"></script>
+    <script type="text/javascript"> 
+
+     /*!
+     * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+     * Code licensed under the Apache License v2.0.
+     * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+     */
+
+    // jQuery to collapse the navbar on scroll
+    $(window).scroll(function() {
+        if ($(".navbar").offset().top > 50) {
+            $(".navbar-fixed-top").addClass("top-nav-collapse");
+        } else {
+            $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        }
+    });
+
+    // jQuery for page scrolling feature - requires jQuery Easing plugin
+    $(function() {
+        $('a.page-scroll').bind('click', function(event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top
+            }, 1500, 'easeInOutExpo');
+            event.preventDefault();
+        });
+    });
+
+    // Closes the Responsive Menu on Menu Item Click
+    $('.navbar-collapse ul li a').click(function() {
+        $('.navbar-toggle:visible').click();
+    });
+
+
+    </script>
 
     <!-- circular-slider -->
-    <script src="/js/circular-slider.min.js"></script>
+    <script type="text/javascript" src="/js/circular-slider.min.js"></script>
 
     <!-- Including script simulating / permitting to use HashTable -->
-    <script type-"text/javascript" src="/js/jshashtable-3.0.js"></script>
+    <script type="text/javascript" src="/js/jshashtable-3.0.js"></script>
 
-
-    <script src="/js/jquery.scrolldepth.min.js"></script>
+    <!-- Scroll depth -->
+    <script type="text/javascript" src="/js/jquery.scrolldepth.min.js"></script>
     <script>
     jQuery(function() {
       jQuery.scrollDepth();
@@ -192,21 +217,22 @@
     </nav>
 
   
->>>>>>> parent of ee22234... Test ajout javascript dans le head
 
-  <div class="wrapper">
+    <div class="wrapper">
     <div class="lead">
       <div class="row">
         <div class="col-xs-offset-1 col-sm-offset-1 col-md-offset-1">
-          <img src="{{site.baseurl}}/images/Wesquare.png" alt="logo Wesquare" class="img-reponsive" width="250">
+          <img src="/images/Wesquare.png" alt="logo Wesquare" class="img-reponsive" width="250">
           
           <h1><b>N'allez plus jamais 
             <br>dans un garde-meubles.</b></h1>
+            <h3>
             <ul>
-                <li><a href="#section2"><h3>Ne vous déplacez plus.</h3></a></li>
-                <li><a href="#section3"><h3>Restez connecté à vos affaires.</h3></a></li>
-                <li><a href="#section7"><h3>Stockez à partir de 4,95 €/mois, sans engagement.</h3></a></li>
+                <li><a href="#section2">Ne vous déplacez plus.</a></li>
+                <li><a href="#section3">Restez connecté à vos affaires.</a></li>
+                <li><a href="#section7">Stockez à partir de 4,95 €/mois, sans engagement.</a></li>
             </ul>
+            </h3>
         </div>
       </div>
       <div class="row">
@@ -228,7 +254,7 @@
         <div class="col-xs-12 col-md-offset-1">
           <h1>Simple.</h1>
           <h3>Comme 1, 2, 3...4 !</h3>
-          <a class="page-scroll btn btn-default btn-lg" href="{{ site.baseurl }}/index.html#section7" onclick="ga('send','event','Lien','Play','Le service');"><i class="fa fa-play-circle"></i> À VOUS DE JOUER</a>
+          <a class="page-scroll btn btn-default btn-lg" href="/index.html#section7" onclick="ga('send','event','Lien','Play','Le service');"><i class="fa fa-play-circle"></i> À VOUS DE JOUER</a>
         </div>
       </div> 
 
@@ -287,7 +313,7 @@
             <div class="hidden-xs hidden-sm alignement">
             </div>
             <h1>Connecté</h1>
-            <p>Visualisez l'<strong>inventaire</strong> de vos affaires sur votre<a href="{{ site.baseurl }}/mon_espace.html" target="BLANK"> espace utilisateur</a>
+            <p>Visualisez l'<strong>inventaire</strong> de vos affaires sur votre<a href="/mon_espace.html" target="BLANK"> espace utilisateur</a>
               <br>Besoin d'un retour de vos affaires? Planifiez-le en ligne et récupérez-les,
               <br>dans un délai de 24h.
             </p>
@@ -327,21 +353,21 @@
       <div class="row text-center">
 
         <div class="col-sm-6 col-md-4">
-          <img src="{{ site.baseurl }}/images/MissBB2.png" alt="Miss BlueBox" width="250" class="img-responsive center-block">
+          <img src="/images/MissBB2.png" alt="Miss BlueBox" width="250" class="img-responsive center-block">
           <h4>BlueBox</h4>
           <p>130 DVD, 70 livres
             <br>ou 14 paires de chaussures...
           </p>
         </div>
         <div class="col-sm-6 col-md-4">
-          <img src="{{ site.baseurl }}/images/Misspenderie.png" alt="My close" width="250" class="img-responsive center-block">
+          <img src="/images/Misspenderie.png" alt="My close" width="250" class="img-responsive center-block">
           <h4>PenderiBox</h4>
           <p>10 manteaux
             <br>ou 20 chemises...
           </p>
         </div>
         <div class="col-sm-12 col-md-4">
-          <img src="{{ site.baseurl }}/images/Objvol.png" alt="Objets volumineux: ski, bagage, sac de golf" width="250" class="img-responsive center-block">
+          <img src="/images/Objvol.png" alt="Objets volumineux: ski, bagage, sac de golf" width="250" class="img-responsive center-block">
           <h4>Objets Volumineux</h4>
           <p class="visible-xs-block visible-sm-block click"><button class="btn-xs btn btn-default" data-toggle="modal" data-target="#List">Cliquez</button> pour consulter la liste des Objets Volumineux (OV1, OV2 et autres) </p>
           <p class="hidden-xs hidden-sm">Vélo, ski, sac de golf
@@ -351,12 +377,12 @@
       </div>
 
      <!--  <div class="col-md-12 text-center">
-          <a class="page-scroll btn btn-default btn-lg" href="{{ site.baseurl }}/index.html#section7" onclick="ga('send','event','Lien','Play','Sur-mesure');"><i class="fa fa-play-circle"></i> À VOUS DE JOUER</a>
+          <a class="page-scroll btn btn-default btn-lg" href="/index.html#section7" onclick="ga('send','event','Lien','Play','Sur-mesure');"><i class="fa fa-play-circle"></i> À VOUS DE JOUER</a>
         </div> -->
 
       <div class="row">
           <div class="col-md-12 text-center next-section-capacity">
-            <!-- <a class="page-scroll btn btn-default btn-lg" href="{{ site.baseurl }}/index.html#section7"><i class="fa fa-play-circle"></i> A VOUS DE JOUER</a> -->
+            <!-- <a class="page-scroll btn btn-default btn-lg" href="/index.html#section7"><i class="fa fa-play-circle"></i> A VOUS DE JOUER</a> -->
             <a href="#section5" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
           </div>
       </div>
@@ -382,7 +408,7 @@
           <div class="col-sm-6 col-md-6">
             <div class="row">
               <div class="col-sm-6 col-md-3">
-                <img src="{{ site.baseurl }}/images/Cam.png" width="69" alt="caméra de surveillance" class="img-responsive center-block">
+                <img src="/images/Cam.png" width="69" alt="caméra de surveillance" class="img-responsive center-block">
               </div>
               <div class="col-sm-6 col-md-9 text-left milieu">
                 <p>Nos entrepôts sont sécurisés <strong>7j/7, 24h/24</strong>.</p>
@@ -390,7 +416,7 @@
             </div>
             <div class="row">
               <div class="col-sm-6 col-md-3">
-                <img src="{{ site.baseurl }}/images/Termo.png" width="69" alt="thermomètre" class="img-responsive center-block">
+                <img src="/images/Termo.png" width="69" alt="thermomètre" class="img-responsive center-block">
               </div>
               <div class="col-sm-6 col-md-9 text-left milieu">
                 <p>Nous contrôlons la <strong>température</strong> et l'<strong>humidité</strong> dans nos entrepôts. </p>
@@ -398,7 +424,7 @@
             </div>
             <div class="row">
               <div class="col-sm-6 col-md-3">
-                <img src="{{ site.baseurl }}/images/Choc.png" width="68" alt="marteau" class="img-responsive center-block">
+                <img src="/images/Choc.png" width="68" alt="marteau" class="img-responsive center-block">
               </div>
               <div class="col-sm-6 col-md-9 text-left milieu">
                 <p>Vos BlueBox sont <strong>résistantes à tout choc</strong>. </p>
@@ -406,7 +432,7 @@
             </div>
             <div class="row">
               <div class="col-sm-6 col-md-3">
-                <img src="{{ site.baseurl }}images/Assurance.png" width="69" alt="assurance" class="img-responsive center-block">
+                <img src="images/Assurance.png" width="69" alt="assurance" class="img-responsive center-block">
               </div>
               <div class="col-sm-6 col-md-9 text-left milieu">          
                 <p>Vos Box et Objets Volumineux sont <strong>assurés par AXA</strong>
@@ -414,7 +440,7 @@
               </div>
               <div class="row">
                 <div class="col-sm-6 col-md-3">
-                  <img src="{{ site.baseurl }}images/Chauffeur.png" width="69" alt="volant" class="img-responsive center-block">
+                  <img src="images/Chauffeur.png" width="69" alt="volant" class="img-responsive center-block">
                 </div>
                 <div class="col-sm-6 col-md-9 text-left milieu">   
                   <p>Nos chauffeurs sont des <strong>professionnels</strong>.</p> 
@@ -432,9 +458,6 @@
           </div>
         </div>
   </div>
-  
-
-
 
 
   <div class="spacer" id="section6"></div>
@@ -531,7 +554,7 @@
             <!-- <h2 class="text-center">Ils nous recommandent</h2> -->
             <div class="col-sm-6 col-md-3">
               <a href="https://www.facebook.com/baudouin.stre/activity/10152818911986263" target="BLANK" onclick="ga('send','event','Review','Baudoin');">
-                <img src="{{site.baseurl}}/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
+                <img src="/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
                 <br>
                 <p class="text-center">"Super service! Equipe réactive et de confiance. A recommander +++"</p>
                 <p class="text-center"> &mdash; Baudoin</p>
@@ -539,7 +562,7 @@
             </div>
             <div class="col-sm-6 col-md-3">
               <a href="https://www.facebook.com/ade.drt.35/activity/10153023584266425" target="BLANK" onclick="ga('send','event','Review','Adeline');">
-                <img src="{{site.baseurl}}/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
+                <img src="/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
                 <br>
                 <p class="text-center">"Efficacité prouvée, service rapide et chaleureux. Les boites d'archives du bureau sont entre de bonnes mains! Merci à l'équipe WeSquare !"</p>
                 <p class="text-center"> &mdash; Adeline</p>
@@ -547,7 +570,7 @@
             </div>
             <div class="col-sm-6 col-md-3">
              <a href="https://www.facebook.com/annelise.borgenrizzo/activity/10152813851656288" target="BLANK" onclick="ga('send','event','Review','Anne-Lise');">
-              <img src="{{site.baseurl}}/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
+              <img src="/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
               <br>
               <p class="text-center">"Thank you for super-fast service, great organization and providing something so perfect for a life in Paris"</p>
               <p class="text-center"> &mdash; Anne-Lise</p>
@@ -555,7 +578,7 @@
           </div>
           <div class="col-sm-6 col-md-3">
               <a href="https://www.facebook.com/victoire.n.charavay/activity/10152950367821329" target="BLANK" onclick="ga('send','event','Review','Victore');">
-                <img src="{{site.baseurl}}/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
+                <img src="/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
                 <br>
                 <p class="text-center">"Super service ! Equipe jeune et très sympa ! Je ne sais plus comment je faisais avant !"</p>
                 <p class="text-center"> &mdash; Victoire</p>
@@ -564,7 +587,7 @@
         </div>
 
       </div>
-    </div>
+  </div>
 
     <div class="row">
       <div class="col-md-12 text-center next-section-carousel">
@@ -631,7 +654,7 @@
             <div id="displayValue6"></div>
             <div id="text">Autres Objets Volumineux <br> <a href="#section8" onclick="ga('send','event','Lien','Nous demander','Call');"><i class="fa fa-arrow-right"></i> sur demande</a></div>
             <div>
-              <!-- <img src="{{ site.baseurl }}/images/Autre.png" class="circle" width="93"> -->
+              <!-- <img src="/images/Autre.png" class="circle" width="93"> -->
             </div>
           </div>
         </div>
@@ -794,7 +817,7 @@
             return ;
           },
           formLabel : function(value, prefix, suffix) {
-            return '<img src="{{ site.baseurl }}/images/Bluebox.png">';
+            return '<img src="/images/Bluebox.png">';
           },
         });
 
@@ -812,7 +835,7 @@
             return ;
           },
           formLabel : function(value, prefix, suffix) {
-            return '<img src="{{ site.baseurl }}/images/Penderie.png">';
+            return '<img src="/images/Penderie.png">';
           },
         });
 
@@ -830,7 +853,7 @@
             return ;
           },
           formLabel : function(value, prefix, suffix) {
-            return '<img src="{{ site.baseurl }}/images/Arch.png">';
+            return '<img src="/images/Arch.png">';
           },
         });
 
@@ -885,7 +908,7 @@
             return ;
           },
           formLabel : function(value, prefix, suffix) {
-            return '<img src="{{ site.baseurl }}/images/Arch.png">';
+            return '<img src="/images/Arch.png">';
           },
         });
 
@@ -980,7 +1003,7 @@
     <div class="container text-center">
       <div class="row text-left">
         <div class="col-md-6">
-          <img src="{{ site.baseurl }}/images/plateau.png" alt"à votre service" class="img-responsive center-block" width="300">
+          <img src="/images/plateau.png" alt"à votre service" class="img-responsive center-block" width="300">
 
         </div>
         <div class="col-md-6 text-left">
@@ -992,7 +1015,7 @@
             <br>
             <button class="btn btn-default btn-lg" onclick="ga('send','event','Button','Callback', 'Call');">
               <i class="fa fa-phone"> </i> +33 1 82 09 71 79 </button> ou 
-              <a class="btn btn-default btn-lg" href="{{ site.baseurl }}/commande.html" target="BLANK" onclick="ga('send','event','Button','Order', 'Call');"> <i class="fa fa-caret-right"></i> Créer un compte 
+              <a class="btn btn-default btn-lg" href="/commande.html" target="BLANK" onclick="ga('send','event','Button','Order', 'Call');"> <i class="fa fa-caret-right"></i> Créer un compte 
               </a>
             </h3>
 
@@ -1089,3 +1112,93 @@
 
 
   </script>
+
+
+  
+  
+      <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class=" hidden-xs hidden-sm col-md-3 text-center">
+           
+              <a href="/index.html">          
+              <img src="/images/Wesquare2.png" alt="logo" width="100">
+              </a> 
+          </div>
+          <div class="col-md-6 text-center">
+             <ul class="list-inline">
+             
+
+              <li>
+                <a href="/mentions.html">Mentions légales</a>
+              </li>
+              <li>
+                <a href="/CGV.html">CGV</a>
+              </li>
+              <li>
+                <a href="/FAQ.html" target="_BLANK">FAQ</a>
+              </li>
+              <li>
+                <a href="/blog/index.html" target="_BLANK">Blog</a>
+              </li>
+              <li>
+                <a href="/Team.html">Team</a>
+              </li>
+              <li>
+                <a href="/Presse.html">Presse</a>
+              </li>
+              <li>
+                <a href="/partenariat.html">Partenaires</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-3 text-center">
+            <ul class="list-inline">
+              
+              <!-- <li>
+                <a href="https://twitter.com/projectX">
+                  <i class="fa fa-twitter fa-2x"></i>
+                </a>
+              </li> -->
+              <li>
+                <a href="https://www.facebook.com/Welcome2WeSquare" target="_BLANK">
+                  <i class="fa fa-facebook fa-2x"></i>
+                </a>
+              </li>
+              <li>
+                <a href="http://www.instagram.com/we_square" target="_BLANK">
+                  <i class="fa fa-instagram fa-2x"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UC_jHjuQRpD0hpQt2NAceStw" target="_BLANK">
+                  <i class="fa fa-youtube-square fa-2x"></i>
+                </a>
+              </li>
+              <li>
+                <a href="http://www.pinterest.com/we_square" target="_BLANK">
+                 <i class="fa fa-pinterest-square fa-2x"></i> 
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div> 
+        <div class="row">
+          <div class="col-md-12 text-center social">
+            <ul class="list-inline">
+            
+
+            <li>
+              <p>&copy; wesquare&reg; 2015. Tous droits réservés.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+  
+</body>
+</html>
