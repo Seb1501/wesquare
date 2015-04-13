@@ -2,7 +2,7 @@
 layout: post
 category: blog
 title: Le service Wesquare...Yummy, j'en ai une enorme envie !
-description: Wesquare est le seul acteur français du stockage à vous proposer une solution sur-mesure nous vous aidons à optimiser votre espace en stockant vos affaires, mais ça c’est seulement notre contrat de base...
+description: Wesquare est le seul acteur français du stockage à vous proposer une solution sur-mesure pour vous aider à optimiser votre espace en stockant vos affaires, mais ça c’est seulement notre contrat de base...
 image: images/MissBB_cpd.png
 image2: images/Penderi34_cpd.png
 adress: blog/2015/02/26/le-service-wesquare-yummy-j-en-ai-une-enorme-envie.html
@@ -22,12 +22,12 @@ La BlueBox, ce sont des mensurations à faire pâlir d’envie Monica Bellucci 
 <div class="row">
 <div class="col-md-6">
 <div class="thumbnail">
-  <img src="../../../../images/MissBB_cpd.png" class="img-responsive" alt="BlueBox Elle">
+  <img src="../../../../images/MissBB_cpd.png" class="img-responsive" alt="BlueBox pour ses affaires à elle">
 </div>
 </div>
 <div class="col-md-6">
 <div class="thumbnail">
-  <img src="../../../../images/MisterBB_cpd.png" class="img-responsive" alt="BlueBox Lui">
+  <img src="../../../../images/MisterBB_cpd.png" class="img-responsive" alt="BlueBox pour ses affaires à Lui">
 </div>
 </div>
 </div>
@@ -45,7 +45,7 @@ La BlueBox, ce sont des mensurations à faire pâlir d’envie Monica Bellucci 
 <div class="row">
 <div class="col-md-6">
 <div class="thumbnail">
-  <img src="../../../../images/Penderie_cpd.png" class="img-responsive" alt="PenderieBox">
+  <img src="../../../../images/Penderie_cpd.png" class="img-responsive" alt="Photo de la PenderieBox remplie de vêtements">
 </div>
 </div>
 </div>
@@ -61,7 +61,7 @@ L'ArchivBox partage la même salle de muscu’ que sa grande soeur la BlueBox, e
 <div class="row">
 <div class="col-md-6">
 <div class="thumbnail">
-  <img src="../../../../images/Arch_cpd.png" class="img-responsive" alt="ArchivBox">
+  <img src="../../../../images/Arch_cpd.png" class="img-responsive" alt="Photo de l'ArchivBox remplie de dossiers papier ">
 </div>
 </div>
 </div>
@@ -83,24 +83,24 @@ L'ArchivBox partage la même salle de muscu’ que sa grande soeur la BlueBox, e
 <div class="row">
 <div class="col-md-6">
 <div class="thumbnail">
-  <img src="../../../../images/Clim_cpd.png" class="img-responsive" alt="Climatiseur">
+  <img src="../../../../images/Clim_cpd.png" class="img-responsive" alt="Photo d'un Climatiseur">
 </div>
 </div>
 <div class="col-md-6">
 <div class="thumbnail">
-  <img src="../../../../images/Velo_cpd.png" class="img-responsive" alt="Vélo">
+  <img src="../../../../images/Velo_cpd.png" class="img-responsive" alt="Photo d'un Vélo">
 </div>
 </div>
 </div>
 <div class="row">
 <div class="col-md-6">
 <div class="thumbnail">
-  <img src="../../../../images/Val_cpd.png" class="img-responsive" alt="Valise">
+  <img src="../../../../images/Val_cpd.png" class="img-responsive" alt="Photo d'une Valise">
 </div>
 </div>
 <div class="col-md-6">
 <div class="thumbnail">
-  <img src="../../../../images/VeloAppart_cpd.png" class="img-responsive" alt="Valise">
+  <img src="../../../../images/VeloAppart_cpd.png" class="img-responsive" alt="Photo d'un Vélo d'appartement">
 </div>
 </div>
 </div>

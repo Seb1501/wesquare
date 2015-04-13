@@ -32,4 +32,4 @@ Avec le service wesquare<sup>&reg;</sup>, vous ne bougez pas de chez vous. On s�
 
 Toute l’équipe de wesquare<sup>&reg;</sup> vous souhaite une très belle et heureuse année 2015. Nous sommes plus que jamais à votre écoute et à votre service.
 	
-<img src="../../../../images/Team.jpg" alt="photos de l'équipe WESQUARE" class="img-responsive">
+<img src="../../../../images/Team.jpg" alt="photos de l'équipe WESQUARE au complet" class="img-responsive">
