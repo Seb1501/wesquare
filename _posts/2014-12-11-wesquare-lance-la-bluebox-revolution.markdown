@@ -6,6 +6,7 @@ description: WeSquare a été d'abord lancé à Paris pour venir au secours de t
 image: images/bb/BBet.jpg
 image2: images/bb/BBet.jpg
 adress: blog/2014/12/11/wesquare-lance-la-bluebox-revolution.html
+style: blog
 ---
 
 wesquare<sup>&reg;</sup> a d'abord été lancé à Paris pour venir au secours de tous les citadins (particuliers et professionels) qui manquent d'espace et a pour vocation à s'étendre à d'autres grandes métropoles.
