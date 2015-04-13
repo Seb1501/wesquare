@@ -1,29 +1,13 @@
 /* You can put your own style here */
 
 @import 'compass/css3';
-$primary-font: 'Montserrat', sans-serif;
-$secondary-font: 'Open Sans', sans-serif;
-$primary-color: rgba(16, 49, 186, 1); 
-// old: rgba(3, 30, 192)
-$primary-color-with-opacity80:rgba(16, 49, 186, 0.8);
-$secondary-color: rgba(149, 149, 149, 1);
-$tertiary-color: rgba(255, 114, 0, 1);
-// rgba(243, 147, 28, 1)
-$nav-background-color: rgba(255, 255, 255, 0.9);
-$section-background-color: rgba(244,241,236,1);
-$body-color: rgba(70,70,70,1);
-$body-size: 13px;
-$font-size-medium: 14px;
-$font-size-big: 18px;
-$font-size-small: 8px;
-
+@import 'variables';
 
 
 
 /*********************BODY***************************************************************************************************/
 
 body{
-	/*font-family: 'Open Sans', sans-serif;*/
 	font-family: $secondary-font;
 	font-size: $body-size;
 	height:100%;
@@ -42,103 +26,8 @@ body{
 	letter-spacing: 1px;
 }
 
-/*********************FAQ***************************************************************************************************/
 
-
-.faq .table {
-	font-size: $font-size-small;
-}
-
-.faq {
-	font-size: $font-size-medium;
-
-	h1{
-		font-family: $primary-font;
-		color: $primary-color;
-
-	}
-}
-
-
-
-
-/*********************HEADER************************************************************************************************/
-
-
-// #company-name{
-// 	font-family: $font-stack;
-// 	font-weight: 400;
-// 	font-size: 24px;
-// 	letter-spacing: 2px;
-// }
-
-// #beta{
-// 	font-size: 11px;
-// 	margin-left: 140px;
-// 	margin-top: -20px;
-// 	color: $primary-color;
-// }
-
-// .navbar-brand > ul {
-// 	list-style-type: none;
-// 	padding-left: 0px;
-// }
-
-// .dropdown-menu>li {
-// 	>a {
-// 	color: $primary-color;
-// 	}
-// 	>a:hover {
-// 	background-color: $primary-color;
-// 	color: white;
-// 	}
-// }
-
-// #title-nav{
-// 	font-size: 13px;
-// }
-
-// #company-name{
-// 	margin-top: -10px;
-// }
-
-// .label-default{
-// 	background-color: $primary-color;
-// }
-
-// .navbar-transparent {
-// 	background-color: white;
-// }
-
-// .navbar-transparent .navbar-brand,
-// .navbar-transparent .navbar-nav > li > a {
-//   	color: $primary-color;
-//   	line-height: 25px;
-// }
-
-// // .navbar-transparent .navbar-brand:hover,
-// // .navbar-transparent .navbar-brand:active, 
-// // .navbar-transparent .navbar-brand:focus, 
-// .navbar-transparent .navbar-nav > li > a:hover, 
-// .navbar-transparent .navbar-nav > li > a:active, 
-// .navbar-transparent .navbar-nav > li > a:focus, 
-// .navbar-transparent .navbar-nav > .open > a, 
-// .navbar-transparent .navbar-nav > .open > a:hover, 
-// .navbar-transparent .navbar-nav > .open > a:focus {
-// 	color: white;
-// 	background-color: $primary-color;
-// }
-
-// .navbar-default .navbar-toggle,
-// .navbar-default .navbar-toggle:hover,
-// .navbar-default .navbar-toggle:focus {
-//   background-color: $primary-color;
-// }
-
-// .navbar-default .navbar-toggle .icon-bar {
-//    background-color: $secondary-color;
-// }
-
+/*******************NAV BAR************************************************************************************************/
 
 .navbar-custom {
     margin-bottom: 0;
@@ -249,9 +138,7 @@ body{
 }
 
 
-
-
-/************************WRAPPER*DE*LA*LANDING*****************************************************************************/
+/********************************WRAPPER*************************************************************************************/
 
 
 @media(min-width:767px) {
@@ -280,7 +167,6 @@ body{
 
 }
 
-
 .wrapper {
 	background-image: image-url("WS_noopacity_cpd.png");
 	background-repeat:no-repeat;
@@ -300,10 +186,6 @@ body{
 	}
 
 }
-
-
-
-
 
 .lead {
 	width: 100%;
@@ -346,7 +228,6 @@ body{
 		padding-bottom: 1em;
 	}
 
-	
 
 }
 
@@ -369,7 +250,7 @@ body{
 }
 
 
-/**************************MODAL************************************************************************************/
+/**************************MODAL*********************************************************************************************/
 .modal-header {
 	p {
 	font-family: inherit;
@@ -407,7 +288,6 @@ body{
 	color: $primary-color;
 	}
 
-	
 }
 
 .offer-modal-footer{
@@ -420,29 +300,7 @@ body{
 	@extend .next-section
 }
 
-/*.wufoo label.desc, .wufoo legend.desc {
-font-family: 'PT Sans', sans-serif;
-font-size: 14px;
-font-style: normal;
-font-weight: bold;
-color: black;
-}
-
-.wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label {
-font-family: 'PT Sans', sans-serif;
-font-size: 14px;
-}
-
-.wufoo label.choice {
-font-size: 100%;
-font-family: 'PT Sans', sans-serif;
-font-style: normal;
-font-weight: normal;
-color: #444444;
-font-size: 14px;
-}*/
-
-/**************************PLUSIEURS*USAGES************************************************************************************/
+/***************************USAGES MULTIPLES*********************************************************************************/
 
 #title_section{
 	color: rgba(70, 70, 70, 1);
@@ -470,7 +328,6 @@ font-size: 14px;
 	background-color: $section-background-color;
 	@extend .spacer;
 }
-
 
 
 .spacer-4{
@@ -561,10 +418,6 @@ font-size: 14px;
 
 	}
 
-
-
-
-
 .next-section {
 	
 
@@ -596,7 +449,7 @@ font-size: 14px;
 }
 
 
-/**************************LE*SERVICE*********************************************************************************/
+/**************************LE SERVICE****************************************************************************************/
 
 .le_service .btn{
 
@@ -621,7 +474,7 @@ font-size: 14px;
 }
 
 
-/**************************MON**INVENTAIRE****************************************************************************************/
+/**************************CONNECTE******************************************************************************************/
 @media(min-width:767px) {
 	.inventory{
 		img {
@@ -667,7 +520,7 @@ font-size: 14px;
 	@extend .next-section;
 }
 
-/**************************SUR*MESURE*********************************************************************************/
+/**************************SUR MESURE***************************************************************************************/
 
 .title {
 	p {
@@ -773,56 +626,6 @@ font-size: 14px;
 	color: $tertiary-color;
 	font-weight: bold;
 }
-
-// .fade_away {
-//     opacity: 0.95;/* l'opacite que vous voulez au depart */
-//     border: none;/* enlever les border d'une image en lien */
-//     -ms-filter: "prodig:DXImageTransform.Microsoft.Alpha(Opacity=25)"; /* Hack IE8 */
-//     filter: alpha(opacity = 25); /* Hack IE 5-7 */
-//     -webkit-transition: opacity 0.5s ease-in-out;/* transition pour Chrome et Safari */
-//     -moz-transition: opacity 0.5s ease-in-out;/* transition pour Firefox */
-//     -o-transition: opacity 0.5s ease-in-out;/* transition pour Opéra */
-//     transition: opacity 0.5s ease-in-out; /* on écrit cette ligne à la fin de façon à ce que ce soit elle qui soit prise en compte lorsque l'attribut transition sera pris en compte par tous les navigateurs */
-//     width : 300px;
-//     height : 430px;
-//     display : block; /*Très important, sinon les dimensions ne sont pas prises en compte*/
-//     background: url("../images/bin_empty_no_shadow_with_text.png") no-repeat;
-//     background-position: center;
-// }
-
-// .fade_away:hover, 
-// .fade_away:focus {
-//   	opacity: 1; /* opacite au survol */
-//     -ms-filter:"prodig:DXImageTransform.Microsoft.Alpha(Opacity=90)"; /* Hack IE 8 */
-//     filter: alpha(opacity = 90); /* Hack IE 5-7 */
-//    	background-image: image-url("BOX_Rodolphe_no_shadow_2.png");
-//    	background-position: center;
-  
-// }
-
-
-// .engagment {
-	
-// 	li{
-// 	border-bottom:  1px dotted $primary-color;
-// 	list-style: none;
-// 	padding: 12px;
-// 	}
-
-// 	li{
-
-// 		p{
-// 		color: $primary-color; 
-// 		font-size: 18px;
-// 		font-weight: bold;
-// 		margin-bottom: 2px;
-// 		}
-// 	}
-// }
-
-// .offer button{
-// 	margin-top: 20px;
-// }
 
 
 /*****************CAROUSEL****************************************************************************************************/
@@ -1068,6 +871,23 @@ blockquote{
 // .thumbnail {
 // 	border-color: $primary-color;
 // }	
+
+/*********************FAQ***************************************************************************************************/
+
+
+.faq .table {
+	font-size: $font-size-small;
+}
+
+.faq {
+	font-size: $font-size-medium;
+
+	h1{
+		font-family: $primary-font;
+		color: $primary-color;
+
+	}
+}
 
 
 
