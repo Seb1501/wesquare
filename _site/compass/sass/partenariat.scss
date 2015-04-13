@@ -1,0 +1,24 @@
+/* You can put your own style here */
+
+@import 'compass/css3';
+@import 'variables';
+@import 'common';
+
+#map {
+	margin-top: 50px;
+	a {
+		color: $primary-color;
+	}
+}
+
+.partnership {
+	
+	background-color: white !important;
+
+	h1{
+		color: $primary-color;
+		font-size: $font-size-big;
+		font-family: $primary-font;
+	}
+
+}

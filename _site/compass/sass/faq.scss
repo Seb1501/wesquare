@@ -1,0 +1,23 @@
+/* You can put your own style here */
+
+@import 'compass/css3';
+@import 'variables';
+@import 'common';
+
+
+/*********************FAQ***************************************************************************************************/
+
+
+.faq .table {
+	font-size: $font-size-small;
+}
+
+.faq {
+	font-size: $font-size-medium;
+
+	h1{
+		font-family: $primary-font;
+		color: $primary-color;
+
+	}
+}

@@ -1,0 +1,57 @@
+/* You can put your own style here */
+
+@import 'compass/css3';
+@import 'variables';
+@import 'common';
+
+/*******************COMMANDER*************************************************************************/
+
+.kn-input-section_break {
+
+
+	h3 {
+
+	color: $secondary-color;
+	font-family: $primary-font;
+	font-size: $font-size-big;
+
+	
+	}
+
+
+
+}
+
+.view-header {
+
+	h2 {
+
+	color: $secondary-color;
+	font-family: $primary-font;
+	font-size: $font-size-big;
+
+	}
+}
+
+.billing {
+	
+	h3 {
+
+	color: $secondary-color;
+	font-family: $primary-font;
+	font-size: $font-size-big;
+
+	}
+
+	h5 {
+
+	margin-bottom: 70px;
+	}
+
+	a {
+
+	color: $secondary-color;
+	}
+
+
+}
