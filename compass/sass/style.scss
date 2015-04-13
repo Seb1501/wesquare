@@ -142,7 +142,7 @@ body{
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid $nav-background-color;
+    border-bottom: 0px solid $nav-background-color;
     // text-transform: uppercase;
     font-family: $secondary-font;
     font-weight: 600;
@@ -205,7 +205,7 @@ body{
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid $nav-background-color;
+        border-bottom: 0px solid $nav-background-color;
     }
 }
 
