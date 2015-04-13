@@ -1,3 +1,4 @@
+# BEGIN Expire headers
 
 <IfModule mod_expires.c>
   ExpiresActive On
@@ -16,3 +17,5 @@
   ExpiresByType application/x-javascript "access plus 2592000 seconds"
   ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
 </IfModule>
+
+# END Expire headers
