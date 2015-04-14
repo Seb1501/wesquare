@@ -462,13 +462,24 @@
 /*****************************REVIEWS******************************************************************************/
 
 .review {
+
+	min-height: 300px;
+
 	p {
 		padding-bottom: 0px;
 		color: black;
+		margin-left: 40px;
+		margin-right: 40px;
 	}
 
 	a {
 		text-decoration: none;
+	}
+
+	.carousel-inner img {
+		width: 200;
+		height: auto;
+		margin-top: 100px;
 	}
 }
 
