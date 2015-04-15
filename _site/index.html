@@ -224,7 +224,8 @@
             <ul>
                 <li><a href="#section2">Ne vous déplacez plus.</a></li>
                 <li><a href="#section3">Restez connecté à vos affaires.</a></li>
-                <li><a href="#section7">Stockez à partir de 4,95 €/mois, sans engagement.</a></li>
+                <li><a href="#section7">Stockez à partir de 4,95 €/mois, 
+                <br>sans engagement.</a></li>
             </ul>
             </h3>
         </div>
@@ -307,10 +308,11 @@
             <div class="hidden-xs hidden-sm alignement">
             </div>
             <h1>Connecté</h1>
-            <p>Visualisez l'<strong>inventaire</strong> de vos affaires sur votre<a href="/mon_espace.html" target="BLANK"> espace utilisateur</a>
-              <br>Besoin d'un retour de vos affaires? Planifiez-le en ligne et récupérez-les,
-              <br>dans un délai de 24h.
-            </p>
+            <p>Restez connecté à vos affaires où que vous soyez, grâce à votre inventaire en ligne.
+            Désormais, n'oubliez plus ce que vous stockez.</p>
+            Besoin d'un retour de vos affaires? Rien de plus simple : 
+            <br>planifiez-le en ligne sur votre<a href="/mon_espace.html" target="BLANK"> espace utilisateur</a> et 
+            <br>récupérez-les, dans un délai de 24h.
 
           </div>
           <div class="col-xs-12 col-sm-12 col-md-6 ecran">
@@ -405,7 +407,7 @@
                 <img src="/images/Cam.png" width="69" alt="picto caméra de surveillance" class="img-responsive center-block">
               </div>
               <div class="col-sm-6 col-md-9 text-left milieu">
-                <p>Nos entrepôts sont sécurisés <strong>7j/7, 24h/24</strong>.</p>
+                <p>Nos entrepôts sont sécurisés, sous surveillance <strong>7j/7, 24h/24</strong>.
               </div>
             </div>
             <div class="row">
@@ -413,7 +415,7 @@
                 <img src="/images/Termo.png" width="69" alt="picto thermomètre" class="img-responsive center-block">
               </div>
               <div class="col-sm-6 col-md-9 text-left milieu">
-                <p>Nous contrôlons la <strong>température</strong> et l'<strong>humidité</strong> dans nos entrepôts. </p>
+                <p> Nous contrôlons la <strong>température</strong> et l'<strong>humidité</strong>: hors de question que vos affaires prennent l'humidité ou souffrent de la chaleur comme si elles étaient stockées dans une cave.</p>
               </div>
             </div>
             <div class="row">
@@ -421,7 +423,7 @@
                 <img src="/images/Choc.png" width="68" alt="picto marteau" class="img-responsive center-block">
               </div>
               <div class="col-sm-6 col-md-9 text-left milieu">
-                <p>Vos BlueBox sont <strong>résistantes à tout choc</strong>. </p>
+                <p>Les BlueBox sont des boîtes de rangement en PVC qui est un matériau reconnu pour ses multiples avantages : <strong>inaltérable, robuste, isolant</strong>. Vos affaires sont donc bien protégées.</p>
               </div>
             </div>
             <div class="row">
@@ -429,7 +431,7 @@
                 <img src="images/Assurance.png" width="69" alt="picto assurance" class="img-responsive center-block">
               </div>
               <div class="col-sm-6 col-md-9 text-left milieu">          
-                <p>Vos Box et Objets Volumineux sont <strong>assurés par AXA</strong>
+                <p>Vos affaires sont <strong>assurés par AXA</strong>. La couverture de base est 250 €. Si vous le souhaitez, nous pouvons bien sûr vous proposer une assurance supplémentaire.
                 </div>
               </div>
               <div class="row">
@@ -437,7 +439,7 @@
                   <img src="images/Chauffeur.png" width="69" alt="picto as du volant" class="img-responsive center-block">
                 </div>
                 <div class="col-sm-6 col-md-9 text-left milieu">   
-                  <p>Nos chauffeurs sont des <strong>professionnels</strong>.</p> 
+                  <p>Nos chauffeurs sont tous des <strong>professionnels</strong>, que nous avons sélectionnés avec le plus grands soins.</p> 
                 </div>
               </div>
             </div>
@@ -680,7 +682,7 @@
         prixParUnitePenderie.put(19, 7.00);
         prixParUnitePenderie.put(20, 6.95);
 
-        // HastTable correspondant au pricing : prix / unité / mois en fonction du nombre de BoxArchive
+        // HastTable correspondant au pricing : prix / unité / mois en fonction du nombre d'ArchivBox
         var prixParUniteBoxArchive = new Hashtable();
         prixParUniteBoxArchive.put(0, 4.95);
         prixParUniteBoxArchive.put(1, 4.95);
@@ -1024,11 +1026,11 @@
       <div class="row">
 
 
-        <div id="SecondCarousel" class="carousel slide">
+        <div id="secondCarousel" class="carousel slide">
 
           <!-- <ol class="carousel-indicators">
-            <li data-target="#firstCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#firstCarousel" data-slide-to="1"></li>
+            <li data-target="#secondCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#secondCarousel" data-slide-to="1"></li>
 
           </ol> -->
           
@@ -1036,52 +1038,89 @@
           <div class="carousel-inner" role="listbox">
             <div class="item active">
               <div class="col-md-12 text-center">
-              <a href="https://www.facebook.com/annelise.borgenrizzo/activity/10152813851656288" target="BLANK" onclick="ga('send','event','Review','Anne-Lise');">
-              <img src="/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
-              <br>
-              <p class="text-center">"Thank you for super-fast service, great organization and providing something so perfect for a life in Paris"</p>
-              <p class="text-center"> &mdash; Anne-Lise</p>
-              </a>
+                <a href="https://www.facebook.com/annelise.borgenrizzo/activity/10152813851656288" target="BLANK" onclick="ga('send','event','Review','Anne-Lise');">
+                  <!--  <img src="/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
+                  <br> -->
+                  <p class="text-center">"Thank you for super-fast service, great organization and providing something so perfect for a life in Paris"
+                  <br> &mdash; Anne-Lise
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-facebook-square"></i>
+
+                  </p>
+                </a>
               </div>
             </div>
             <div class="item">
-              <div class="col-sm-12 text-center">
+              <div class="col-md-12 text-center">
                 <a href="https://www.facebook.com/ade.drt.35/activity/10153023584266425" target="BLANK" onclick="ga('send','event','Review','Adeline');">
-                <img src="/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
-                <br>
-                <p class="text-center">"Efficacité prouvée, service rapide et chaleureux. Les boites d'archives du bureau sont entre de bonnes mains! Merci à l'équipe WeSquare !"</p>
-                <p class="text-center"> &mdash; Adeline</p>
-              </a>
+                  <!-- <img src="/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
+                  <br> -->
+                  <p class="text-center">"Efficacité <i class="fa fa-facebook-official"></i> prouvée, service rapide et chaleureux. Les boites d'archives du bureau sont entre de bonnes mains! Merci à l'équipe WeSquare !"
+                  <br> &mdash; Adeline
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-facebook-square"></i>
+
+                  </p>
+                </a>
               </div>
+
+
             </div>
             <div class="item">
-              <div class="col-sm-12 text-center">
+              <div class="col-md-12 text-center">
                 <a href="https://www.facebook.com/baudouin.stre/activity/10152818911986263" target="BLANK" onclick="ga('send','event','Review','Baudoin');">
-                <img src="/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
-                <br>
-                <p class="text-center">"Super service! Equipe réactive et de confiance. A recommander +++"</p>
-                <p class="text-center"> &mdash; Baudoin</p>
-              </a>
+                  <!--  <img src="/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
+                  <br> -->
+                  <p class="text-center">"Super service! Equipe réactive et de confiance. A recommander +++"
+                  <br>&mdash; Baudoin 
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-facebook-square"></i>
+                    
+                  </p> 
+                </a>
               </div>
+             
             </div>
             <div class="item">
-              <div class="col-sm-12 text-center">
+               <div class="col-md-12 text-center">
                <a href="https://www.facebook.com/victoire.n.charavay/activity/10152950367821329" target="BLANK" onclick="ga('send','event','Review','Victore');">
-                <img src="/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
-                <br>
-                <p class="text-center">"Super service ! Equipe jeune et très sympa ! Je ne sais plus comment je faisais avant !"</p>
-                <p class="text-center"> &mdash; Victoire</p>
-              </a>
+                  <!-- <img src="/images/stars.png" alt="customer's review" class="img-responsive center-block" width="200">
+                  <br> -->
+                  <p class="text-center">"Super service ! Equipe jeune et très sympa ! Je ne sais plus comment je faisais avant !"
+                  <br> &mdash; Victoire
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-facebook-square"></i>
+
+                  </p>
+                </a>
               </div>
+
+
             </div>
           </div>
           
 
           <!-- Controls -->
-          <a class="left carousel-control" href="#SecondCarousel" role="button" data-slide="prev">
+          <a class="left carousel-control" href="#secondCarousel" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
           </a>
-          <a class="right carousel-control" href="#SecondCarousel" role="button" data-slide="next">
+          <a class="right carousel-control" href="#secondCarousel" role="button" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a>
 
@@ -1148,6 +1187,15 @@
   });
 
 
+  </script>
+
+  <script>
+  $('.secondCarousel').carousel({
+    interval: 3000,
+    pause: 'hover'
+  });
+
+  
   </script>
 
 

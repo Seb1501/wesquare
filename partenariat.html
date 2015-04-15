@@ -11,33 +11,35 @@ style: partenariat
 
   <div class="container">
     <div class="row">
-      <h1>Home Organisers / Home Stagers </h1>
-      <p>Ils sont convaincus par le service Wesquare et le propose à leurs clients.</p>
-      {% for hms in site.data.hm %}
-      <div class="col-md-3 col-sm-4 portfolio-item">
-        <a href="{{hms.adress}}" onclick="trackOutboundLink({{hms.adress}}); return false;" target="_BLANK" class="portfolio-link">
-          <div class="portfolio-hover">
-            <div class="portfolio-hover-content">
-              <!-- <i class="fa fa-plus fa-3x"></i> -->
-              
-              <h3>{{ hms.action }}</h3>
-              
+      <div class="col-md-12">
+        <h1>Home Organisers / Home Stagers </h1>
+        <p>Ils sont convaincus par le service Wesquare et le propose à leurs clients.</p>
+        {% for hms in site.data.hm %}
+        <div class="col-md-3 col-sm-4 portfolio-item">
+          <a href="{{hms.adress}}" onclick="trackOutboundLink({{hms.adress}}); return false;" target="_BLANK" class="portfolio-link">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <!-- <i class="fa fa-plus fa-3x"></i> -->
+                
+                <h3>{{ hms.action }}</h3>
+                
+              </div>
             </div>
-          </div>
-          <img src="../../images/{{ hms.logo }}" class="img-responsive" width="350" alt="logo Home Organizer">
-        </a>
-        <div class="portfolio-caption visible-xs-block visible-sm-block">
-          <a href="{{hms.adress}}">
-            <h4>{{ hms.action }}</h4>
+            <img src="../../images/{{ hms.logo }}" class="img-responsive" width="350" alt="logo Home Organizer">
           </a>
-          
-          
+          <div class="portfolio-caption visible-xs-block visible-sm-block">
+            <a href="{{hms.adress}}">
+              <h4>{{ hms.action }}</h4>
+            </a>
+            
+            
+          </div>
         </div>
-      </div>
 
-      
-      
-      {% endfor %}
+        
+        
+        {% endfor %}
+      </div>
     </div>
     <div class="row">
 
