@@ -46,6 +46,7 @@
 	text-align: left;
 	min-height: 610px;
 	padding-top: 100px;
+	position: relative;
 
 	button{
 	margin-bottom: 30px;
@@ -269,6 +270,8 @@
 		color: $tertiary-color;
 	}
 
+	margin-bottom: 30px;
+
 
 }
 
@@ -351,9 +354,20 @@
 /*****************CAROUSEL****************************************************************************************************/
 
 .header-carousel{
-	p{
+	
+	p {
+	
 	padding-bottom: 3em;	
+	
 	}
+
+	h5 {
+
+	margin-bottom: 30px;
+
+
+	}
+
 	
 }
 

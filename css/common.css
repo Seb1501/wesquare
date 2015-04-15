@@ -173,23 +173,24 @@ body {
 .list-inline > li {
   padding-left: 10px;
   padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 /*********************************USAGES MULTIPLES**************************************************************************/
-/* line 182, ../compass/sass/common.scss */
+/* line 183, ../compass/sass/common.scss */
 .feature h4 {
   color: #1031ba;
 }
-/* line 186, ../compass/sass/common.scss */
+/* line 187, ../compass/sass/common.scss */
 .feature img {
   margin-bottom: 0;
 }
-/* line 191, ../compass/sass/common.scss */
+/* line 192, ../compass/sass/common.scss */
 .feature hr {
   width: 10%;
   border: 2px solid blue;
 }
-/* line 196, ../compass/sass/common.scss */
+/* line 197, ../compass/sass/common.scss */
 .feature p {
   text-align: justify;
   margin-left: 10px;
@@ -198,7 +199,12 @@ body {
   padding-right: 35px;
 }
 
-/* line 211, ../compass/sass/common.scss */
+/* line 213, ../compass/sass/common.scss */
+#IDtotal {
+  margin-bottom: 20px;
+}
+
+/* line 218, ../compass/sass/common.scss */
 #title_section {
   color: #464646;
   font-weight: 700;
@@ -207,27 +213,27 @@ body {
   margin-top: 1em;
 }
 
-/* line 220, ../compass/sass/common.scss */
+/* line 227, ../compass/sass/common.scss */
 .spacer, .spacer-2, .spacer-4, .spacer-3 {
   height: 5em;
 }
 
-/* line 224, ../compass/sass/common.scss */
+/* line 231, ../compass/sass/common.scss */
 .spacer-2 {
   background-color: #f4f1ec;
 }
 
-/* line 230, ../compass/sass/common.scss */
+/* line 237, ../compass/sass/common.scss */
 .spacer-4 {
   background-color: #ff7200;
 }
 
-/* line 236, ../compass/sass/common.scss */
+/* line 243, ../compass/sass/common.scss */
 .spacer-3 {
   background-color: #1031ba;
 }
 
-/* line 241, ../compass/sass/common.scss */
+/* line 248, ../compass/sass/common.scss */
 .my-space {
   margin: auto;
   height: auto;
@@ -235,14 +241,14 @@ body {
   padding-top: 120px;
 }
 
-/* line 251, ../compass/sass/common.scss */
+/* line 258, ../compass/sass/common.scss */
 .title-section h1 {
   color: #1031ba;
   font-family: "Montserrat", sans-serif;
   font-size: 44px;
   margin-bottom: 0px;
 }
-/* line 258, ../compass/sass/common.scss */
+/* line 265, ../compass/sass/common.scss */
 .title-section h3 {
   color: #959595;
   font-family: "Open Sans", sans-serif;
@@ -250,65 +256,65 @@ body {
   margin-top: 0px;
   margin-bottom: 10px;
 }
-/* line 265, ../compass/sass/common.scss */
+/* line 272, ../compass/sass/common.scss */
 .title-section h4 {
   color: #1031ba;
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
 
-/* line 273, ../compass/sass/common.scss */
+/* line 280, ../compass/sass/common.scss */
 .min-height {
   min-height: 600px;
 }
-/* line 276, ../compass/sass/common.scss */
+/* line 283, ../compass/sass/common.scss */
 .min-height h1 {
   margin-bottom: 1em;
 }
 
 /********************************Portfolio********************************************************/
-/* line 285, ../compass/sass/common.scss */
+/* line 292, ../compass/sass/common.scss */
 .bg-light-gray {
   background-color: #1031ba;
 }
 
-/* line 289, ../compass/sass/common.scss */
+/* line 296, ../compass/sass/common.scss */
 #portfolio h4 {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 
-/* line 294, ../compass/sass/common.scss */
+/* line 301, ../compass/sass/common.scss */
 .text-muted {
   color: #777;
 }
 
-/* line 299, ../compass/sass/common.scss */
+/* line 306, ../compass/sass/common.scss */
 #portfolio {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #f4f1ec;
 }
 
-/* line 306, ../compass/sass/common.scss */
+/* line 313, ../compass/sass/common.scss */
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
 }
 
-/* line 312, ../compass/sass/common.scss */
+/* line 319, ../compass/sass/common.scss */
 #portfolio h5 {
   margin-top: 30px;
   margin-left: 15px;
   margin-bottom: 25px;
 }
-/* line 317, ../compass/sass/common.scss */
+/* line 324, ../compass/sass/common.scss */
 #portfolio a {
   text-decoration: none;
   color: black;
 }
 
-/* line 325, ../compass/sass/common.scss */
+/* line 332, ../compass/sass/common.scss */
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
@@ -316,7 +322,7 @@ body {
   max-width: 400px;
 }
 
-/* line 332, ../compass/sass/common.scss */
+/* line 339, ../compass/sass/common.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   position: absolute;
   width: 100%;
@@ -328,12 +334,12 @@ body {
   transition: all ease .5s;
 }
 
-/* line 343, ../compass/sass/common.scss */
+/* line 350, ../compass/sass/common.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
 }
 
-/* line 347, ../compass/sass/common.scss */
+/* line 354, ../compass/sass/common.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   position: absolute;
   top: 50%;
@@ -345,18 +351,18 @@ body {
   color: white;
 }
 
-/* line 358, ../compass/sass/common.scss */
+/* line 365, ../compass/sass/common.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px;
 }
 
-/* line 362, ../compass/sass/common.scss */
+/* line 369, ../compass/sass/common.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
   margin: 0;
 }
 
-/* line 367, ../compass/sass/common.scss */
+/* line 374, ../compass/sass/common.scss */
 #portfolio .portfolio-item .portfolio-caption {
   margin: 0 auto;
   padding: 25px;
@@ -365,26 +371,26 @@ body {
   background-color: white;
 }
 
-/* line 375, ../compass/sass/common.scss */
+/* line 382, ../compass/sass/common.scss */
 #portfolio .portfolio-item .portfolio-caption h4 {
   margin: 0;
   text-transform: none;
 }
 
-/* line 380, ../compass/sass/common.scss */
+/* line 387, ../compass/sass/common.scss */
 #portfolio .portfolio-item .portfolio-caption p {
   margin: 0;
   font-size: 16px;
   font-style: italic;
 }
 
-/* line 386, ../compass/sass/common.scss */
+/* line 393, ../compass/sass/common.scss */
 #portfolio * {
   z-index: 2;
 }
 
 @media (min-width: 767px) {
-  /* line 391, ../compass/sass/common.scss */
+  /* line 398, ../compass/sass/common.scss */
   #portfolio .portfolio-item {
     margin: 0 0 0px;
   }
