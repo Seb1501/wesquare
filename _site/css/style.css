@@ -202,7 +202,7 @@ body {
 
 /* line 213, ../compass/sass/common.scss */
 #IDtotal {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 /* line 218, ../compass/sass/common.scss */
@@ -609,7 +609,7 @@ body {
 
 /**************************SUR MESURE***************************************************************************************/
 /* line 260, ../compass/sass/style.scss */
-.title p {
+#title-capacity p {
   padding-bottom: 20px;
 }
 

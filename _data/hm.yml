@@ -1,9 +1,20 @@
+- logo: bypauline.png
+  name: Pauline Levasseur
+  description: Home et office organiser
+  adress: http://www.bypauline.fr/
+- logo: CF.png
+  name: Cyrille Frémont
+  description: Coach en rangement / Conseil en organisation personnelle et d’intérieur
+  adress: http://www.cyrillefremont.fr/pages/home-organiser.php
 - logo: Misoclaire.png
-  action: Mis ô Claire
+  name: Mis ô Claire
+  description: Coach en rangement / Conseil en organisation personnelle et d’intérieur
   adress: http://www.misoclaire.com/
 - logo: serenity.png
-  action: Agence Serenity
+  name: Elvira Petit
+  description: Coach rangement et organisation en Yvelines, Paris et région parisienne.
   adress: http://www.agenceserenity.fr/
 - logo: samson.png
-  action: Samson Interiors
+  name: Samson Interiors 
+  description: Home staging / agencement d'intérieur / décoration évènementielle 
   adress: http://www.samson-interiors.com/

@@ -415,3 +415,7 @@ body {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
 }
+/* line 24, ../compass/sass/partenariat.scss */
+.partnership .hm p {
+  margin-bottom: 20px;
+}
