@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-title: Le service Wesquare...Yummy, j'en ai une enorme envie !
+title: Le service Wesquare...Yummy, j'en ai une énorme envie !
 description: Wesquare est le seul acteur français du stockage à vous proposer une solution sur-mesure pour vous aider à optimiser votre espace en stockant vos affaires, mais ça c’est seulement notre contrat de base...
 image: images/MissBB_cpd.png
 image2: images/Penderi34_cpd.png
