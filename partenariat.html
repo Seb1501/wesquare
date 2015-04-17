@@ -11,16 +11,38 @@ style: partenariat
 <div class="partnership">
 
   <div class="container">
+
     <div class="row">
-      <div class="col-md-12 hm">
+      <div class="col-xs-12">
+        <h1>Espaces de coworking partenaires</h1>
+        <p>Vous êtes freelance ? Artisan ? Une start-up ? Et manquez d'espace, allez découvrir nos espaces de coworking. partenaires</p>
+          {% for cws in site.data.cw %}
+            <div class="col-md-2 col-sm-4 col-xs-6" title="{{cws.name}}"  data-container="body" data-toggle="popover" data-placement="top" data-content="{{cws.description}}" data-trigger="hover">
+        
+    
+              <a href="{{cws.adress}}" onclick="trackOutboundLink({{cws.adress}}); return false;" target="_BLANK">
+                <img src="../../images/{{ cws.logo }}" class="img-responsive" width="160" alt="logo Home Organizer" >
+              </a>
+        
+            </div>
+
+          {% endfor %}
+
+      </div>
+
+    </div>
+    
+
+    <div class="row">
+      <div class="col-xs-12 hm">
         <h1>Home Organisers / home stagers</h1>
-        <p> Ces professionels de l'organistion et du rangement (Home organisers) et du home staging (art de mettre en valeur un bien immobilier pour optimiser sa vente) sont convaincus par le service Wesquare et le propose à leurs clients. <!-- Vous souhaitez en savoir plus sur le home organising cliquer ici pour lire l'interview de Pauline, une de nos ambassadrices. --> </p>
+        <p> Ces professionels de l'organistion et du rangement (Home organisers) et du home staging (art de mettre en valeur un bien immobilier pour optimiser sa vente) sont convaincus par le service Wesquare et le proposent à leurs clients. <!-- Vous souhaitez en savoir plus sur le home organising cliquer ici pour lire l'interview de Pauline, une de nos ambassadrices. --> </p>
         {% for hms in site.data.hm %}
-        <div class="col-md-3 col-sm-4" title="{{hms.name}}"  data-container="body" data-toggle="popover" data-placement="bottom" data-content="{{hms.description}}" data-trigger="hover">
+        <div class="col-md-2 col-sm-3 col-xs-6" title="{{hms.name}}"  data-container="body" data-toggle="popover" data-placement="top" data-content="{{hms.description}}" data-trigger="hover">
         
     
           <a href="{{hms.adress}}" onclick="trackOutboundLink({{hms.adress}}); return false;" target="_BLANK">
-            <img src="../../images/{{ hms.logo }}" class="img-responsive" width="350" alt="logo Home Organizer" >
+            <img src="../../images/{{ hms.logo }}" class="img-responsive" width="160" alt="logo Home Organizer" >
           </a>
         
         </div>
@@ -35,7 +57,8 @@ style: partenariat
 
 
       <div class="col-sm-9 hm">
-        
+
+     
 
         <h1>Boutiques partenaires</h1>
         <p>Cliquez sur les emplacements pour découvrir le nom de nos partenaires locaux et allez y faire un tour pour récupérer un code promo qui vous donnera droit à des réductions sur le service Wesquare.</p>
@@ -100,6 +123,7 @@ style: partenariat
 
   </div>
   <script type="text/javascript">
+    jQuery.noConflict();
     jQuery(function () {
       jQuery('[data-toggle="popover"]').popover()
       })
