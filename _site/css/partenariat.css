@@ -410,12 +410,17 @@ body {
   background-color: white !important;
 }
 /* line 18, ../compass/sass/partenariat.scss */
+.partnership img {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+/* line 23, ../compass/sass/partenariat.scss */
 .partnership h1 {
   color: #1031ba;
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
 }
-/* line 25, ../compass/sass/partenariat.scss */
+/* line 30, ../compass/sass/partenariat.scss */
 .partnership .hm p {
   margin-bottom: 20px;
 }
