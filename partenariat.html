@@ -15,9 +15,9 @@ style: partenariat
     <div class="row">
       <div class="col-xs-12">
         <h1>Espaces de coworking partenaires</h1>
-        <p>Vous êtes freelance ? Artisan ? Une start-up ? Et manquez d'espace, allez découvrir nos espaces de coworking. partenaires</p>
+        <p>Vous êtes freelance ? Artisan ? Une start-up ? Et manquez d'espace, allez découvrir nos espaces de coworking partenaires.</p>
           {% for cws in site.data.cw %}
-            <div class="col-md-2 col-sm-4 col-xs-6" title="{{cws.name}}"  data-container="body" data-toggle="popover" data-placement="top" data-content="{{cws.description}}" data-trigger="hover">
+            <div class="col-md-2 col-sm-3 col-xs-6" title="{{cws.name}}"  data-container="body" data-toggle="popover" data-placement="top" data-content="{{cws.description}}" data-trigger="hover">
         
     
               <a href="{{cws.adress}}" onclick="trackOutboundLink({{cws.adress}}); return false;" target="_BLANK">
