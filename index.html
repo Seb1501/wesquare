@@ -562,7 +562,7 @@ style: style
         prixParUniteKS2.put(20, 8.95);
 
 
-        $('#slider').CircularSlider({
+        jQuery('#slider').CircularSlider({
           min: 0,
           max: 20,
           value: 4,
@@ -570,8 +570,8 @@ style: style
           innerCircleRatio : .5,
           slide: function(ui,value) {
 
-            $("#displayValue").text(value);
-            $("#price").text(prixParUniteBlueBox.get(value) + " € / BlueBox / mois");
+            jQuery("#displayValue").text(value);
+            jQuery("#price").text(prixParUniteBlueBox.get(value) + " € / BlueBox / mois");
             updateSubTotalAndTotal();
             return ;
           },
@@ -580,7 +580,7 @@ style: style
           },
         });
 
-        $('#slider2').CircularSlider({
+        jQuery('#slider2').CircularSlider({
           min: 0,
           max: 20,
           value: 0,
@@ -588,8 +588,8 @@ style: style
           innerCircleRatio : .5,
           slide: function(ui,value) {
 
-            $("#displayValue2").text(value);
-            $("#price2").text(prixParUnitePenderie.get(value) + " € / PenderiBox / mois");
+            jQuery("#displayValue2").text(value);
+            jQuery("#price2").text(prixParUnitePenderie.get(value) + " € / PenderiBox / mois");
             updateSubTotalAndTotal();
             return ;
           },
@@ -598,7 +598,7 @@ style: style
           },
         });
 
-        $('#slider3').CircularSlider({
+        jQuery('#slider3').CircularSlider({
           min: 0,
           max: 30,
           value: 0,
@@ -606,8 +606,8 @@ style: style
           innerCircleRatio : .5,
           slide: function(ui,value) {
 
-            $("#displayValue3").text(value);
-            $("#price3").text(prixParUniteBoxArchive.get(value) + " € / ArchivBox / mois");
+            jQuery("#displayValue3").text(value);
+            jQuery("#price3").text(prixParUniteBoxArchive.get(value) + " € / ArchivBox / mois");
             updateSubTotalAndTotal();
             return ;
           },
@@ -617,7 +617,7 @@ style: style
         });
 
 
-        $('#slider4').CircularSlider({
+        jQuery('#slider4').CircularSlider({
           min: 0,
           max: 20,
           value: 0,
@@ -625,8 +625,8 @@ style: style
           innerCircleRatio : .5,
           slide: function(ui,value) {
 
-            $("#displayValue4").text(value);
-            $("#price4").text(prixParUniteKS1.get(value) + " € / OV1 / mois");
+            jQuery("#displayValue4").text(value);
+            jQuery("#price4").text(prixParUniteKS1.get(value) + " € / OV1 / mois");
             updateSubTotalAndTotal();
             return ;
           },
@@ -635,7 +635,7 @@ style: style
           },
         });
 
-        $('#slider5').CircularSlider({
+        jQuery('#slider5').CircularSlider({
           min: 0,
           max: 20,
           value: 0,
@@ -643,8 +643,8 @@ style: style
           innerCircleRatio : .5,
           slide: function(ui,value) {
 
-            $("#displayValue5").text(value);
-            $("#price5").text(prixParUniteKS2.get(value) + " € / OV2 / mois");
+            jQuery("#displayValue5").text(value);
+            jQuery("#price5").text(prixParUniteKS2.get(value) + " € / OV2 / mois");
             updateSubTotalAndTotal();
             return ;
           },
@@ -653,7 +653,7 @@ style: style
           },
         });
 
-        $('#slider6').CircularSlider({
+        jQuery('#slider6').CircularSlider({
           min: 0,
           max: 20,
           value: 0,
@@ -661,8 +661,8 @@ style: style
           innerCircleRatio : .5,
           slide: function(ui,value) {
 
-            $("#displayValue6").text(value);
-            $("#price6").text(prixParUniteBoxArchive.get(value) + " € / BoxArchive / mois");
+            jQuery("#displayValue6").text(value);
+            jQuery("#price6").text(prixParUniteBoxArchive.get(value) + " € / BoxArchive / mois");
             updateSubTotalAndTotal();
             return ;
           },
@@ -977,7 +977,7 @@ style: style
 
 
   <script>
-  $('.firstCarousel').carousel({
+  jQuery('.firstCarousel').carousel({
     interval: 9000,
     pause: 'hover'
   });
@@ -986,7 +986,7 @@ style: style
   </script>
 
   <script>
-  $('.secondCarousel').carousel({
+  jQuery('.secondCarousel').carousel({
     interval: 3000,
     pause: 'hover'
   });
