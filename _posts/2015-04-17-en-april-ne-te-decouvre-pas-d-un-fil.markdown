@@ -53,3 +53,7 @@ Pour vos affaires en trop, surtout pas de panique, wesquare<sup>&reg;</sup> se f
 
 <p>Ça va mieux ? Allez, on vous souhaite bon vent !</p>
 
+<div class="thumbnail">
+  <img src="../../../../images/plane_cpd.jpg" alt="départ vers l'inconnu">
+</div>
+
