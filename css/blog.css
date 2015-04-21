@@ -408,53 +408,57 @@ body {
   font-size: 18px;
 }
 /* line 21, ../compass/sass/blog.scss */
+.blog .intro {
+  font-family: "Montserrat", sans-serif;
+}
+/* line 25, ../compass/sass/blog.scss */
 .blog h4 {
   font-family: "Open Sans", sans-serif;
   color: #959595;
   margin-bottom: 20px;
 }
 
-/* line 29, ../compass/sass/blog.scss */
+/* line 33, ../compass/sass/blog.scss */
 .bg-light-gray {
   background-color: #1031ba;
 }
 
-/* line 33, ../compass/sass/blog.scss */
+/* line 37, ../compass/sass/blog.scss */
 #portfolio h4 {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 
-/* line 38, ../compass/sass/blog.scss */
+/* line 42, ../compass/sass/blog.scss */
 .text-muted {
   color: #777;
 }
 
-/* line 43, ../compass/sass/blog.scss */
+/* line 47, ../compass/sass/blog.scss */
 #portfolio {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #f4f1ec;
 }
 
-/* line 50, ../compass/sass/blog.scss */
+/* line 54, ../compass/sass/blog.scss */
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
 }
 
-/* line 56, ../compass/sass/blog.scss */
+/* line 60, ../compass/sass/blog.scss */
 #portfolio h5 {
   margin-left: 15px;
   margin-bottom: 25px;
 }
-/* line 60, ../compass/sass/blog.scss */
+/* line 64, ../compass/sass/blog.scss */
 #portfolio a {
   text-decoration: none;
   color: black;
 }
 
-/* line 68, ../compass/sass/blog.scss */
+/* line 72, ../compass/sass/blog.scss */
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
@@ -462,7 +466,7 @@ body {
   max-width: 400px;
 }
 
-/* line 75, ../compass/sass/blog.scss */
+/* line 79, ../compass/sass/blog.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   position: absolute;
   width: 100%;
@@ -474,12 +478,12 @@ body {
   transition: all ease .5s;
 }
 
-/* line 86, ../compass/sass/blog.scss */
+/* line 90, ../compass/sass/blog.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
 }
 
-/* line 90, ../compass/sass/blog.scss */
+/* line 94, ../compass/sass/blog.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   position: absolute;
   top: 50%;
@@ -491,18 +495,18 @@ body {
   color: white;
 }
 
-/* line 101, ../compass/sass/blog.scss */
+/* line 105, ../compass/sass/blog.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px;
 }
 
-/* line 105, ../compass/sass/blog.scss */
+/* line 109, ../compass/sass/blog.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
   margin: 0;
 }
 
-/* line 110, ../compass/sass/blog.scss */
+/* line 114, ../compass/sass/blog.scss */
 #portfolio .portfolio-item .portfolio-caption {
   margin: 0 auto;
   padding: 25px;
@@ -511,26 +515,26 @@ body {
   background-color: white;
 }
 
-/* line 118, ../compass/sass/blog.scss */
+/* line 122, ../compass/sass/blog.scss */
 #portfolio .portfolio-item .portfolio-caption h4 {
   margin: 0;
   text-transform: none;
 }
 
-/* line 123, ../compass/sass/blog.scss */
+/* line 127, ../compass/sass/blog.scss */
 #portfolio .portfolio-item .portfolio-caption p {
   margin: 0;
   font-size: 16px;
   font-style: italic;
 }
 
-/* line 129, ../compass/sass/blog.scss */
+/* line 133, ../compass/sass/blog.scss */
 #portfolio * {
   z-index: 2;
 }
 
 @media (min-width: 767px) {
-  /* line 134, ../compass/sass/blog.scss */
+  /* line 138, ../compass/sass/blog.scss */
   #portfolio .portfolio-item {
     margin: 0 0 0px;
   }
