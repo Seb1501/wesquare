@@ -15,7 +15,7 @@ style: blog
 
 <p class="intro">Bref, tôt ou tard, ce ménage de printemps, on va tous y passer. De mi-Avril pour les bons élèves à fin Mai pour les procrastinateurs, tout le monde y aura droit. Mais alors, me direz-vous, comment faire un bon ménage de printemps ? Efficace, rapide et net ?</p> 
 
-<p class="intro">Pour répondre à cette question, wesquare<sup>&reg;</sup> vous à déniché LA personne de référence en la matière, Madame (bof bof le madame, ça me fait un coup de vieux) "super" By Pauline !</p>
+<p class="intro">Pour répondre à cette question, wesquare<sup>&reg;</sup> vous à déniché LA personne de référence en la matière, Mademoiselle By Pauline !</p>
 
 <h2>Alors Pauline, tout d’abord, c’est quoi un ménage de printemps ?</h2>
 
