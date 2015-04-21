@@ -32,7 +32,7 @@ Pour être efficace, il suffit de suivre 3 étapes :</p>
 
 </ul>
 
-<h2>Doit-on en profiter pour ré-organiser notre espace ?</h2>
+<h2>Doit-on en profiter pour réorganiser notre espace ?</h2>
 
 <p>Oui ! déjà avec le tri vous allez sortir tout ce qui ne sert pas. Et donc vous allez forcément avoir un peu plus de place. On ajuste les rangements et l'organisation générale.  Ensuite en déplaçant les meubles pour nettoyer vous aurez surement de nouvelles idées, de nouvelles envies pour améliorer l'agencement de votre espace.</p> 
 
@@ -48,3 +48,6 @@ Pour être efficace, il suffit de suivre 3 étapes :</p>
 
 <p class="intro">Wesquarement votre ;)</p>
 
+<div class="thumbnail">
+  <img src="../../../../images/bypaulinehandson_cpd.png" alt="By pauline pose pour Wesquare">
+</div>
