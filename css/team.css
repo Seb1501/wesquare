@@ -111,7 +111,7 @@ body {
 
 /* line 108, ../compass/sass/common.scss */
 .nav .btn-default {
-  border: 1px solid #ff7200;
+  border: 0px;
   color: white !important;
   background-color: #ff7200;
 }
@@ -131,7 +131,7 @@ body {
 
 /* line 125, ../compass/sass/common.scss */
 .btn-default {
-  border: 1px solid #ff7200;
+  border: 0px;
   color: #ff7200 !important;
   background-color: transparent;
 }
@@ -139,7 +139,7 @@ body {
 /* line 131, ../compass/sass/common.scss */
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #ff7200;
+  border: 0px;
   outline: 0;
   color: white !important;
   background-color: #ff7200 !important;

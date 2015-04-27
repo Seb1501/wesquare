@@ -106,7 +106,7 @@ body{
 }
 
 .nav .btn-default {
-	border: 1px solid $tertiary-color;
+	border: 0px;
     color: white !important;
     background-color: $tertiary-color;
 }
@@ -120,18 +120,17 @@ body{
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     @include border-radius(0px);
-    border: 0px;
 }
 
 .btn-default {
-    border: 1px solid $tertiary-color;
+    border: 0px;
     color: $tertiary-color !important;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid $tertiary-color;
+    border: 0px;
     outline: 0;
     color: white !important;
     background-color: $tertiary-color !important;
