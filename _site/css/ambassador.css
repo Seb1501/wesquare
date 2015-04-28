@@ -387,70 +387,34 @@ body {
     margin: 0 0 0px;
   }
 }
-/****************PROFIL********************************************************************************************/
-/* line 11, ../compass/sass/profil.scss */
-.profil a {
-  color: #1031ba;
-}
-
-/* line 15, ../compass/sass/profil.scss */
-.profil-spacer {
-  height: 3em;
-}
-
-/* line 19, ../compass/sass/profil.scss */
-.box-custom, .box-Rodolphe, .box-Alice, .box-Fred, .box-Victoria, .box-Beaubien, .box-See-Concept {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  /*background-size: 100%;*/
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+/* line 11, ../compass/sass/ambassador.scss */
+.ambassador h1 {
   text-align: center;
-  height: 500px;
-  margin-top: 50px;
-  color: white;
+  font-family: "Montserrat", sans-serif;
+  color: #1031ba;
+  padding-bottom: 20px;
+}
+/* line 18, ../compass/sass/ambassador.scss */
+.ambassador h4 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+}
+/* line 25, ../compass/sass/ambassador.scss */
+.ambassador h5 {
+  text-align: center;
+  font-weight: bold;
 }
 
-/* line 35, ../compass/sass/profil.scss */
-.box-Rodolphe {
-  background-image: url('../images/Affaires_Rodolphe_compressed.png?1424280752');
+/* line 31, ../compass/sass/ambassador.scss */
+#portfolio {
+  background-color: white;
 }
-
-/* line 41, ../compass/sass/profil.scss */
-.box-Alice {
-  background-image: url('../images/Affaires_Alice_compressed.png?1423766456');
-}
-
-/* line 46, ../compass/sass/profil.scss */
-.box-Fred {
-  background-image: url('../images/Affaires_Fred_compressed.png?1423766456');
-}
-
-/* line 51, ../compass/sass/profil.scss */
-.box-Victoria {
-  background-image: url('../images/Affaires_Victoria_compressed.png?1430207528');
-}
-
-/* line 56, ../compass/sass/profil.scss */
-.box-Beaubien {
-  background-image: url('../images/Affaires_Beaubien_compressed.png?1423766456');
-}
-
-/* line 61, ../compass/sass/profil.scss */
-.box-See-Concept {
-  background-image: url('../images/Affaires_See-Concept.png?1423766456');
-}
-
-/* line 66, ../compass/sass/profil.scss */
-.image {
-  border-radius: 50%;
-  height: 200px;
-}
-
-/* line 71, ../compass/sass/profil.scss */
-blockquote {
-  border-left: 4px solid #1031ba;
+/* line 34, ../compass/sass/ambassador.scss */
+#portfolio p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 13px;
 }

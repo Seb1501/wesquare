@@ -264,58 +264,49 @@ body {
   text-align: center;
 }
 
-/* line 280, ../compass/sass/common.scss */
-.min-height {
-  min-height: 600px;
-}
-/* line 283, ../compass/sass/common.scss */
-.min-height h1 {
-  margin-bottom: 1em;
-}
-
 /********************************Portfolio********************************************************/
-/* line 292, ../compass/sass/common.scss */
+/* line 286, ../compass/sass/common.scss */
 .bg-light-gray {
   background-color: #1031ba;
 }
 
-/* line 296, ../compass/sass/common.scss */
+/* line 290, ../compass/sass/common.scss */
 #portfolio h4 {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 
-/* line 301, ../compass/sass/common.scss */
+/* line 295, ../compass/sass/common.scss */
 .text-muted {
   color: #777;
 }
 
-/* line 306, ../compass/sass/common.scss */
+/* line 300, ../compass/sass/common.scss */
 #portfolio {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
   background-color: #f4f1ec;
 }
 
-/* line 313, ../compass/sass/common.scss */
+/* line 307, ../compass/sass/common.scss */
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
 }
 
-/* line 319, ../compass/sass/common.scss */
+/* line 313, ../compass/sass/common.scss */
 #portfolio h5 {
   margin-top: 30px;
   margin-left: 15px;
   margin-bottom: 25px;
 }
-/* line 324, ../compass/sass/common.scss */
+/* line 318, ../compass/sass/common.scss */
 #portfolio a {
   text-decoration: none;
   color: black;
 }
 
-/* line 332, ../compass/sass/common.scss */
+/* line 326, ../compass/sass/common.scss */
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
@@ -323,7 +314,7 @@ body {
   max-width: 400px;
 }
 
-/* line 339, ../compass/sass/common.scss */
+/* line 333, ../compass/sass/common.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   position: absolute;
   width: 100%;
@@ -335,12 +326,12 @@ body {
   transition: all ease .5s;
 }
 
-/* line 350, ../compass/sass/common.scss */
+/* line 344, ../compass/sass/common.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
 }
 
-/* line 354, ../compass/sass/common.scss */
+/* line 348, ../compass/sass/common.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   position: absolute;
   top: 50%;
@@ -352,18 +343,18 @@ body {
   color: white;
 }
 
-/* line 365, ../compass/sass/common.scss */
+/* line 359, ../compass/sass/common.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px;
 }
 
-/* line 369, ../compass/sass/common.scss */
+/* line 363, ../compass/sass/common.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
   margin: 0;
 }
 
-/* line 374, ../compass/sass/common.scss */
+/* line 368, ../compass/sass/common.scss */
 #portfolio .portfolio-item .portfolio-caption {
   margin: 0 auto;
   padding: 25px;
@@ -372,26 +363,26 @@ body {
   background-color: white;
 }
 
-/* line 382, ../compass/sass/common.scss */
+/* line 376, ../compass/sass/common.scss */
 #portfolio .portfolio-item .portfolio-caption h4 {
   margin: 0;
   text-transform: none;
 }
 
-/* line 387, ../compass/sass/common.scss */
+/* line 381, ../compass/sass/common.scss */
 #portfolio .portfolio-item .portfolio-caption p {
   margin: 0;
   font-size: 16px;
   font-style: italic;
 }
 
-/* line 393, ../compass/sass/common.scss */
+/* line 387, ../compass/sass/common.scss */
 #portfolio * {
   z-index: 2;
 }
 
 @media (min-width: 767px) {
-  /* line 398, ../compass/sass/common.scss */
+  /* line 392, ../compass/sass/common.scss */
   #portfolio .portfolio-item {
     margin: 0 0 0px;
   }
@@ -440,7 +431,7 @@ body {
 
 /* line 51, ../compass/sass/profil.scss */
 .box-Victoria {
-  background-image: url('../images/Affaires_Victoria_compressed.png?1429094286');
+  background-image: url('../images/Affaires_Victoria_compressed.png?1430207528');
 }
 
 /* line 56, ../compass/sass/profil.scss */

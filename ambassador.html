@@ -1,0 +1,48 @@
+---
+layout: second
+title: wesquare® - nos ambassadrices
+description: Ces professionelles du rangement aiment le service wesquare® et le recommandent à leurs clients.
+style: ambassador
+---
+
+
+
+<div id="portfolio">
+
+<div class="ambassador">
+<div class="container">
+  <div class="row text center">
+    <h1> Ambassadrices </h1>
+    <h4> Ces professionelles du rangement aiment le service wesquare<sup>&reg;</sup> et le recommandent à leurs clients.</h4>
+  </div>
+  <div class="row">
+    {% for ambassadors in site.data.ambassador %}
+    <div class="col-md-4 col-sm-6 portfolio-item">
+        <a href="{{ambassadors.adress}}" onclick="trackOutboundLink({{article.adress}}); return false;" target="_BLANK" class="portfolio-link">
+          <h5>{{ ambassadors.title }}</h5>
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              
+                  
+                  <p>{{ ambassadors.text }}</p>
+
+            </div>
+          </div>
+          <img src="../../images/{{ ambassadors.photo }}" class="img-responsive" width="400" alt="Ambassadrice Wesquare">
+        </a>
+        <div class="portfolio-caption visible-xs-block visible-sm-block">
+        <a href="{{ambassadors.adress}}">
+           
+            <p>{{ ambassadors.text }}</p>
+        </a>       
+        </div>
+    </div>
+
+      
+          
+       
+      {% endfor %}
+    </div>
+  </div>
+</div>
+</div>
