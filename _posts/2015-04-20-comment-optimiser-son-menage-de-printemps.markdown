@@ -49,5 +49,5 @@ Pour être efficace, il suffit de suivre 3 étapes :</p>
 <p class="intro">Wesquarement votre ;)</p>
 
 <div class="thumbnail">
-  <img src="../../../../images/bypaulinehandson_cpd.png" alt="By pauline pose pour Wesquare">
+  <img src="../../../../images/bypauline_cpd.png" alt="By pauline pose pour Wesquare">
 </div>
