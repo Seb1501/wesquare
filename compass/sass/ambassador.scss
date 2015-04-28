@@ -15,12 +15,14 @@
 		padding-bottom: 20px;
 	}
 
-	h4 {
+	h3 {
 
 		font-family: $secondary-font;
 		text-align: center;
+		font-size: $font-size-medium;
 		padding-bottom: 20px;
 	}
+
 
 	h5 {
 		text-align: center;
@@ -38,4 +40,6 @@
 		margin-right: 10px;
 		font-size: $body-size;
 	}
+
+
 }

@@ -395,22 +395,23 @@ body {
   padding-bottom: 20px;
 }
 /* line 18, ../compass/sass/ambassador.scss */
-.ambassador h4 {
+.ambassador h3 {
   font-family: "Open Sans", sans-serif;
   text-align: center;
+  font-size: 14px;
   padding-bottom: 20px;
 }
-/* line 25, ../compass/sass/ambassador.scss */
+/* line 27, ../compass/sass/ambassador.scss */
 .ambassador h5 {
   text-align: center;
   font-weight: bold;
 }
 
-/* line 31, ../compass/sass/ambassador.scss */
+/* line 33, ../compass/sass/ambassador.scss */
 #portfolio {
   background-color: white;
 }
-/* line 34, ../compass/sass/ambassador.scss */
+/* line 36, ../compass/sass/ambassador.scss */
 #portfolio p {
   margin-top: 0px;
   margin-bottom: 0px;
