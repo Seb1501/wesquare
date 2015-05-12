@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-title: En April, ne te découvre pas d'un fil
+title: Expatriation - 4 défis à relever avant le départ
 description: Ça y est, c’est parti. Vous avez signé votre contrat, vous le savez, plus rien ne sera comme avant...
 image: images/april_cover_cpd.png
 image2: images/april_cover_cpd.png
@@ -45,7 +45,7 @@ Pour vos affaires en trop, surtout pas de panique, wesquare<sup>&reg;</sup> se f
 	<li>les besoins spécifiques (port de lunettes, traitement d’orthodontie…).</li>
 </ul>
 
-<p>En souscrivant une <a href="http://fr.april-international.com/france">assurance adéquate</a> avant le départ, on évite par exemple de débourser plus de 100 dollars pour une simple consultation aux États-Unis ou d’avancer les frais d’hospitalisation suite à une crise d’appendicite en Thaïlande...</p>
+<p>En souscrivant une <a href="http://fr.april-international.com/france/assurance-expatrie">assurance adéquate</a> avant le départ, on évite par exemple de débourser plus de 100 dollars pour une simple consultation aux États-Unis ou d’avancer les frais d’hospitalisation suite à une crise d’appendicite en Thaïlande...</p>
 
 <h2>4. Se préparer à affronter le choc culturel.</h2>
 

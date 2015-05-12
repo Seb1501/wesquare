@@ -36,6 +36,12 @@ style: partenariat
 
     <div class="row">
       <div class="col-xs-12 hm">
+        <script type="text/javascript">
+        jQuery.noConflict();
+        jQuery(function () {
+        jQuery('[data-toggle="popover"]').popover()
+        })
+        </script>
         <h1>Home Organisers / home stagers</h1>
         <p> Ces professionels de l'organistion et du rangement (Home organisers) et du home staging (art de mettre en valeur un bien immobilier pour optimiser sa vente) sont convaincus par le service Wesquare et le proposent à leurs clients. <!-- Vous souhaitez en savoir plus sur le home organising cliquer ici pour lire l'interview de Pauline, une de nos ambassadrices. --> </p>
         {% for hms in site.data.hm %}
@@ -123,10 +129,5 @@ style: partenariat
 
 
   </div>
-  <script type="text/javascript">
-    jQuery.noConflict();
-    jQuery(function () {
-      jQuery('[data-toggle="popover"]').popover()
-      })
-  </script>
+  
 </div>

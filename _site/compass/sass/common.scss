@@ -47,6 +47,7 @@ body{
     color: #fff;
 }
 
+
 .navbar-custom .navbar-brand .navbar-toggle:focus,
 .navbar-custom .navbar-brand .navbar-toggle:active {
     outline: 0;
@@ -98,17 +99,28 @@ body{
 }
 
 
-.nav .btn {
+.nav {
+
+    .btn {
 	font-family: $secondary-font;
     font-size: $font-size-medium;
     font-weight: 600;
     @include border-radius(0px);
-}
+    }
 
-.nav .btn-default {
-	border: 0px;
+    .btn-default {
+	border-width: 0px;
     color: white !important;
     background-color: $tertiary-color;
+    }
+
+    .btn-primary {
+    border-width: 0px;
+    color: white !important;
+    background-color: $primary-color;
+    }
+
+
 }
 
 
@@ -122,19 +134,28 @@ body{
     @include border-radius(0px);
 }
 
-.btn-default {
-    border: 0px;
+.wrapper .btn-default {
+    border-width: 1px;
+    border-color: $tertiary-color;
     color: $tertiary-color !important;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 0px;
     outline: 0;
     color: white !important;
+    border-color: $tertiary-color !important;
     background-color: $tertiary-color !important;
 }
+
+.btn-primary:hover,
+.btn-primary:focus {
+    outline: 0;
+    color: white !important;
+    background-color: $primary-color !important;
+}
+
 
 /*****************************FOOTER*****************************************************************************************/
 
@@ -178,6 +199,24 @@ body{
 
 /*********************************USAGES MULTIPLES**************************************************************************/
 
+.power a{
+    display: none;
+}
+
+
+.close {
+
+    color: $tertiary-color;
+    opacity: 0.6;
+    text-shadow: none;
+}
+
+.close:hover {
+
+    color: $tertiary-color;
+    opacity: 1;
+}
+
 .feature {
 
 	h4{
@@ -215,17 +254,20 @@ body{
 }
 
 
-#title_section{
-	color: rgba(70, 70, 70, 1);
-	font-weight: 700;
-	font-size: 24px;
-	margin-bottom: 1em;
-	margin-top: 1em;
+// #title_section{
+// 	color: rgba(70, 70, 70, 1);
+// 	font-weight: 700;
+// 	font-size: 24px;
+// 	margin-bottom: 1em;
+// 	margin-top: 1em;
+// }
+
+.spacer-5{
+    height: 7em;
 }
 
-
 .spacer{
-	height: 5em;
+	height: 3em;
 }
 
 .spacer-2{
@@ -253,6 +295,8 @@ body{
 }
 
 
+
+
 .title-section {
 
 	h1{
@@ -262,7 +306,7 @@ body{
 	margin-bottom: 0px;
 	}
 
-	h3{
+	h2{
 	color: $secondary-color;
 	font-family: $secondary-font;
 	font-size: 30px;
@@ -277,7 +321,12 @@ body{
 }
 
 
-
+.btn-default {
+        color: $tertiary-color;
+        background-color: transparent;
+        border-color: $tertiary-color;
+    
+    }
 
 
 /********************************Portfolio********************************************************/
@@ -393,3 +442,6 @@ body{
         margin: 0 0 0px;
     }
 }
+
+
+

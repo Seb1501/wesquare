@@ -1,0 +1,60 @@
+---
+layout: second
+title: wesquare® - Que peuvent contenir les BlueBox ?
+description: 
+style: bluebox
+---
+
+
+
+<div id="portfolio">
+
+<div class="bluebox">
+<div class="container">
+  <div class="row text-center">
+    <div class="col-md-12">
+      <h1> Que peut contenir une BlueBox ? </h1>
+    
+      
+      <h3> La BlueBox, c'est l’incontournable de Wesquare.
+      Lorsqu’elle a débarqué à Paris, son bleu déjà légendaire avait rendu Michou - le roi des nuits de Pigalle - fou de jalousie.
+      La BlueBox a des mensurations à faire pâlir d’envie Monica Bellucci : L.60 x l.40 x h.33 cm… Elle peut, par exemple, contenir 14 paires de chaussures. Mais ce n'est pas tout ;)</h3>
+    
+      <img src="images/shoes_wb.gif" class="img-responsive center-block">
+    
+    </div>
+   
+  </div>
+  <div class="row">
+    {% for blueboxes in site.data.bluebox %}
+    <div class="col-md-3 col-sm-4 portfolio-item">
+        <a href="#" class="portfolio-link">
+          <h5>{{ blueboxes.title }}</h5>
+          <div class="portfolio-hover hidden-xs">
+            <div class="portfolio-hover-content">
+              
+                  
+                  <h4>{{ blueboxes.text }}</h4>
+
+            </div>
+          </div>
+          <div class="thumbnail">
+          <img src="../../images/{{ blueboxes.photo }}" class="img-responsive" width="300" alt="Ambassadrice Wesquare">
+          </div>
+        </a>
+        <div class="portfolio-caption visible-xs-block visible-sm-block">
+        <a href="{{blueboxes.adress}}">
+           
+            <h4>{{ blueboxes.text }}</h4>
+        </a>       
+        </div>
+    </div>
+
+      
+          
+       
+      {% endfor %}
+    </div>
+  </div>
+</div>
+</div>
