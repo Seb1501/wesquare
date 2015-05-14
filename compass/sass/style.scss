@@ -191,21 +191,13 @@
 .le_service, .inventory, .capacity, .security, .header-carousel, .offer, .simulation, {
 
 	@extend .title-section;
-	min-height: 530px;
+	min-height: 510px;
 	overflow: hidden;
 	position: relative;
 
 	}
 
-@media(min-width:767px) {
 
-	.next-section {
-
-	padding-right: 40px;
-
-	}
-
-}
 
 
 .next-section {
@@ -221,6 +213,9 @@
 	bottom: 0px;
 	
 	margin:0 auto;
+	left:0;
+	right:0;
+
 
 
 }
@@ -322,7 +317,7 @@
 .security {
 	
 	background-color: $section-background-color;
-	min-height: 470px;
+	min-height: 450px;
 
 	img{
 		margin-bottom: 23.2px;
@@ -335,7 +330,9 @@
 	
 }
 
-
+#space_after {
+	padding-bottom: 20px;
+}
 
 // @media(max-width:767px) {
 
