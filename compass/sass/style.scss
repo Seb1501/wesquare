@@ -191,7 +191,7 @@
 .le_service, .inventory, .capacity, .security, .header-carousel, .offer, .simulation, {
 
 	@extend .title-section;
-	min-height: 510px;
+	min-height: 530px;
 	overflow: hidden;
 	position: relative;
 
@@ -316,14 +316,13 @@
 
 
 
-
 /*****************************SECURITE*****************************************************************************************/
 
 
 .security {
 	
 	background-color: $section-background-color;
-	min-height: 450px;
+	min-height: 470px;
 
 	img{
 		margin-bottom: 23.2px;
