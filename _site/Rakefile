@@ -20,6 +20,7 @@ task :post do
     title: #{title}
     description:
     image:
+    image2:
     adress:
     ---
 
