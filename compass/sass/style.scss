@@ -132,8 +132,16 @@
 
 // }
 
+.pick-lang{
+	font-family: $secondary-font;
+	font-weight: 600;
+}
 
-
+#sep {
+	border-right: 1px solid;
+	border-color: $tertiary-color;
+	padding-bottom: 0px;
+}
 
 /**************************MODAL*********************************************************************************************/
 .modal-header {

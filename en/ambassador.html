@@ -1,0 +1,49 @@
+---
+layout: second-en
+title: wesquare® - our ambassadors
+description: These professional home organizers like wesquare® and recommend it to their clients.
+adress: en/ambassador.html
+style: ambassador
+---
+
+
+
+<div id="portfolio">
+
+<div class="ambassador">
+<div class="container">
+  <div class="row text center">
+    <h1> Ambassadors </h1>
+    <h3> These professional home organizers like wesquare<sup>&reg;</sup> and recommend the service to their clients.</h3>
+  </div>
+  <div class="row">
+    {% for ambassadors in site.data.ambassador %}
+    <div class="col-md-4 col-sm-6 portfolio-item">
+        <a href="{{ambassadors.adress}}" onclick="trackOutboundLink({{article.adress}}); return false;" target="_BLANK" class="portfolio-link">
+          <h5>{{ ambassadors.title }}</h5>
+          <div class="portfolio-hover hidden-xs">
+            <div class="portfolio-hover-content">
+              
+                  
+                  <h4>{{ ambassadors.text }}</h4>
+
+            </div>
+          </div>
+          <img src="../../images/{{ ambassadors.photo }}" class="img-responsive" width="400" alt="Ambassadrice Wesquare">
+        </a>
+        <div class="portfolio-caption visible-xs-block visible-sm-block">
+        <a href="{{ambassadors.adress}}">
+           
+            <h4>{{ ambassadors.text }}</h4>
+        </a>       
+        </div>
+    </div>
+
+      
+          
+       
+      {% endfor %}
+    </div>
+  </div>
+</div>
+</div>

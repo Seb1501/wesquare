@@ -1,0 +1,45 @@
+
+
+<!--Navbar -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="{{ site.baseurl }}/en/index.html">
+                    <img src="{{ site.baseurl }}/images/Wesquare2.png" width="120">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <!-- <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li> -->
+
+                    <li>
+                        <a class="page-scroll telephone" href="#" onclick="ga('send','event','Lien','téléphone','nav bar');">
+                        <i class="fa fa-phone"></i> + 33 (0)1 82 09 71 79 <span class="badge"><i style="font-size: 10px;">8-23h, 6/7</i></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll btn btn-primary btn-lg " href="{{site.baseurl}}/en/quote.html" onclick="ga('send','event','Lien','formulaire de contact','nav bar');">
+                        <i class="fa fa-envelope"></i> Quote 
+                        </a>
+                    </li>
+
+
+                    
+                    <li>
+                        <a class="page-scroll btn btn-default btn-lg" href="{{ site.baseurl }}/en/#section7" onclick="ga('send','event','Lien','Simuler mon prix','nav bar');"><i class="fa fa-play-circle"></i> Pricing </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>

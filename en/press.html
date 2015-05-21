@@ -1,0 +1,64 @@
+---
+layout: second-en
+title: wesquare® - press review
+description: They are talking about wesquare®. Selection of press articles presenting the wesquare® storage service - Never visit a storage unit again.
+style: common
+---
+
+
+
+<div id="portfolio">
+
+<div class="container">
+<div class="row">
+<h5>
+  Contact Presse :
+  <br><a href="http://mypressagency.com/">My Press Agency</a>
+  <br>Léo-Paule Murdoch & Maïmiti Akoka-Aubry
+  <ul class="list-inline">
+    <li>
+    <i class="fa fa-phone"></i> 07 60 20 10 00
+    </li>
+    <li>
+    <a href="mailto:contact@mypressagency.com"><i class="fa fa-envelope-o"></i> contact@mypressagency.com</a>
+    </li>
+  </ul>
+
+</h5>
+</div>
+  <div class="row">
+    {% for article in site.data.presse %}
+    <div class="col-md-4 col-sm-6 portfolio-item">
+        <a href="{{article.adress}}" onclick="trackOutboundLink({{article.adress}}); return false;" target="_BLANK" class="portfolio-link">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <!-- <i class="fa fa-plus fa-3x"></i> -->
+              
+                  <h4>{{ article.action }}</h4>
+                  <h4>{{ article.title }}</h4>
+
+            </div>
+          </div>
+          <img src="../../images/{{ article.logo }}" class="img-responsive" width="350" alt="logo du magazine">
+        </a>
+        <div class="portfolio-caption visible-xs-block visible-sm-block">
+        <a href="{{article.adress}}">
+        <h4>{{ article.action }}</h4>
+        <h4>{{ article.title }}</h4>
+        </a>
+        
+        
+        </div>
+    </div>
+
+      
+          
+       
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+
+            
