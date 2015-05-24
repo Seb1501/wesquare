@@ -989,7 +989,7 @@ SOFTWARE.
 /* line 740, ../compass/sass/style.scss */
 .value, #displayValue, #displayValue2, #displayValue3, #displayValue4, #displayValue5, #displayValue6, .sous-total {
   color: white;
-  font-size: 20px;
+  font-size: 17px;
   padding-top: 20px;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 10px;
