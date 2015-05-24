@@ -52,7 +52,7 @@
     -o-background-size: cover;
 	text-align: left;
 	min-height: 630px;
-	padding-top: 100px;
+	padding-top: 30px;
 	position: relative;
 
 
@@ -114,12 +114,27 @@
 		font-family: $primary-font;
 	}
 
-	#no-space-after {
-		padding-bottom: 0px;
+	
+
+	.langue {
+		padding-bottom: 40px;
+   		z-index: 2;
+
+
+
+		li {
+			padding-right: 0px;
+			padding-left: 0px;
+		}
 	}
 
 
 }
+
+
+#no-space-after {
+		padding-bottom: 0px;
+	}
 
 // .btn-primary{
 // 	background-color: $primary-color;
