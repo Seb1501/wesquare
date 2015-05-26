@@ -986,7 +986,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 **/
-/* line 740, ../compass/sass/style.scss */
+/* line 753, ../compass/sass/style.scss */
 .value, #displayValue, #displayValue2, #displayValue3, #displayValue4, #displayValue5, #displayValue6, .sous-total {
   color: white;
   font-size: 17px;
@@ -995,7 +995,7 @@ SOFTWARE.
   margin-bottom: 10px;
 }
 
-/* line 748, ../compass/sass/style.scss */
+/* line 761, ../compass/sass/style.scss */
 .monthlyprice, #price, #price2, #price3, #price4, #price5, #price6, #text {
   color: white;
   font-size: 13px;
@@ -1003,46 +1003,51 @@ SOFTWARE.
   margin-bottom: 10px;
 }
 
-/* line 759, ../compass/sass/style.scss */
+/* line 768, ../compass/sass/style.scss */
+#slider, #slider2, #slider3, #slider4, #slider5 {
+  cursor: pointer;
+}
+
+/* line 776, ../compass/sass/style.scss */
 #displayValue6 {
   color: transparent;
 }
 
-/* line 764, ../compass/sass/style.scss */
+/* line 781, ../compass/sass/style.scss */
 .subtotal {
   display: none;
 }
 
-/* line 768, ../compass/sass/style.scss */
+/* line 785, ../compass/sass/style.scss */
 .sous-total {
   margin-top: 20px;
 }
 
 @media (min-width: 900px) {
-  /* line 775, ../compass/sass/style.scss */
+  /* line 792, ../compass/sass/style.scss */
   #split {
     border-right: 1px solid white;
   }
 }
-/* line 781, ../compass/sass/style.scss */
+/* line 798, ../compass/sass/style.scss */
 #price, #price2, #price3, #price4, #price5 {
   min-height: 30px;
   display: none;
 }
 
-/* line 787, ../compass/sass/style.scss */
+/* line 804, ../compass/sass/style.scss */
 #price6 {
   color: transparent;
   min-height: 30px;
   display: none;
 }
 
-/* line 794, ../compass/sass/style.scss */
+/* line 811, ../compass/sass/style.scss */
 #text {
   min-height: 30px;
 }
 
-/* line 800, ../compass/sass/style.scss */
+/* line 817, ../compass/sass/style.scss */
 .jcs {
   position: relative;
   border-style: solid;
@@ -1054,7 +1059,7 @@ SOFTWARE.
   cursor: pointer;
 }
 
-/* line 817, ../compass/sass/style.scss */
+/* line 834, ../compass/sass/style.scss */
 .jcs-value {
   position: absolute;
   border-radius: 100%;
@@ -1067,7 +1072,7 @@ SOFTWARE.
   outline: 0;
 }
 
-/* line 829, ../compass/sass/style.scss */
+/* line 846, ../compass/sass/style.scss */
 .circle {
   border-radius: 50%;
   border: 5px solid white;
@@ -1076,7 +1081,7 @@ SOFTWARE.
   /*box-shadow: 1px 1px 1px rgba(113,28,243,1);*/
 }
 
-/* line 838, ../compass/sass/style.scss */
+/* line 855, ../compass/sass/style.scss */
 .jcs-indicator {
   position: absolute;
   border-radius: 100%;
@@ -1087,7 +1092,7 @@ SOFTWARE.
   pointer-events: none;
 }
 
-/* line 848, ../compass/sass/style.scss */
+/* line 865, ../compass/sass/style.scss */
 .jcs-panel {
   position: relative;
   display: inline-block;
@@ -1096,7 +1101,7 @@ SOFTWARE.
   cursor: pointer;
 }
 
-/* line 856, ../compass/sass/style.scss */
+/* line 873, ../compass/sass/style.scss */
 .jcs-value img {
   border-radius: 100%;
   background: 0 0;
@@ -1104,7 +1109,7 @@ SOFTWARE.
   height: inherit;
 }
 
-/* line 863, ../compass/sass/style.scss */
+/* line 880, ../compass/sass/style.scss */
 .noselect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;

@@ -1,3 +1,5 @@
+
+
 var n_place = $('.lce_number');
 $('.line_count_elements').on('click', '.lce_add', function() {
     var n = parseInt(n_place.text(), 10);

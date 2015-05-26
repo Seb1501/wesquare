@@ -737,6 +737,19 @@ SOFTWARE.
 **/
 
 
+// .line_count_elements span {
+//     display: inline-block;
+//     width: 20px;
+//     height: 20px;
+//     border: 1px solid #ccc;
+//     text-align: center;
+// }
+
+// .lce_add, .lce_remove {
+//     cursor: pointer;
+//}
+
+
 .value{
 	color: white;
 	font-size: 17px;
@@ -750,6 +763,10 @@ SOFTWARE.
 	font-size: $body-size;
 	font-family: $secondary-font;
 	margin-bottom: 10px;
+}
+
+#slider, #slider2, #slider3, #slider4, #slider5 {
+	cursor: pointer;
 }
 
 #displayValue, #displayValue2, #displayValue3, #displayValue4, #displayValue5 {
