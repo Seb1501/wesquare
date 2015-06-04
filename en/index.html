@@ -60,7 +60,7 @@ style: style
                   We take care of everything.</a></li>
                 <li><a href="#section7">
                   <i class="fa fa-caret-right"></i>
-                  From 4.90 €/month, no minimum storage period.</a></li>
+                  From 5.90 €/month, no minimum storage period.</a></li>
                 <li><a href="#section4">
                   <i class="fa fa-caret-right"></i>
                   Retrieve your stuff within 48h. </a>
@@ -526,11 +526,11 @@ style: style
                       <td><strong>8.90</strong></td>
                       <td>50  x 55 x 120 cm</td>  
                     </tr>
-                    <tr>
+                    <!-- <tr>
                       <td>ArchiveBox</td>
                       <td></th><strong>4.90</strong></td>
                       <td>60 x 40 x 33 cm</td> 
-                    </tr>
+                    </tr> -->
                     <tr>
                       <td>Bulky items #1</td>
                       <td><b>6.90</b></td> 
@@ -557,7 +557,7 @@ style: style
             <h3>We take care of everything</h3>
             <p id="offer-bottom-first"><i class="fa fa-check-square-o"></i> Free delivery of empty Boxes. You can take up to 2 weeks to pack.</p>
             <p id="offer-bottom"><i class="fa fa-check-square-o"></i> Free pick-up of packed Boxes and bulky items.</p> 
-            <p id="offer-bottom"><i class="fa fa-check-square-o"></i> Retrieve your stuff within 48h for just €8.90 for the first Box + €2.50 per subsequent Box or Bulky Item.</p>
+            <p id="offer-bottom"><i class="fa fa-check-square-o"></i> Retrieve your stuff for just €8.90 for the first Box + €2.50 per subsequent Box or Bulky Item.</p>
 
             
             <a class="page-scroll btn btn-default btn-lg" href="{{ site.baseurl }}/en/booking.html" onclick="ga('send','event','Lien','Play','Simulation');"> Book online</a>
@@ -591,39 +591,39 @@ style: style
           </div>
         </div> -->
         <div class="row text-center">  
-          <div class="col-xs-12 col-sm-4 col-md-2">
+          <div class="col-xs-12 col-sm-3 col-md-3">
             <div id="displayValue"></div>
             <div id="price"></div>
             <div id="slider" onclick="ga('send','event','Slider','Play','BlueBox');"></div>
           </div>
-          <div class="col-xs-12 col-sm-4 col-md-2">
+          <div class="col-xs-12 col-sm-3 col-md-3">
             <div id="displayValue2"></div>
             <div id="price2"></div>
             <div id="slider2" onclick="ga('send','event','Slider','Play','PenderiBox');">
             </div>
           </div>
-          <div class="col-xs-12 col-sm-4 col-md-2">
+          <!-- <div class="col-xs-12 col-sm-4 col-md-2">
             <div id="displayValue3"></div>
             <div id="price3"></div>
             <div id="slider3" onclick="ga('send','event','Slider','Play','ArchivBox');"></div>
-          </div>
-          <div class="col-xs-12 col-sm-4 col-md-2">
+          </div> -->
+          <div class="col-xs-12 col-sm-3 col-md-3">
             <div id="displayValue4"></div>
             <div id="price4"></div>
             <div id="slider4" onclick="ga('send','event','Slider','Play','KS1');"></div>
           </div>
-          <div class="col-xs-12 col-sm-4 col-md-2">
+          <div class="col-xs-12 col-sm-3 col-md-3">
             <div id="displayValue5"></div>
             <div id="price5"></div>
             <div id="slider5" onclick="ga('send','event','Slider','Play','KS2');"></div>
           </div>
-          <div class="col-xs-12 col-sm-4 col-md-2">
+          <!-- <div class="col-xs-12 col-sm-4 col-md-2">
             <div id="displayValue6"></div>
             <div id="text"> Others <a href="{{site.baseurl}}/en/quote.html" target="_BLANK" onclick="ga('send','event','Lien','Nous demander','Call');"><i class="fa fa-arrow-right"></i> On quotation</a></div>
             <div>
-              <!-- <img src="{{ site.baseurl }}/images/Autre.png" class="circle" width="93"> -->
+              
             </div>
-          </div>
+          </div> -->
         </div>
         <div class="hidden-xs hidden-sm row text-center sous-total subtotal">
           <div class="col-md-offset-2 col-md-3" id="IDsousTotal1">
@@ -816,23 +816,23 @@ style: style
           },
         });
 
-        jQuery('#slider3').CircularSlider({
-          min: 0,
-          max: 30,
-          value: 0,
-          radius: 45,
-          innerCircleRatio : .5,
-          slide: function(ui,value) {
+        // jQuery('#slider3').CircularSlider({
+        //   min: 0,
+        //   max: 30,
+        //   value: 0,
+        //   radius: 45,
+        //   innerCircleRatio : .5,
+        //   slide: function(ui,value) {
 
-            jQuery("#displayValue3").text((value) + " ArchiveBox");
-            jQuery("#price3").text(prixParUniteBoxArchive.get(value) + " € / ArchivBox / mois");
-            updateSubTotalAndTotal();
-            return ;
-          },
-          formLabel : function(value, prefix, suffix) {
-            return '<img src="{{ site.baseurl }}/images/Arch.png">';
-          },
-        });
+        //     jQuery("#displayValue3").text((value) + " ArchiveBox");
+        //     jQuery("#price3").text(prixParUniteBoxArchive.get(value) + " € / ArchivBox / mois");
+        //     updateSubTotalAndTotal();
+        //     return ;
+        //   },
+        //   formLabel : function(value, prefix, suffix) {
+        //     return '<img src="{{ site.baseurl }}/images/Arch.png">';
+        //   },
+        // });
 
 
         jQuery('#slider4').CircularSlider({
@@ -893,7 +893,7 @@ style: style
         function updateSubTotalAndTotal(){
 
           // Calcul du sous total 1
-          var sousTotal1 = parseFloat(document.getElementById('displayValue').textContent) * parseFloat(document.getElementById('price').textContent) + parseFloat(document.getElementById('displayValue2').textContent) * parseFloat(document.getElementById('price2').textContent) + parseFloat(document.getElementById('displayValue3').textContent) * parseFloat(document.getElementById('price3').textContent);
+          var sousTotal1 = parseFloat(document.getElementById('displayValue').textContent) * parseFloat(document.getElementById('price').textContent) + parseFloat(document.getElementById('displayValue2').textContent) * parseFloat(document.getElementById('price2').textContent) ;
           // Mise à jour de l'affichage pour sous-total 1
           document.getElementById('IDsousTotal1').textContent = sousTotal1.toFixed(2) + " € / month";
 
