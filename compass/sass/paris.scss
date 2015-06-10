@@ -1,0 +1,54 @@
+/* You can put your own style here */
+
+@import 'compass/css3';
+@import 'variables';
+@import 'common';
+
+/*******************MENTIONS*************************************************************************/
+
+.paris{
+
+	background-color: white;
+	margin-top: 7em;
+	min-height: 500px;
+
+	.btn-primary {
+		margin-top: 30px;
+		background-color: white;
+		border-color: $primary-color;
+	}
+
+	.btn-primary:hover,
+	.btn-primary:focus{
+	background-color: $primary-color;
+	border-color: $primary-color;
+	}
+
+
+
+	h1{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		font-family: $primary-font;
+		color: $primary-color;
+		font-size: $font-size-big;	
+		text-decoration: underline;
+	}
+
+	blockquote {
+		margin-top: 20px;
+		border-color: $primary-color;
+		font-size: $font-size-medium;
+		font-size: $font-size-medium;
+	}
+
+	
+	a {
+		color: $primary-color;
+	}
+
+	p {
+		font-size: $font-size-medium;
+	}
+
+}
