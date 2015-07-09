@@ -8,14 +8,17 @@
 
 .area{
 
-	background-color: white;
-	margin-top: 7em;
-	min-height: 500px;
+	background-image: image-url("Lea_cpd.jpg");
+	background-size: cover;
+	height: 700px;
+
 
 	.btn-primary {
 		margin-top: 30px;
-		background-color: white;
+		background-color: transparent;
 		border-color: $primary-color;
+		color: $primary-color;
+		
 	}
 
 	.btn-primary:hover,
@@ -24,18 +27,25 @@
 	border-color: $primary-color;
 	}
 
+	
 
-	h1{
-		margin-top: 30px;
-		margin-bottom: 30px;
-		font-family: $primary-font;
-		color: $secondary-color;
-		font-size: $font-size-big;	
+	h1 {
+		margin-top: 200px;
+		font-size: 30px;
+		color: white;
+		text-shadow: 0 0 20px rgba(0, 0, 0, .8);
+
 	}
 
-	
-	a {
+	li {
+
+
+		font-size: $font-size-medium;
+		
+		a {
 		color: $primary-color;
+		}
+
 	}
 
 }

@@ -426,31 +426,35 @@ body {
 /*******************MENTIONS*************************************************************************/
 /* line 9, ../compass/sass/area.scss */
 .area {
-  background-color: white;
-  margin-top: 7em;
-  min-height: 500px;
+  background-image: url('../images/Lea_cpd.jpg?1436463730');
+  background-size: cover;
+  height: 700px;
 }
-/* line 15, ../compass/sass/area.scss */
+/* line 16, ../compass/sass/area.scss */
 .area .btn-primary {
   margin-top: 30px;
-  background-color: white;
+  background-color: transparent;
   border-color: #1031ba;
+  color: #1031ba;
 }
-/* line 21, ../compass/sass/area.scss */
+/* line 24, ../compass/sass/area.scss */
 .area .btn-primary:hover,
 .area .btn-primary:focus {
   background-color: #1031ba;
   border-color: #1031ba;
 }
-/* line 28, ../compass/sass/area.scss */
+/* line 32, ../compass/sass/area.scss */
 .area h1 {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-family: "Montserrat", sans-serif;
-  color: #959595;
-  font-size: 18px;
+  margin-top: 200px;
+  font-size: 30px;
+  color: white;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
-/* line 37, ../compass/sass/area.scss */
-.area a {
+/* line 40, ../compass/sass/area.scss */
+.area li {
+  font-size: 14px;
+}
+/* line 45, ../compass/sass/area.scss */
+.area li a {
   color: #1031ba;
 }
