@@ -32,11 +32,11 @@ style: style
           <img src="{{site.baseurl}}/images/Wesquare.png" alt="logo Wesquare" class="img-reponsive" width="250">
           <!-- <span class="badget"><img src="{{site.baseurl}}/images/badge.png" class="img-reponsive"width="120"></span> -->
         </div>
-        <div class="hidden-xs col-sm-4 col-md-4 text-center">
+        <!-- <div class="hidden-xs col-sm-4 col-md-4 text-center">
           <a href="#section7"><img src="{{site.baseurl}}/images/badge.png" width="130" alt="badge promotionnel - 1er mois de stockage à 1 € quelle que soit la durée"></a>
        
 
-        </div>
+        </div> -->
         <!-- <div class="col-sm-2 col-md-2 text-right">
           <ul class="list-inline pick-lang">
             <li class="pick-lang" id="sep"><a href="{{site.baseurl}}/index.html">Fr</a></li>
@@ -1322,6 +1322,17 @@ style: style
 
   
   </script>
+
+  <script>  
+
+  $(document).ready(function() {
+    setTimeout(function() {
+      $('#List').modal('show');
+    }, 5000); // milliseconds
+  });
+
+  </script>
+
 
   // <script type="text/javascript">
   //     var n_place = $('.lce_number');
