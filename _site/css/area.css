@@ -427,34 +427,36 @@ body {
 /* line 9, ../compass/sass/area.scss */
 .area {
   background-image: url('../images/Lea_cpd.jpg?1436463730');
+  background-position: center center;
   background-size: cover;
   height: 700px;
 }
-/* line 16, ../compass/sass/area.scss */
+/* line 17, ../compass/sass/area.scss */
 .area .btn-primary {
   margin-top: 30px;
   background-color: transparent;
   border-color: #1031ba;
   color: #1031ba;
 }
-/* line 24, ../compass/sass/area.scss */
+/* line 25, ../compass/sass/area.scss */
 .area .btn-primary:hover,
 .area .btn-primary:focus {
   background-color: #1031ba;
   border-color: #1031ba;
 }
-/* line 32, ../compass/sass/area.scss */
+/* line 33, ../compass/sass/area.scss */
 .area h1 {
-  margin-top: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   font-size: 30px;
   color: white;
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
-/* line 40, ../compass/sass/area.scss */
+/* line 42, ../compass/sass/area.scss */
 .area li {
   font-size: 14px;
 }
-/* line 45, ../compass/sass/area.scss */
+/* line 47, ../compass/sass/area.scss */
 .area li a {
   color: #1031ba;
 }

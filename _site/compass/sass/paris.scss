@@ -66,11 +66,22 @@
 
 .carousel-caption {
 	
-	bottom: 240px;
+	bottom: 200px;
+	}
+}
+
+@media(max-width:640px) {
+
+.carousel {
+	
+	margin-top: 55px;
 	}
 }
 
 .carousel-caption {
+
+	margin: 0 auto;
+
 
 	h1 {
 		text-decoration: none;
@@ -93,6 +104,7 @@
 
 	.btn-default {
 	margin-top: 40px;
+	margin-bottom: 20px;
     border-width: 1px;
     border-color: white;
     color: white;

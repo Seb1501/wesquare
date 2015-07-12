@@ -9,6 +9,7 @@
 .area{
 
 	background-image: image-url("Lea_cpd.jpg");
+	background-position: center center;
 	background-size: cover;
 	height: 700px;
 
@@ -30,7 +31,8 @@
 	
 
 	h1 {
-		margin-top: 200px;
+		margin-top: 100px;
+		margin-bottom: 100px;
 		font-size: 30px;
 		color: white;
 		text-shadow: 0 0 20px rgba(0, 0, 0, .8);
