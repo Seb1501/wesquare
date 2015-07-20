@@ -315,7 +315,7 @@
    <div class="talkaboutus">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12 text-center">
+        <div class="col-sm-12 text-center slideLeft">
           <a href="/press.html">
             <ul class="list-inline">
               <li> <img src="/images/entreprendre-BAW.png" width="120" alt="logo d'entreprendre.fr"> </li>
@@ -331,7 +331,7 @@
       </div>
 
       <div class="row text-center">
-        <div class="col-xs-12 next-section">
+        <div class="col-xs-12 pulse next-section">
           <a href="#section2" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
         </div>
       </div>
@@ -392,7 +392,7 @@
         </div>
       </div>
       <div class="row text-center">
-        <div class="col-xs-12 next-section">
+        <div class="col-xs-12 pulse next-section">
           <a href="#section3" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
         </div>
       </div>
@@ -448,7 +448,7 @@
         </div> -->
 
       <div class="row text-center">
-          <div class="col-xs-12 next-section">
+          <div class="col-xs-12 pulse next-section">
             <!-- <a class="page-scroll btn btn-default btn-lg" href="/index.html#section7"><i class="fa fa-play-circle"></i> A VOUS DE JOUER</a> -->
             <a href="#section4" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
           </div>
@@ -487,7 +487,7 @@
         </div>
 
         <div class="row text-center">
-          <div class="col-xs-12 next-section">
+          <div class="col-xs-12 pulse next-section">
             <a href="#section5" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
           </div>
         </div>
@@ -592,7 +592,7 @@
         
 
         <div class="row text-center">
-          <div class="col-xs-12 next-section">
+          <div class="col-xs-12 pulse next-section">
             <a href="#section6" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
           </div>
         </div>
@@ -692,7 +692,7 @@
       
 
       <div class="row text-center">
-        <div class="col-xs-12 next-section">
+        <div class="col-xs-12 pulse next-section">
         <a href="#section7" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
         </div>
       </div>
@@ -1195,7 +1195,7 @@
       </div> -->
      
       <div class="row text-center">
-        <div class="col-xs-12 next-section">
+        <div class="col-xs-12 pulse next-section">
           <a href="#section8" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
         </div>
       </div> 
@@ -1548,7 +1548,21 @@
   </script>
 
   
-  
+  <script>
+ 
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+  </script>
   
 
 
