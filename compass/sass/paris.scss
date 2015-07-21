@@ -12,8 +12,8 @@
 	min-height: 500px;
 
 	.btn-primary {
-		margin-top: 30px;
-		margin-bottom: 50px;
+		margin-top: 20px;
+		margin-bottom: 20px;
 		background-color: white;
 		border-color: $primary-color;
 	}
@@ -22,6 +22,10 @@
 	.btn-primary:focus{
 	background-color: $primary-color;
 	border-color: $primary-color;
+	}
+
+	.spacer-5{
+    height: 7em;
 	}
 
 
@@ -50,6 +54,7 @@
 	p {
 		font-size: $font-size-medium;
 	}
+
 
 }
 
@@ -115,7 +120,7 @@
 	}
 
 	#img-thumbnail{
-	width:500px;
+	max-width:500px;
     height: auto;
 }
 
