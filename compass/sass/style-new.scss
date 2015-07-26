@@ -1,0 +1,805 @@
+/* You can put your own style here */
+
+@import 'compass/css3';
+@import 'variables';
+@import 'common';
+@import 'animation_cheat_sheet';
+@import "compass/css3/animation";
+
+/********************************WRAPPER*************************************************************************************/
+
+
+// @media(min-width:767px) {
+
+//  .wrapper {
+//    h1{
+//      padding-left: 60px;
+//    }
+
+//    h3{
+//      padding-left: 60px !important;  
+//    }
+//  }
+// }
+
+// @media(max-width:991px) {
+
+//   .wrapper {
+
+
+//     background-image: image-url("WS_withopacity_cpd.png") !important;
+
+//     img {
+//       margin-bottom: 30px;
+//     }
+  
+//   }
+
+
+
+
+// }
+
+
+
+.wrapper {
+
+  position: relative;
+
+  .cover {
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 650px;
+    overflow: hidden;
+    
+
+  }
+
+  .slide1{
+    background-image: image-url("Lea1_cpd.jpg");
+    @extend .cover;   
+  }
+
+   .slide2{
+    background-image: image-url("Lea2_cpd.jpg");
+    @extend .cover;   
+  }
+
+   .slide3{
+    background-image: image-url("Lea3_cpd.jpg");
+    @extend .cover;   
+  }
+
+  .carousel-control .glyphicon-chevron-right {
+    color: $primary-color;
+    opacity: 0.5;
+  }
+
+  .carousel-control .glyphicon-chevron-left {
+    color: $primary-color;
+    opacity: 0.5;
+  }
+
+  
+
+
+
+
+
+  .carousel-caption {
+
+    margin: 0 auto;
+
+
+    h1 {
+      text-decoration: none;
+      font-size: 30px;
+      color: white;
+      text-shadow: 0 0 20px rgba(0, 0, 0, .8);
+
+    }
+
+    h2 {
+      display: inline-block;
+      padding: 0.2em;
+      font-size: 20px;
+      background: rgba(0, 0, 0, .4);
+    }
+  }
+
+  .carousel-indicators li {
+
+  
+    background-color: $primary-color;
+    border-color: $primary-color;
+
+  }
+  
+  .carousel-indicators .active {
+
+    background-color: $tertiary-color;
+    border-color: $tertiary-color;
+
+  }
+
+
+  .carousel-control.left,.carousel-control.right {background-image:none;}
+
+
+}
+
+
+#no-space-after {
+    padding-bottom: 0px;
+  }
+
+// .btn-primary{
+//  background-color: $primary-color;
+//  border-color: $primary-color;
+// }
+
+// .btn-primary:hover{
+//  background-color: $primary-color;
+//  border-color: $primary-color;
+
+// }
+
+.pick-lang{
+  font-family: $secondary-font;
+  font-weight: 600;
+  font-size: $font-size-big;
+}
+
+#sep {
+  border-right: 1px solid;
+  border-color: $tertiary-color;
+  padding-bottom: 0px;
+}
+
+/**************************MODAL*********************************************************************************************/
+.modal-header {
+  p {
+  font-family: inherit;
+  font-size: 14px;
+  color: white;
+  }
+
+  h1 {
+  font-family: $primary-font;
+  color: white;
+  font-size: $font-size-big;
+  }
+
+  h2{
+  font-family: $secondary-font;
+  color: white;
+  font-size: $font-size-medium;
+  }
+  // h4{
+  // font-family: inherit;
+  // font-size: 18px;
+  // color: white;
+  // }
+}
+
+.modal-header {
+  background-color: $primary-color-with-opacity80;
+}
+
+
+.modal-footer{
+  background-color: $primary-color-with-opacity80;
+}
+
+.offer-modal-body {
+  margin-left: 10px;
+  p {
+  font-family: $secondary-font;
+  color: black;
+  }
+  b {
+  color: $primary-color;
+  }
+
+}
+
+.offer-modal-footer{
+  background-color: white;
+}
+
+
+
+.le_service, .inventory, .capacity, .security, .header-carousel, .offer, .simulation, {
+
+  @extend .title-section;
+  min-height: 510px;
+  overflow: hidden;
+  position: relative;
+
+  }
+
+
+
+
+.next-section {
+  
+
+  a {
+  
+  color: $primary-color;
+  font-size: $body-size;
+  }
+
+  position: absolute;
+  bottom: 0px;
+  
+  margin:0 auto;
+  left:0;
+  right:0;
+
+
+
+}
+
+
+
+#name a:hover{
+  color: #ddd;
+}
+
+
+/**************************LE SERVICE****************************************************************************************/
+
+.le_service {
+
+  .btn{
+
+  margin-bottom: 50px;
+
+  }
+
+}
+
+.step {
+  position: relative;
+  top: -45px;
+  left: 30px;
+}
+
+.img-center{
+  margin: 0 auto;
+}
+
+
+/**************************CONNECTE******************************************************************************************/
+@media(min-width:767px) {
+  .inventory{
+    img {
+      margin-right: -60px;
+
+    }
+  }
+}
+
+
+.inventory {
+
+  margin-right: 0px;
+
+  
+  img{
+    margin-bottom: 40px;
+
+  }
+
+  a{
+    color: $primary-color;
+  }
+
+}
+
+
+.ecran {
+
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+.alignement{
+  height: 160px;
+}
+
+
+/**************************SUR MESURE***************************************************************************************/
+
+// #title-capacity {
+//  p {
+//    padding-bottom: 20px;
+//  }
+// }
+
+.capacity {
+  background-color: $section-background-color;
+
+  .btn-default {
+    color: $tertiary-color;
+    background-color: transparent;
+    border-color: $tertiary-color;
+    
+  }
+
+}
+
+
+
+/*****************************SECURITE*****************************************************************************************/
+
+
+.security {
+  
+  background-color: $section-background-color;
+  min-height: 450px;
+
+  img{
+    margin-bottom: 23.2px;
+  }
+
+  #security-bottom {
+    margin-bottom: 50px;
+  }
+
+  
+}
+
+#space_after {
+  padding-bottom: 20px;
+}
+
+// @media(max-width:767px) {
+
+//  .milieu {
+
+//  text-align: center;
+
+//  }
+
+// }
+
+
+// .milieu {
+//  padding-top: 10px;
+//  padding-bottom: 10px;
+// }
+
+/**************************NOTRE*OFFRE*********************************************************************************/
+
+.offer, .simulation{
+  background-color: $primary-color;
+
+  // background-image: image-url("subtle_pattern/cream_pixels.png");
+}
+
+
+
+.offer, .simulation{
+  
+  h1{
+    color: white;
+  }
+
+  h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+
+  h3{
+    color: white;
+    font-family: $primary-font;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  
+  p{
+    margin-bottom: 0px;
+    color: white;
+  }
+
+  a{
+    color: $tertiary-color;
+  }
+
+  li{
+    color: white;
+  }
+}
+
+.offer {
+
+  font-size: 14px;
+  min-height: 580px;
+
+  #offer-bottom-first {
+    margin-top: 35px;
+    margin-bottom: 10px;
+  }
+
+  #offer-bottom{
+    margin-bottom: 10px;
+  }
+
+  .btn-default {
+    margin-top: 20px;
+    background-color: transparent;
+    border-color: $tertiary-color;
+    
+  }
+
+  .table {
+    color: white;
+  }
+
+  .table tbody {
+
+    tr:hover {
+    color: $primary-color;
+    } 
+
+  }
+
+  .btn {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+
+
+}
+
+
+
+
+#orange {
+  color: $tertiary-color;
+  font-weight: bold;
+}
+
+
+
+
+/*****************************TALKABOUTUS******************************************************************************/
+.talkaboutus {
+
+  background-color: $section-background-color;
+  position: relative;
+
+  .list-inline {
+    margin-bottom: 0px;
+    margin-left: 0px;
+
+  }
+
+  img {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+
+
+
+
+
+
+
+/*****************************REVIEWS******************************************************************************/
+
+.review {
+
+  min-height: 200px;
+  background-color: $section-background-color;
+
+  .fa-star {
+    color: #3594EC;
+  }
+
+  .fa-facebook-square {
+    color: #44619C;
+    padding-left: 5px;
+  }
+
+  .glyphicon-custom{
+    top: 100px;
+
+  }
+
+  #review-name {
+    margin-top: 10px;
+  }
+
+  p {
+    padding-bottom: 0px;
+    color: black;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .carousel-inner img {
+    width: 200;
+    height: auto;
+    margin-top: 100px;
+  }
+}
+
+/******************CALL********************************************************************************************/
+
+.call{
+
+  background-color: $tertiary-color;
+
+  h1{
+  
+  font-family: $primary-font;
+  color: white;
+  }
+
+  h2{
+  color: white;
+  font-family: $secondary-font;
+  font-weight: 400;
+  font-size: $font-size-big;
+
+  }
+
+  h3{
+  color: white !important;
+  font-family: $primary-font;
+  }
+
+  h4{
+  color: white;
+  font-family: $primary-font;
+  text-align: center;
+  margin-top: 2em;
+  }
+
+  p{
+  color: white;
+  font-family: $secondary-font;
+  margin-bottom: 0px;
+  font-size: $font-size-medium;
+  }
+
+
+
+  button{
+    font-family: $primary-font;
+    font-size: $font-size-big;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+
+}
+
+
+
+
+.call .btn {
+  font-family: $secondary-font;
+    font-size: $font-size-medium;
+    font-weight: 600;
+    font-size: $font-size-big;
+    color: white;
+    @include border-radius(0px);
+}
+
+
+.call .btn-default {
+    border: 1px solid $primary-color;
+    color: white !important;
+    background-color: $primary-color;
+}
+
+
+.call .btn-default:hover,
+.call .btn-default:focus {
+    border: 1px solid $primary-color;
+    outline: 0;
+    color: white !important;
+    background-color: $primary-color !important;
+
+ }
+
+ 
+/****************Circular Slider*********************************************************************************************/
+/*! The MIT License (MIT)
+
+Copyright (c) 2014 Prince John Wesley <princejohnwesley@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+**/
+
+
+// .line_count_elements span {
+//     display: inline-block;
+//     width: 20px;
+//     height: 20px;
+//     border: 1px solid #ccc;
+//     text-align: center;
+// }
+
+// .lce_add, .lce_remove {
+//     cursor: pointer;
+//}
+
+
+.value{
+  color: white;
+  font-size: 17px;
+  padding-top: 20px;
+  font-family: $primary-font;
+  margin-bottom: 10px;
+}
+
+.monthlyprice{
+  color: white;
+  font-size: $body-size;
+  font-family: $secondary-font;
+  margin-bottom: 10px;
+}
+
+#slider, #slider2, #slider3, #slider4, #slider5 {
+  cursor: pointer;
+}
+
+#displayValue, #displayValue2, #displayValue3, #displayValue4, #displayValue5 {
+  @extend .value;
+}
+
+#displayValue6{
+  @extend .value;
+  color: transparent;
+}
+
+.subtotal {
+  display: none;
+}
+
+.sous-total{
+  @extend .value;
+  margin-top: 20px;
+
+}
+
+@media(min-width:900px){
+  #split{
+  border-right: 1px solid white;
+
+  }
+}
+
+#price, #price2, #price3, #price4, #price5 {
+  @extend .monthlyprice;
+  min-height: 30px;
+  display: none;
+}
+
+#price6{
+  @extend .monthlyprice;
+  color: transparent;
+  min-height: 30px;
+  display: none;
+}
+
+#text{
+  @extend .monthlyprice;
+  min-height: 30px;
+}
+
+
+.jcs{
+  
+  // background: -webkit-linear-gradient(-90deg, white, rgba(255,255,255,0)); /* For Safari 5.1 to 6.0 */
+  //  background: -o-linear-gradient(-90deg, white, rgba(255,255,255,0)); For Opera 11.1 to 12.0
+  //  background: -moz-linear-gradient(-90deg, white, rgba(255,255,255,0)); /* For Firefox 3.6 to 15 */
+  //  background: linear-gradient(-90deg, white, rgba(255,255,255,0)); /* Standard syntax */
+
+  position:relative;
+  border-style:solid;
+  border-radius:100%;
+  border-color:white;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  border-width:5px;
+  cursor:pointer;
+}
+
+.jcs-value{
+  position:absolute;
+  border-radius:100%;
+  border:2px solid transparent;
+  text-align:center;
+  pointer-events:none;
+  line-height:4em;
+  color:#fff;
+  background-color:$primary-color;
+  outline:0;
+}
+
+.circle{
+  border-radius: 50%;
+  border: 5px solid white;
+  padding: 19px;
+  margin: 0px;
+  /*box-shadow: 1px 1px 1px rgba(113,28,243,1);*/
+}
+
+
+.jcs-indicator{
+  position:absolute;
+  border-radius:100%;
+  background-color:white;
+  border:8px solid $tertiary-color;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  pointer-events:none;
+}
+
+.jcs-panel{
+  position:relative;
+  display:inline-block;
+  border-style:solid;
+  border-color:transparent;
+  cursor:pointer;
+}
+
+.jcs-value img{
+  border-radius:100%;
+  background:0 0;
+  width:inherit;
+  height:inherit;
+}
+
+.noselect{
+  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+
+
