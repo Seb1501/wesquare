@@ -9,38 +9,6 @@
 /********************************WRAPPER*************************************************************************************/
 
 
-// @media(min-width:767px) {
-
-//  .wrapper {
-//    h1{
-//      padding-left: 60px;
-//    }
-
-//    h3{
-//      padding-left: 60px !important;  
-//    }
-//  }
-// }
-
-// @media(max-width:991px) {
-
-//   .wrapper {
-
-
-//     background-image: image-url("WS_withopacity_cpd.png") !important;
-
-//     img {
-//       margin-bottom: 30px;
-//     }
-  
-//   }
-
-
-
-
-// }
-
-
 
 .wrapper {
 
@@ -85,8 +53,6 @@
     opacity: 0.5;
   }
 
-  
-
 
 
 
@@ -94,21 +60,35 @@
   .carousel-caption {
 
     margin: 0 auto;
+    margin-bottom: 100px;
 
 
     h1 {
-      text-decoration: none;
-      font-size: 30px;
+      font-family: $primary-font;
+      font-size: 32px;
+      letter-spacing: 2px;
       color: white;
       text-shadow: 0 0 20px rgba(0, 0, 0, .8);
 
     }
 
     h2 {
-      display: inline-block;
-      padding: 0.2em;
+      font-family: $secondary-font;
       font-size: 20px;
+      display: inline-block;
+      letter-spacing: 1px;
+      padding: 0.2em;
       background: rgba(0, 0, 0, .4);
+      margin-bottom: 60px;
+    }
+
+    a {
+      color:white;
+
+      &hover {
+        color: white;
+
+      }
     }
   }
 
@@ -129,6 +109,33 @@
 
 
   .carousel-control.left,.carousel-control.right {background-image:none;}
+
+
+    .btn {
+    font-family: $secondary-font;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    @include border-radius(0px);
+    }
+
+    .btn-default {
+    border-width: 1px;
+    border-color: $tertiary-color;
+    color: white !important;
+    background-color: $tertiary-color;
+    }
+
+    .btn-default:hover,
+    .btn-default:focus {
+    outline: 0;
+    color: white !important;
+    border-color: $primary-color !important;
+    background-color: $primary-color !important;
+    }
 
 
 }
@@ -159,6 +166,58 @@
   border-right: 1px solid;
   border-color: $tertiary-color;
   padding-bottom: 0px;
+}
+
+
+.appearIn {
+  opacity: 0;
+  animation: appearIn 2s 0.5s ease forwards;
+  -webkit-animation: appearIn 2s 0.5s ease forwards;
+  -moz-animation: appearIn 2s 0.5s ease forwards;
+}
+
+@keyframes appearIn {
+  0% {
+    // transform: translateY(100%);
+    opacity: 0;
+  }
+
+  
+  
+
+  100% {
+    // transform: translateY(0%);
+     opacity: 1;
+  }
+}
+
+@-webkit-keyframes appearIn {
+  0% {
+    // transform: translateY(100%);
+    opacity: 0;
+  }
+
+ 
+  
+
+  100% {
+    // transform: translateY(0%);
+     opacity: 1;
+  }
+}
+
+@-moz-keyframes appearIn {
+  0% {
+    // transform: translateY(100%);
+    opacity: 0;
+  }
+  
+  
+
+  100% {
+    // transform: translateY(0%);
+     opacity: 1;
+  }
 }
 
 /**************************MODAL*********************************************************************************************/
