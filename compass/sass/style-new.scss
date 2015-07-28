@@ -276,6 +276,7 @@
 .le_service, .inventory, .capacity, .security, .header-carousel, .offer, .simulation, {
 
   @extend .title-section;
+  font-size: 14px;
   min-height: 510px;
   overflow: hidden;
   position: relative;
@@ -496,10 +497,20 @@
   }
 
   .btn-default {
-    margin-top: 20px;
-    background-color: transparent;
+    margin-top: 40px;
+    background-color: $tertiary-color;
     border-color: $tertiary-color;
+    color: white;
+
     
+  }
+
+  .btn-default:hover,
+  .btn-default:focus {
+    outline: 0;
+    color: white !important;
+    border-color: $primary-color !important;
+    background-color: $primary-color !important;
   }
 
   .table {
