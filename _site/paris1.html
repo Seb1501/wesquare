@@ -192,61 +192,61 @@
   
 
     <div class="paris">
-  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
+  <div class="wrapper">
+    <div id="carousel-cover" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-cover" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-cover" data-slide-to="1"></li>
+        <li data-target="#carousel-cover" data-slide-to="2"></li>
+      </ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="/images/Lea1_cpd.jpg" alt="Léa commande des box de stockage" class="img-responsive center-block">
-        <div class="carousel-caption">
-          <h1>N'ALLEZ PLUS DANS UN GARDE-MEUBLE À PARIS 1</h1>
-          <h2>Stocker sans bouger dès 5,90 €/mois</h2>
-          <br>
-          <a class="page-scroll btn btn-default btn-lg" href="/commande.html" onclick="ga('send','event','Lien','Book','Arrondissement');"> Je réserve en ligne</a>
-        </div>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active slide1">
+          <div class="carousel-caption appearIn">
+            <h1>N'ALLEZ PLUS DANS UN GARDE-MEUBLE</h1>
+            <a href=""><h2>Stockez vos affaires sans vous déplacer, en quelques clics.</h2></a>
+            <br>
+            <a class="page-scroll btn btn-default btn-lg" href="/commande.html" onclick="ga('send','event','Lien','Book','Arrondissement');"> JE RÉSERVE MAINTENANT</a>
+          </div>
       
-    </div>
-    <div class="item">
-      <img src="/images/Lea2_cpd.jpg" alt="Camille livre les box de stockage" class="img-responsive center-block">
-        <div class="carousel-caption">
-          <h1>N'ALLEZ PLUS DANS UN GARDE-MEUBLE À PARIS 1</h1>
-          <h2>Stocker sans bouger dès 5,90 €/mois</h2>
-          <br>
-          <a class="page-scroll btn btn-default btn-lg" href="/commande.html" onclick="ga('send','event','Lien','Book','Arrondissement');"> Je réserve en ligne</a>
         </div>
-    </div>
-     <div class="item">
-      <img src="/images/Lea3_cpd.jpg" alt="Léa remplit les box de stockage" class="img-responsive center-block">
-        <div class="carousel-caption">
-          <h1>N'ALLEZ PLUS DANS UN GARDE-MEUBLE À PARIS 1</h1>
-          <h2>Stocker sans bouger dès 5,90 €/mois</h2>
-          <br>
-          <a class="page-scroll btn btn-default btn-lg" href="/commande.html" onclick="ga('send','event','Lien','Book','Arrondissement');"> Je réserve en ligne</a>
+        <div class="item slide2">
+       <div class="carousel-caption appearIn">
+            <h1>N'ALLEZ PLUS DANS UN GARDE-MEUBLE</h1>
+            <a href=""><h2>À partir de seulement 5,90 €/mois.</h2></a>
+            <br>
+            <a class="page-scroll btn btn-default btn-lg" href="/commande.html" onclick="ga('send','event','Lien','Book','Cover');"> JE RÉSERVE MAINTENANT</a>
         </div>
+        </div>
+        <div class="item slide3">
+      
+          <div class="carousel-caption appearIn">
+            <h1>N'ALLEZ PLUS DANS UN GARDE-MEUBLE</h1>
+            <a href=""><h2>Profitez du Service à Paris et en banlieue.</h2></a>
+            <br>
+            <a class="page-scroll btn btn-default btn-lg" href="/commande.html" onclick="ga('send','event','Lien','Book','Arrondissement');"> JE RÉSERVE MAINTENANT</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-cover" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-cover" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    
     </div>
   </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-<div class="talkaboutus">
-  <div class="container">
+  <div class="talkaboutus">
+    <div class="container">
       <div class="row">
-        <div class="col-sm-12 text-center">
+        <div class="col-sm-12 text-center slideLeft">
           <a href="/press.html">
             <ul class="list-inline">
               <li> <img src="/images/entreprendre-BAW.png" width="120" alt="logo d'entreprendre.fr"> </li>
@@ -261,8 +261,17 @@
         </div>
       </div>
 
+      <div class="row text-center">
+        <div class="col-xs-12 pulse next-section">
+          <a href="#section2" class="page-scroll"> <i class="fa fa-chevron-down fa-2x"></i></a>
+        </div>
+      </div>
+
     </div>
-</div>
+
+
+  </div>
+ 
 
 
   <div class="container">
@@ -308,24 +317,20 @@
 
       
 
-    	   <div class="col-xs-12 col-md-6">
+    </div>
 
+    <div class="row text-center">
+
+      <div class="col-xs-12">
+        
+        <br>
+        <a href="/#section2"> En savoir plus sur le service</a>
+        <br>
+        <br>
+        <a class="page-scroll btn btn-default btn-lg" href="/commande.html" onclick="ga('send','event','Lien','Book','Arrondissement');"> JE RÉSERVE MAINTENANT</a>
+
+      </div>
       	
-        	<a class="btn btn-primary btn-lg" href="/#section2"> Je souhaite en savoir plus sur le service
-        	</a>
-
-
-      	</div>
-
-        <div class="col-xs-12 col-md-6">
-
-      	
-        	<a class="btn btn-primary btn-lg" href="/commande.html"> Je souhaite réserver en ligne
-        	</a>
-
-
-      	</div>
-    
     </div>
 
     <div class="spacer-5">

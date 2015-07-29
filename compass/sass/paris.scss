@@ -3,6 +3,7 @@
 @import 'compass/css3';
 @import 'variables';
 @import 'common';
+@import 'animation_cheat_sheet';
 
 /*******************MENTIONS*************************************************************************/
 
@@ -10,6 +11,33 @@
 
 	background-color: white;
 	min-height: 500px;
+
+	
+    .btn {
+    font-family: $secondary-font;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    @include border-radius(0px);
+    }
+
+    .btn-default {
+    border-width: 1px;
+    border-color: $tertiary-color;
+    color: white !important;
+    background-color: $tertiary-color;
+    }
+
+    .btn-default:hover,
+    .btn-default:focus {
+    outline: 0;
+    color: white !important;
+    border-color: $primary-color !important;
+    background-color: $primary-color !important;
+    }
 
 	.btn-primary {
 		margin-top: 20px;
@@ -59,66 +87,119 @@
 }
 
 
-.carousel-control .glyphicon-chevron-right {
-  	color: $primary-color;
+.wrapper {
+
+  position: relative;
+
+  .cover {
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 650px;
+    overflow: hidden;
+    
+
+  }
+
+  .slide1{
+    background-image: image-url("Lea1_cpd.jpg");
+    @extend .cover;   
+  }
+
+   .slide2{
+    background-image: image-url("Lea2_cpd.jpg");
+    @extend .cover;   
+  }
+
+   .slide3{
+    background-image: image-url("Lea3_cpd.jpg");
+    @extend .cover;   
+  }
+
+  .carousel-control .glyphicon-chevron-right {
+    color: $primary-color;
+    opacity: 0.5;
+  }
+
+  .carousel-control .glyphicon-chevron-left {
+    color: $primary-color;
+    opacity: 0.5;
+  }
+
+
+
+
+
+  .carousel-caption {
+
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+
+    h1 {
+      text-decoration: none;
+      font-family: $primary-font;
+      font-size: 32px;
+      letter-spacing: 2px;
+      color: white;
+      text-shadow: 0 0 20px rgba(0, 0, 0, .8);
+
+    }
+
+    h2 {
+      font-family: $secondary-font;
+      font-size: 20px;
+      display: inline-block;
+      letter-spacing: 1px;
+      padding: 0.2em;
+      background: rgba(0, 0, 0, .4);
+      margin-bottom: 60px;
+    }
+
+    a {
+      color:white;
+
+      &hover {
+        color: white;
+
+      }
+    }
+  }
+
+  .carousel-indicators li {
+
+  
+    background-color: $primary-color;
+    border-color: $primary-color;
+
+  }
+  
+  .carousel-indicators .active {
+
+    background-color: $tertiary-color;
+    border-color: $tertiary-color;
+
+  }
+
+
+  .carousel-control.left,.carousel-control.right {background-image:none;}
+
+
+
+
 }
 
-.carousel-control .glyphicon-chevron-left {
-  	color: $primary-color;
-}
 
 
-@media(min-width:768px) {
-
-.carousel-caption {
-	
-	bottom: 200px;
-	}
-}
-
-@media(max-width:640px) {
-
-.carousel {
-	
-	margin-top: 55px;
-	}
-}
-
-.carousel-caption {
-
-	margin: 0 auto;
-
-
-	h1 {
-		text-decoration: none;
-		font-size: 30px;
-		color: white;
-		text-shadow: 0 0 20px rgba(0, 0, 0, .8);
-
-	}
-
-	h2 {
-		display: inline-block;
-		padding: 0.2em;
-		font-size: 20px;
-		background: rgba(0, 0, 0, .4);
-	}
-}
 
 
 .paris{
 
-	.btn-default {
-	margin-top: 40px;
-	margin-bottom: 20px;
-    border-width: 1px;
-    border-color: $primary-color;
-    color: white;
-    background-color: $primary-color;
-    font-size: 20px;
-    font-family: $secondary-font;
-	}
-
+	
 	#img-thumbnail{
 	max-width:500px;
     height: auto;
