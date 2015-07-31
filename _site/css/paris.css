@@ -1455,8 +1455,9 @@ stretchRight
 .paris {
   background-color: white;
   min-height: 500px;
+  font-size: 14px;
 }
-/* line 16, ../compass/sass/paris.scss */
+/* line 17, ../compass/sass/paris.scss */
 .paris .btn {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
@@ -1469,14 +1470,14 @@ stretchRight
   -webkit-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 27, ../compass/sass/paris.scss */
+/* line 28, ../compass/sass/paris.scss */
 .paris .btn-default {
   border-width: 1px;
   border-color: #ff7200;
   color: white !important;
   background-color: #ff7200;
 }
-/* line 34, ../compass/sass/paris.scss */
+/* line 35, ../compass/sass/paris.scss */
 .paris .btn-default:hover,
 .paris .btn-default:focus {
   outline: 0;
@@ -1484,24 +1485,24 @@ stretchRight
   border-color: #1031ba !important;
   background-color: #1031ba !important;
 }
-/* line 42, ../compass/sass/paris.scss */
+/* line 43, ../compass/sass/paris.scss */
 .paris .btn-primary {
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: white;
   border-color: #1031ba;
 }
-/* line 49, ../compass/sass/paris.scss */
+/* line 50, ../compass/sass/paris.scss */
 .paris .btn-primary:hover,
 .paris .btn-primary:focus {
   background-color: #1031ba;
   border-color: #1031ba;
 }
-/* line 55, ../compass/sass/paris.scss */
+/* line 56, ../compass/sass/paris.scss */
 .paris .spacer-5 {
   height: 7em;
 }
-/* line 61, ../compass/sass/paris.scss */
+/* line 62, ../compass/sass/paris.scss */
 .paris h1 {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -1510,27 +1511,27 @@ stretchRight
   font-size: 18px;
   text-decoration: underline;
 }
-/* line 70, ../compass/sass/paris.scss */
+/* line 71, ../compass/sass/paris.scss */
 .paris blockquote {
   margin-top: 20px;
   border-color: #1031ba;
   font-size: 14px;
   font-size: 14px;
 }
-/* line 78, ../compass/sass/paris.scss */
+/* line 79, ../compass/sass/paris.scss */
 .paris a {
   color: #1031ba;
 }
-/* line 82, ../compass/sass/paris.scss */
+/* line 83, ../compass/sass/paris.scss */
 .paris p {
   font-size: 14px;
 }
 
-/* line 90, ../compass/sass/paris.scss */
+/* line 91, ../compass/sass/paris.scss */
 .wrapper {
   position: relative;
 }
-/* line 94, ../compass/sass/paris.scss */
+/* line 95, ../compass/sass/paris.scss */
 .wrapper .cover, .wrapper .slide1, .wrapper .slide2, .wrapper .slide3 {
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -1542,34 +1543,34 @@ stretchRight
   min-height: 650px;
   overflow: hidden;
 }
-/* line 108, ../compass/sass/paris.scss */
+/* line 109, ../compass/sass/paris.scss */
 .wrapper .slide1 {
   background-image: url('../images/Lea1_cpd.jpg?1438097337');
 }
-/* line 113, ../compass/sass/paris.scss */
+/* line 114, ../compass/sass/paris.scss */
 .wrapper .slide2 {
   background-image: url('../images/Lea2_cpd.jpg?1438097693');
 }
-/* line 118, ../compass/sass/paris.scss */
+/* line 119, ../compass/sass/paris.scss */
 .wrapper .slide3 {
   background-image: url('../images/Lea3_cpd.jpg?1438098395');
 }
-/* line 123, ../compass/sass/paris.scss */
+/* line 124, ../compass/sass/paris.scss */
 .wrapper .carousel-control .glyphicon-chevron-right {
   color: #1031ba;
   opacity: 0.5;
 }
-/* line 128, ../compass/sass/paris.scss */
+/* line 129, ../compass/sass/paris.scss */
 .wrapper .carousel-control .glyphicon-chevron-left {
   color: #1031ba;
   opacity: 0.5;
 }
-/* line 137, ../compass/sass/paris.scss */
+/* line 138, ../compass/sass/paris.scss */
 .wrapper .carousel-caption {
   margin: 0 auto;
   margin-bottom: 100px;
 }
-/* line 143, ../compass/sass/paris.scss */
+/* line 144, ../compass/sass/paris.scss */
 .wrapper .carousel-caption h1 {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
@@ -1578,7 +1579,7 @@ stretchRight
   color: white;
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
-/* line 153, ../compass/sass/paris.scss */
+/* line 154, ../compass/sass/paris.scss */
 .wrapper .carousel-caption h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
@@ -1588,46 +1589,46 @@ stretchRight
   background: rgba(0, 0, 0, 0.4);
   margin-bottom: 60px;
 }
-/* line 163, ../compass/sass/paris.scss */
+/* line 164, ../compass/sass/paris.scss */
 .wrapper .carousel-caption a {
   color: white;
 }
-/* line 166, ../compass/sass/paris.scss */
+/* line 167, ../compass/sass/paris.scss */
 .wrapper .carousel-caption ahover {
   color: white;
 }
-/* line 173, ../compass/sass/paris.scss */
+/* line 174, ../compass/sass/paris.scss */
 .wrapper .carousel-indicators li {
   background-color: #1031ba;
   border-color: #1031ba;
 }
-/* line 181, ../compass/sass/paris.scss */
+/* line 182, ../compass/sass/paris.scss */
 .wrapper .carousel-indicators .active {
   background-color: #ff7200;
   border-color: #ff7200;
 }
-/* line 189, ../compass/sass/paris.scss */
+/* line 190, ../compass/sass/paris.scss */
 .wrapper .carousel-control.left, .wrapper .carousel-control.right {
   background-image: none;
 }
 
-/* line 203, ../compass/sass/paris.scss */
+/* line 204, ../compass/sass/paris.scss */
 .paris #img-thumbnail {
   max-width: 500px;
   height: auto;
 }
 
-/* line 212, ../compass/sass/paris.scss */
+/* line 213, ../compass/sass/paris.scss */
 .talkaboutus {
   background-color: #fafafa;
   position: relative;
 }
-/* line 217, ../compass/sass/paris.scss */
+/* line 218, ../compass/sass/paris.scss */
 .talkaboutus .list-inline {
   margin-bottom: 0px;
   margin-left: 0px;
 }
-/* line 223, ../compass/sass/paris.scss */
+/* line 224, ../compass/sass/paris.scss */
 .talkaboutus img {
   margin-left: 10px;
   margin-right: 10px;
@@ -1635,19 +1636,19 @@ stretchRight
   margin-top: 10px;
 }
 
-/* line 234, ../compass/sass/paris.scss */
+/* line 235, ../compass/sass/paris.scss */
 .carousel-indicators li {
   background-color: #1031ba;
   border-color: #1031ba;
 }
 
-/* line 241, ../compass/sass/paris.scss */
+/* line 242, ../compass/sass/paris.scss */
 .carousel-indicators .active {
   background-color: #ff7200;
   border-color: #ff7200;
 }
 
-/* line 249, ../compass/sass/paris.scss */
+/* line 250, ../compass/sass/paris.scss */
 .carousel-control.left, .carousel-control.right {
   background-image: none;
 }
