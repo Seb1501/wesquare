@@ -29,17 +29,17 @@
   }
 
   .slide1{
-    background-image: image-url("Lea1_cpd.jpg");
-    @extend .cover;   
-  }
-
-   .slide2{
     background-image: image-url("Lea2_cpd.jpg");
     @extend .cover;   
   }
 
-   .slide3{
+   .slide2{
     background-image: image-url("Lea3_cpd.jpg");
+    @extend .cover;   
+  }
+
+   .slide3{
+    background-image: image-url("Lea4_cpd.jpg");
     @extend .cover;   
   }
 
